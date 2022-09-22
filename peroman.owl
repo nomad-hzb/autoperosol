@@ -41,6 +41,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000115>An electronic device that converts the energy of light directly into electrical energy by the photovoltaic effect.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Device</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">PV Cell</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Photovoltaic cell</obo:IAO_0000118>
@@ -53,6 +54,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000002">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
+        <obo:IAO_0000115 xml:lang="en">A Layer that is the base material on which processing is conducted.</obo:IAO_0000115>
+        <obo:IAO_0000600 xml:lang="en">A surface onto which a coating might be deposited.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Substrate</rdfs:label>
     </owl:Class>
     
@@ -62,6 +65,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000003">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
+        <obo:IAO_0000115 xml:lang="en">A layer that ensure contacting to the external electrical circuit situated at the back of a solar cell.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Back contact</rdfs:label>
     </owl:Class>
     
@@ -71,6 +75,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000004">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000025"/>
+        <obo:IAO_0000115 xml:lang="en">A composition of at least two materials in which the concentrations are comparable.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Mixture of raw materials</rdfs:label>
     </owl:Class>
     
@@ -80,6 +85,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000005">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
+        <obo:IAO_0000115 xml:lang="en">A layer that is placed in between a back contact and an electron transport layer.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Buffer layer</rdfs:label>
     </owl:Class>
     
@@ -89,6 +95,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000006">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
+        <obo:IAO_0000115 xml:lang="en">A layer that ensure contacting to the external electrical circuit situated at the front of a solar cell.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Front contact</rdfs:label>
     </owl:Class>
     
@@ -98,6 +105,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
+        <obo:IAO_0000115 xml:lang="en">A deposition of molecules on a substrate or base.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Layer</rdfs:label>
     </owl:Class>
     
@@ -107,6 +115,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000008">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000007"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
+        <obo:IAO_0000115 xml:lang="en">A layer whose role is absorbing light and generating charge pairs.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Photo absorber layer</rdfs:label>
     </owl:Class>
     
@@ -116,6 +126,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000007"/>
+        <obo:IAO_0000115 xml:lang="en">A layer whose role is not absorbing light and generating charge pairs.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Non photo-absorber layer</rdfs:label>
     </owl:Class>
     
@@ -290,6 +301,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000028">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000029"/>
+        <obo:IAO_0000115>A solar cell that do not contains carbon based molecules.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Inorganic cell</rdfs:label>
     </owl:Class>
     
@@ -299,6 +311,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000029">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
+        <obo:IAO_0000115>A solar cell that contains carbon based molecules.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Organic cell</rdfs:label>
     </owl:Class>
     
@@ -308,6 +321,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000030">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">A solar cell that contains both organic and inorganic materials.</obo:IAO_0000115>
+        <obo:IAO_0000600 xml:lang="en">Inorganic material is used as the acceptor and electron transporter.</obo:IAO_0000600>
+        <obo:IAO_0000600 xml:lang="en">Organic material is used as light absorber, donor and transports holes.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Hybrid cell</rdfs:label>
     </owl:Class>
     
@@ -327,6 +343,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000032">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
         <rdfs:label xml:lang="de">Hole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000033 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000033">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000056"/>
+        <rdfs:label xml:lang="de">Inorganic p-n homojunction</rdfs:label>
     </owl:Class>
     
 
@@ -524,7 +549,8 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000055 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000146"/>
+        <obo:IAO_0000115 xml:lang="en">An area where multiple conductors or semiconductors make physical contact.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Junction</rdfs:label>
     </owl:Class>
     
@@ -552,7 +578,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000058">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000055"/>
-        <rdfs:label xml:lang="de">Schottkey-junction</rdfs:label>
+        <rdfs:label xml:lang="de">Schottky-junction</rdfs:label>
     </owl:Class>
     
 
@@ -984,16 +1010,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000028"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000029"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000035"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000036"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000037"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
