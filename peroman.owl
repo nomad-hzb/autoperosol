@@ -1244,6 +1244,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001045 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001045">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <skos:prefLabel xml:lang="en">Soluition manufacturing</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001046 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001046">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001045"/>
+        <skos:prefLabel xml:lang="en">Shaking</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001047 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001047">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000"/>
+        <skos:prefLabel xml:lang="en">Powder</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1655,6 +1682,42 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001039">
         <skos:prefLabel xml:lang="en">HCL</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001048 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001048">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001042"/>
+        <skos:prefLabel xml:lang="en">Aceton cleaning</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001049 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001049">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001042"/>
+        <skos:prefLabel xml:lang="en">DI Water cleaning</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001050 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001050">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001042"/>
+        <skos:prefLabel xml:lang="en">Isopropanol cleaning</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001051 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001051">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001042"/>
+        <skos:prefLabel xml:lang="en">Mucasol cleaning</skos:prefLabel>
     </owl:NamedIndividual>
     
 
