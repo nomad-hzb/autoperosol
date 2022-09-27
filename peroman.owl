@@ -1122,7 +1122,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <skos:prefLabel xml:lang="en">numerical qualities</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">quantaties</skos:prefLabel>
     </owl:Class>
     
 
@@ -1168,6 +1168,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <skos:prefLabel xml:lang="en">property</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001034 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001034">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000065"/>
+        <skos:prefLabel xml:lang="en">Open circuit voltage</skos:prefLabel>
     </owl:Class>
     
 
