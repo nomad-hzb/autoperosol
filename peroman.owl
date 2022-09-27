@@ -1199,6 +1199,51 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001040 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001040">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000069"/>
+        <skos:prefLabel xml:lang="en">Mechanical etching</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001041 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001041">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000069"/>
+        <skos:prefLabel xml:lang="en">Laser etching</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001042 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001042">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
+        <skos:prefLabel xml:lang="en">Solution cleaning</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001043 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001043">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
+        <skos:prefLabel xml:lang="en">UV cleaning</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001044 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001044">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
+        <skos:prefLabel xml:lang="en">Plasma cleaning</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1594,6 +1639,22 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000072">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
         <rdfs:label xml:lang="de">TritonX-100</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001038 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001038">
+        <skos:prefLabel xml:lang="en">Mechanical Scrubbing</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001039 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001039">
+        <skos:prefLabel xml:lang="en">HCL</skos:prefLabel>
     </owl:NamedIndividual>
     
 
