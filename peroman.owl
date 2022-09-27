@@ -1271,6 +1271,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001053 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001053">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001045"/>
+        <skos:prefLabel xml:lang="en">Ultrasonic</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001054 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001054">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
+        <skos:prefLabel xml:lang="en">Soap cleaning</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001055 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001055">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
+        <skos:prefLabel xml:lang="en">Ultrasonic bath</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001056 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <skos:prefLabel xml:lang="en">Additive</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1718,6 +1754,15 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001051">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001042"/>
         <skos:prefLabel xml:lang="en">Mucasol cleaning</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001052 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001052">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001040"/>
+        <skos:prefLabel xml:lang="en">Scrubbing</skos:prefLabel>
     </owl:NamedIndividual>
     
 
