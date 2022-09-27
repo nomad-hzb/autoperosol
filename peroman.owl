@@ -413,7 +413,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000038 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001032"/>
         <rdfs:label xml:lang="de">Electronic state</rdfs:label>
     </owl:Class>
     
@@ -422,7 +422,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000039 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <rdfs:label xml:lang="de">Energy band</rdfs:label>
     </owl:Class>
     
@@ -431,7 +431,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000040 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <rdfs:label xml:lang="de">Bandgap</rdfs:label>
     </owl:Class>
     
@@ -613,7 +613,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000060 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <rdfs:label xml:lang="de">Energy</rdfs:label>
     </owl:Class>
     
@@ -640,7 +640,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000063 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <rdfs:label xml:lang="de">Current</rdfs:label>
     </owl:Class>
     
@@ -658,7 +658,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000065 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <rdfs:label xml:lang="de">Voltage</rdfs:label>
     </owl:Class>
     
@@ -896,7 +896,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001002 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <skos:prefLabel xml:lang="en">Area</skos:prefLabel>
     </owl:Class>
     
@@ -923,7 +923,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001005 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <skos:prefLabel xml:lang="en">Concentration</skos:prefLabel>
     </owl:Class>
     
@@ -941,7 +941,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001007 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <skos:prefLabel xml:lang="en">Length</skos:prefLabel>
     </owl:Class>
     
@@ -977,7 +977,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001011 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <skos:prefLabel xml:lang="en">Relative humidity</skos:prefLabel>
     </owl:Class>
     
@@ -1049,8 +1049,8 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001019 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <skos:prefLabel xml:lang="en">Cell quality</skos:prefLabel>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001032"/>
+        <skos:prefLabel xml:lang="en">Cell property</skos:prefLabel>
     </owl:Class>
     
 
@@ -1067,7 +1067,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001021 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <skos:prefLabel xml:lang="en">Boolean</skos:prefLabel>
     </owl:Class>
     
@@ -1094,7 +1094,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001024 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <skos:prefLabel xml:lang="en">Transmittance</skos:prefLabel>
     </owl:Class>
     
@@ -1118,10 +1118,19 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <skos:prefLabel xml:lang="en">numerical qualities</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001028 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <skos:prefLabel xml:lang="en">Number</skos:prefLabel>
     </owl:Class>
     
@@ -1150,6 +1159,15 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001031">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001002"/>
         <skos:prefLabel xml:lang="en">Effective module area</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001032 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <skos:prefLabel xml:lang="en">property</skos:prefLabel>
     </owl:Class>
     
 
