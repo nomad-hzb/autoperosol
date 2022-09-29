@@ -1122,7 +1122,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <skos:prefLabel xml:lang="en">quantaties</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Quantity</skos:prefLabel>
     </owl:Class>
     
 
@@ -1167,7 +1167,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <skos:prefLabel xml:lang="en">property</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Property</skos:prefLabel>
     </owl:Class>
     
 
