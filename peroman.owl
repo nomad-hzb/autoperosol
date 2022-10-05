@@ -572,6 +572,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000052">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000051"/>
+        <obo:IAO_0000115>passive transport of molecules from places with higher concentration to places with lower concentration</obo:IAO_0000115>
+        <obo:IAO_0000119>Spektrum. (2000). Diffusion. Retrieved from: https://www.spektrum.de/lexikon/neurowissenschaft/diffusion/2845</obo:IAO_0000119>
         <rdfs:label xml:lang="de">Diffusion</rdfs:label>
     </owl:Class>
     
