@@ -80,6 +80,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002002 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002002">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001001"/>
+        <obo:IAO_0000115>addtion of hydrogen to another compound or element</obo:IAO_0000115>
+        <obo:IAO_0000119>Wikipedia. (2022, August 06). Hydrogenation. Retrieved from: https://en.wikipedia.org/wiki/Hydrogenation.</obo:IAO_0000119>
+        <rdfs:label xml:lang="de">Hydrogenation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001">
