@@ -90,8 +90,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002001">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002000"/>
-        <obo:IAO_0000115>a technique used to determine vibrational modes of molecules</obo:IAO_0000115>
-        <obo:IAO_0000119>Wikipedia. (2022, September 09). Raman spectroscopy. Retrieved from: https://en.wikipedia.org/wiki/Raman_spectroscopy.</obo:IAO_0000119>
         <rdfs:label xml:lang="de">Raman spectroscopy</rdfs:label>
     </owl:Class>
     
