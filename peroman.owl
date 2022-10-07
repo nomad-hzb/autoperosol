@@ -2058,6 +2058,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001053 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001053">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001047"/>
+        <skos:prefLabel xml:lang="en">Lead iodide</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
