@@ -374,7 +374,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:label xml:lang="en">Some solvent</rdfs:label>
+        <rdfs:label xml:lang="en">Solvent</rdfs:label>
     </owl:Class>
     
 
@@ -1339,6 +1339,24 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001042">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hasQuantity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hasQuantity"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00001077"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">Solution cleaning</skos:prefLabel>
     </owl:Class>
     
