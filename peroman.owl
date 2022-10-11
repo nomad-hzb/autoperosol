@@ -16,7 +16,6 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
-        <owl:imports rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2"/>
     </owl:Ontology>
     
 
@@ -29,6 +28,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel"/>
     
 
 
@@ -49,12 +54,6 @@
     
 
 
-    <!-- http://www.ontology-of-units-of-measure.org/resource/om-2/hasQuantity -->
-
-    <owl:ObjectProperty rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/hasQuantity"/>
-    
-
-
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00001077 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00001077">
@@ -69,6 +68,15 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00001089">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <skos:prefLabel xml:lang="en">has quality</skos:prefLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00001090 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00001090">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <skos:prefLabel xml:lang="en">has quantity</skos:prefLabel>
     </owl:ObjectProperty>
     
 
@@ -138,7 +146,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hasQuantity"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00001090"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1359,20 +1367,14 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hasQuantity"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.ontology-of-units-of-measure.org/resource/om-2/hasQuantity"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001062"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00001077"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00001090"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">Solution cleaning</skos:prefLabel>
