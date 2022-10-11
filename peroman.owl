@@ -1393,7 +1393,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001045">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
-        <skos:prefLabel xml:lang="en">Soluition manufacturing</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Solution manufacturing</skos:prefLabel>
     </owl:Class>
     
 
