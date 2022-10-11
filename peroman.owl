@@ -2216,6 +2216,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001086 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001086">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001020"/>
+        <skos:prefLabel xml:lang="en">pin</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001087 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00001087">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001020"/>
+        <skos:prefLabel xml:lang="en">nip</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
