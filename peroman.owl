@@ -107,6 +107,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002000">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000080"/>
         <obo:IAO_0000115></obo:IAO_0000115>
+        <rdfs:comment>describes spectroscopic examination methods</rdfs:comment>
         <rdfs:label xml:lang="de">Spectroscopy</rdfs:label>
     </owl:Class>
     
@@ -935,6 +936,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000084">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000080"/>
+        <rdfs:comment>describes characterization methods that use x-ray</rdfs:comment>
         <rdfs:label xml:lang="de">X-ray characterization</rdfs:label>
     </owl:Class>
     
@@ -944,6 +946,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000085">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000080"/>
+        <rdfs:comment>describes microscopic and electron-microscopic examination methods</rdfs:comment>
         <rdfs:label xml:lang="de">Microscopy</rdfs:label>
     </owl:Class>
     
