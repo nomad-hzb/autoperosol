@@ -581,6 +581,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000046">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
+        <obo:IAO_0000115>a semiconductor that does not contain carbon based molecules</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Inorganic semiconductor</rdfs:label>
     </owl:Class>
     
