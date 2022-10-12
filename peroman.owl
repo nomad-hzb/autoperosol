@@ -653,7 +653,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000054">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000051"/>
-        <rdfs:label xml:lang="de">Charge hoping</rdfs:label>
+        <rdfs:label xml:lang="de">Charge hopping</rdfs:label>
     </owl:Class>
     
 
