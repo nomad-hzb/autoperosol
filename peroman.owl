@@ -443,6 +443,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000031">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
+        <obo:IAO_0000115>a negatively charged elementary particle</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Electron</rdfs:label>
     </owl:Class>
     
@@ -470,6 +471,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>material with special conductivity characteristics</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Some Semiconductor</rdfs:label>
     </owl:Class>
     
@@ -588,6 +590,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000047">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
+        <obo:IAO_0000115>smallest component of a chemical element</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Atom</rdfs:label>
     </owl:Class>
     
@@ -597,6 +600,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000048">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
+        <obo:IAO_0000115>charged atom or group of atoms</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Ion</rdfs:label>
     </owl:Class>
     
@@ -606,6 +610,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000049">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000043"/>
+        <obo:IAO_0000115>carbon based molecules</obo:IAO_0000115>
+        <obo:IAO_0000115>carbon based semiconductor</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Organic molecule</rdfs:label>
     </owl:Class>
     
