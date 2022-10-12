@@ -809,6 +809,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000070">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <obo:IAO_0000115>information about the storage process of an object</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Storing</rdfs:label>
     </owl:Class>
     
@@ -1286,6 +1287,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001033">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <rdfs:comment>procedure of heating up an object</rdfs:comment>
         <skos:prefLabel xml:lang="en">Annealing</skos:prefLabel>
     </owl:Class>
     
