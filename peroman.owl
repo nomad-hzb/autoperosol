@@ -835,6 +835,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <obo:IAO_0000115>a process to deposit thin layers onto an object</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Layer deposition</rdfs:label>
     </owl:Class>
     
@@ -921,6 +922,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000076">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000071"/>
+        <obo:IAO_0000115>vapor deposition using a solid material as vapor source</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Physical vapor deposition</rdfs:label>
     </owl:Class>
     
@@ -930,6 +932,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000077">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000071"/>
+        <obo:IAO_0000115>vapor deposition using a non-solid material as vapor source</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Chemical vapor deposition</rdfs:label>
     </owl:Class>
     
