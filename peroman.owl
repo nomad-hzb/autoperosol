@@ -198,6 +198,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A deposition of molecules on a substrate or base.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Layer</rdfs:label>
     </owl:Class>
@@ -248,6 +254,12 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A layer between a substrate and a perovskite in nip-device or between perovskite and a back contact in pin-device</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Electron transport layer</rdfs:label>
     </owl:Class>
@@ -262,6 +274,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="de">Hole transport layer</rdfs:label>
@@ -383,6 +401,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000091"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="de">Perovskite</rdfs:label>
@@ -812,6 +836,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>a process to deposit thin layers onto an object</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Layer deposition</rdfs:label>
     </owl:Class>
@@ -1918,15 +1948,6 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001084">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
         <skos:prefLabel xml:lang="en">Anti-reflection coating</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001085 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001085">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
-        <skos:prefLabel xml:lang="en">Front contact</skos:prefLabel>
     </owl:Class>
     
 
