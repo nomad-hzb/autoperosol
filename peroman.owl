@@ -377,16 +377,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000022 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
-        <obo:IAO_0000118 xml:lang="en">Some additive material</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">Some doping material</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000023 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000023">
@@ -1723,6 +1713,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <om-2:alternativeLabel xml:lang="en">Doping material</om-2:alternativeLabel>
         <skos:prefLabel xml:lang="en">Additive</skos:prefLabel>
     </owl:Class>
     
