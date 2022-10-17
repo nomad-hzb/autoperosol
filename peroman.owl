@@ -1270,8 +1270,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The atmosphere in which the sample with the finalized HTL stack is stored until the next deposition step.</obo:IAO_0000115>
-        <obo:IAO_0000119>Jacobsson, T. J.. 2021, December 13. An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles. Nature Energy. Retrieved from: https://www.nature.com/articles/s41560-021-00941-3</obo:IAO_0000119>
+        <obo:IAO_0000115>a layer of gas surrounding a process/object</obo:IAO_0000115>
         <skos:prefLabel xml:lang="en">Atmosphere</skos:prefLabel>
     </owl:Class>
     
