@@ -119,6 +119,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002005 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002005">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <rdfs:label xml:lang="de">Magnification</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002006 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002006">
