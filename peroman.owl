@@ -716,6 +716,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000600>An atom-based state defined by an exact number of e-bonded atomic species and an electron cloud made of the shared electrons</obo:IAO_0000600>
+        <dc:source>Emmo Photovoltaics</dc:source>
         <rdfs:label xml:lang="de">Molecule</rdfs:label>
     </owl:Class>
     
@@ -754,6 +756,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000047">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
         <obo:IAO_0000115>An &apos;atom&apos; is a &apos;nucleus&apos; surrounded by an &apos;electron_cloud&apos;, i.e. a quantum system made of one or more bounded electrons.</obo:IAO_0000115>
+        <dc:source>Emmo Photovoltaics</dc:source>
         <rdfs:label xml:lang="de">Atom</rdfs:label>
     </owl:Class>
     
@@ -1109,6 +1112,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000600>An &apos;observation&apos; that results in a quantitative comparison of a &apos;property&apos; of an &apos;object&apos; with a standard reference based on a well defined mesurement procedure.</obo:IAO_0000600>
+        <dc:source>Emmo Photovoltaics</dc:source>
         <rdfs:label xml:lang="de">Characterization process</rdfs:label>
     </owl:Class>
     
