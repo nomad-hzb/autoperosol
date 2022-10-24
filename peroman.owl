@@ -907,6 +907,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000063">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000600>&quot;Electric Current&quot; is the flow (movement) of electric charge. The amount of electric current through some surface, for example, a section through a copper conductor, is defined as the amount of electric charge flowing through that surface over time. Current is a scalar-valued quantity. Electric current is one of the base quantities in the International System of Quantities, ISQ, on which the International System of Units, SI, is based.</obo:IAO_0000600>
+        <dc:source>https://qudt.org/vocab/quantitykind/ElectricCurrent
+24.10.2022 10:24</dc:source>
         <rdfs:label xml:lang="de">Current</rdfs:label>
     </owl:Class>
     
@@ -1298,6 +1301,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001005">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000600>In chemistry, concentration is defined as the abundance of a constituent divided by the total volume of a mixture. Furthermore, in chemistry, four types of mathematical description can be distinguished: mass concentration, molar concentration, number concentration, and volume concentration. The term concentration can be applied to any kind of chemical mixture, but most frequently it refers to solutes in solutions.</obo:IAO_0000600>
+        <dc:source>https://qudt.org/vocab/quantitykind/Concentration
+24.10.2022 10:20</dc:source>
         <skos:prefLabel xml:lang="en">Concentration</skos:prefLabel>
     </owl:Class>
     
