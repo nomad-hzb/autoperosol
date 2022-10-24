@@ -1267,6 +1267,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001002">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000600>Extent of a surface.</obo:IAO_0000600>
+        <dc:source>http://qudt.org/vocab/quantitykind/Area</dc:source>
         <skos:prefLabel xml:lang="en">Area</skos:prefLabel>
     </owl:Class>
     
@@ -2180,6 +2182,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001082">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000600>Property of a physical body that express its resistance to acceleration (a change in its state of motion) when a force is applied.</obo:IAO_0000600>
+        <dc:source>http://qudt.org/vocab/quantitykind/Mass</dc:source>
         <skos:prefLabel xml:lang="en">Mass</skos:prefLabel>
     </owl:Class>
     
