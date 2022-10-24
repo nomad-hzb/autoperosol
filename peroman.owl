@@ -127,6 +127,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002004">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118>Korngröße</obo:IAO_0000118>
         <rdfs:label xml:lang="de">Grain size</rdfs:label>
     </owl:Class>
     
@@ -880,6 +881,10 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000060">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118>Energie</obo:IAO_0000118>
+        <obo:IAO_0000600>Energy is the quantity characterizing the ability of a system to do work.</obo:IAO_0000600>
+        <dc:source>https://qudt.org/vocab/quantitykind/Energy
+24.10.2022 10:30</dc:source>
         <rdfs:label xml:lang="de">Energy</rdfs:label>
     </owl:Class>
     
@@ -1270,6 +1275,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001002">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118>Fläche</obo:IAO_0000118>
         <obo:IAO_0000600>Extent of a surface.</obo:IAO_0000600>
         <dc:source>http://qudt.org/vocab/quantitykind/Area</dc:source>
         <skos:prefLabel xml:lang="en">Area</skos:prefLabel>
@@ -1323,6 +1329,10 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001007">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118>Länge</obo:IAO_0000118>
+        <obo:IAO_0000600>In geometric measurements, length most commonly refers to the est dimension of an object. In some contexts, the term &quot;length&quot; is reserved for a certain dimension of an object along which the length is measured.</obo:IAO_0000600>
+        <dc:source>https://qudt.org/vocab/quantitykind/Length
+24.10.2022 10:31</dc:source>
         <skos:prefLabel xml:lang="en">Length</skos:prefLabel>
     </owl:Class>
     
@@ -1414,6 +1424,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001015">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001007"/>
+        <obo:IAO_0000118>Wellenlänge</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Wave length</skos:prefLabel>
     </owl:Class>
     
@@ -1633,6 +1644,10 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001036">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118>Effizienz</obo:IAO_0000118>
+        <dc:source>Efficiency is the ratio of output power to input power.</dc:source>
+        <dc:source>https://qudt.org/vocab/quantitykind/Efficiency
+24.10.2022 10:29</dc:source>
         <skos:prefLabel xml:lang="en">Efficiency</skos:prefLabel>
     </owl:Class>
     
@@ -1791,6 +1806,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001048">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000600>&quot;Percent&quot; is a unit for &apos;Dimensionless Ratio&apos; expressed as %.</obo:IAO_0000600>
+        <dc:source>https://qudt.org/vocab/unit/PERCENT
+24.10.2022 10:38</dc:source>
         <skos:prefLabel xml:lang="en">Percentage</skos:prefLabel>
     </owl:Class>
     
@@ -1912,6 +1930,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001058">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000600>Pressure is an effect which occurs when a force is applied on a surface. Pressure is the amount of force acting on a unit area. Pressure is distinct from stress, as the former is the ratio of the component of force normal to a surface to the surface area. Stress is a tensor that relates the vector force to the vector area.</obo:IAO_0000600>
+        <dc:source>https://qudt.org/vocab/quantitykind/Pressure</dc:source>
         <skos:prefLabel xml:lang="en">Pressure</skos:prefLabel>
     </owl:Class>
     
