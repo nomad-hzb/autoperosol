@@ -753,7 +753,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000047">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
-        <obo:IAO_0000115>smallest component of a chemical element</obo:IAO_0000115>
+        <obo:IAO_0000115>An &apos;atom&apos; is a &apos;nucleus&apos; surrounded by an &apos;electron_cloud&apos;, i.e. a quantum system made of one or more bounded electrons.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Atom</rdfs:label>
     </owl:Class>
     
