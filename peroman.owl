@@ -933,6 +933,10 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000065">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118>Electric Tension</obo:IAO_0000118>
+        <obo:IAO_0000118>Voltage is the difference between electrical potentials of two points.</obo:IAO_0000118>
+        <dc:source>https://qudt.org/vocab/quantitykind/Voltage
+24.10.2022 11:42</dc:source>
         <rdfs:label xml:lang="de">Voltage</rdfs:label>
     </owl:Class>
     
@@ -1370,7 +1374,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001011">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <obo:IAO_0000600>Relative Humidity is the ratio of the partial pressure of water vapor in an air-water mixture to the saturated vapor pressure of water at a precise temperature. The relative humidity of air depends not only on temperature but also on the pressure of the system of interest.</obo:IAO_0000600>
-        <dc:source>https://qudt.org/vocab/quantitykind/RelativeHumidity</dc:source>
+        <dc:source>https://qudt.org/vocab/quantitykind/RelativeHumidity
+24.10.2022 10:44</dc:source>
         <skos:prefLabel xml:lang="en">Relative humidity</skos:prefLabel>
     </owl:Class>
     
@@ -1668,6 +1673,10 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001038">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118>Volumen</obo:IAO_0000118>
+        <obo:IAO_0000600>The volume of a solid object is the three-dimensional concept of how much space it occupies, often quantified numerically. One-dimensional figures (such as lines) and two-dimensional shapes (such as squares) are assigned zero volume in the three-dimensional space.</obo:IAO_0000600>
+        <dc:source>https://qudt.org/vocab/quantitykind/Volume
+24.10.2022 11:43</dc:source>
         <skos:prefLabel xml:lang="en">Volume</skos:prefLabel>
     </owl:Class>
     
@@ -1933,7 +1942,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001058">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <obo:IAO_0000600>Pressure is an effect which occurs when a force is applied on a surface. Pressure is the amount of force acting on a unit area. Pressure is distinct from stress, as the former is the ratio of the component of force normal to a surface to the surface area. Stress is a tensor that relates the vector force to the vector area.</obo:IAO_0000600>
-        <dc:source>https://qudt.org/vocab/quantitykind/Pressure</dc:source>
+        <dc:source>https://qudt.org/vocab/quantitykind/Pressure
+24.10.2022 10:42</dc:source>
         <skos:prefLabel xml:lang="en">Pressure</skos:prefLabel>
     </owl:Class>
     
