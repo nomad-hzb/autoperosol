@@ -60,7 +60,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000118 xml:lang="en">Some raw material</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">Some pure material</rdfs:label>
+        <rdfs:label xml:lang="en">Some pure material</rdfs:label>
     </owl:Class>
     
 
@@ -480,7 +480,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Illumination process</rdfs:label>
+        <rdfs:label xml:lang="en">Illumination process</rdfs:label>
     </owl:Class>
     
 
@@ -651,7 +651,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>material with special conductivity characteristics</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Some Semiconductor</rdfs:label>
+        <rdfs:label xml:lang="en">Some Semiconductor</rdfs:label>
     </owl:Class>
     
 
@@ -660,7 +660,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000035">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
-        <rdfs:label xml:lang="de">Intrinsic semiconductor</rdfs:label>
+        <rdfs:label xml:lang="en">Intrinsic semiconductor</rdfs:label>
     </owl:Class>
     
 
@@ -669,7 +669,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000036">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
-        <rdfs:label xml:lang="de">n-Type semiconductor</rdfs:label>
+        <rdfs:label xml:lang="en">n-Type semiconductor</rdfs:label>
     </owl:Class>
     
 
@@ -678,7 +678,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000037">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
-        <rdfs:label xml:lang="de">p-Type semiconductor</rdfs:label>
+        <rdfs:label xml:lang="en">p-Type semiconductor</rdfs:label>
     </owl:Class>
     
 
@@ -760,7 +760,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000045">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
-        <rdfs:label xml:lang="de">Organic semiconductor</rdfs:label>
+        <rdfs:label xml:lang="en">Organic semiconductor</rdfs:label>
     </owl:Class>
     
 
@@ -770,7 +770,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000046">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
         <obo:IAO_0000115>a semiconductor that does not contain carbon based molecules</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Inorganic semiconductor</rdfs:label>
+        <rdfs:label xml:lang="en">Inorganic semiconductor</rdfs:label>
     </owl:Class>
     
 
@@ -1325,7 +1325,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
-        <rdfs:label xml:lang="de">Light</rdfs:label>
+        <rdfs:label xml:lang="en">Light</rdfs:label>
     </owl:Class>
     
 
@@ -1334,7 +1334,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
-        <rdfs:label xml:lang="de">Photon</rdfs:label>
+        <rdfs:label xml:lang="en">Photon</rdfs:label>
     </owl:Class>
     
 
