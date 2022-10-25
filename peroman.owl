@@ -687,6 +687,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000038">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001032"/>
+        <obo:IAO_0000118 xml:lang="de">Elektronischer Status</obo:IAO_0000118>
         <rdfs:label xml:lang="de">Electronic state</rdfs:label>
     </owl:Class>
     
