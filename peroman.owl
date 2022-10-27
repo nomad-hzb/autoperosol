@@ -1015,6 +1015,9 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000064">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118 xml:lang="de">Elektrische Stromdichte</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">is a measure of the density of flow of electric charge; it is the electric current per unit area of cross section.</obo:IAO_0000600>
+        <dc:source>https://qudt.org/vocab/quantitykind/ElectricCurrentDensity</dc:source>
         <rdfs:label xml:lang="de">Current density</rdfs:label>
     </owl:Class>
     
