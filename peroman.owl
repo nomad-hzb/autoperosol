@@ -127,7 +127,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002004">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Korngröße</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Korngröße</obo:IAO_0000118>
         <rdfs:label xml:lang="de">Grain size</rdfs:label>
     </owl:Class>
     
@@ -137,7 +137,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002005">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Vergrößerung</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Vergrößerung</obo:IAO_0000118>
         <rdfs:label xml:lang="de">Magnification</rdfs:label>
     </owl:Class>
     
@@ -175,6 +175,18 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002009">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000060"/>
         <rdfs:label xml:lang="de">Laser energy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002011 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002011">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118 xml:lang="de">Elektrische Leistung</obo:IAO_0000118>
+        <obo:IAO_0000600>Electric Power is the rate at which electrical energy is transferred by an electric circuit.</obo:IAO_0000600>
+        <dc:source>https://qudt.org/vocab/quantitykind/ElectricPower</dc:source>
+        <rdfs:label xml:lang="en">Electric power</rdfs:label>
     </owl:Class>
     
 
@@ -959,7 +971,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000060">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Energie</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Energie</obo:IAO_0000118>
         <obo:IAO_0000600>Energy is the quantity characterizing the ability of a system to do work.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Energy
 24.10.2022 10:30</dc:source>
@@ -990,10 +1002,11 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000063">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118 xml:lang="de">Elektrische Stromstärke</obo:IAO_0000118>
         <obo:IAO_0000600>&quot;Electric Current&quot; is the flow (movement) of electric charge. The amount of electric current through some surface, for example, a section through a copper conductor, is defined as the amount of electric charge flowing through that surface over time. Current is a scalar-valued quantity. Electric current is one of the base quantities in the International System of Quantities, ISQ, on which the International System of Units, SI, is based.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/ElectricCurrent
 24.10.2022 10:24</dc:source>
-        <rdfs:label xml:lang="de">Current</rdfs:label>
+        <rdfs:label xml:lang="en">Current</rdfs:label>
     </owl:Class>
     
 
@@ -1012,7 +1025,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000065">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <obo:IAO_0000118>Electric Tension</obo:IAO_0000118>
-        <obo:IAO_0000118>Elektrische Spannung</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Elektrische Spannung</obo:IAO_0000118>
         <obo:IAO_0000118>Voltage is the difference between electrical potentials of two points.</obo:IAO_0000118>
         <dc:source>https://qudt.org/vocab/quantitykind/Voltage
 24.10.2022 11:42</dc:source>
@@ -1451,7 +1464,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001002">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Fläche</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Fläche</obo:IAO_0000118>
         <obo:IAO_0000600>Extent of a surface.</obo:IAO_0000600>
         <dc:source>http://qudt.org/vocab/quantitykind/Area</dc:source>
         <skos:prefLabel xml:lang="en">Area</skos:prefLabel>
@@ -1483,7 +1496,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001005">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Konzentration</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Konzentration</obo:IAO_0000118>
         <obo:IAO_0000600>In chemistry, concentration is defined as the abundance of a constituent divided by the total volume of a mixture. Furthermore, in chemistry, four types of mathematical description can be distinguished: mass concentration, molar concentration, number concentration, and volume concentration. The term concentration can be applied to any kind of chemical mixture, but most frequently it refers to solutes in solutions.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Concentration
 24.10.2022 10:20</dc:source>
@@ -1506,7 +1519,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001007">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Länge</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Länge</obo:IAO_0000118>
         <obo:IAO_0000600>In geometric measurements, length most commonly refers to the est dimension of an object. In some contexts, the term &quot;length&quot; is reserved for a certain dimension of an object along which the length is measured.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Length
 24.10.2022 10:31</dc:source>
@@ -1546,7 +1559,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001011">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Luftfeuchtigkeit</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Luftfeuchtigkeit</obo:IAO_0000118>
         <obo:IAO_0000600>Relative Humidity is the ratio of the partial pressure of water vapor in an air-water mixture to the saturated vapor pressure of water at a precise temperature. The relative humidity of air depends not only on temperature but also on the pressure of the system of interest.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/RelativeHumidity
 24.10.2022 10:44</dc:source>
@@ -1689,8 +1702,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001024">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Durchlässigkeit</obo:IAO_0000118>
-        <obo:IAO_0000118>Transmission</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Transmission</obo:IAO_0000118>
+        <om-2:alternativeLabel xml:lang="de">Durchlässigkeit</om-2:alternativeLabel>
         <skos:prefLabel xml:lang="en">Transmittance</skos:prefLabel>
     </owl:Class>
     
@@ -1827,7 +1840,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001036">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Effizienz</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Effizienz</obo:IAO_0000118>
         <dc:source>Efficiency is the ratio of output power to input power.</dc:source>
         <dc:source>https://qudt.org/vocab/quantitykind/Efficiency
 24.10.2022 10:29</dc:source>
@@ -1849,7 +1862,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001038">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Volumen</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Volumen</obo:IAO_0000118>
         <obo:IAO_0000600>The volume of a solid object is the three-dimensional concept of how much space it occupies, often quantified numerically. One-dimensional figures (such as lines) and two-dimensional shapes (such as squares) are assigned zero volume in the three-dimensional space.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Volume
 24.10.2022 11:43</dc:source>
@@ -2117,7 +2130,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001058">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Druck</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Druck</obo:IAO_0000118>
         <obo:IAO_0000600>Pressure is an effect which occurs when a force is applied on a surface. Pressure is the amount of force acting on a unit area. Pressure is distinct from stress, as the former is the ratio of the component of force normal to a surface to the surface area. Stress is a tensor that relates the vector force to the vector area.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Pressure
 24.10.2022 10:42</dc:source>
@@ -2139,7 +2152,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001060">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Temperatur</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Temperatur</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Temperature</skos:prefLabel>
     </owl:Class>
     
@@ -2158,7 +2171,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001062">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Zeit</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Zeit</obo:IAO_0000118>
         <obo:IAO_0000600>Time is a basic component of the measuring system used to sequence events, to compare the durations of events and the intervals between them, and to quantify the motions of objects.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Time
 24.10.2022 10:42</dc:source>
@@ -2402,7 +2415,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001082">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Masse</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Masse</obo:IAO_0000118>
         <obo:IAO_0000600>Property of a physical body that express its resistance to acceleration (a change in its state of motion) when a force is applied.</obo:IAO_0000600>
         <dc:source>http://qudt.org/vocab/quantitykind/Mass</dc:source>
         <skos:prefLabel xml:lang="en">Mass</skos:prefLabel>
@@ -2499,7 +2512,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001091">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118>Geschwindigkeit</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Geschwindigkeit</obo:IAO_0000118>
         <obo:IAO_0000600>In kinematics, velocity is the speed of an object and a specification of its direction of motion. Speed describes only how fast an object is moving, whereas velocity gives both how fast and in what direction the object is moving.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Velocity
 24.10.2022 10:48</dc:source>
@@ -2594,6 +2607,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001102">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118 xml:lang="de">Widerstand</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Resistance</skos:prefLabel>
     </owl:Class>
     
@@ -2919,6 +2933,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001128">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118 xml:lang="de">Intensität</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Intensity</skos:prefLabel>
     </owl:Class>
     
