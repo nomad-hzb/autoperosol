@@ -197,7 +197,9 @@
                 <owl:onClass rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001142"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Flow</rdfs:label>
+        <obo:IAO_0000600>Volumetric Flow Rate is the volume of fluid which passes through a given surface per unit time</obo:IAO_0000600>
+        <dc:source>https://qudt.org/vocab/quantitykind/VolumeFlowRate</dc:source>
+        <rdfs:label xml:lang="de">Volumetric flow rate</rdfs:label>
     </owl:Class>
     
 
