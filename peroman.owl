@@ -81,7 +81,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115></obo:IAO_0000115>
         <rdfs:comment>describes spectroscopic examination methods</rdfs:comment>
-        <rdfs:label xml:lang="de">Spectroscopy</rdfs:label>
+        <rdfs:label xml:lang="en">Spectroscopy</rdfs:label>
     </owl:Class>
     
 
@@ -103,7 +103,7 @@
                 <owl:onClass rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Raman spectroscopy</rdfs:label>
+        <rdfs:label xml:lang="en">Raman spectroscopy</rdfs:label>
     </owl:Class>
     
 
@@ -113,7 +113,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002002">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001001"/>
         <obo:IAO_0000115>addtion of hydrogen to another compound or element</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Hydrogenation</rdfs:label>
+        <rdfs:label xml:lang="en">Hydrogenation</rdfs:label>
     </owl:Class>
     
 
@@ -122,7 +122,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002003">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000085"/>
-        <rdfs:label xml:lang="de">Scanning electron miscroscopy</rdfs:label>
+        <rdfs:label xml:lang="en">Scanning electron miscroscopy</rdfs:label>
     </owl:Class>
     
 
@@ -132,7 +132,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002004">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <obo:IAO_0000118 xml:lang="de">Korngröße</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">Grain size</rdfs:label>
+        <rdfs:label xml:lang="en">Grain size</rdfs:label>
     </owl:Class>
     
 
@@ -142,7 +142,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002005">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <obo:IAO_0000118 xml:lang="de">Vergrößerung</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">Magnification</rdfs:label>
+        <rdfs:label xml:lang="en">Magnification</rdfs:label>
     </owl:Class>
     
 
@@ -151,7 +151,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002006">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000048"/>
-        <rdfs:label xml:lang="de">A-site ions</rdfs:label>
+        <rdfs:label xml:lang="en">A-site ions</rdfs:label>
     </owl:Class>
     
 
@@ -160,7 +160,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002007">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000048"/>
-        <rdfs:label xml:lang="de">B-site ion</rdfs:label>
+        <rdfs:label xml:lang="en">B-site ion</rdfs:label>
     </owl:Class>
     
 
@@ -169,7 +169,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002008">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000048"/>
-        <rdfs:label xml:lang="de">C-site ion</rdfs:label>
+        <rdfs:label xml:lang="en">C-site ion</rdfs:label>
     </owl:Class>
     
 
@@ -178,7 +178,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002009">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000060"/>
-        <rdfs:label xml:lang="de">Laser energy</rdfs:label>
+        <rdfs:label xml:lang="en">Laser energy</rdfs:label>
     </owl:Class>
     
 
@@ -215,7 +215,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000600>Volumetric Flow Rate is the volume of fluid which passes through a given surface per unit time</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/VolumeFlowRate</dc:source>
-        <rdfs:label xml:lang="de">Volumetric flow rate</rdfs:label>
+        <rdfs:label xml:lang="en">Volumetric flow rate</rdfs:label>
     </owl:Class>
     
 
@@ -224,7 +224,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002013">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001060"/>
-        <rdfs:label xml:lang="de">Final temperature</rdfs:label>
+        <rdfs:label xml:lang="en">Final temperature</rdfs:label>
     </owl:Class>
     
 
@@ -245,7 +245,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Heating rate</rdfs:label>
+        <rdfs:label xml:lang="en">Heating rate</rdfs:label>
     </owl:Class>
     
 
@@ -295,7 +295,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A Layer that is the base material on which processing is conducted.</obo:IAO_0000115>
         <obo:IAO_0000600 xml:lang="en">A surface onto which a coating might be deposited.</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">Substrate</rdfs:label>
+        <rdfs:label xml:lang="en">Substrate</rdfs:label>
     </owl:Class>
     
 
@@ -305,7 +305,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000003">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
         <obo:IAO_0000115 xml:lang="en">A layer that ensure contacting to the external electrical circuit situated at the back of a solar cell.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Back contact</rdfs:label>
+        <rdfs:label xml:lang="en">Back contact</rdfs:label>
     </owl:Class>
     
 
@@ -315,7 +315,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000004">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000025"/>
         <obo:IAO_0000115 xml:lang="en">A composition of at least two materials in which the concentrations are comparable.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Mixture of raw materials</rdfs:label>
+        <rdfs:label xml:lang="en">Mixture of raw materials</rdfs:label>
     </owl:Class>
     
 
@@ -325,7 +325,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000005">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
         <obo:IAO_0000115 xml:lang="en">A layer that is placed in between a back contact and an electron transport layer.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Buffer layer</rdfs:label>
+        <rdfs:label xml:lang="en">Buffer layer</rdfs:label>
     </owl:Class>
     
 
@@ -335,7 +335,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000006">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
         <obo:IAO_0000115 xml:lang="en">A layer that ensure contacting to the external electrical circuit situated at the front of a solar cell.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Front contact</rdfs:label>
+        <rdfs:label xml:lang="en">Front contact</rdfs:label>
     </owl:Class>
     
 
@@ -363,7 +363,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A deposition of molecules on a substrate or base.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Layer</rdfs:label>
+        <rdfs:label xml:lang="en">Layer</rdfs:label>
     </owl:Class>
     
 
@@ -380,7 +380,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
         <obo:IAO_0000115 xml:lang="en">A layer whose role is absorbing light and generating charge pairs.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Photo absorber layer</rdfs:label>
+        <rdfs:label xml:lang="en">Photo absorber layer</rdfs:label>
     </owl:Class>
     
 
@@ -397,7 +397,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A layer whose role is not absorbing light and generating charge pairs.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Non photo-absorber layer</rdfs:label>
+        <rdfs:label xml:lang="en">Non photo-absorber layer</rdfs:label>
     </owl:Class>
     
 
@@ -419,7 +419,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A layer between a substrate and a perovskite in nip-device or between perovskite and a back contact in pin-device</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Electron transport layer</rdfs:label>
+        <rdfs:label xml:lang="en">Electron transport layer</rdfs:label>
     </owl:Class>
     
 
@@ -440,7 +440,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000089"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Hole transport layer</rdfs:label>
+        <rdfs:label xml:lang="en">Hole transport layer</rdfs:label>
     </owl:Class>
     
 
@@ -449,7 +449,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000012">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
-        <rdfs:label xml:lang="de">Antireflective coating</rdfs:label>
+        <rdfs:label xml:lang="en">Antireflective coating</rdfs:label>
     </owl:Class>
     
 
@@ -458,7 +458,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000013">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
-        <rdfs:label xml:lang="de">Conversion layer</rdfs:label>
+        <rdfs:label xml:lang="en">Conversion layer</rdfs:label>
     </owl:Class>
     
 
@@ -467,7 +467,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000014">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
-        <rdfs:label xml:lang="de">Cell spacing</rdfs:label>
+        <rdfs:label xml:lang="en">Cell spacing</rdfs:label>
     </owl:Class>
     
 
@@ -476,7 +476,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000015">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
-        <rdfs:label xml:lang="de">Back reflection</rdfs:label>
+        <rdfs:label xml:lang="en">Back reflection</rdfs:label>
     </owl:Class>
     
 
@@ -485,7 +485,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000016">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
-        <rdfs:label xml:lang="de">Dielectric mirror</rdfs:label>
+        <rdfs:label xml:lang="en">Dielectric mirror</rdfs:label>
     </owl:Class>
     
 
@@ -494,7 +494,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000017">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
-        <rdfs:label xml:lang="de">Down conversion</rdfs:label>
+        <rdfs:label xml:lang="en">Down conversion</rdfs:label>
     </owl:Class>
     
 
@@ -503,7 +503,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000018">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
-        <rdfs:label xml:lang="de">Encapsulation</rdfs:label>
+        <rdfs:label xml:lang="en">Encapsulation</rdfs:label>
     </owl:Class>
     
 
@@ -512,7 +512,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000019">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
-        <rdfs:label xml:lang="de">Light management</rdfs:label>
+        <rdfs:label xml:lang="en">Light management</rdfs:label>
     </owl:Class>
     
 
@@ -521,7 +521,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000020">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
-        <rdfs:label xml:lang="de">Upconversion</rdfs:label>
+        <rdfs:label xml:lang="en">Upconversion</rdfs:label>
     </owl:Class>
     
 
@@ -530,7 +530,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:label xml:lang="de">Layer role</rdfs:label>
+        <rdfs:label xml:lang="en">Layer role</rdfs:label>
     </owl:Class>
     
 
@@ -596,7 +596,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Perovskite</rdfs:label>
+        <rdfs:label xml:lang="en">Perovskite</rdfs:label>
     </owl:Class>
     
 
@@ -605,7 +605,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000024">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000025"/>
-        <rdfs:label xml:lang="de">Doped raw material</rdfs:label>
+        <rdfs:label xml:lang="en">Doped raw material</rdfs:label>
     </owl:Class>
     
 
@@ -620,7 +620,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001080"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Composition</rdfs:label>
+        <rdfs:label xml:lang="en">Composition</rdfs:label>
     </owl:Class>
     
 
@@ -644,7 +644,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001076"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Mixture of solvents</rdfs:label>
+        <rdfs:label xml:lang="en">Mixture of solvents</rdfs:label>
     </owl:Class>
     
 
@@ -662,7 +662,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000029"/>
         <obo:IAO_0000115>A solar cell that do not contains carbon based molecules.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Inorganic cell</rdfs:label>
+        <rdfs:label xml:lang="en">Inorganic cell</rdfs:label>
     </owl:Class>
     
 
@@ -672,7 +672,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000029">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
         <obo:IAO_0000115>A solar cell that contains carbon based molecules.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Organic cell</rdfs:label>
+        <rdfs:label xml:lang="en">Organic cell</rdfs:label>
     </owl:Class>
     
 
@@ -684,7 +684,7 @@
         <obo:IAO_0000115 xml:lang="en">A solar cell that contains both organic and inorganic materials.</obo:IAO_0000115>
         <obo:IAO_0000600 xml:lang="en">Inorganic material is used as the acceptor and electron transporter.</obo:IAO_0000600>
         <obo:IAO_0000600 xml:lang="en">Organic material is used as light absorber, donor and transports holes.</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">Hybrid cell</rdfs:label>
+        <rdfs:label xml:lang="en">Hybrid cell</rdfs:label>
     </owl:Class>
     
 
@@ -694,7 +694,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000031">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
         <obo:IAO_0000115>a negatively charged elementary particle</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Electron</rdfs:label>
+        <rdfs:label xml:lang="en">Electron</rdfs:label>
     </owl:Class>
     
 
@@ -703,7 +703,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000032">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
-        <rdfs:label xml:lang="de">Hole</rdfs:label>
+        <rdfs:label xml:lang="en">Hole</rdfs:label>
     </owl:Class>
     
 
@@ -712,7 +712,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000033">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000056"/>
-        <rdfs:label xml:lang="de">Inorganic p-n homojunction</rdfs:label>
+        <rdfs:label xml:lang="en">Inorganic p-n homojunction</rdfs:label>
     </owl:Class>
     
 
@@ -759,7 +759,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000038">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001032"/>
         <obo:IAO_0000118 xml:lang="de">Elektronischer Status</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">Electronic state</rdfs:label>
+        <rdfs:label xml:lang="en">Electronic state</rdfs:label>
     </owl:Class>
     
 
@@ -768,7 +768,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000039">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <rdfs:label xml:lang="de">Energy band</rdfs:label>
+        <rdfs:label xml:lang="en">Energy band</rdfs:label>
     </owl:Class>
     
 
@@ -777,7 +777,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000040">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000060"/>
-        <rdfs:label xml:lang="de">Bandgap</rdfs:label>
+        <rdfs:label xml:lang="en">Bandgap</rdfs:label>
     </owl:Class>
     
 
@@ -787,7 +787,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000041">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000040"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000042"/>
-        <rdfs:label xml:lang="de">Direct bandgap</rdfs:label>
+        <rdfs:label xml:lang="en">Direct bandgap</rdfs:label>
     </owl:Class>
     
 
@@ -796,7 +796,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000042">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000040"/>
-        <rdfs:label xml:lang="de">Indirect bandgap</rdfs:label>
+        <rdfs:label xml:lang="en">Indirect bandgap</rdfs:label>
     </owl:Class>
     
 
@@ -813,7 +813,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000600>An atom-based state defined by an exact number of e-bonded atomic species and an electron cloud made of the shared electrons</obo:IAO_0000600>
         <dc:source>Emmo Photovoltaics</dc:source>
-        <rdfs:label xml:lang="de">Molecule</rdfs:label>
+        <rdfs:label xml:lang="en">Molecule</rdfs:label>
     </owl:Class>
     
 
@@ -822,7 +822,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <rdfs:label xml:lang="de">Elementary object</rdfs:label>
+        <rdfs:label xml:lang="en">Elementary object</rdfs:label>
     </owl:Class>
     
 
@@ -852,7 +852,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
         <obo:IAO_0000115>An &apos;atom&apos; is a &apos;nucleus&apos; surrounded by an &apos;electron_cloud&apos;, i.e. a quantum system made of one or more bounded electrons.</obo:IAO_0000115>
         <dc:source>Emmo Photovoltaics</dc:source>
-        <rdfs:label xml:lang="de">Atom</rdfs:label>
+        <rdfs:label xml:lang="en">Atom</rdfs:label>
     </owl:Class>
     
 
@@ -862,7 +862,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000048">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
         <obo:IAO_0000115>charged atom or group of atoms</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Ion</rdfs:label>
+        <rdfs:label xml:lang="en">Ion</rdfs:label>
     </owl:Class>
     
 
@@ -873,7 +873,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000043"/>
         <obo:IAO_0000115>carbon based molecules</obo:IAO_0000115>
         <obo:IAO_0000115>carbon based semiconductor</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Organic molecule</rdfs:label>
+        <rdfs:label xml:lang="en">Organic molecule</rdfs:label>
     </owl:Class>
     
 
@@ -882,7 +882,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000050">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000043"/>
-        <rdfs:label xml:lang="de">Conjugated molecule</rdfs:label>
+        <rdfs:label xml:lang="en">Conjugated molecule</rdfs:label>
     </owl:Class>
     
 
@@ -891,7 +891,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:label xml:lang="de">Innermaterial process</rdfs:label>
+        <rdfs:label xml:lang="en">Innermaterial process</rdfs:label>
     </owl:Class>
     
 
@@ -902,7 +902,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000051"/>
         <obo:IAO_0000115>passive transport of molecules from places with higher concentration to places with lower concentration</obo:IAO_0000115>
         <obo:IAO_0000119>Spektrum. (2000). Diffusion. Retrieved from: https://www.spektrum.de/lexikon/neurowissenschaft/diffusion/2845</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">Diffusion</rdfs:label>
+        <rdfs:label xml:lang="en">Diffusion</rdfs:label>
     </owl:Class>
     
 
@@ -911,7 +911,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000053">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000051"/>
-        <rdfs:label xml:lang="de">Charge transport</rdfs:label>
+        <rdfs:label xml:lang="en">Charge transport</rdfs:label>
     </owl:Class>
     
 
@@ -920,7 +920,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000054">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000051"/>
-        <rdfs:label xml:lang="de">Charge hopping</rdfs:label>
+        <rdfs:label xml:lang="en">Charge hopping</rdfs:label>
     </owl:Class>
     
 
@@ -930,7 +930,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000146"/>
         <obo:IAO_0000115 xml:lang="en">An area where multiple conductors or semiconductors make physical contact.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Junction</rdfs:label>
+        <rdfs:label xml:lang="en">Junction</rdfs:label>
     </owl:Class>
     
 
@@ -939,7 +939,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000056">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000055"/>
-        <rdfs:label xml:lang="de">Homo-junction</rdfs:label>
+        <rdfs:label xml:lang="en">Homo-junction</rdfs:label>
     </owl:Class>
     
 
@@ -948,7 +948,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000057">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000055"/>
-        <rdfs:label xml:lang="de">Hetero-junction</rdfs:label>
+        <rdfs:label xml:lang="en">Hetero-junction</rdfs:label>
     </owl:Class>
     
 
@@ -957,7 +957,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000058">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000055"/>
-        <rdfs:label xml:lang="de">Schottky-junction</rdfs:label>
+        <rdfs:label xml:lang="en">Schottky-junction</rdfs:label>
     </owl:Class>
     
 
@@ -966,7 +966,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <rdfs:label xml:lang="de">Working mechanism</rdfs:label>
+        <rdfs:label xml:lang="en">Working mechanism</rdfs:label>
     </owl:Class>
     
 
@@ -975,11 +975,11 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000060">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118 xml:lang="de">Energie</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Energie</obo:IAO_0000118>
         <obo:IAO_0000600>Energy is the quantity characterizing the ability of a system to do work.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Energy
 24.10.2022 10:30</dc:source>
-        <rdfs:label xml:lang="de">Energy</rdfs:label>
+        <rdfs:label xml:lang="en">Energy</rdfs:label>
     </owl:Class>
     
 
@@ -988,7 +988,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000061">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000060"/>
-        <rdfs:label xml:lang="de">Photon energy</rdfs:label>
+        <rdfs:label xml:lang="en">Photon energy</rdfs:label>
     </owl:Class>
     
 
@@ -997,7 +997,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000062">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000060"/>
-        <rdfs:label xml:lang="de">Electric energy</rdfs:label>
+        <rdfs:label xml:lang="en">Electric energy</rdfs:label>
     </owl:Class>
     
 
@@ -1022,7 +1022,7 @@
         <obo:IAO_0000118 xml:lang="de">Elektrische Stromdichte</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">is a measure of the density of flow of electric charge; it is the electric current per unit area of cross section.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/ElectricCurrentDensity</dc:source>
-        <rdfs:label xml:lang="de">Current density</rdfs:label>
+        <rdfs:label xml:lang="en">Current density</rdfs:label>
     </owl:Class>
     
 
@@ -1036,7 +1036,7 @@
         <obo:IAO_0000118>Voltage is the difference between electrical potentials of two points.</obo:IAO_0000118>
         <dc:source>https://qudt.org/vocab/quantitykind/Voltage
 24.10.2022 11:42</dc:source>
-        <rdfs:label xml:lang="de">Voltage</rdfs:label>
+        <rdfs:label xml:lang="en">Voltage</rdfs:label>
     </owl:Class>
     
 
@@ -1086,7 +1086,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a process to deposit thin layers onto an object</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Layer deposition</rdfs:label>
+        <rdfs:label xml:lang="en">Layer deposition</rdfs:label>
     </owl:Class>
     
 
@@ -1097,7 +1097,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
         <obo:IAO_0000115>the schematic cleaning sequence</obo:IAO_0000115>
         <obo:IAO_0000119>Jacobsson, T. J.. 2021, December 13. An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles. Nature Energy. Retrieved from: https://www.nature.com/articles/s41560-021-00941-3</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">Cleaning</rdfs:label>
+        <rdfs:label xml:lang="en">Cleaning</rdfs:label>
     </owl:Class>
     
 
@@ -1108,7 +1108,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
         <obo:IAO_0000115>a method to remove a layer or a part of a layer from a substrate</obo:IAO_0000115>
         <obo:IAO_0000119>Jacobsson, T. J.. 2021, December 13. An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles. Nature Energy. Retrieved from: https://www.nature.com/articles/s41560-021-00941-3</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">Etching</rdfs:label>
+        <rdfs:label xml:lang="en">Etching</rdfs:label>
     </owl:Class>
     
 
@@ -1118,7 +1118,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000070">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
         <obo:IAO_0000115>information about the storage process of an object</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Storing</rdfs:label>
+        <rdfs:label xml:lang="en">Storing</rdfs:label>
     </owl:Class>
     
 
@@ -1133,7 +1133,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Evaporation</rdfs:label>
+        <rdfs:label xml:lang="en">Evaporation</rdfs:label>
     </owl:Class>
     
 
@@ -1148,7 +1148,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Coating</rdfs:label>
+        <rdfs:label xml:lang="en">Coating</rdfs:label>
     </owl:Class>
     
 
@@ -1163,7 +1163,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Spraying</rdfs:label>
+        <rdfs:label xml:lang="en">Spraying</rdfs:label>
     </owl:Class>
     
 
@@ -1172,7 +1172,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000074">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000072"/>
-        <rdfs:label xml:lang="de">Spin coating</rdfs:label>
+        <rdfs:label xml:lang="en">Spin coating</rdfs:label>
     </owl:Class>
     
 
@@ -1181,7 +1181,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000075">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000072"/>
-        <rdfs:label xml:lang="de">Slot die coating</rdfs:label>
+        <rdfs:label xml:lang="en">Slot die coating</rdfs:label>
     </owl:Class>
     
 
@@ -1197,7 +1197,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>vapor deposition using a solid material as vapor source</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Physical vapor deposition</rdfs:label>
+        <rdfs:label xml:lang="en">Physical vapor deposition</rdfs:label>
     </owl:Class>
     
 
@@ -1207,7 +1207,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000077">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000071"/>
         <obo:IAO_0000115>vapor deposition using a non-solid material as vapor source</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Chemical vapor deposition</rdfs:label>
+        <rdfs:label xml:lang="en">Chemical vapor deposition</rdfs:label>
     </owl:Class>
     
 
@@ -1216,7 +1216,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000078">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000076"/>
-        <rdfs:label xml:lang="de">Pulsed laser deposition</rdfs:label>
+        <rdfs:label xml:lang="en">Pulsed laser deposition</rdfs:label>
     </owl:Class>
     
 
@@ -1225,8 +1225,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000079">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000077"/>
-        <obo:IAO_0000118 xml:lang="de">PECVD</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">Plasma enhanced chemical vapor deposition</rdfs:label>
+        <obo:IAO_0000118>PECVD</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Plasma enhanced chemical vapor deposition</rdfs:label>
     </owl:Class>
     
 
@@ -1249,7 +1249,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000600>An &apos;observation&apos; that results in a quantitative comparison of a &apos;property&apos; of an &apos;object&apos; with a standard reference based on a well defined mesurement procedure.</obo:IAO_0000600>
         <dc:source>Emmo Photovoltaics</dc:source>
-        <rdfs:label xml:lang="de">Characterization process</rdfs:label>
+        <rdfs:label xml:lang="en">Characterization process</rdfs:label>
     </owl:Class>
     
 
@@ -1258,7 +1258,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000081">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000084"/>
-        <rdfs:label xml:lang="de">X-ray fluorescence</rdfs:label>
+        <rdfs:label xml:lang="en">X-ray fluorescence</rdfs:label>
     </owl:Class>
     
 
@@ -1267,7 +1267,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000082">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000084"/>
-        <rdfs:label xml:lang="de">X-ray diffraction</rdfs:label>
+        <rdfs:label xml:lang="en">X-ray diffraction</rdfs:label>
     </owl:Class>
     
 
@@ -1276,7 +1276,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000083">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000084"/>
-        <rdfs:label xml:lang="de">X-ray reflection</rdfs:label>
+        <rdfs:label xml:lang="en">X-ray reflection</rdfs:label>
     </owl:Class>
     
 
@@ -1286,7 +1286,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000084">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000080"/>
         <rdfs:comment>describes characterization methods that use x-ray</rdfs:comment>
-        <rdfs:label xml:lang="de">X-ray characterization</rdfs:label>
+        <rdfs:label xml:lang="en">X-ray characterization</rdfs:label>
     </owl:Class>
     
 
@@ -1296,7 +1296,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000085">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000080"/>
         <rdfs:comment>describes microscopic and electron-microscopic examination methods</rdfs:comment>
-        <rdfs:label xml:lang="de">Microscopy</rdfs:label>
+        <rdfs:label xml:lang="en">Microscopy</rdfs:label>
     </owl:Class>
     
 
@@ -1323,7 +1323,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001095"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Performance measurement</rdfs:label>
+        <rdfs:label xml:lang="en">Performance measurement</rdfs:label>
     </owl:Class>
     
 
@@ -1339,7 +1339,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118>EQE Measurement</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">External quantum efficiency measurement</rdfs:label>
+        <rdfs:label xml:lang="en">External quantum efficiency measurement</rdfs:label>
     </owl:Class>
     
 
@@ -1378,8 +1378,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001127"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="de">Current density-Voltage measurement</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">JV-measurement</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">Current density-Voltage measurement</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">JV-measurement</rdfs:label>
     </owl:Class>
     
 
@@ -1388,7 +1388,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000089">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
-        <rdfs:label xml:lang="de">Hole transportation</rdfs:label>
+        <rdfs:label xml:lang="en">Hole transportation</rdfs:label>
     </owl:Class>
     
 
@@ -1397,7 +1397,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000090">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
-        <rdfs:label xml:lang="de">Electron transportation</rdfs:label>
+        <rdfs:label xml:lang="en">Electron transportation</rdfs:label>
     </owl:Class>
     
 
@@ -1406,7 +1406,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000091">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
-        <rdfs:label xml:lang="de">Energy conversion</rdfs:label>
+        <rdfs:label xml:lang="en">Energy conversion</rdfs:label>
     </owl:Class>
     
 
@@ -1421,7 +1421,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Tandem cell</rdfs:label>
+        <rdfs:label xml:lang="en">Tandem cell</rdfs:label>
     </owl:Class>
     
 
@@ -1454,7 +1454,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Electron excitation</rdfs:label>
+        <rdfs:label xml:lang="en">Electron excitation</rdfs:label>
     </owl:Class>
     
 
@@ -1727,7 +1727,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001024">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
-        <obo:IAO_0000118 xml:lang="de">Transmission</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Transmission</obo:IAO_0000118>
         <om-2:alternativeLabel xml:lang="de">Durchlässigkeit</om-2:alternativeLabel>
         <skos:prefLabel xml:lang="en">Transmittance</skos:prefLabel>
     </owl:Class>
@@ -3227,7 +3227,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000028">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Chlorobenzene</rdfs:label>
+        <rdfs:label xml:lang="en">Chlorobenzene</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3236,7 +3236,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000029">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Ethanol</rdfs:label>
+        <rdfs:label xml:lang="en">Ethanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3245,7 +3245,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000030">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">IPA</rdfs:label>
+        <rdfs:label>IPA</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3254,7 +3254,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000031">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Water</rdfs:label>
+        <rdfs:label xml:lang="en">Water</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3263,7 +3263,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000032">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">1-Butanol</rdfs:label>
+        <rdfs:label>1-Butanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3272,7 +3272,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000033">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">2-Methoxy Ethanol</rdfs:label>
+        <rdfs:label xml:lang="en">2-Methoxy Ethanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3281,7 +3281,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000035">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Chloroform</rdfs:label>
+        <rdfs:label xml:lang="en">Chloroform</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3290,7 +3290,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000036">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Dichlorobenzene</rdfs:label>
+        <rdfs:label xml:lang="en">Dichlorobenzene</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3300,7 +3300,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000037">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
         <obo:IAO_0000118>n-Butylalcohol</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">n-Butyl Alcohol</rdfs:label>
+        <rdfs:label xml:lang="en">n-Butyl Alcohol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3309,7 +3309,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000038">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">2-Butanol</rdfs:label>
+        <rdfs:label xml:lang="en">2-Butanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3318,7 +3318,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000039">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">1-Butanol Ethanol</rdfs:label>
+        <rdfs:label xml:lang="en">1-Butanol Ethanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3327,7 +3327,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000040">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Acetonitil</rdfs:label>
+        <rdfs:label xml:lang="en">Acetonitil</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3336,7 +3336,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000041">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Acetonitrile</rdfs:label>
+        <rdfs:label xml:lang="en">Acetonitrile</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3345,7 +3345,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000042">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Acetyl Aceton</rdfs:label>
+        <rdfs:label xml:lang="en">Acetyl Aceton</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3354,7 +3354,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000043">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Anhydrous 1-Butanol</rdfs:label>
+        <rdfs:label xml:lang="en">Anhydrous 1-Butanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3363,7 +3363,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000044">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Anisole</rdfs:label>
+        <rdfs:label xml:lang="en">Anisole</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3372,7 +3372,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000045">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">a-Terpineol</rdfs:label>
+        <rdfs:label xml:lang="en">a-Terpineol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3381,7 +3381,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000046">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Butanol</rdfs:label>
+        <rdfs:label xml:lang="en">Butanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3390,7 +3390,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000047">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">DCB</rdfs:label>
+        <rdfs:label xml:lang="en">DCB</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3399,7 +3399,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000048">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Distilled Water</rdfs:label>
+        <rdfs:label xml:lang="en">Distilled Water</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3408,7 +3408,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000049">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">DMF</rdfs:label>
+        <rdfs:label xml:lang="en">DMF</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3417,7 +3417,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000050">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Ethanol</rdfs:label>
+        <rdfs:label xml:lang="en">Ethanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3426,7 +3426,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000051">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Ethanol Amine</rdfs:label>
+        <rdfs:label xml:lang="en">Ethanol Amine</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3435,7 +3435,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000052">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Ethyl Alcohol</rdfs:label>
+        <rdfs:label xml:lang="en">Ethyl Alcohol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3444,7 +3444,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000053">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Ethyl Cellulose</rdfs:label>
+        <rdfs:label xml:lang="en">Ethyl Cellulose</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3453,7 +3453,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000054">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">HCl</rdfs:label>
+        <rdfs:label xml:lang="en">HCl</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3462,7 +3462,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000056">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Isopropyl Alcohol</rdfs:label>
+        <rdfs:label xml:lang="en">Isopropyl Alcohol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3471,7 +3471,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000057">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Lauric Acid</rdfs:label>
+        <rdfs:label xml:lang="en">Lauric Acid</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3480,7 +3480,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000058">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Methanol</rdfs:label>
+        <rdfs:label xml:lang="en">Methanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3489,7 +3489,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000059">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">NaOH Aqueous Solution</rdfs:label>
+        <rdfs:label xml:lang="en">NaOH Aqueous Solution</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3498,7 +3498,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000060">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">n-Butanol</rdfs:label>
+        <rdfs:label xml:lang="en">n-Butanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3507,7 +3507,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000061">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">n-Butyl Alcohol</rdfs:label>
+        <rdfs:label xml:lang="en">n-Butyl Alcohol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3516,7 +3516,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000062">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Nitric Acid</rdfs:label>
+        <rdfs:label xml:lang="en">Nitric Acid</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3525,7 +3525,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000063">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Octane</rdfs:label>
+        <rdfs:label xml:lang="en">Octane</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3534,7 +3534,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000064">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">OP</rdfs:label>
+        <rdfs:label xml:lang="en">OP</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3543,7 +3543,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000065">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">P25</rdfs:label>
+        <rdfs:label xml:lang="en">P25</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3552,7 +3552,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000066">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Polyethylene Glycol</rdfs:label>
+        <rdfs:label xml:lang="en">Polyethylene Glycol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3561,7 +3561,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000067">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">TAA</rdfs:label>
+        <rdfs:label xml:lang="en">TAA</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3570,7 +3570,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000068">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Terpineol</rdfs:label>
+        <rdfs:label xml:lang="en">Terpineol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3579,7 +3579,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000069">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Tetralin</rdfs:label>
+        <rdfs:label xml:lang="en">Tetralin</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3588,7 +3588,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000070">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">TiO2-np</rdfs:label>
+        <rdfs:label xml:lang="en">TiO2-np</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3597,7 +3597,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000071">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">Trifluor Ethanol</rdfs:label>
+        <rdfs:label xml:lang="en">Trifluor Ethanol</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3606,7 +3606,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLNamedIndividual_00000072">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000026"/>
-        <rdfs:label xml:lang="de">TritonX-100</rdfs:label>
+        <rdfs:label xml:lang="en">TritonX-100</rdfs:label>
     </owl:NamedIndividual>
     
 
