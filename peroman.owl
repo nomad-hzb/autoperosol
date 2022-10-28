@@ -3118,6 +3118,107 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <skos:prefLabel xml:lang="en">Perovskite absorber preparation</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0203 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0203">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
+        <obo:IAO_0000115>Is a method to deposit perovskite thin film, by which a dozen microliters of the precursor’s solution is dripped on a substrate fixed on the spin-coater and then annealed.</obo:IAO_0000115>
+        <skos:prefLabel xml:lang="en">One-step spin-coating</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0204 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0204">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
+        <obo:IAO_0000115>Is a technique of deposition consisting in using a precursor solution heated to a temperature of 70 °C, dripped on a glass substrate heated to a temperature close to or greater than that of the boiling point of the solvent, and then spin-coated.</obo:IAO_0000115>
+        <skos:prefLabel xml:lang="en">Hot-casting</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0205 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0205">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
+        <obo:IAO_0000115 xml:lang="en">The anti-solvent method or rapid crystallization technique has been proposed to produce a flat and uniform MAPbI3 film with well-developed grains.</obo:IAO_0000115>
+        <om-2:alternativeLabel xml:lang="en">Rapid crystallization</om-2:alternativeLabel>
+        <skos:prefLabel xml:lang="en">Anti-solvant</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0206 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0206">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
+        <obo:IAO_0000115 xml:lang="en">Is a preparation technique, by which a solution of PbI2 is first applied by spin coating to the mesoporous film of TiO2. The PbI2-coated film is dried at 40 °C for 3 min and then at 100 °C for 5 min. Then a solution of MAI solubilized in 2-propanol (IPA) is deposited by spin coating on this dried PbI2 film for 20 s. Finally, the film is heated at 100 °C for 5 min.</obo:IAO_0000115>
+        <skos:prefLabel xml:lang="en">Two-step spin-coating</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0207 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0207">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
+        <obo:IAO_0000115 xml:lang="en">In dual-source vapor deposition technique, the two precursors containing lead and MA are in powder form inside the vacuum chamber and they are evaporated simultaneously to be deposited on the substrate.</obo:IAO_0000115>
+        <skos:prefLabel xml:lang="en">Dual-source vapor deposition</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0208 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0208">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
+        <obo:IAO_0000115 xml:lang="en">In the sequential dual-source vapor deposition technique, the PbI2 is deposited first by thermal evaporation followed by MAI on a preheated substrate between 65 and 85 °C.</obo:IAO_0000115>
+        <skos:prefLabel xml:lang="en">Sequential dual-source vapor deposition</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0209 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0209">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
+        <obo:IAO_0000115 xml:lang="en">The equimolar mixture of PbI2, MAI, and DMSO in DMF solvent is deposited on a substrate via the spin-coating method, then diethyl ether is added during the centrifugation.</obo:IAO_0000115>
+        <skos:prefLabel xml:lang="en">Adduct method</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0210 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0210">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
+        <obo:IAO_0000115 xml:lang="en">It consists of treating the PbI2 film, deposited on TCO coated with a compact TiO2 layer, with the vapor-phase MAI. Then, the already deposited PbI2 films are annealed in MAI vapor at 150 °C, in a nitrogen atmosphere for 2–4 h in order to form uniform perovskite films with large grains.</obo:IAO_0000115>
+        <obo:IAO_0000118>VASP</obo:IAO_0000118>
+        <skos:prefLabel xml:lang="en">Vapor-assisted solution process</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0211 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0211">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
+        <obo:IAO_0000115 xml:lang="en">This technique consists of printing inks through the nozzles on the substrate</obo:IAO_0000115>
+        <skos:prefLabel xml:lang="en">Ink-jet printing</skos:prefLabel>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
