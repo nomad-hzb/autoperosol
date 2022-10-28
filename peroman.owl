@@ -2837,7 +2837,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001126"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">JV scan configuration</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scan configuration</skos:prefLabel>
     </owl:Class>
     
 
@@ -2882,7 +2882,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001123">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001091"/>
-        <skos:prefLabel xml:lang="en">JV measurement speed</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Scan speed</skos:prefLabel>
     </owl:Class>
     
 
@@ -2908,8 +2908,9 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001126 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001126">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000065"/>
-        <skos:prefLabel xml:lang="en">Voltage step</skos:prefLabel>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000600>The discrete increment in for example a scan. Dependent on the scan can be of different quality, e.g. Voltage or Wavelength.</obo:IAO_0000600>
+        <skos:prefLabel xml:lang="en">Step size</skos:prefLabel>
     </owl:Class>
     
 
