@@ -9,11 +9,15 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:cito="http://purl.org/spar/cito/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:om-2="http://www.ontology-of-units-of-measure.org/resource/om-2/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:terms="http://purl.org/dc/terms/">
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
@@ -2576,7 +2580,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001097 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <skos:prefLabel xml:lang="en">Data</skos:prefLabel>
     </owl:Class>
     
@@ -2792,7 +2796,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001119"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">JV light configuration</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">JV light source configuration</skos:prefLabel>
     </owl:Class>
     
 
@@ -2983,7 +2987,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001132">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001131"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001133"/>
-        <skos:prefLabel xml:lang="en">EQE light configuration</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">EQE light source configuration</skos:prefLabel>
     </owl:Class>
     
 
@@ -3028,7 +3032,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001142"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">Light configuration</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Light source configuration</skos:prefLabel>
     </owl:Class>
     
 
@@ -3121,8 +3125,8 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
-        <skos:prefLabel xml:lang="en">Perovskite absorber preparation</skos:prefLabel>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067"/>
+        <skos:prefLabel xml:lang="en">Perovskite absorber deposition</skos:prefLabel>
     </owl:Class>
     
 
@@ -3162,7 +3166,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0206">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115 xml:lang="en">Is a preparation technique, by which a solution of PbI2 is first applied by spin coating to the mesoporous film of TiO2. The PbI2-coated film is dried at 40 °C for 3 min and then at 100 °C for 5 min. Then a solution of MAI solubilized in 2-propanol (IPA) is deposited by spin coating on this dried PbI2 film for 20 s. Finally, the film is heated at 100 °C for 5 min.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Is a deposition technique, by which a solution of PbI2 is first applied by spin coating to the mesoporous film of TiO2. The PbI2-coated film is dried at 40 °C for 3 min and then at 100 °C for 5 min. Then a solution of MAI solubilized in 2-propanol (IPA) is deposited by spin coating on this dried PbI2 film for 20 s. Finally, the film is heated at 100 °C for 5 min.</obo:IAO_0000115>
         <skos:prefLabel xml:lang="en">Two-step spin-coating</skos:prefLabel>
     </owl:Class>
     
@@ -3213,7 +3217,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0211">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115 xml:lang="en">This technique consists of printing inks through the nozzles on the substrate</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This technique consists of printing inks through the nozzles on the substrate.</obo:IAO_0000115>
         <skos:prefLabel xml:lang="en">Ink-jet printing</skos:prefLabel>
     </owl:Class>
     
