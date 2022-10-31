@@ -137,7 +137,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Plate Spacing</rdfs:label>
+        <rdfs:label xml:lang="en">Plate spacing</rdfs:label>
     </owl:Class>
     
 
