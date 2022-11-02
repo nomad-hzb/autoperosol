@@ -2380,7 +2380,7 @@
                 <owl:onClass rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">Chemical</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pure chemical</skos:prefLabel>
     </owl:Class>
     
 
@@ -2535,7 +2535,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <skos:prefLabel xml:lang="en">Chemical object</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Chemical substance</skos:prefLabel>
     </owl:Class>
     
 
