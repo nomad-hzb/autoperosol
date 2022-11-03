@@ -269,7 +269,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
         <obo:IAO_0000118 xml:lang="de">Leistung</obo:IAO_0000118>
         <obo:IAO_0000119>https://qudt.org/vocab/quantitykind/Power</obo:IAO_0000119>
-        <obo:IAO_0000600>Power is the rate at which work is performed or energy is transmitted, or the amount of energy required or expended for a given unit of time.</obo:IAO_0000600>
+        <obo:IAO_0000600>Power is a quantity, that is the rate at which work is performed or energy is transmitted, or the amount of energy required or expended for a given unit of time.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Power</rdfs:label>
     </owl:Class>
     
@@ -1500,6 +1500,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001000">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
