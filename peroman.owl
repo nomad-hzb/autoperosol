@@ -428,7 +428,7 @@
                 <owl:onClass rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A Layer that is the base material on which processing is conducted.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A Non photo-absorber Layer that is the base material on which processing is conducted.</obo:IAO_0000115>
         <obo:IAO_0000600 xml:lang="en">A surface onto which a coating might be deposited.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Substrate</rdfs:label>
     </owl:Class>
@@ -801,6 +801,7 @@
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000029"/>
         <obo:IAO_0000115 xml:lang="en">a cell that does not contain carbon based molecules</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Anorganische Solarzelle</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Inorganic cell</rdfs:label>
     </owl:Class>
     
@@ -811,6 +812,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000029">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
         <obo:IAO_0000115>a cell that contains carbon based molecules.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Organische Solarzelle</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Organic cell</rdfs:label>
     </owl:Class>
     
@@ -821,6 +823,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000030">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
         <obo:IAO_0000115 xml:lang="en">a cell that contains both organic and inorganic materials</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Hybrid-Solarzelle</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">Inorganic material is used as the acceptor and electron transporter.</obo:IAO_0000600>
         <obo:IAO_0000600 xml:lang="en">Organic material is used as light absorber, donor and transports holes.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Hybrid cell</rdfs:label>
@@ -1570,6 +1573,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Multi-junction solar cell</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Tandem Solarzelle</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">a cell, that consists of multiple cells that are capable of absorbing different frequencies of light</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Tandem cell</rdfs:label>
     </owl:Class>
