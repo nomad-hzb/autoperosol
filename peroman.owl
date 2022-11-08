@@ -1569,6 +1569,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">Multi-junction solar cell</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">a cell, that consists of multiple cells that are capable of absorbing different frequencies of light</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Tandem cell</rdfs:label>
     </owl:Class>
     
