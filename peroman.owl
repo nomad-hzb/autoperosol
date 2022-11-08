@@ -362,7 +362,10 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002024">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000008"/>
-        <rdfs:label xml:lang="de">CIGS</rdfs:label>
+        <obo:IAO_0000118 xml:lang="de">Kupfer-Indium-Gallium-Diselenid</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">copper indium gallium selenide solar cell</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">is a photo absorber layer based on the components copper, indium, gallium and selenide</obo:IAO_0000600>
+        <rdfs:label xml:lang="en">CIGS</rdfs:label>
     </owl:Class>
     
 
@@ -727,6 +730,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="de">Perovskit</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">a photo absorber layer based on the component perovskite</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Perovskite</rdfs:label>
     </owl:Class>
     
