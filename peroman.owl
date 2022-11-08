@@ -192,6 +192,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002010">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118 xml:lang="g">Geschwindigkeit</obo:IAO_0000118>
         <obo:IAO_0000600>Speed is a quantity, that is the magnitude of velocity</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Speed
 07.11.2022</dc:source>
@@ -271,10 +272,11 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002015">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001027"/>
+        <obo:IAO_0000118 xml:lang="de">Beschleunigung</obo:IAO_0000118>
         <obo:IAO_0000600>Acceleration is a quantity, that describes the rate of change of velocity</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Acceleration
 07.11.2022</dc:source>
-        <rdfs:label xml:lang="de">Acceleration</rdfs:label>
+        <rdfs:label>Acceleration</rdfs:label>
     </owl:Class>
     
 
