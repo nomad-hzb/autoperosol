@@ -344,7 +344,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002022">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000013"/>
-        <rdfs:label xml:lang="de">Up conversion layer</rdfs:label>
+        <rdfs:label xml:lang="en">Up conversion layer</rdfs:label>
     </owl:Class>
     
 
@@ -353,7 +353,16 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002023">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000013"/>
-        <rdfs:label xml:lang="de">Down conversion layer</rdfs:label>
+        <rdfs:label xml:lang="en">Down conversion layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002024 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002024">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000008"/>
+        <rdfs:label xml:lang="de">CIGS</rdfs:label>
     </owl:Class>
     
 
@@ -570,7 +579,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000012">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
-        <obo:IAO_0000118 xml:lang="de">a non photo-absorber layer that decreases the reflectivity of an object</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">a non photo-absorber layer that decreases the reflectivity of an object</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Antireflective coating</rdfs:label>
     </owl:Class>
     
