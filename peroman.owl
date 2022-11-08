@@ -469,7 +469,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000006">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
-        <obo:IAO_0000115 xml:lang="en">A layer that ensure contacting to the external electrical circuit situated at the front of a solar cell.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a non photo-absorber layer that connects to the external electrical circuit situated at the front of a solar cell.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Front contact</rdfs:label>
     </owl:Class>
     
@@ -1570,7 +1570,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Multi-junction solar cell</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">a cell, that consists of multiple cells that are capable of absorbing different frequencies of light</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">a cell, that consists of multiple cells that are capable of absorbing different frequencies of light</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Tandem cell</rdfs:label>
     </owl:Class>
     
