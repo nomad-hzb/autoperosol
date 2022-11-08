@@ -464,7 +464,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A deposition of molecules on a substrate or base.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a flat fiat object part, constitutet as a film of molecules on or in an object</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Layer</rdfs:label>
     </owl:Class>
     
@@ -1541,6 +1541,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <obo:IAO_0000118 xml:lang="de">Licht</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Light</rdfs:label>
     </owl:Class>
     
