@@ -340,6 +340,24 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002022 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002022">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000013"/>
+        <rdfs:label xml:lang="de">Up conversion layer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002023 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002023">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000013"/>
+        <rdfs:label xml:lang="de">Down conversion layer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001">
@@ -406,7 +424,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000003">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
-        <obo:IAO_0000115 xml:lang="en">A layer that ensure contacting to the external electrical circuit situated at the back of a solar cell.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A non photo-absorber layer that ensure contacting to the external electrical circuit situated at the back of a solar cell.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Back contact</rdfs:label>
     </owl:Class>
     
@@ -426,7 +444,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000005">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
-        <obo:IAO_0000115 xml:lang="en">A layer that is placed in between a back contact and an electron transport layer.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A non photo-absorber layer that is placed in between a back contact and an electron transport layer.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Buffer layer</rdfs:label>
     </owl:Class>
     
@@ -465,6 +483,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a flat fiat object part, constitutet as a film of molecules on or in an object</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Schicht</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Layer</rdfs:label>
     </owl:Class>
     
@@ -551,6 +570,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000012">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
+        <obo:IAO_0000118 xml:lang="de">a non photo-absorber layer that decreases the reflectivity of an object</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Antireflective coating</rdfs:label>
     </owl:Class>
     
