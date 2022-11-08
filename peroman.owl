@@ -800,7 +800,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000029"/>
-        <obo:IAO_0000115>A solar cell that do not contains carbon based molecules.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a cell that does not contain carbon based molecules</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Inorganic cell</rdfs:label>
     </owl:Class>
     
@@ -810,7 +810,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000029">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
-        <obo:IAO_0000115>A solar cell that contains carbon based molecules.</obo:IAO_0000115>
+        <obo:IAO_0000115>a cell that contains carbon based molecules.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Organic cell</rdfs:label>
     </owl:Class>
     
@@ -820,7 +820,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000030">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
-        <obo:IAO_0000115 xml:lang="en">A solar cell that contains both organic and inorganic materials.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a cell that contains both organic and inorganic materials</obo:IAO_0000115>
         <obo:IAO_0000600 xml:lang="en">Inorganic material is used as the acceptor and electron transporter.</obo:IAO_0000600>
         <obo:IAO_0000600 xml:lang="en">Organic material is used as light absorber, donor and transports holes.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Hybrid cell</rdfs:label>
