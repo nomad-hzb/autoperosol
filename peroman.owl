@@ -1226,6 +1226,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="de">Verdampfen</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Evaporation</rdfs:label>
     </owl:Class>
     
@@ -1949,7 +1950,9 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="de">Anlassen</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Glühen</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Thermische Behandlung</obo:IAO_0000118>
         <rdfs:comment>procedure of heating up an object</rdfs:comment>
         <skos:prefLabel xml:lang="en">Annealing</skos:prefLabel>
     </owl:Class>
