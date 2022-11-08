@@ -1188,8 +1188,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
-        <obo:IAO_0000115>the schematic cleaning sequence</obo:IAO_0000115>
-        <obo:IAO_0000119>Jacobsson, T. J.. 2021, December 13. An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles. Nature Energy. Retrieved from: https://www.nature.com/articles/s41560-021-00941-3</obo:IAO_0000119>
+        <obo:IAO_0000115>is a process with the goal of removing impurities</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Reinigen</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Cleaning</rdfs:label>
     </owl:Class>
     
@@ -1568,8 +1568,6 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a step where the perovskite has been annealing</obo:IAO_0000115>
-        <obo:IAO_0000119>Jacobsson, T. J.. 2021, December 13. An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles. Nature Energy. Retrieved from: https://www.nature.com/articles/s41560-021-00941-3</obo:IAO_0000119>
         <skos:prefLabel xml:lang="en">Thermal annealing</skos:prefLabel>
     </owl:Class>
     
