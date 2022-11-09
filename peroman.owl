@@ -370,6 +370,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002025 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002025">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
+        <rdfs:label xml:lang="de">Extrinsic semiconductor</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001">
@@ -863,7 +872,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>material with special conductivity characteristics</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a material entity with special conductivity characteristics</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Some Semiconductor</rdfs:label>
     </owl:Class>
     
@@ -881,7 +890,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000036 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000036">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002025"/>
         <rdfs:label xml:lang="en">n-Type semiconductor</rdfs:label>
     </owl:Class>
     
@@ -890,7 +899,7 @@
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000037 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000037">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002025"/>
         <rdfs:label xml:lang="en">p-Type semiconductor</rdfs:label>
     </owl:Class>
     
@@ -973,6 +982,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000045">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
+        <obo:IAO_0000600 xml:lang="de">a semiconductor that contains carbon based parts</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Organic semiconductor</rdfs:label>
     </owl:Class>
     
