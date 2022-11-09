@@ -953,7 +953,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000600>An atom-based state defined by an exact number of e-bonded atomic species and an electron cloud made of the shared electrons</obo:IAO_0000600>
+        <obo:IAO_0000600 xml:lang="en">a elemtary object, that consists of two or more atoms and is defined by an exact number of e-bonded atomic species and an electron cloud made of shared electrons</obo:IAO_0000600>
         <dc:source>Emmo Photovoltaics</dc:source>
         <rdfs:label xml:lang="en">Molecule</rdfs:label>
     </owl:Class>
@@ -1003,7 +1003,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000048">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
-        <obo:IAO_0000115>charged atom or group of atoms</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a elementary object with a electric charge</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Ion</rdfs:label>
     </owl:Class>
     
