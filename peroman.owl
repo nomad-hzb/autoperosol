@@ -2073,6 +2073,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000118 xml:lang="de">Zulieferer</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Supplier</skos:prefLabel>
     </owl:Class>
     
@@ -2801,6 +2802,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <obo:IAO_0000118 xml:lang="de">LIchtquelle</obo:IAO_0000118>
+        <obo:IAO_0000600>a object that emits light</obo:IAO_0000600>
         <skos:prefLabel xml:lang="en">Light source</skos:prefLabel>
     </owl:Class>
     
