@@ -1002,7 +1002,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000047">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000044"/>
-        <obo:IAO_0000115>An &apos;atom&apos; is a &apos;nucleus&apos; surrounded by an &apos;electron_cloud&apos;, i.e. a quantum system made of one or more bounded electrons.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a elemtary object consisting of a nucleus surrounded by an electron cloud, i.e. a quantum system made of one or more bounded electrons</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Atom</obo:IAO_0000118>
         <dc:source>Emmo Photovoltaics</dc:source>
         <rdfs:label xml:lang="en">Atom</rdfs:label>
     </owl:Class>
@@ -1023,8 +1024,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000049">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000043"/>
-        <obo:IAO_0000115>carbon based molecules</obo:IAO_0000115>
-        <obo:IAO_0000115>carbon based semiconductor</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a carbon based molecule</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Organisches Molekül</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Organic molecule</rdfs:label>
     </owl:Class>
     
