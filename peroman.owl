@@ -506,7 +506,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a flat fiat object part, constitutet as a film of molecules on or in an object</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a flat fiat object part, constitutet as a film of molecules on or in a object</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Schicht</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Layer</rdfs:label>
     </owl:Class>
@@ -1862,6 +1862,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001021">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001032"/>
+        <obo:IAO_0000600 xml:lang="en">a property that only has two values it can take on</obo:IAO_0000600>
         <skos:prefLabel xml:lang="en">Boolean</skos:prefLabel>
     </owl:Class>
     
@@ -1935,6 +1936,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="de">Modul</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">a object consisting of multiple cells</obo:IAO_0000600>
         <skos:prefLabel xml:lang="en">Module</skos:prefLabel>
     </owl:Class>
     
@@ -2085,6 +2088,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000118 xml:lang="de">Zulieferer</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">an object that delivers objects necessary for production/working steps</obo:IAO_0000600>
         <skos:prefLabel xml:lang="en">Supplier</skos:prefLabel>
     </owl:Class>
     
@@ -2768,6 +2772,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001096">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001021"/>
+        <obo:IAO_0000118 xml:lang="de">Zertifiziert</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Certified</skos:prefLabel>
     </owl:Class>
     
