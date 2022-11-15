@@ -21,6 +21,7 @@
     <owl:Ontology rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2022-10-26/ro.owl"/>
     </owl:Ontology>
     
 
