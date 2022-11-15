@@ -9597,7 +9597,6 @@ For example, protein A (transcription factor) indirectly increases by expression
     <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002214"/>
@@ -9617,7 +9616,6 @@ For example, protein A (transcription factor) indirectly increases by expression
     <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_HOM0000000"/>
@@ -9960,26 +9958,10 @@ For example, protein A (transcription factor) indirectly increases by expression
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0042734 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042734">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0045202 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CARO_0000003"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0045211 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016020"/>
     </rdf:Description>
     
 
