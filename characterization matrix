@@ -1,6 +1,7 @@
 Advanced Characterization Techniques for Thin Film Solar Cells
 
 Electroluminescence analysis
+    ontology location:
     participant: Solar Cell
     participant: Solar module
     participant_equipment:
@@ -10,90 +11,105 @@ Electroluminescence analysis
     variant: Electroluminescence under Illumination
 
 Capacitance Spectroscopy
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Time-of-flight analysis
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Transient Optoelectronic Characterization
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Steady-state Photocarrier Grating method
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Absorption and photocurrent Spectroscopy with high dynamic range
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Spectroscopic Ellipsometry
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Scanning near-field Optical microscopy
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Photoluminescence analysis
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Electro-spin resonance
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Scanning probe microscopy
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Electron microscopy
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 X-ray and Neutron diffraction
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Real-time Characterization of thin film growth
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Raman spectroscopy
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
     output_charecteristic: ?
 
 Soft X-ray and electron spectroscopy
+    ontology location:
     participant:
     participant_Equipment:
     data_processing:
