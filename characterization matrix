@@ -1,97 +1,98 @@
 Electroluminescence analysis
     participant: Solar Cell
     participant: Solar module
-    processing: Spectrally resolution
-    processing: Spacially resolution
-    output: ?
+    participant_equipment:
+    data_processing: Spectrally resolution
+    data_processing: Spacially resolution
+    output_charecteristic: ?
     variant: Electroluminescence under Illumination
 
 Capacitance Spectroscopy
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Time-of-flight analysis
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Transient Optoelectronic Characterization
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Steady-state Photocarrier Grating method
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Absorption and photocurrent Spectroscopy with high dynamic range
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Spectroscopic Ellipsometry
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Scanning near-field Optical microscopy
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Photoluminescence analysis
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Electro-spin resonance
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Scanning probe microscopy
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Electron microscopy
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 X-ray and Neutron diffraction
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Real-time Characterization of thin film growth
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Raman spectroscopy
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
 
 Soft X-ray and electron spectroscopy
     participant:
     participant_Equipment:
-    processing:
-    output: ?
+    data_processing:
+    output_charecteristic: ?
