@@ -1,0 +1,28 @@
+Electroluminescence analysis
+    participant: Solar Cell
+    participant: Solar module
+    processing: Spectrally resolution
+    processing: Spacially resolution
+    output: ?
+    variant: Electroluminescence under Illumination
+
+Capacitance Spectroscopy
+    participant:
+    processing:
+    output: ?
+
+Time-of-flight analysis
+    participant:
+    processing:
+    output: ?
+
+Transient Optoelectronic Characterization
+    participant:
+    processing:
+    output: ?
+
+Steady-state Photocarrier Grating method
+    participant:
+    processing:
+    output: ?
+
