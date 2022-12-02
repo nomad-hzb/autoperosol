@@ -1567,12 +1567,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001113"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001114"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2987,14 +2981,6 @@
         </rdfs:subClassOf>
         <obo:IAO_0000600>A measurement technique where a motor is varied with a given speed and step size.</obo:IAO_0000600>
         <skos:prefLabel xml:lang="en">Scanning</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001113 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001113">
-        <skos:prefLabel xml:lang="en">JV Measurement data</skos:prefLabel>
     </owl:Class>
     
 
