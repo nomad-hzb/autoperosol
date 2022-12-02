@@ -8,21 +8,90 @@ Electroluminescence analysis
 
 Capacitance Spectroscopy
     participant:
+    participant_Equipment:
     processing:
     output: ?
 
 Time-of-flight analysis
     participant:
+    participant_Equipment:
     processing:
     output: ?
 
 Transient Optoelectronic Characterization
     participant:
+    participant_Equipment:
     processing:
     output: ?
 
 Steady-state Photocarrier Grating method
     participant:
+    participant_Equipment:
     processing:
     output: ?
 
+Absorption and photocurrent Spectroscopy with high dynamic range
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
+
+Spectroscopic Ellipsometry
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
+
+Scanning near-field Optical microscopy
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
+
+Photoluminescence analysis
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
+
+Electro-spin resonance
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
+
+Scanning probe microscopy
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
+
+Electron microscopy
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
+
+X-ray and Neutron diffraction
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
+
+Real-time Characterization of thin film growth
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
+
+Raman spectroscopy
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
+
+Soft X-ray and electron spectroscopy
+    participant:
+    participant_Equipment:
+    processing:
+    output: ?
