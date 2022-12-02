@@ -1,116 +1,121 @@
 Advanced Characterization Techniques for Thin Film Solar Cells
 
+Current/Voltage Characterization
+
+
+
 Electroluminescence analysis
-    ontology location:
+    ontology location: 'Characterization process'
     participant: Solar Cell
     participant: Solar module
-    participant_equipment:
+    participant_equipment: 
     data_processing: Spectrally resolution
     data_processing: Spacially resolution
-    output_charecteristic: ?
+    output_data: spectrum (intensity vs. wavelength)
+    output_characteristic: Luminescence emitted by device as a function of current through device
+    derived_quantity: 
     variant: Electroluminescence under Illumination
 
 Capacitance Spectroscopy
-    ontology location:
+    ontology location: 'Characterization process'
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 Time-of-flight analysis
-    ontology location:
+    ontology location: 'Characterization process'
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: 
+    derived_quantity: 
 
 Transient Optoelectronic Characterization
-    ontology location:
+    ontology location: 'Characterization process'
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
-
-Steady-state Photocarrier Grating method
-    ontology location:
-    participant:
-    participant_Equipment:
-    data_processing:
-    output_charecteristic: ?
-
-Absorption and photocurrent Spectroscopy with high dynamic range
-    ontology location:
-    participant:
-    participant_Equipment:
-    data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 Spectroscopic Ellipsometry
-    ontology location:
+    ontology location: 'Characterization process'
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 Scanning near-field Optical microscopy
     ontology location:
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 Photoluminescence analysis
     ontology location:
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 Electro-spin resonance
     ontology location:
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 Scanning probe microscopy
     ontology location:
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 Electron microscopy
     ontology location:
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 X-ray and Neutron diffraction
     ontology location:
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 Real-time Characterization of thin film growth
     ontology location:
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 Raman spectroscopy
     ontology location:
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
 
 Soft X-ray and electron spectroscopy
     ontology location:
     participant:
     participant_Equipment:
     data_processing:
-    output_charecteristic: ?
+    output_characteristic: ?
+    derived_quantity: 
