@@ -8686,6 +8686,7 @@ For example, protein A (transcription factor) indirectly increases by expression
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002025">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
+        <obo:IAO_0000115 xml:lang="en">a semiconductor that has been doped</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Extrinsic semiconductor</rdfs:label>
     </owl:Class>
     
@@ -9225,6 +9226,7 @@ For example, protein A (transcription factor) indirectly increases by expression
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000035">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000034"/>
+        <obo:IAO_0000115 xml:lang="en">a semiconductor without any dopants</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Intrinsic semiconductor</rdfs:label>
     </owl:Class>
     
