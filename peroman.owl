@@ -9761,6 +9761,12 @@ For example, protein A (transcription factor) indirectly increases by expression
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000077">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000071"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001144"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>vapor deposition using a non-solid material as vapor source</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Chemical vapor deposition</rdfs:label>
     </owl:Class>
