@@ -11371,14 +11371,6 @@ For example, protein A (transcription factor) indirectly increases by expression
     
 
 
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001093 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001093">
-        <skos:prefLabel xml:lang="en">Layer stack sequence</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001094 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001094">
