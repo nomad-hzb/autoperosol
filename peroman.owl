@@ -2135,6 +2135,21 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002042 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002042">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Sample manufacturing process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002043 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002043">
@@ -2218,12 +2233,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2497,7 +2506,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00000000000000002002"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000007"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Layer role</rdfs:label>
@@ -3053,12 +3062,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001095"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002033"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="de">Herstellungsprozess</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Manufacturing process</rdfs:label>
     </owl:Class>
@@ -3068,7 +3071,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002042"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
@@ -3090,7 +3093,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002042"/>
         <obo:IAO_0000115>a process to remove impurities from an object</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Reinigen</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Cleaning</rdfs:label>
@@ -3101,7 +3104,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000069 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000069">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002042"/>
         <obo:IAO_0000115>a process to remove a layer or a part of a layer from a substrate</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Ätzung</obo:IAO_0000118>
         <obo:IAO_0000119>Jacobsson, T. J.. 2021, December 13. An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles. Nature Energy. Retrieved from: https://www.nature.com/articles/s41560-021-00941-3</obo:IAO_0000119>
@@ -3113,7 +3116,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000070 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000070">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002042"/>
         <obo:IAO_0000115>information about the storage process of an object</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Storing</rdfs:label>
     </owl:Class>
@@ -3278,6 +3281,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001098"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00000000000000002008"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000600>An &apos;observation&apos; that results in a quantitative comparison of a &apos;property&apos; of an &apos;object&apos; with a standard reference based on a well defined mesurement procedure.</obo:IAO_0000600>
         <dc:source>Emmo Photovoltaics</dc:source>
         <rdfs:label xml:lang="en">Measurement process</rdfs:label>
@@ -3374,12 +3383,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLObjectProperty_00000000000000002008"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3491,7 +3494,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001001 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001001">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002042"/>
         <skos:prefLabel xml:lang="en">Surface treatment</skos:prefLabel>
     </owl:Class>
     
@@ -3854,7 +3857,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001033 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001033">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002042"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
@@ -4102,7 +4105,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001051 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001051">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002042"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
