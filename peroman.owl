@@ -1887,7 +1887,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002021 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002021">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000072"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
@@ -2254,6 +2254,182 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002050">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001062"/>
         <rdfs:label xml:lang="de">Duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001144"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Wet chemical deposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067"/>
+        <rdfs:label xml:lang="de">Vapor based deposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002053 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002053">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <rdfs:label xml:lang="de">Ink jet printing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002054 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002054">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <rdfs:label xml:lang="de">Gravure printing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002055 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002055">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <rdfs:label xml:lang="de">Offset printing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002056 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002056">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <rdfs:label xml:lang="de">Screen printing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002057 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002057">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <obo:IAO_0000118 xml:lang="en">Aerosol jet printing</obo:IAO_0000118>
+        <rdfs:label xml:lang="de">Aerosol printing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002058 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002058">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <rdfs:label xml:lang="de">Spray coating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002059 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002059">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <rdfs:label xml:lang="de">Drop casting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002060 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002060">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <obo:IAO_0000118 xml:lang="en">Doctor blading</obo:IAO_0000118>
+        <rdfs:label xml:lang="de">Blade coating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002061 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002061">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <rdfs:label xml:lang="de">Electro deposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002062 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002062">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <rdfs:label xml:lang="de">Sol-gel deposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002063 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002063">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <rdfs:label xml:lang="de">Sputter deposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002064 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002064">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <rdfs:label xml:lang="de">Electron beam deposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002065 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002065">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <rdfs:label xml:lang="de">Molecular beam epitaxy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002066 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002066">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <rdfs:label xml:lang="de">Close space sublimation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002067 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002067">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <rdfs:label xml:lang="de">Metal organic chemical vapor deposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002068 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002068">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <rdfs:label xml:lang="de">Atomic layer deposition</rdfs:label>
     </owl:Class>
     
 
@@ -3168,63 +3344,10 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000071 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000071">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="de">Verdampfen</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Evaporation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000072 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000072">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001144"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="de">Beschichten</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">Coating</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000073 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000073">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Spraying</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000074 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000074">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000072"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -3240,7 +3363,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000075 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000075">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000072"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <obo:IAO_0000118 xml:lang="de">Schlitzdüsenbeschichtung</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Slot die coating</rdfs:label>
     </owl:Class>
@@ -3250,7 +3373,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000076 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000076">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000071"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
@@ -3266,7 +3388,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000077 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000077">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000071"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
@@ -3282,7 +3403,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000078 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000078">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000076"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
         <rdfs:label xml:lang="en">Pulsed laser deposition</rdfs:label>
     </owl:Class>
     
@@ -3291,7 +3412,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000079 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000079">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000077"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
         <obo:IAO_0000118>PECVD</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Plasma enhanced chemical vapor deposition</rdfs:label>
     </owl:Class>
@@ -4229,7 +4350,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001057 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001057">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <skos:prefLabel xml:lang="en">Chemical bath deposition</skos:prefLabel>
     </owl:Class>
     
@@ -4251,7 +4372,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001059 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001059">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000073"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <skos:prefLabel xml:lang="en">Spray pyrolysis</skos:prefLabel>
     </owl:Class>
     
@@ -5241,21 +5362,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001143 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001143">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001019"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001144"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">Printing</skos:prefLabel>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001144 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001144">
@@ -5328,107 +5434,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#Tabular_data">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001098"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000067"/>
-        <skos:prefLabel xml:lang="en">Perovskite absorber deposition</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0203 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0203">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115>Is a method to deposit perovskite thin film, by which a dozen microliters of the precursor’s solution is dripped on a substrate fixed on the spin-coater and then annealed.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">One-step spin-coating</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0204 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0204">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115>Is a technique of deposition consisting in using a precursor solution heated to a temperature of 70 °C, dripped on a glass substrate heated to a temperature close to or greater than that of the boiling point of the solvent, and then spin-coated.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">Hot-casting</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0205 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0205">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115 xml:lang="en">The anti-solvent method or rapid crystallization technique has been proposed to produce a flat and uniform MAPbI3 film with well-developed grains.</obo:IAO_0000115>
-        <om-2:alternativeLabel xml:lang="en">Rapid crystallization</om-2:alternativeLabel>
-        <skos:prefLabel xml:lang="en">Anti-solvant</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0206 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0206">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115 xml:lang="en">Is a deposition technique, by which a solution of PbI2 is first applied by spin coating to the mesoporous film of TiO2. The PbI2-coated film is dried at 40 °C for 3 min and then at 100 °C for 5 min. Then a solution of MAI solubilized in 2-propanol (IPA) is deposited by spin coating on this dried PbI2 film for 20 s. Finally, the film is heated at 100 °C for 5 min.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">Two-step spin-coating</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0207 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0207">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115 xml:lang="en">In dual-source vapor deposition technique, the two precursors containing lead and MA are in powder form inside the vacuum chamber and they are evaporated simultaneously to be deposited on the substrate.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">Dual-source vapor deposition</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0208 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0208">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115 xml:lang="en">In the sequential dual-source vapor deposition technique, the PbI2 is deposited first by thermal evaporation followed by MAI on a preheated substrate between 65 and 85 °C.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">Sequential dual-source vapor deposition</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0209 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0209">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115 xml:lang="en">The equimolar mixture of PbI2, MAI, and DMSO in DMF solvent is deposited on a substrate via the spin-coating method, then diethyl ether is added during the centrifugation.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">Adduct method</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0210 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0210">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115 xml:lang="en">It consists of treating the PbI2 film, deposited on TCO coated with a compact TiO2 layer, with the vapor-phase MAI. Then, the already deposited PbI2 films are annealed in MAI vapor at 150 °C, in a nitrogen atmosphere for 2–4 h in order to form uniform perovskite films with large grains.</obo:IAO_0000115>
-        <obo:IAO_0000118>VASP</obo:IAO_0000118>
-        <skos:prefLabel xml:lang="en">Vapor-assisted solution process</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0211 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0211">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#0202"/>
-        <obo:IAO_0000115 xml:lang="en">This technique consists of printing inks through the nozzles on the substrate.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">Ink-jet printing</skos:prefLabel>
     </owl:Class>
     
 
