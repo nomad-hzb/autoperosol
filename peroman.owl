@@ -1895,6 +1895,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="de">Tauchbeschichtung</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">a substrate is dipped into a solution and then withdrawn at a controlled rate. The solution forms a film on the substrate as it dries.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Dip coating</rdfs:label>
     </owl:Class>
     
@@ -2292,6 +2293,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002053">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <obo:IAO_0000600 xml:lang="en">the solution is delivered to the substrate using an inkjet printer, which allows for precise patterning of the thin film.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Ink jet printing</rdfs:label>
     </owl:Class>
     
@@ -2338,6 +2340,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002058">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <obo:IAO_0000600 xml:lang="en">a solution is atomized into fine droplets and directed onto a substrate, where it forms a thin film as it dries.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Spray coating</rdfs:label>
     </owl:Class>
     
@@ -2357,6 +2360,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002060">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <obo:IAO_0000118 xml:lang="en">Doctor blading</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">a small amount of solution is placed on a substrate and spread evenly using a doctor blade. The substrate is then dried to form a thin film.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Blade coating</rdfs:label>
     </owl:Class>
     
@@ -2366,6 +2370,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002061">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <obo:IAO_0000600 xml:lang="en">a substrate is immersed in a solution containing a salt of the material to be deposited and an electric current is passed through the solution, which causes the material to be deposited on the substrate as a thin film.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Electro deposition</rdfs:label>
     </owl:Class>
     
@@ -2375,6 +2380,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002062">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <obo:IAO_0000600 xml:lang="en">a solution containing precursor materials is formed, which is then deposited onto a substrate and dried to form a thin film. This process can be used to deposit a wide range of materials, including ceramics, metals and polymers.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Sol-gel deposition</rdfs:label>
     </owl:Class>
     
@@ -2384,6 +2390,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002063">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <obo:IAO_0000600 xml:lang="en">a material is bombarded with ions, causing atoms to be knocked off and deposited onto a substrate.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Sputter deposition</rdfs:label>
     </owl:Class>
     
@@ -2393,6 +2400,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002064">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <obo:IAO_0000600 xml:lang="en">a beam of electrons is directed at a material, causing it to evaporate and deposit onto a substrate.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Electron beam deposition</rdfs:label>
     </owl:Class>
     
@@ -2420,6 +2428,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002067">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <obo:IAO_0000600 xml:lang="en">a substrate is exposed to a gaseous metalorganic compound, which decomposes to deposit a solid material on the substrate.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Metal organic chemical vapor deposition</rdfs:label>
     </owl:Class>
     
@@ -2429,6 +2438,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002068">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <obo:IAO_0000600 xml:lang="en">a substrate is exposed to two or more gases in sequence. Each exposure results in a thin layer of a solid material being deposited on the substrate.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Atomic layer deposition</rdfs:label>
     </owl:Class>
     
@@ -3355,6 +3365,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="de">Rotationsbeschichtung</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">a substrate is placed on a spinning stage and a solution is dropped on it. The spinning motion spreads the solution evenly over the substrate and any excess solution is removed. The substrate is then dried to form a thin film.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Spin coating</rdfs:label>
     </owl:Class>
     
@@ -3404,6 +3415,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000078">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
+        <obo:IAO_0000600 xml:lang="en">a laser is used to vaporize a material, and the resulting vapor is deposited onto a substrate.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Pulsed laser deposition</rdfs:label>
     </owl:Class>
     
@@ -3414,6 +3426,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000079">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002052"/>
         <obo:IAO_0000118>PECVD</obo:IAO_0000118>
+        <obo:IAO_0000600 xml:lang="en">a substrate is placed in a chamber with a gas or mixture of gases. The gases are ionized by a plasma, and the resulting ions and radicals react to form a solid material on the substrate.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Plasma enhanced chemical vapor deposition</rdfs:label>
     </owl:Class>
     
