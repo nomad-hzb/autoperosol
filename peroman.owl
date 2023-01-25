@@ -305,6 +305,18 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMO_0002000 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0002000"/>
@@ -1621,6 +1633,18 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000417 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000417"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
@@ -2145,6 +2169,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003">
@@ -2632,14 +2662,443 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000111 xml:lang="en">processed material</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Examples include gel matrices, filter paper, parafilm and buffer solutions, mass spectrometer, tissue samples</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Is a material entity that is created or changed during material processing.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">processed material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">evaluant role</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">When a specimen of blood is assayed for glucose concentration, the blood has the evaluant role. When measuring the mass of a mouse, the evaluant is the mouse. When measuring the time of DNA replication, the evaluant is the DNA. When measuring the intensity of light on a surface, the evaluant is the light source.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">a role that inheres in a material entity that is realized in an assay in which data is generated about the bearer of the evaluant role</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Role call - 17nov-08: JF and MC think an evaluant role is always specified input of a process. Even in the case where we have an assay taking blood as evaluant and outputting blood, the blood is not the specified output at the end of the assay (the concentration of glucose in the blood is)</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">examples of features that could be described in an evaluant: quality.... e.g. &quot;contains 10 pg/ml IL2&quot;, or &quot;no glucose detected&quot;)</obo:IAO_0000116>
+        <obo:IAO_0000117>GROUP:  Role Branch</obo:IAO_0000117>
+        <obo:IAO_0000119>OBI</obo:IAO_0000119>
+        <obo:IAO_0000232>Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">evaluant role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000441"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0000339"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0600013"/>
+        <obo:IAO_0000111 xml:lang="en">assay</obo:IAO_0000111>
+        <obo:IAO_0000112>Assay the wavelength of light emitted by excited Neon atoms. Count of geese flying over a house.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.</obo:IAO_0000115>
+        <obo:IAO_0000116>12/3/12: BP: the reference to the &apos;physical examination&apos; is included to point out that a prediction is not an assay, as that does not require physical examiniation. </obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">measuring</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">scientific observation</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:OBI_0001847>study assay</obo:OBI_0001847>
+        <obo:OBI_9991118>any method</obo:OBI_9991118>
+        <rdfs:label xml:lang="en">assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000094">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0600010"/>
+        <obo:IAO_0000111>material processing</obo:IAO_0000111>
+        <obo:IAO_0000112>A cell lysis, production of a cloning vector, creating a buffer.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process which results in physical changes in a specified input material</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Frank Gibson</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Jennifer Fostel</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Philippe Rocca Serra</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">material transformation</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">material processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>planning</obo:IAO_0000111>
+        <obo:IAO_0000112>The process of a scientist thinking about and deciding what reagents to use as part of a protocol for an experiment. Note that the scientist could be human or a &quot;robot scientist&quot; executing software.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">a process of creating or modifying a plan specification</obo:IAO_0000115>
+        <obo:IAO_0000116>7/18/2011 BP: planning used to itself be a planned process. Barry Smith pointed out that this would lead to an infinite regression, as there would have to be a plan to conduct a planning process, which in itself would be the result of planning etc. Therefore, the restrictions on &apos;planning&apos; were loosened to allow for informal processes that result in an &apos;ad hoc plan &apos;. This required changing from &apos;has_specified_output some plan specifiction&apos; to &apos;has_participant some plan specification&apos;. </obo:IAO_0000116>
+        <obo:IAO_0000117>Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119>Bjoern Peters</obo:IAO_0000119>
+        <obo:IAO_0000119>Plans and Planned Processes Branch</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">planning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000441 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000441">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000111>assay objective</obo:IAO_0000111>
+        <obo:IAO_0000112>the objective to determine the weight of a mouse.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">an objective specification to determine a specified type of information about an evaluated entity (the material entity bearing evaluant role)</obo:IAO_0000115>
+        <obo:IAO_0000117>PPPB branch</obo:IAO_0000117>
+        <obo:IAO_0000119>PPPB branch</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">assay objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000111>material transformation objective</obo:IAO_0000111>
+        <obo:IAO_0000112>The objective to create a mouse infected with LCM virus. The objective to create a defined solution of PBS.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">an objective specifiction that creates an specific output object from input materials.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Frank Gibson</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Jennifer Fostel</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">artifact  creation objective</obo:IAO_0000118>
+        <obo:IAO_0000119>GROUP: OBI PlanAndPlannedProcess Branch</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">material transformation objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+        <obo:IAO_0000111>manufacturing objective</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">is the objective to manufacture a material of a certain function (device)</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Frank Gibson</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Jennifer Fostel</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119>GROUP: OBI PlanAndPlannedProcess Branch</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">manufacturing objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001755"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001928">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001755"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000111 xml:lang="en">selection</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">PMID: 24023800.  In this study, a set of eleven genes (VATP16, 60 S, UQCC, SMD3, EF1α, UBQ, SAND, GAPDH, ACT, PsaB, PTB2) was evaluated to identify reference genes during the first hours of interaction (6, 12, 18 and 24 hpi) between two V. vinifera genotypes and P. viticola. Two analyses were used for the selection of reference genes: direct comparison of susceptible, Trincadeira, and resistant, Regent, V. vinifera cultivars at 0 h, 6, 12, 18 and 24 hours post inoculation with P. viticola (genotype effect); and comparison of each genotype with mock inoculated samples during inoculation time-course (biotic stress effect). Three statistical methods were used, GeNorm, NormFinder, and BestKeeper, allowing to identify UBQ, EF1α and GAPDH as the most stable genes for the genotype effect.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process which results in the creation of group of entity from a larger group by the application of predefined criteria.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">this term refers to  a planned process and therefore is distinct from the notion of &apos;natural selection&apos;, a process covering the operation of natural causes by which those individuals of a species that are best adapted to the environment tend to be preserved and to transmit their characters, while those less adapted die out, so that in the course of generations the degree of adaptation to the environment tends progressively to increase. (as defined by Oxford English Dictionary)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Person: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">selection process</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">OBI</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">selection</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0200000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0600013"/>
         <obo:IAO_0000111 xml:lang="en">data transformation</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">A planned process that produces output data from input data.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">data transformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+        <obo:IAO_0000111 xml:lang="en">data transformation objective</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">normalize objective</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An objective specification to transformation input data into output data</obo:IAO_0000115>
+        <obo:IAO_0000116>Modified definition in 2013 Philly OBI workshop</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">James Malone</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">PERSON: James Malone</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">data transformation objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0600008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001928"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001755"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">acquisition</obo:IAO_0000111>
+        <obo:IAO_0000112>Downloading a 3D structure from the PDB. Purchasing antibodies from sigma. </obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">the planned process of gaining possession of a continuant </obo:IAO_0000115>
+        <obo:IAO_0000116>5/31/2012 - OBI workshop: This process is not implying ownership of the material / information. </obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Following OBI call November 2012,5th:
+addition of a restriction to acquisition class to capture the need of having selection criteria
+Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">This needs to be fleshed out and logical definitions added that will allow to place the children terms automatically under acquisition</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">acquisition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0600010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">material acquisition</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Acquiring 50 C57BL/6 mice bred in the animal facility of the institute as a service to investigators. Purchasing 1 mg of peptides synthesized by Mimotopes at 80% purity. Getting a gift of purified CD4+ specific antibodies presented by Stephen Schoenberger at LIAI.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An acquisition in which possession of a material entity is gained.</obo:IAO_0000115>
+        <obo:IAO_0000116>The assumption is that the object already exists in its current state, e.g, an available mouse strain purchased from the Jackson Lab, this is the differentia from specimen creation</obo:IAO_0000116>
+        <obo:IAO_0000116>This excludes processes that create or change materials, such as material transformations.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Bjoern Peters, Alan Ruttenberg, Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000118>material procurement</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">material acquisition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0600013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">information acquisition</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Gathering all influenza HA sequences from GenBank, Retrieveing HLA allele frequencies in the North American populations from dbMHC</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An acquisition in which possession of information is gained.</obo:IAO_0000115>
+        <obo:IAO_0000116>This excludes processes that create or change information, such as assays and data transformations.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000118>data collection</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">information acquisition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0600040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>synthesis</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">making cDNA from nucleotides using RNA as a template</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">the construction of a biomaterial from simpler biomaterials</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This probably needs breaking down into more specific applications. The example given is already covered in reverse_transcription</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Kevin Clancy</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">synthesize</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">synthesis</rdfs:label>
     </owl:Class>
     
 
@@ -4422,7 +4881,7 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000066">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600040"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -4555,7 +5014,7 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000080 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -6526,7 +6985,7 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001146 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
