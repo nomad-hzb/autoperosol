@@ -4192,6 +4192,7 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0600013"/>
         <obo:IAO_0000111 xml:lang="en">data transformation</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">A planned process that produces output data from input data.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">data processing</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">data transformation</rdfs:label>
     </owl:Class>
