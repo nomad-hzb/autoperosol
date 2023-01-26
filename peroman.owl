@@ -7109,12 +7109,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000021"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a flat fiat object part, constitutet as a film of molecules on or in a object</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Schicht</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Layer</rdfs:label>
