@@ -2695,6 +2695,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001312">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process of the settling of particles (atoms or molecules) from a solution or suspension onto a pre-existing surface, resulting in the growth of a new phase.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">chemische Lösungsabscheidung</obo:IAO_0000118>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CBD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CSD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical bath deposition</oboInOwl:hasExactSynonym>
@@ -3052,6 +3053,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coating method for applying a thin (&lt;1 μm thickness) cover to flat substrates where an excess amount of coating solution (in a volatile solvent) is placed on the substrate, which is then rotated at high speed (8000 rpm) for approximately 30 s in order to spread the solution by centripetal force. The solvent then evaporates, leaving a thin film.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Rotationsbeschichtung</obo:IAO_0000118>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spin casting</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spin-casting</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spin-coating</oboInOwl:hasExactSynonym>
@@ -3200,6 +3202,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002163">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The application of a thin cover to a sample by depositing consecutive drops of a solution on its surface, and allowing the solvent to evaporate.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="de">Tropfbeschichtung</obo:IAO_0000118>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5985-7429</oboInOwl:created_by>
         <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-07-14T09:53:36Z</oboInOwl:creation_date>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drop-coating</oboInOwl:hasExactSynonym>
@@ -6328,6 +6331,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <obo:IAO_0000118 xml:lang="de">Analytisches Modell</obo:IAO_0000118>
         <rdfs:label xml:lang="de">Analytical model</rdfs:label>
     </owl:Class>
     
@@ -6564,6 +6568,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="de">Rotationsbeschichtungsschritt</obo:IAO_0000118>
         <rdfs:label xml:lang="de">Spin coating step</rdfs:label>
     </owl:Class>
     
@@ -6636,7 +6641,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <obo:IAO_0000118 xml:lang="de">Tintenstrahldruck</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">the solution is delivered to the substrate using an inkjet printer, which allows for precise patterning of the thin film.</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">Ink jet printing</rdfs:label>
+        <rdfs:label xml:lang="en">Ink jet printing</rdfs:label>
     </owl:Class>
     
 
@@ -6645,8 +6650,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002054">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
-        <obo:IAO_0000118 xml:lang="en">Rotogravure</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Tiefdruck</obo:IAO_0000118>
+        <oboInOwl:hasExactSynonym xml:lang="en">Rotogravure</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="de">Gravure printing</rdfs:label>
     </owl:Class>
     
@@ -6657,7 +6662,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002055">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <obo:IAO_0000118 xml:lang="de">Offsetdruck</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">Offset printing</rdfs:label>
+        <obo:IAO_0000118 xml:lang="en">printing technique, in which the inked image is transferred from the printing plate to a rubber blanket onto the printing surface</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">Offset printing</rdfs:label>
     </owl:Class>
     
 
@@ -6667,7 +6673,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002056">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <obo:IAO_0000118 xml:lang="de">Siebdruck</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">Screen printing</rdfs:label>
+        <rdfs:label xml:lang="en">Screen printing</rdfs:label>
     </owl:Class>
     
 
@@ -6708,6 +6714,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002060">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <obo:IAO_0000118 xml:lang="en">Doctor blading</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Rakelbeschichtung</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">a small amount of solution is placed on a substrate and spread evenly using a doctor blade. The substrate is then dried to form a thin film.</obo:IAO_0000600>
         <rdfs:label xml:lang="de">Blade coating</rdfs:label>
     </owl:Class>
@@ -7776,6 +7783,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">electromagnetic radiation that can be witnessed by the human eye</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Licht</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Light</rdfs:label>
     </owl:Class>
