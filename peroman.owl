@@ -2608,7 +2608,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/CHMO_0000800 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000800">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000793"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002025"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
@@ -5986,7 +5986,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002003 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000800"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002025"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
@@ -6246,6 +6246,15 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">copper indium gallium selenide solar cell</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">is a photo absorber layer based on the components copper, indium, gallium and selenide</obo:IAO_0000600>
         <rdfs:label xml:lang="en">CIGS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002025 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000793"/>
+        <rdfs:label xml:lang="de">tabular data</rdfs:label>
     </owl:Class>
     
 
