@@ -6790,6 +6790,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002059">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <obo:IAO_0000115 xml:lang="en">a wet chemical deposition in which a layer is deposited onto a substrate by dropping liquid drops, that contain the dissolved chemical of interest</obo:IAO_0000115>
         <rdfs:label xml:lang="de">Drop casting</rdfs:label>
     </owl:Class>
     
@@ -8847,9 +8848,10 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001057">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
+        <obo:IAO_0000115 xml:lang="en">is a wet chemical deposition in which a layer is deposited by dipping the substrate into a solution, that contains the chemical of interest.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">CBD</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Chemical Solution deposition</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="de">Chemikalische Badabscheidung</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="de">Chemische Badabscheidung</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Chemical bath deposition</skos:prefLabel>
     </owl:Class>
     
