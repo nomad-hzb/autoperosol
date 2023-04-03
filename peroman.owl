@@ -8289,6 +8289,8 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000095">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000051"/>
+        <obo:IAO_0000115 xml:lang="en">Is a innermaterial process in which a bound electron is pushed to a higher energy level without removing it from the atomic shell</obo:IAO_0000115>
+        <om-2:alternativeLabel xml:lang="de">Elektronenanregung</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">Electron excitation</rdfs:label>
     </owl:Class>
     
