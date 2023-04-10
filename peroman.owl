@@ -8443,7 +8443,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001147"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">iv measurement is a scanning process to determine a devices characteristics and performance</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">iv measurement is a scanning process to determine a electric devices characteristics and performance</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Current-Voltage measurement</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">University of Warwick Department of Physics.Retrieved from: https://warwick.ac.uk/fac/sci/physics/current/postgraduate/regs/mpagswarwick/ex5/techniques/electronic/iv/ (31.03.2023, 12:54)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">iv measurement</rdfs:label>
@@ -8947,6 +8947,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001044">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
+        <obo:IAO_0000115 xml:lang="en">a cleaning process that uses an energetic plasma to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Plasmareinigung</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Plasma cleaning</skos:prefLabel>
     </owl:Class>
@@ -9063,6 +9064,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001054">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
+        <obo:IAO_0000115 xml:lang="en">a cleaning process that uses a lipophilic solution to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Seifenreinigung</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Soap cleaning</skos:prefLabel>
     </owl:Class>
