@@ -6842,7 +6842,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002056">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002051"/>
         <obo:IAO_0000118 xml:lang="de">Siebdruck</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">printing technique which uses a mesh to transfer the ink onto the printing surface</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">a wet chemical deposition which prints an ink onto a substrate via a image carrier. The image carrier (usually a mesh) does  come into direct contact with the substrate.</obo:IAO_0000118>
         <rdfs:label xml:lang="en">Screen printing</rdfs:label>
     </owl:Class>
     
