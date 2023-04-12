@@ -8767,6 +8767,17 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <obo:IAO_0000115 xml:lang="en">According to the quantum theory of
+radiation, the elementary quantities of radiant
+energy. They are regarded as discrete quantities
+having a momentum equal to hv/c, where h is
+the Planck constant, v is the frequency of the
+radiation, and c is the speed of light in a vacuum.
+Photons are never at rest, have no electric
+charges and no magnetic moments, but they
+have spin moments. The energy of a photon (the
+unit quantum of energy) is equal to hv.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Nasa Scientific and Technical Information Program Office. NASA Thesaurus. January 2012.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Photon</rdfs:label>
     </owl:Class>
     
