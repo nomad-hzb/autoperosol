@@ -9326,6 +9326,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001055">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
+        <obo:IAO_0000115 xml:lang="en">a cleaning process that uses ultrasound to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Ultraschallbad</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Ultrasonic bath</skos:prefLabel>
     </owl:Class>
