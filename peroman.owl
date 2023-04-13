@@ -9187,6 +9187,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001043">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
         <obo:IAO_0000118 xml:lang="de">UV-Reinigung</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">a cleaning process which uses ultraviolet radiation to remove impurities</rdfs:comment>
         <skos:prefLabel xml:lang="en">UV cleaning</skos:prefLabel>
     </owl:Class>
     
