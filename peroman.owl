@@ -6567,6 +6567,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002022">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">a conversion layer that converts two or more low-energy photons into one high-energy photons</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">SISER (Scottish Institute for Solar Energy Research). (21.04.2023). Up and Down-conversion for Solar cells. Retrieved from: https://www.siser.ac.uk/research/next-generation/up-and-down-conversion.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Up conversion layer</rdfs:label>
     </owl:Class>
     
@@ -6576,6 +6578,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002023">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000013"/>
+        <obo:IAO_0000115 xml:lang="en">a conversion layer that converts one high-energy photons into two or more low-energy photons</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">SISER (Scottish Institute for Solar Energy Research). (21.04.2023). Up and Down-conversion for Solar cells. Retrieved from: https://www.siser.ac.uk/research/next-generation/up-and-down-conversion.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Down conversion layer</rdfs:label>
     </owl:Class>
     
@@ -8338,6 +8342,8 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000013">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
+        <obo:IAO_0000115 xml:lang="en">a layer that converts high-energy photons into low-energy photons and vice versa</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">SISER (Scottish Institute for Solar Energy Research). (21.04.2023). Up and Down-conversion for Solar cells. Retrieved from: https://www.siser.ac.uk/research/next-generation/up-and-down-conversion.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Conversion layer</rdfs:label>
     </owl:Class>
     
