@@ -8208,7 +8208,8 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000005">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000009"/>
-        <obo:IAO_0000115 xml:lang="en">A non photo-absorber layer that is placed in between a back contact and an electron transport layer.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A non photo-absorber layer that is placed in between a back contact and an electron transport layer to avoid electrodes from arcing.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Mehrdad Mehdizadeh. 2009.  Microwave/RF Applicators and Probes for Material Heating, Sensing, and Plasma Generation. ScienceDirect.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Buffer layer</rdfs:label>
     </owl:Class>
     
