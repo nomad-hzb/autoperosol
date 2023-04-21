@@ -8563,8 +8563,9 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000029">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
-        <obo:IAO_0000115 xml:lang="en">a soalr cell that is made from carbon based molecules.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a solalr cell that contains at least one organic semiconductor in the cell active region</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Organische Solarzelle</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">Brabec, C.J., Gowrisanker, S., Halls, J.J.M.,Laird, D., Jia, S., and Williams, S.P. (2010)Polymer–fullerene bulk-heterojunctionsolar cells.Adv. Mater.,22, 3839–3856.2Sariciftci, N.S., Smilowitz, L., Heeger,</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Organic cell</rdfs:label>
     </owl:Class>
     
