@@ -9418,7 +9418,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">Is a Cleaning process in which impurities get removed by a solvent</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a cleaning process, in which impurities get removed by a solvent</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Lösungsmittelreinigung</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Solvent cleaning</skos:prefLabel>
     </owl:Class>
@@ -9430,7 +9430,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001043">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
         <obo:IAO_0000118 xml:lang="de">UV-Reinigung</obo:IAO_0000118>
-        <rdfs:comment xml:lang="en">a cleaning process which uses ultraviolet radiation to remove impurities</rdfs:comment>
+        <rdfs:comment xml:lang="en">a cleaning process, which uses ultraviolet radiation to remove impurities</rdfs:comment>
         <skos:prefLabel xml:lang="en">UV cleaning</skos:prefLabel>
     </owl:Class>
     
@@ -9440,7 +9440,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001044">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
-        <obo:IAO_0000115 xml:lang="en">a cleaning process that uses an energetic plasma to remove impurities</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses an energetic plasma to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Plasmareinigung</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Plasma cleaning</skos:prefLabel>
     </owl:Class>
@@ -9491,7 +9491,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a solution manufcaturing method in which the substances are mixed, blended or agitated by mechanical work</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a solution manufacturing process, in which substances are mixed, blended or agitated in a container by short rapid motions</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Schütteln</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Shaking</skos:prefLabel>
     </owl:Class>
@@ -9550,6 +9550,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001053">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001045"/>
+        <rdfs:comment xml:lang="en">a solution manufacturing process, in which substrate are mixed, blended or agitated via ultrasound</rdfs:comment>
         <skos:prefLabel xml:lang="en">Ultrasonic</skos:prefLabel>
     </owl:Class>
     
@@ -9559,7 +9560,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001054">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
-        <obo:IAO_0000115 xml:lang="en">a cleaning process that uses a lipophilic solution to remove impurities</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses a lipophilic solution to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Seifenreinigung</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Soap cleaning</skos:prefLabel>
     </owl:Class>
@@ -9570,7 +9571,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001055">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000068"/>
-        <obo:IAO_0000115 xml:lang="en">a cleaning process that uses ultrasound to remove impurities</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses ultrasound to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Ultraschallbad</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Ultrasonic bath</skos:prefLabel>
     </owl:Class>
