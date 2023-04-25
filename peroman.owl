@@ -8393,7 +8393,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a data tranformation process, which interprets the raw data of an eqe measurement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a data tranformation process, which interprets the raw experimental data of an eqe measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="de">eqe analysis</rdfs:label>
     </owl:Class>
     
@@ -10092,7 +10092,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001045 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001685"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001046"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
@@ -10738,7 +10738,9 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 xml:lang="en">is a quality, that describes the power transfered per area unit</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Intensität</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">Tipler, Paul A.. Mosca, Gene.2019. Physik, für Studierende der Naturwissenschaftlen und Technik. Springer Spektrum.</obo:IAO_0000119>
         <skos:prefLabel xml:lang="en">intensity</skos:prefLabel>
     </owl:Class>
     
@@ -10913,7 +10915,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a data transformation process, which interprets the raw data of an jv measurement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a data transformation process, which interprets the raw experimental data of an jv measurement</obo:IAO_0000115>
         <skos:prefLabel xml:lang="en">jv analysis</skos:prefLabel>
     </owl:Class>
     
