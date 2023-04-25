@@ -6438,6 +6438,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002147"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the logged assay output of an external quantum efficiency measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="de">eqe curve</rdfs:label>
     </owl:Class>
     
@@ -9467,6 +9468,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a spectroscopy assay, that measures the number of electrons collected per per photon incident on the solar cell</obo:IAO_0000115>
         <obo:IAO_0000118>EQE Measurement</obo:IAO_0000118>
         <rdfs:label xml:lang="en">external quantum efficiency measurement</rdfs:label>
     </owl:Class>
