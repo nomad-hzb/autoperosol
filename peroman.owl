@@ -10033,6 +10033,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001558"/>
+        <obo:IAO_0000115 xml:lang="en">is an etching process, that uses a laser to remove a thin layer of a sample surface</obo:IAO_0000115>
         <skos:prefLabel xml:lang="en">Laser etching</skos:prefLabel>
     </owl:Class>
     
@@ -10060,7 +10061,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a cleaning process, in which impurities get removed by a solvent</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses a solvent to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Lösungsmittelreinigung</obo:IAO_0000118>
         <skos:prefLabel xml:lang="en">Solvent cleaning</skos:prefLabel>
     </owl:Class>
