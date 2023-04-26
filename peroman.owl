@@ -8678,7 +8678,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002148">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000022"/>
-        <obo:IAO_0000115 xml:lang="en">A biased illumination process is a secondary illuminatin process of some measurement techniques such as EQE.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A biased illumination process is a secondary illumination process of some measurement techniques such as EQE.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">biased illumination process</rdfs:label>
     </owl:Class>
     
