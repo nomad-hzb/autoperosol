@@ -10738,7 +10738,9 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 xml:lang="en">is a quality, that describes the power transfered per area unit</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Intensität</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">Tipler, Paul A.. Mosca, Gene. 2019. Physik für Studierende der Naturwissenschaften und Technik. Springer Spektrum.</obo:IAO_0000119>
         <skos:prefLabel xml:lang="en">intensity</skos:prefLabel>
     </owl:Class>
     
