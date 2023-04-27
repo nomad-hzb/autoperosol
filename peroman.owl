@@ -6620,6 +6620,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000793"/>
+        <obo:IAO_0000119 xml:lang="en">an assay output in tabular form (usually rows and columns)</obo:IAO_0000119>
         <rdfs:label xml:lang="en">assay tabular data</rdfs:label>
     </owl:Class>
     
@@ -7801,6 +7802,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of area quality</obo:IAO_0000119>
         <rdfs:label xml:lang="de">area measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7816,6 +7818,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of active area quality</obo:IAO_0000119>
         <rdfs:label xml:lang="de">active area measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7825,6 +7828,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of current quality</obo:IAO_0000119>
         <rdfs:label xml:lang="de">current measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7898,6 +7902,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of an temperature quality</obo:IAO_0000119>
         <rdfs:label xml:lang="de">temperature measurement datum</rdfs:label>
     </owl:Class>
     
@@ -7919,6 +7924,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of power quality</obo:IAO_0000119>
         <rdfs:label xml:lang="de">power measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8132,6 +8138,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of pressure quality</obo:IAO_0000119>
         <rdfs:label xml:lang="de">pressure measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8153,6 +8160,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002110"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of thin film deposition rate</obo:IAO_0000119>
         <rdfs:label xml:lang="de">thin film deposition rate measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8168,6 +8176,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of an total pressure quality</obo:IAO_0000119>
         <rdfs:label xml:lang="de">total pressure measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8183,6 +8192,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of an partial presssure quality</obo:IAO_0000119>
         <rdfs:label xml:lang="de">partial pressure measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8668,6 +8678,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001464"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of an electric potential quality</obo:IAO_0000119>
         <rdfs:label xml:lang="en">electric potential measurement datum</rdfs:label>
     </owl:Class>
     
@@ -9208,7 +9219,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001021"/>
-        <obo:IAO_0000115 xml:lang="en">is the minimum amount of energy required for an electron to break free of its bound state.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">is the gap in energy between the bound state and the free state, between the valence band and conduction band. Therefore it is the minimum amount of energy required for an electron to break free of its bound state.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">PVeducation. Retreived from: https://www.pveducation.org/pvcdrom/pn-junctions/band-gap. Date of retrieval: 27.04.2023</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Bandgap</rdfs:label>
     </owl:Class>
