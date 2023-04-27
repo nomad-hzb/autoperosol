@@ -8557,7 +8557,6 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the bandgap of the light that has been used for the external quantum efficiency measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="de">eqe bandgap</rdfs:label>
     </owl:Class>
     
@@ -9209,6 +9208,8 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001021"/>
+        <obo:IAO_0000115 xml:lang="en">is the minimum amount of energy required for an electron to break free of its bound state.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">PVeducation. Retreived from: https://www.pveducation.org/pvcdrom/pn-junctions/band-gap. Date of retrieval: 27.04.2023</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Bandgap</rdfs:label>
     </owl:Class>
     
