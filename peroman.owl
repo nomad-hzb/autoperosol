@@ -8659,6 +8659,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002139"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a physical quality, that  is the ratio of the number of charge carriers collected by the photovoltaic device to the number of photons of a given wavelength or energy onto the device.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">external quantum efficiency</rdfs:label>
     </owl:Class>
     
