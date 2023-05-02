@@ -8660,6 +8660,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a physical quality, that  is the ratio of the number of charge carriers collected by the photovoltaic device to the number of photons of a given wavelength or energy onto the device.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Lee, Sanghyun. Price, Kent J.. (February 22nd, 2017). Optolelectronics. Advanced Device Structures. Spectral Repsonses in Quantum Efficiency of Emerging Kesterite Thin-FIlm Solar Cells. IntechOpen.</obo:IAO_0000119>
         <rdfs:label xml:lang="de">external quantum efficiency</rdfs:label>
     </owl:Class>
     
@@ -9980,6 +9981,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a electrical potential,that is the maximum voltage available from a solar cell (at zero current).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">PVeducation. Retreived from: https://www.pveducation.org/pvcdrom/pn-junctions/band-gap. Date of retrieval: 02.05..2023</obo:IAO_0000119>
         <skos:prefLabel xml:lang="en">open circuit voltage</skos:prefLabel>
     </owl:Class>
     
