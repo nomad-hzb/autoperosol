@@ -6292,6 +6292,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the rotation acceleration</obo:IAO_0000115>
         <rdfs:label xml:lang="en">rotation acceleration setting datum</rdfs:label>
     </owl:Class>
     
@@ -6350,6 +6351,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the rotation speed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">rotation speed setting datum</rdfs:label>
     </owl:Class>
     
@@ -6730,6 +6732,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001129"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the light intensity</obo:IAO_0000115>
         <rdfs:label xml:lang="de">light intensity setting datum</rdfs:label>
     </owl:Class>
     
@@ -6784,6 +6787,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001062"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the time range setting datum</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time range setting datum</rdfs:label>
     </owl:Class>
     
@@ -6818,6 +6822,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the cycling time</obo:IAO_0000115>
         <rdfs:label xml:lang="de">cycling time setting datum</rdfs:label>
     </owl:Class>
     
@@ -6839,6 +6844,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001242"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the wavelength</obo:IAO_0000115>
         <rdfs:label xml:lang="en">wavelength setting datum</rdfs:label>
     </owl:Class>
     
@@ -6848,6 +6854,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the load balance</obo:IAO_0000115>
         <rdfs:label xml:lang="en">load balance setting datum</rdfs:label>
     </owl:Class>
     
@@ -7158,6 +7165,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
+        <rdfs:comment xml:lang="en">is a setting datum, which indicates the settings for the scan rate</rdfs:comment>
         <rdfs:label xml:lang="de">scan rate setting datum</rdfs:label>
     </owl:Class>
     
@@ -7363,6 +7371,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the process temperature</obo:IAO_0000115>
         <rdfs:label xml:lang="de">process temperature setting datum</rdfs:label>
     </owl:Class>
     
@@ -7384,6 +7393,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the process time</obo:IAO_0000115>
         <rdfs:label xml:lang="de">process time setting datum</rdfs:label>
     </owl:Class>
     
@@ -7399,6 +7409,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the annealing temperature</obo:IAO_0000115>
         <rdfs:label xml:lang="de">annealing temperature setting datum</rdfs:label>
     </owl:Class>
     
@@ -7420,6 +7431,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the voltage settings for the scan rate</obo:IAO_0000115>
         <rdfs:label xml:lang="de">scan rate voltage setting datum</rdfs:label>
     </owl:Class>
     
@@ -7635,6 +7647,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the scan direction</obo:IAO_0000115>
         <rdfs:label xml:lang="de">scan direction setting datum</rdfs:label>
     </owl:Class>
     
@@ -7656,6 +7669,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the starting voltage</obo:IAO_0000115>
         <rdfs:label xml:lang="de">starting voltage setting datum</rdfs:label>
     </owl:Class>
     
@@ -7677,6 +7691,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002082"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the stopping voltage</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stopping voltage setting datum</rdfs:label>
     </owl:Class>
     
@@ -7698,6 +7713,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002083"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the voltage step size</obo:IAO_0000115>
         <rdfs:label xml:lang="de">voltage step size setting datum</rdfs:label>
     </owl:Class>
     
@@ -7719,6 +7735,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates  the settings for the time</obo:IAO_0000115>
         <rdfs:label xml:lang="de">settling time setting datum</rdfs:label>
     </owl:Class>
     
@@ -7740,6 +7757,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002076"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the integration time</obo:IAO_0000115>
         <rdfs:label xml:lang="de">integration time setting datum</rdfs:label>
     </owl:Class>
     
@@ -7947,6 +7965,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the power setting</obo:IAO_0000115>
         <rdfs:label xml:lang="de">power setting datum</rdfs:label>
     </owl:Class>
     
@@ -7983,6 +8002,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the shutter status</obo:IAO_0000115>
         <rdfs:label xml:lang="de">shutter status setting datum</rdfs:label>
     </owl:Class>
     
@@ -8007,7 +8027,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002114"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">a setting datum, that specifies the gas flow per time unit</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the gas flow per time unit</obo:IAO_0000115>
         <rdfs:label xml:lang="de">gas flow rate setting datum</rdfs:label>
     </owl:Class>
     
@@ -8053,6 +8073,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the temperature settings</obo:IAO_0000115>
         <rdfs:label xml:lang="de">temperature setting datum</rdfs:label>
     </owl:Class>
     
@@ -8068,6 +8089,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001061"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the device temperature</obo:IAO_0000115>
         <rdfs:label xml:lang="en">device temperature setting datum</rdfs:label>
     </owl:Class>
     
@@ -8240,6 +8262,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002123"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the bias light</obo:IAO_0000115>
         <rdfs:label xml:lang="de">light bias setting datum</rdfs:label>
     </owl:Class>
     
@@ -8312,6 +8335,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002127"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the voltage bias</obo:IAO_0000115>
         <rdfs:label xml:lang="de">voltage bias setting datum</rdfs:label>
     </owl:Class>
     
@@ -8348,6 +8372,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002129"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the wavelength settings for the scan rate</obo:IAO_0000115>
         <rdfs:label xml:lang="de">scan rate wavelength setting datum</rdfs:label>
     </owl:Class>
     
