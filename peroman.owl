@@ -10800,6 +10800,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">is a physical quality, that indicates the intensity of some light</obo:IAO_0000115>
         <skos:prefLabel xml:lang="en">light intensity</skos:prefLabel>
     </owl:Class>
     
