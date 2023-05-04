@@ -10699,6 +10699,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="de">Füllfaktor</obo:IAO_0000118>
+        <om-2:alternativeLabel xml:lang="en">a physical quality, that indicates the maximum power from a solar cell</om-2:alternativeLabel>
         <skos:prefLabel xml:lang="en">fill factor</skos:prefLabel>
     </owl:Class>
     
