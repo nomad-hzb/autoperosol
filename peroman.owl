@@ -10011,8 +10011,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00000000000000002063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">is a electrical potential,that is the maximum voltage available from a solar cell (at zero current).</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">PVeducation. Retreived from: https://www.pveducation.org/pvcdrom/pn-junctions/band-gap. Date of retrieval: 02.05..2023</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">is the electric potential at zero current</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Md. Shahiduzzaman, Md. Hossain, Mohammad Ismail. (2022). Organometal halide perovskite photovoltaics. In Md. Akhtaruzzaman Comprehensive Guide on Organic and Inorganic Solar Cells</obo:IAO_0000119>
         <skos:prefLabel xml:lang="en">open circuit voltage</skos:prefLabel>
     </owl:Class>
     
