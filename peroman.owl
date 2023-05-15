@@ -6561,13 +6561,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001142"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -10307,19 +10300,6 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <skos:prefLabel xml:lang="en">solarcell efficiency</skos:prefLabel>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001038 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/peroman#OWLClass_00001038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
-        <obo:IAO_0000118 xml:lang="de">Volumen</obo:IAO_0000118>
-        <obo:IAO_0000600>The volume of a solid object is the three-dimensional concept of how much space it occupies, often quantified numerically. One-dimensional figures (such as lines) and two-dimensional shapes (such as squares) are assigned zero volume in the three-dimensional space.</obo:IAO_0000600>
-        <dc:source>https://qudt.org/vocab/quantitykind/Volume
-24.10.2022 11:43</dc:source>
-        <skos:prefLabel xml:lang="en">Volume</skos:prefLabel>
     </owl:Class>
     
 
