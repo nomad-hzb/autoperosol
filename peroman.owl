@@ -2023,7 +2023,7 @@ range: spatial region or site (immaterial continuant)
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002000 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002000">
-        <rdfs:label xml:lang="de">is about</rdfs:label>
+        <rdfs:label xml:lang="en">is about</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2040,7 +2040,7 @@ range: spatial region or site (immaterial continuant)
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002002">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002001"/>
-        <rdfs:label xml:lang="de">role of</rdfs:label>
+        <rdfs:label xml:lang="en">role of</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2111,7 +2111,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000116 xml:lang="en">Although the boundary is two-dimensional, it exists in three-dimensional space and thus has a 3D shape.</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">has boundary</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">has_2D_boundary</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">has 2D boundary</rdfs:label>
+        <rdfs:label xml:lang="en">has 2D boundary</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2119,7 +2119,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002008 -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002008">
-        <rdfs:label xml:lang="de">provides input for</rdfs:label>
+        <rdfs:label xml:lang="en">provides input for</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2128,7 +2128,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002102">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="de">is quality specified as</rdfs:label>
+        <rdfs:label xml:lang="en">is quality specified as</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -7384,7 +7384,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001000">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001033"/>
-        <skos:prefLabel xml:lang="en">thermal annealing</skos:prefLabel>
+        <rdfs:label xml:lang="en">thermal annealing</rdfs:label>
     </owl:Class>
     
 
@@ -7394,7 +7394,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001323"/>
         <obo:IAO_0000115>the total area of an object</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">total area</skos:prefLabel>
+        <rdfs:label xml:lang="en">total area</rdfs:label>
     </owl:Class>
     
 
@@ -7410,7 +7410,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>the area of a photovoltaic device which is active in the conversion of light to current</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">active area</skos:prefLabel>
+        <rdfs:label xml:lang="en">active area</rdfs:label>
     </owl:Class>
     
 
@@ -7428,7 +7428,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000915"/>
-        <skos:prefLabel xml:lang="en">roughness</skos:prefLabel>
+        <rdfs:label xml:lang="en">roughness</rdfs:label>
     </owl:Class>
     
 
@@ -7441,7 +7441,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <obo:IAO_0000600>Relative Humidity is the ratio of the partial pressure of water vapor in an air-water mixture to the saturated vapor pressure of water at a precise temperature. The relative humidity of air depends not only on temperature but also on the pressure of the system of interest.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/RelativeHumidity
 24.10.2022 10:44</dc:source>
-        <skos:prefLabel xml:lang="en">relative humidity</skos:prefLabel>
+        <rdfs:label xml:lang="en">relative humidity</rdfs:label>
     </owl:Class>
     
 
@@ -7473,7 +7473,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002390"/>
-        <skos:prefLabel xml:lang="en">Minimal cell bending radius</skos:prefLabel>
+        <rdfs:label xml:lang="en">Minimal cell bending radius</rdfs:label>
     </owl:Class>
     
 
@@ -7482,7 +7482,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001242"/>
-        <skos:prefLabel xml:lang="en">Maximal semi transparent wavelength</skos:prefLabel>
+        <rdfs:label xml:lang="en">Maximal semi transparent wavelength</rdfs:label>
     </owl:Class>
     
 
@@ -7491,7 +7491,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001242"/>
-        <skos:prefLabel xml:lang="en">Minimal semi transparent wavelength</skos:prefLabel>
+        <rdfs:label xml:lang="en">Minimal semi transparent wavelength</rdfs:label>
     </owl:Class>
     
 
@@ -7511,7 +7511,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001020">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002029"/>
-        <skos:prefLabel xml:lang="en">solar cell architecture</skos:prefLabel>
+        <rdfs:label xml:lang="en">solar cell architecture</rdfs:label>
     </owl:Class>
     
 
@@ -7520,7 +7520,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001022">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002045"/>
-        <skos:prefLabel xml:lang="en">Is flexible</skos:prefLabel>
+        <rdfs:label xml:lang="en">Is flexible</rdfs:label>
     </owl:Class>
     
 
@@ -7529,7 +7529,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001023">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002045"/>
-        <skos:prefLabel xml:lang="en">Is semitransparent</skos:prefLabel>
+        <rdfs:label xml:lang="en">Is semitransparent</rdfs:label>
     </owl:Class>
     
 
@@ -7540,7 +7540,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
         <obo:IAO_0000118 xml:lang="en">Transmission</obo:IAO_0000118>
         <om-2:alternativeLabel xml:lang="de">Durchlässigkeit</om-2:alternativeLabel>
-        <skos:prefLabel xml:lang="en">transmittance</skos:prefLabel>
+        <rdfs:label xml:lang="en">transmittance</rdfs:label>
     </owl:Class>
     
 
@@ -7555,7 +7555,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001242"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">Average visible transmittance</skos:prefLabel>
+        <rdfs:label xml:lang="en">Average visible transmittance</rdfs:label>
     </owl:Class>
     
 
@@ -7593,7 +7593,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001030">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001006"/>
-        <skos:prefLabel xml:lang="en">Pipetting</skos:prefLabel>
+        <rdfs:label xml:lang="en">Pipetting</rdfs:label>
     </owl:Class>
     
 
@@ -7614,7 +7614,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">Solution aspiration</skos:prefLabel>
+        <rdfs:label xml:lang="en">Solution aspiration</rdfs:label>
     </owl:Class>
     
 
@@ -7639,7 +7639,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Glühen</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Thermische Behandlung</obo:IAO_0000118>
         <rdfs:comment>a process which heats up an object</rdfs:comment>
-        <skos:prefLabel xml:lang="en">annealing</skos:prefLabel>
+        <rdfs:label xml:lang="en">annealing</rdfs:label>
     </owl:Class>
     
 
@@ -7656,7 +7656,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is the electric potential at zero current</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Md. Shahiduzzaman, Md. Hossain, Mohammad Ismail. (2022). Organometal halide perovskite photovoltaics. In Md. Akhtaruzzaman Comprehensive Guide on Organic and Inorganic Solar Cells</obo:IAO_0000119>
-        <skos:prefLabel xml:lang="en">open circuit voltage</skos:prefLabel>
+        <rdfs:label xml:lang="en">open circuit voltage</rdfs:label>
     </owl:Class>
     
 
@@ -7672,7 +7672,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <om-2:alternativeLabel>PL measurement</om-2:alternativeLabel>
-        <skos:prefLabel xml:lang="en">Photoluminescence (PL) imaging</skos:prefLabel>
+        <rdfs:label xml:lang="en">Photoluminescence (PL) imaging</rdfs:label>
     </owl:Class>
     
 
@@ -7703,7 +7703,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001558"/>
-        <skos:prefLabel xml:lang="en">Mechanical etching</skos:prefLabel>
+        <rdfs:label xml:lang="en">Mechanical etching</rdfs:label>
     </owl:Class>
     
 
@@ -7713,7 +7713,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001558"/>
         <obo:IAO_0000115 xml:lang="en">is an etching process, that uses a laser to remove a thin layer of a sample surface</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">Laser etching</skos:prefLabel>
+        <rdfs:label xml:lang="en">Laser etching</rdfs:label>
     </owl:Class>
     
 
@@ -7742,7 +7742,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses a solvent to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Lösungsmittelreinigung</obo:IAO_0000118>
-        <skos:prefLabel xml:lang="en">solvent cleaning</skos:prefLabel>
+        <rdfs:label xml:lang="en">solvent cleaning</rdfs:label>
     </owl:Class>
     
 
@@ -7782,7 +7782,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses an energetic plasma to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Plasmareinigung</obo:IAO_0000118>
-        <skos:prefLabel xml:lang="en">plasma cleaning</skos:prefLabel>
+        <rdfs:label xml:lang="en">plasma cleaning</rdfs:label>
     </owl:Class>
     
 
@@ -7822,7 +7822,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Solution synthesis is a synthesis process, where some solvents, solutions and/or solutes are mixed together in specified ratios to produce a new solution.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">solution manufacturing</skos:prefLabel>
+        <rdfs:label xml:lang="en">solution manufacturing</rdfs:label>
     </owl:Class>
     
 
@@ -7854,7 +7854,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000025"/>
-        <skos:prefLabel xml:lang="en">purity</skos:prefLabel>
+        <rdfs:label xml:lang="en">purity</rdfs:label>
     </owl:Class>
     
 
@@ -7869,7 +7869,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">solvent annealing</skos:prefLabel>
+        <rdfs:label xml:lang="en">solvent annealing</rdfs:label>
     </owl:Class>
     
 
@@ -7918,7 +7918,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">anti solvent quenching</skos:prefLabel>
+        <rdfs:label xml:lang="en">anti solvent quenching</rdfs:label>
     </owl:Class>
     
 
@@ -7939,7 +7939,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000068"/>
         <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses a lipophilic solution to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Seifenreinigung</obo:IAO_0000118>
-        <skos:prefLabel xml:lang="en">soap cleaning</skos:prefLabel>
+        <rdfs:label xml:lang="en">soap cleaning</rdfs:label>
     </owl:Class>
     
 
@@ -7972,7 +7972,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <om-2:alternativeLabel xml:lang="en">Doping material</om-2:alternativeLabel>
-        <skos:prefLabel xml:lang="en">Additive</skos:prefLabel>
+        <rdfs:label xml:lang="en">Additive</rdfs:label>
     </owl:Class>
     
 
@@ -7985,7 +7985,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">CBD</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Chemical Solution deposition</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Chemische Badabscheidung</obo:IAO_0000118>
-        <skos:prefLabel xml:lang="en">Chemical bath deposition</skos:prefLabel>
+        <rdfs:label xml:lang="en">Chemical bath deposition</rdfs:label>
     </owl:Class>
     
 
@@ -8020,7 +8020,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <obo:IAO_0000600>Time is a basic component of the measuring system used to sequence events, to compare the durations of events and the intervals between them, and to quantify the motions of objects.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/Time
 24.10.2022 10:42</dc:source>
-        <skos:prefLabel xml:lang="en">time range</skos:prefLabel>
+        <rdfs:label xml:lang="en">time range</rdfs:label>
     </owl:Class>
     
 
@@ -8041,7 +8041,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002072"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">process time</skos:prefLabel>
+        <rdfs:label xml:lang="en">process time</rdfs:label>
     </owl:Class>
     
 
@@ -8056,7 +8056,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">temperature quality of a process</skos:prefLabel>
+        <rdfs:label xml:lang="en">temperature quality of a process</rdfs:label>
     </owl:Class>
     
 
@@ -8087,7 +8087,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-        <skos:prefLabel xml:lang="en">perovscite boolean quality</skos:prefLabel>
+        <rdfs:label xml:lang="en">perovscite boolean quality</rdfs:label>
     </owl:Class>
     
 
@@ -8096,7 +8096,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001067">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001066"/>
-        <skos:prefLabel xml:lang="en">Is single crystal</skos:prefLabel>
+        <rdfs:label xml:lang="en">Is single crystal</rdfs:label>
     </owl:Class>
     
 
@@ -8105,7 +8105,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001068">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001066"/>
-        <skos:prefLabel xml:lang="en">Is zero dimensional</skos:prefLabel>
+        <rdfs:label xml:lang="en">Is zero dimensional</rdfs:label>
     </owl:Class>
     
 
@@ -8114,7 +8114,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001069">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001066"/>
-        <skos:prefLabel xml:lang="en">Is two dimensional</skos:prefLabel>
+        <rdfs:label xml:lang="en">Is two dimensional</rdfs:label>
     </owl:Class>
     
 
@@ -8123,7 +8123,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001070">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001066"/>
-        <skos:prefLabel xml:lang="en">Is 2D/3D mixture</skos:prefLabel>
+        <rdfs:label xml:lang="en">Is 2D/3D mixture</rdfs:label>
     </owl:Class>
     
 
@@ -8132,7 +8132,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001071">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001066"/>
-        <skos:prefLabel xml:lang="en">Is three dimensional</skos:prefLabel>
+        <rdfs:label xml:lang="en">Is three dimensional</rdfs:label>
     </owl:Class>
     
 
@@ -8141,7 +8141,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001072">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001066"/>
-        <skos:prefLabel xml:lang="en">Is 3D with 2D capping layer</skos:prefLabel>
+        <rdfs:label xml:lang="en">Is 3D with 2D capping layer</rdfs:label>
     </owl:Class>
     
 
@@ -8150,7 +8150,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001073">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001066"/>
-        <skos:prefLabel xml:lang="en">Has ABC3 structure</skos:prefLabel>
+        <rdfs:label xml:lang="en">Has ABC3 structure</rdfs:label>
     </owl:Class>
     
 
@@ -8159,7 +8159,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001074">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001066"/>
-        <skos:prefLabel xml:lang="en">Has perovscite inspired structure</skos:prefLabel>
+        <rdfs:label xml:lang="en">Has perovscite inspired structure</rdfs:label>
     </owl:Class>
     
 
@@ -8168,7 +8168,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-        <skos:prefLabel xml:lang="en">Ratio</skos:prefLabel>
+        <rdfs:label xml:lang="en">Ratio</rdfs:label>
     </owl:Class>
     
 
@@ -8178,7 +8178,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001076">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001075"/>
         <obo:IAO_0000115>the mixing ratio of mixed objects</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">Mixing ratio</skos:prefLabel>
+        <rdfs:label xml:lang="en">Mixing ratio</rdfs:label>
     </owl:Class>
     
 
@@ -8208,7 +8208,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">solute</skos:prefLabel>
+        <rdfs:label xml:lang="en">solute</rdfs:label>
     </owl:Class>
     
 
@@ -8217,7 +8217,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001079">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001078"/>
-        <skos:prefLabel xml:lang="en">Powder</skos:prefLabel>
+        <rdfs:label xml:lang="en">Powder</rdfs:label>
     </owl:Class>
     
 
@@ -8262,7 +8262,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001083">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000009"/>
-        <skos:prefLabel xml:lang="en">Encapsulation</skos:prefLabel>
+        <rdfs:label xml:lang="en">Encapsulation</rdfs:label>
     </owl:Class>
     
 
@@ -8286,7 +8286,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002182"/>
-        <skos:prefLabel xml:lang="en">Molar Ratio</skos:prefLabel>
+        <rdfs:label xml:lang="en">Molar Ratio</rdfs:label>
     </owl:Class>
     
 
@@ -8296,7 +8296,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000028"/>
         <obo:IAO_0000115>A chemical formula is a symbol representing the chemical structure of an chemical substance.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">Chemical formula</skos:prefLabel>
+        <rdfs:label xml:lang="en">Chemical formula</rdfs:label>
     </owl:Class>
     
 
@@ -8328,7 +8328,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001095">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001062"/>
         <obo:IAO_0000115 xml:lang="en">The time since last planned process is the time range from the end time point of the last planned process until now.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">time since last process</skos:prefLabel>
+        <rdfs:label xml:lang="en">time since last process</rdfs:label>
     </owl:Class>
     
 
@@ -8338,7 +8338,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000118 xml:lang="de">Zertifiziert</obo:IAO_0000118>
-        <skos:prefLabel xml:lang="en">certified</skos:prefLabel>
+        <rdfs:label xml:lang="en">certified</rdfs:label>
     </owl:Class>
     
 
@@ -8354,7 +8354,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a planned process  to determine the deviation of another entity</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">calibration</skos:prefLabel>
+        <rdfs:label xml:lang="en">calibration</rdfs:label>
     </owl:Class>
     
 
@@ -8364,7 +8364,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
         <obo:IAO_0000118 xml:lang="de">Widerstand</obo:IAO_0000118>
-        <skos:prefLabel xml:lang="en">resistance</skos:prefLabel>
+        <rdfs:label xml:lang="en">resistance</rdfs:label>
     </owl:Class>
     
 
@@ -8379,7 +8379,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002099"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">shunt resistance</skos:prefLabel>
+        <rdfs:label xml:lang="en">shunt resistance</rdfs:label>
     </owl:Class>
     
 
@@ -8394,7 +8394,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">series resistance</skos:prefLabel>
+        <rdfs:label xml:lang="en">series resistance</rdfs:label>
     </owl:Class>
     
 
@@ -8403,7 +8403,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001105">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000064"/>
-        <skos:prefLabel xml:lang="en">current density maximum power point</skos:prefLabel>
+        <rdfs:label xml:lang="en">current density maximum power point</rdfs:label>
     </owl:Class>
     
 
@@ -8418,7 +8418,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">voltage maximum power point</skos:prefLabel>
+        <rdfs:label xml:lang="en">voltage maximum power point</rdfs:label>
     </owl:Class>
     
 
@@ -8441,7 +8441,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="de">Füllfaktor</obo:IAO_0000118>
         <om-2:alternativeLabel xml:lang="en">a physical quality, that indicates the maximum power from a solar cell</om-2:alternativeLabel>
-        <skos:prefLabel xml:lang="en">fill factor</skos:prefLabel>
+        <rdfs:label xml:lang="en">fill factor</rdfs:label>
     </owl:Class>
     
 
@@ -8450,7 +8450,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001108">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000064"/>
-        <skos:prefLabel xml:lang="en">short circuit current density</skos:prefLabel>
+        <rdfs:label xml:lang="en">short circuit current density</rdfs:label>
     </owl:Class>
     
 
@@ -8471,7 +8471,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">Solution dispense</skos:prefLabel>
+        <rdfs:label xml:lang="en">Solution dispense</rdfs:label>
     </owl:Class>
     
 
@@ -8481,7 +8481,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <obo:IAO_0000115 xml:lang="en">Logistical processing is a material processing where a material entity is oved around in space.</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">logistical processing</skos:prefLabel>
+        <rdfs:label xml:lang="en">logistical processing</rdfs:label>
     </owl:Class>
     
 
@@ -8490,7 +8490,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001323"/>
-        <skos:prefLabel xml:lang="en">Mask area</skos:prefLabel>
+        <rdfs:label xml:lang="en">Mask area</rdfs:label>
     </owl:Class>
     
 
@@ -8505,7 +8505,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002032"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">illumination direction</skos:prefLabel>
+        <rdfs:label xml:lang="en">illumination direction</rdfs:label>
     </owl:Class>
     
 
@@ -8514,7 +8514,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000008"/>
-        <skos:prefLabel xml:lang="en">Scan speed</skos:prefLabel>
+        <rdfs:label xml:lang="en">Scan speed</rdfs:label>
     </owl:Class>
     
 
@@ -8523,7 +8523,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001124">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001062"/>
-        <skos:prefLabel xml:lang="en">Delay time</skos:prefLabel>
+        <rdfs:label xml:lang="en">Delay time</rdfs:label>
     </owl:Class>
     
 
@@ -8535,7 +8535,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">is a quality, that describes the power transfered per area unit</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Intensität</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">Tipler, Paul A.. Mosca, Gene. 2019. Physik für Studierende der Naturwissenschaften und Technik. Springer Spektrum.</obo:IAO_0000119>
-        <skos:prefLabel xml:lang="en">intensity</skos:prefLabel>
+        <rdfs:label xml:lang="en">intensity</rdfs:label>
     </owl:Class>
     
 
@@ -8551,7 +8551,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a physical quality, that indicates the intensity of some light</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">light intensity</skos:prefLabel>
+        <rdfs:label xml:lang="en">light intensity</rdfs:label>
     </owl:Class>
     
 
@@ -8560,7 +8560,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001131">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001006"/>
-        <skos:prefLabel xml:lang="en">Pumping</skos:prefLabel>
+        <rdfs:label xml:lang="en">Pumping</rdfs:label>
     </owl:Class>
     
 
@@ -8569,7 +8569,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001132">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001131"/>
-        <skos:prefLabel xml:lang="en">Syringe pumping</skos:prefLabel>
+        <rdfs:label xml:lang="en">Syringe pumping</rdfs:label>
     </owl:Class>
     
 
@@ -8584,7 +8584,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001135"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <skos:prefLabel xml:lang="en">integrated current density</skos:prefLabel>
+        <rdfs:label xml:lang="en">integrated current density</rdfs:label>
     </owl:Class>
     
 
@@ -8593,7 +8593,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001136">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001006"/>
-        <skos:prefLabel xml:lang="en">Ink jetting</skos:prefLabel>
+        <rdfs:label xml:lang="en">Ink jetting</rdfs:label>
     </owl:Class>
     
 
@@ -8602,7 +8602,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <skos:prefLabel xml:lang="en">Stability measurement</skos:prefLabel>
+        <rdfs:label xml:lang="en">Stability measurement</rdfs:label>
     </owl:Class>
     
 
@@ -8611,7 +8611,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002062"/>
-        <skos:prefLabel xml:lang="en">Load condition</skos:prefLabel>
+        <rdfs:label xml:lang="en">Load condition</rdfs:label>
     </owl:Class>
     
 
@@ -8620,7 +8620,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
-        <skos:prefLabel xml:lang="en">ultraviolett filter used</skos:prefLabel>
+        <rdfs:label xml:lang="en">ultraviolett filter used</rdfs:label>
     </owl:Class>
     
 
@@ -8629,7 +8629,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001142">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001062"/>
-        <skos:prefLabel xml:lang="en">Cycling time</skos:prefLabel>
+        <rdfs:label xml:lang="en">Cycling time</rdfs:label>
     </owl:Class>
     
 
@@ -8661,7 +8661,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a data tranformation output, that interprets a measurement output to calculate a devices deviation</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">calibration data</skos:prefLabel>
+        <rdfs:label xml:lang="en">calibration data</rdfs:label>
     </owl:Class>
     
 
@@ -8725,7 +8725,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a data transformation process, which interprets the raw experimental data of an jv measurement</obo:IAO_0000115>
-        <skos:prefLabel xml:lang="en">jv analysis</skos:prefLabel>
+        <rdfs:label xml:lang="en">jv analysis</rdfs:label>
     </owl:Class>
     
 
@@ -8734,7 +8734,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
-        <rdfs:label xml:lang="de">shaking rate</rdfs:label>
+        <rdfs:label xml:lang="en">shaking rate</rdfs:label>
     </owl:Class>
     
 
@@ -8749,7 +8749,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002073"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">annealing temperature</rdfs:label>
+        <rdfs:label xml:lang="en">annealing temperature</rdfs:label>
     </owl:Class>
     
 
@@ -8805,7 +8805,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An iv curve is a tabular data which consists of two columns voltage and current. It is the result of an iv measurement. The voltage is set by the voltage setting datums and the current is measured.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">iv curve</rdfs:label>
+        <rdfs:label xml:lang="en">iv curve</rdfs:label>
     </owl:Class>
     
 
@@ -8857,7 +8857,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">duration setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">duration setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -8866,7 +8866,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:label xml:lang="de">scan</rdfs:label>
+        <rdfs:label xml:lang="en">scan</rdfs:label>
     </owl:Class>
     
 
@@ -8888,7 +8888,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">a physical vapour deposition in which the evaporation process is supported by heat</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">thermal physical vapour deposition</rdfs:label>
+        <rdfs:label xml:lang="en">thermal physical vapour deposition</rdfs:label>
     </owl:Class>
     
 
@@ -8925,7 +8925,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the logged assay output of an external quantum efficiency measurement</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">eqe curve</rdfs:label>
+        <rdfs:label xml:lang="en">eqe curve</rdfs:label>
     </owl:Class>
     
 
@@ -8988,7 +8988,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label xml:lang="de">data transformation output</rdfs:label>
+        <rdfs:label xml:lang="en">data transformation output</rdfs:label>
     </owl:Class>
     
 
@@ -9015,7 +9015,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001147"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">solarcell efficiency datum</rdfs:label>
+        <rdfs:label xml:lang="en">solarcell efficiency datum</rdfs:label>
     </owl:Class>
     
 
@@ -9043,7 +9043,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001028"/>
         <obo:IAO_0000600>Aspiration  acceleration is the acceleration, with which an liquid of gas gets sucked into an object.</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">aspiration acceleration</rdfs:label>
+        <rdfs:label xml:lang="en">aspiration acceleration</rdfs:label>
     </owl:Class>
     
 
@@ -9053,7 +9053,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001028"/>
         <obo:IAO_0000600>Dispense acceleration is the acceleration, which which an liquid or gas gets pushed out of an object.</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">dispense acceleration</rdfs:label>
+        <rdfs:label xml:lang="en">dispense acceleration</rdfs:label>
     </owl:Class>
     
 
@@ -9062,7 +9062,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002021">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002015"/>
-        <rdfs:label xml:lang="de">scalar datum</rdfs:label>
+        <rdfs:label xml:lang="en">scalar datum</rdfs:label>
     </owl:Class>
     
 
@@ -9121,7 +9121,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Rotation speed</rdfs:label>
+        <rdfs:label xml:lang="en">Rotation speed</rdfs:label>
     </owl:Class>
     
 
@@ -9140,7 +9140,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <rdfs:label xml:lang="de">current unit</rdfs:label>
+        <rdfs:label xml:lang="en">current unit</rdfs:label>
     </owl:Class>
     
 
@@ -9149,7 +9149,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
-        <rdfs:label xml:lang="de">solar cell morphology</rdfs:label>
+        <rdfs:label xml:lang="en">solar cell morphology</rdfs:label>
     </owl:Class>
     
 
@@ -9206,7 +9206,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">wavelength step size</rdfs:label>
+        <rdfs:label xml:lang="en">wavelength step size</rdfs:label>
     </owl:Class>
     
 
@@ -9228,7 +9228,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the light intensity</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">light intensity setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">light intensity setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -9261,7 +9261,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">pvd source</rdfs:label>
+        <rdfs:label xml:lang="en">pvd source</rdfs:label>
     </owl:Class>
     
 
@@ -9292,7 +9292,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60004"/>
-        <rdfs:label xml:lang="de">Emulsion</rdfs:label>
+        <rdfs:label xml:lang="en">Emulsion</rdfs:label>
     </owl:Class>
     
 
@@ -9302,7 +9302,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000028"/>
         <obo:IAO_0000115 xml:lang="en">A chemical composition is a list of symbols of some chemical entity which lists the  chemical elements.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Chemical composition</rdfs:label>
+        <rdfs:label xml:lang="en">Chemical composition</rdfs:label>
     </owl:Class>
     
 
@@ -9318,7 +9318,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the cycling time</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">cycling time setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">cycling time setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -9419,7 +9419,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">photovoltaic device</rdfs:label>
+        <rdfs:label xml:lang="en">photovoltaic device</rdfs:label>
     </owl:Class>
     
 
@@ -9428,7 +9428,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002043">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000007"/>
-        <rdfs:label xml:lang="de">Sublayer</rdfs:label>
+        <rdfs:label xml:lang="en">Sublayer</rdfs:label>
     </owl:Class>
     
 
@@ -9455,7 +9455,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002043"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Functional layer</rdfs:label>
+        <rdfs:label xml:lang="en">Functional layer</rdfs:label>
     </owl:Class>
     
 
@@ -9480,7 +9480,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a rate, that indicates the quantity of measurements per time unit</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">scan rate</rdfs:label>
+        <rdfs:label xml:lang="en">scan rate</rdfs:label>
     </owl:Class>
     
 
@@ -9496,7 +9496,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a scan rate, that indicates the voltage increase or decrease</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">scan rate voltage</rdfs:label>
+        <rdfs:label xml:lang="en">scan rate voltage</rdfs:label>
     </owl:Class>
     
 
@@ -9505,7 +9505,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
-        <rdfs:label xml:lang="de">vaccuum quenching</rdfs:label>
+        <rdfs:label xml:lang="en">vaccuum quenching</rdfs:label>
     </owl:Class>
     
 
@@ -9520,7 +9520,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">Rotation acceleration</rdfs:label>
+        <rdfs:label xml:lang="en">Rotation acceleration</rdfs:label>
     </owl:Class>
     
 
@@ -9541,7 +9541,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001107"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">fill factor datum</rdfs:label>
+        <rdfs:label xml:lang="en">fill factor datum</rdfs:label>
     </owl:Class>
     
 
@@ -9618,7 +9618,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <obo:IAO_0000118 xml:lang="de">Tiefdruck</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">a wet chemical deposition which prints an ink onto a substrate via a image carrier. The image carrier (often a cylinder) comes in direct contact with the substrate.</obo:IAO_0000118>
         <oboInOwl:hasExactSynonym xml:lang="en">Rotogravure</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="de">Gravure printing</rdfs:label>
+        <rdfs:label xml:lang="en">Gravure printing</rdfs:label>
     </owl:Class>
     
 
@@ -9652,7 +9652,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">a wet chemical deposition method, which deposits a  vapourized precursor onto a substrate by jetting it through a print head.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Aerosol Jet Druck</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Aerosol jet printing</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">Aerosol printing</rdfs:label>
+        <rdfs:label xml:lang="en">Aerosol printing</rdfs:label>
     </owl:Class>
     
 
@@ -9662,7 +9662,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
         <rdfs:comment xml:lang="en">is a setting datum, which indicates the settings for the scan rate</rdfs:comment>
-        <rdfs:label xml:lang="de">scan rate setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">scan rate setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -9672,7 +9672,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002059">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002051"/>
         <obo:IAO_0000115 xml:lang="en">a wet chemical deposition in which a layer is deposited onto a substrate by dropping liquid drops, that contain the dissolved chemical of interest</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">Drop casting</rdfs:label>
+        <rdfs:label xml:lang="en">Drop casting</rdfs:label>
     </owl:Class>
     
 
@@ -9684,7 +9684,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <obo:IAO_0000118 xml:lang="en">Doctor blading</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Rakelbeschichtung</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">a small amount of solution is placed on a substrate and spread evenly using a doctor blade. The substrate is then dried to form a thin film.</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">Blade coating</rdfs:label>
+        <rdfs:label xml:lang="en">Blade coating</rdfs:label>
     </owl:Class>
     
 
@@ -9707,7 +9707,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002051"/>
         <obo:IAO_0000118 xml:lang="de">Sol-Gel-Prozess</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">a solution containing precursor materials is formed, which is then deposited onto a substrate and dried to form a thin film. This process can be used to deposit a wide range of materials, including ceramics, metals and polymers.</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">Sol-gel deposition</rdfs:label>
+        <rdfs:label xml:lang="en">Sol-gel deposition</rdfs:label>
     </owl:Class>
     
 
@@ -9728,7 +9728,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">open circuit voltage datum</rdfs:label>
+        <rdfs:label xml:lang="en">open circuit voltage datum</rdfs:label>
     </owl:Class>
     
 
@@ -9749,7 +9749,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">voltage maximum power point datum</rdfs:label>
+        <rdfs:label xml:lang="en">voltage maximum power point datum</rdfs:label>
     </owl:Class>
     
 
@@ -9801,7 +9801,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">short circuit current datum</rdfs:label>
+        <rdfs:label xml:lang="en">short circuit current datum</rdfs:label>
     </owl:Class>
     
 
@@ -9810,7 +9810,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
-        <rdfs:label xml:lang="de">current density unit</rdfs:label>
+        <rdfs:label xml:lang="en">current density unit</rdfs:label>
     </owl:Class>
     
 
@@ -9831,7 +9831,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">total area datum</rdfs:label>
+        <rdfs:label xml:lang="en">total area datum</rdfs:label>
     </owl:Class>
     
 
@@ -9852,7 +9852,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">effective area datum</rdfs:label>
+        <rdfs:label xml:lang="en">effective area datum</rdfs:label>
     </owl:Class>
     
 
@@ -9868,7 +9868,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the process temperature</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">process temperature setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">process temperature setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -9896,7 +9896,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the process time</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">process time setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">process time setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -9912,7 +9912,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the annealing temperature</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">annealing temperature setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">annealing temperature setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -9934,7 +9934,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the voltage settings for the scan rate</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">scan rate voltage setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">scan rate voltage setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -9944,7 +9944,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000280"/>
         <obo:IAO_0000115 xml:lang="en">Scan rate voltage unit is a unit label which is a standard measure of the rate of change of voltage in a scan.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">scan rate voltage unit</rdfs:label>
+        <rdfs:label xml:lang="en">scan rate voltage unit</rdfs:label>
     </owl:Class>
     
 
@@ -9959,7 +9959,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002093"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">integration time</rdfs:label>
+        <rdfs:label xml:lang="en">integration time</rdfs:label>
     </owl:Class>
     
 
@@ -9974,7 +9974,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002077"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">settling time</rdfs:label>
+        <rdfs:label xml:lang="en">settling time</rdfs:label>
     </owl:Class>
     
 
@@ -9989,7 +9989,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">compliance</rdfs:label>
+        <rdfs:label xml:lang="en">compliance</rdfs:label>
     </owl:Class>
     
 
@@ -9998,7 +9998,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
-        <rdfs:label xml:lang="de">scan direction</rdfs:label>
+        <rdfs:label xml:lang="en">scan direction</rdfs:label>
     </owl:Class>
     
 
@@ -10041,7 +10041,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002081">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002149"/>
-        <rdfs:label xml:lang="de">starting voltage</rdfs:label>
+        <rdfs:label xml:lang="en">starting voltage</rdfs:label>
     </owl:Class>
     
 
@@ -10050,7 +10050,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002082">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002149"/>
-        <rdfs:label xml:lang="de">stopping voltage</rdfs:label>
+        <rdfs:label xml:lang="en">stopping voltage</rdfs:label>
     </owl:Class>
     
 
@@ -10059,7 +10059,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002083">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002149"/>
-        <rdfs:label xml:lang="de">voltage step size</rdfs:label>
+        <rdfs:label xml:lang="en">voltage step size</rdfs:label>
     </owl:Class>
     
 
@@ -10093,7 +10093,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">an illuminated iv measurement is a iv measurement with a dedicated light source</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">illuminated iv measurement</rdfs:label>
+        <rdfs:label xml:lang="en">illuminated iv measurement</rdfs:label>
     </owl:Class>
     
 
@@ -10124,7 +10124,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">wavelength step size setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">wavelength step size setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10150,7 +10150,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the scan direction</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">scan direction setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">scan direction setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10172,7 +10172,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the starting voltage</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">starting voltage setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">starting voltage setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10216,7 +10216,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the voltage step size</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">voltage step size setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">voltage step size setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10238,7 +10238,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates  the settings for the time</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">settling time setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">settling time setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10260,7 +10260,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the integration time</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">integration time setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">integration time setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10281,7 +10281,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">compliance setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">compliance setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10324,7 +10324,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of area quality</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">area measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">area measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -10340,7 +10340,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of active area quality</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">active area measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">active area measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -10350,7 +10350,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of current quality</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">current measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">current measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -10371,7 +10371,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">shunt resistance datum</rdfs:label>
+        <rdfs:label xml:lang="en">shunt resistance datum</rdfs:label>
     </owl:Class>
     
 
@@ -10392,7 +10392,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001104"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">series resistance datum</rdfs:label>
+        <rdfs:label xml:lang="en">series resistance datum</rdfs:label>
     </owl:Class>
     
 
@@ -10402,7 +10402,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
         <obo:IAO_0000115 xml:lang="en">Resistance area unit is a unit label which is a standard measure for by area normalized resistance, i.e. resitance unit times area unit.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">resistance area unit</rdfs:label>
+        <rdfs:label xml:lang="en">resistance area unit</rdfs:label>
     </owl:Class>
     
 
@@ -10424,7 +10424,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of an temperature quality</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">temperature measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">temperature measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -10446,7 +10446,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of power quality</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">power measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">power measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -10476,7 +10476,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the power setting</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">power setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">power setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10491,7 +10491,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">shutter status</rdfs:label>
+        <rdfs:label xml:lang="en">shutter status</rdfs:label>
     </owl:Class>
     
 
@@ -10512,7 +10512,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">shutter status setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">shutter status setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10549,7 +10549,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the gas flow per time unit</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">gas flow rate setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">gas flow rate setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10558,7 +10558,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
-        <rdfs:label xml:lang="de">shutter status</rdfs:label>
+        <rdfs:label xml:lang="en">shutter status</rdfs:label>
     </owl:Class>
     
 
@@ -10573,7 +10573,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002119"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">thinfilm depostion rate</rdfs:label>
+        <rdfs:label xml:lang="en">thinfilm depostion rate</rdfs:label>
     </owl:Class>
     
 
@@ -10595,7 +10595,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the temperature settings</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">temperature setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">temperature setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10626,7 +10626,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">thermal pvd source</rdfs:label>
+        <rdfs:label xml:lang="en">thermal pvd source</rdfs:label>
     </owl:Class>
     
 
@@ -10641,7 +10641,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">gas flow rate</rdfs:label>
+        <rdfs:label xml:lang="en">gas flow rate</rdfs:label>
     </owl:Class>
     
 
@@ -10650,7 +10650,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <rdfs:label xml:lang="de">tabular data</rdfs:label>
+        <rdfs:label xml:lang="en">tabular data</rdfs:label>
     </owl:Class>
     
 
@@ -10659,7 +10659,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002116">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002115"/>
-        <rdfs:label xml:lang="de">process log</rdfs:label>
+        <rdfs:label xml:lang="en">process log</rdfs:label>
     </owl:Class>
     
 
@@ -10668,7 +10668,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002117">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002116"/>
-        <rdfs:label xml:lang="de">pvd process log</rdfs:label>
+        <rdfs:label xml:lang="en">pvd process log</rdfs:label>
     </owl:Class>
     
 
@@ -10684,7 +10684,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of pressure quality</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">pressure measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">pressure measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -10706,7 +10706,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of thin film deposition rate</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">thin film deposition rate measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">thin film deposition rate measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -10722,7 +10722,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of an total pressure quality</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">total pressure measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">total pressure measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -10738,7 +10738,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of an partial presssure quality</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">partial pressure measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">partial pressure measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -10770,7 +10770,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002124"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">light bias</rdfs:label>
+        <rdfs:label xml:lang="en">light bias</rdfs:label>
     </owl:Class>
     
 
@@ -10792,7 +10792,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the bias light</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">light bias setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">light bias setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10807,7 +10807,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002126"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">chopper frequency</rdfs:label>
+        <rdfs:label xml:lang="en">chopper frequency</rdfs:label>
     </owl:Class>
     
 
@@ -10829,7 +10829,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the chopper frequency</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">chopper frequency setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">chopper frequency setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10844,7 +10844,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">voltage bias</rdfs:label>
+        <rdfs:label xml:lang="en">voltage bias</rdfs:label>
     </owl:Class>
     
 
@@ -10866,7 +10866,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the voltage bias</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">voltage bias setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">voltage bias setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10882,7 +10882,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a scan rate, that indicates the step size of wavelength increase or decrease</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">scan rate wavelength</rdfs:label>
+        <rdfs:label xml:lang="en">scan rate wavelength</rdfs:label>
     </owl:Class>
     
 
@@ -10904,7 +10904,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the wavelength settings for the scan rate</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">scan rate wavelength setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">scan rate wavelength setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -10913,7 +10913,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002062"/>
-        <rdfs:label xml:lang="de">time quality of a process</rdfs:label>
+        <rdfs:label xml:lang="en">time quality of a process</rdfs:label>
     </owl:Class>
     
 
@@ -10971,7 +10971,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a data tranformation process, which interprets the raw experimental data of an eqe measurement</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">eqe analysis</rdfs:label>
+        <rdfs:label xml:lang="en">eqe analysis</rdfs:label>
     </owl:Class>
     
 
@@ -10992,7 +10992,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002140"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">eqe bandgap datum</rdfs:label>
+        <rdfs:label xml:lang="en">eqe bandgap datum</rdfs:label>
     </owl:Class>
     
 
@@ -11013,7 +11013,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002141"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">integrated jsc datum</rdfs:label>
+        <rdfs:label xml:lang="en">integrated jsc datum</rdfs:label>
     </owl:Class>
     
 
@@ -11034,7 +11034,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002142"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">integrated j0rad datum</rdfs:label>
+        <rdfs:label xml:lang="en">integrated j0rad datum</rdfs:label>
     </owl:Class>
     
 
@@ -11055,7 +11055,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002143"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">voc rad datum</rdfs:label>
+        <rdfs:label xml:lang="en">voc rad datum</rdfs:label>
     </owl:Class>
     
 
@@ -11076,7 +11076,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002144"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">urbach energy datum</rdfs:label>
+        <rdfs:label xml:lang="en">urbach energy datum</rdfs:label>
     </owl:Class>
     
 
@@ -11134,7 +11134,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">eqe bandgap</rdfs:label>
+        <rdfs:label xml:lang="en">eqe bandgap</rdfs:label>
     </owl:Class>
     
 
@@ -11150,7 +11150,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <om-2:alternativeLabel xml:lang="en">Short-circuit current density</om-2:alternativeLabel>
-        <rdfs:label xml:lang="de">integrated jsc</rdfs:label>
+        <rdfs:label xml:lang="en">integrated jsc</rdfs:label>
     </owl:Class>
     
 
@@ -11166,7 +11166,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <om-2:alternativeLabel xml:lang="en">radiative saturation-current density</om-2:alternativeLabel>
-        <rdfs:label xml:lang="de">integrated j0rad</rdfs:label>
+        <rdfs:label xml:lang="en">integrated j0rad</rdfs:label>
     </owl:Class>
     
 
@@ -11181,7 +11181,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002136"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">voc rad</rdfs:label>
+        <rdfs:label xml:lang="en">voc rad</rdfs:label>
     </owl:Class>
     
 
@@ -11196,7 +11196,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002137"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">urbach energy</rdfs:label>
+        <rdfs:label xml:lang="en">urbach energy</rdfs:label>
     </owl:Class>
     
 
@@ -11211,7 +11211,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002138"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">urbach energy fit standard deviation</rdfs:label>
+        <rdfs:label xml:lang="en">urbach energy fit standard deviation</rdfs:label>
     </owl:Class>
     
 
@@ -11234,7 +11234,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a physical quality, that  is the ratio of the number of charge carriers collected by the photovoltaic device to the number of photons of a given wavelength or energy onto the device.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Lee, Sanghyun. Price, Kent J.. (February 22nd, 2017). Optolelectronics. Advanced Device Structures. Spectral Repsonses in Quantum Efficiency of Emerging Kesterite Thin-FIlm Solar Cells. IntechOpen.</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">external quantum efficiency</rdfs:label>
+        <rdfs:label xml:lang="en">external quantum efficiency</rdfs:label>
     </owl:Class>
     
 
@@ -11275,7 +11275,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002062"/>
-        <rdfs:label xml:lang="de">electrical potential quality of a process</rdfs:label>
+        <rdfs:label xml:lang="en">electrical potential quality of a process</rdfs:label>
     </owl:Class>
     
 
@@ -11311,7 +11311,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002150"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">anti solvent dropping time setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">anti solvent dropping time setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -11326,7 +11326,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">chemical substance role</rdfs:label>
+        <rdfs:label xml:lang="en">chemical substance role</rdfs:label>
     </owl:Class>
     
 
@@ -11335,7 +11335,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002154">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002152"/>
-        <rdfs:label xml:lang="de">product role</rdfs:label>
+        <rdfs:label xml:lang="en">product role</rdfs:label>
     </owl:Class>
     
 
@@ -11350,7 +11350,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">anti solvent role</rdfs:label>
+        <rdfs:label xml:lang="en">anti solvent role</rdfs:label>
     </owl:Class>
     
 
@@ -11387,7 +11387,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002156"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">dropping time setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">dropping time setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -11408,7 +11408,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">volume setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">volume setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -11417,7 +11417,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002159">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002158"/>
-        <rdfs:label xml:lang="de">anti solvent volume setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">anti solvent volume setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -11441,7 +11441,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002104"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">power quality of a process</rdfs:label>
+        <rdfs:label xml:lang="en">power quality of a process</rdfs:label>
     </owl:Class>
     
 
@@ -11489,7 +11489,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005002">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005001"/>
-        <rdfs:label xml:lang="de">reflection uv/vis measurement</rdfs:label>
+        <rdfs:label xml:lang="en">reflection uv/vis measurement</rdfs:label>
     </owl:Class>
     
 
@@ -11498,7 +11498,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005003">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005001"/>
-        <rdfs:label xml:lang="de">transmittance uv/vis measurement</rdfs:label>
+        <rdfs:label xml:lang="en">transmittance uv/vis measurement</rdfs:label>
     </owl:Class>
     
 
@@ -11519,7 +11519,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">uv/vis curve</rdfs:label>
+        <rdfs:label xml:lang="en">uv/vis curve</rdfs:label>
     </owl:Class>
     
 
@@ -11555,7 +11555,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">reflection uv/vis curve</rdfs:label>
+        <rdfs:label xml:lang="en">reflection uv/vis curve</rdfs:label>
     </owl:Class>
     
 
@@ -11570,7 +11570,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">transmittance uv/vis curve</rdfs:label>
+        <rdfs:label xml:lang="en">transmittance uv/vis curve</rdfs:label>
     </owl:Class>
     
 
@@ -11585,7 +11585,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">transmittance measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">transmittance measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -11600,7 +11600,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">reflectance measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">reflectance measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -11609,7 +11609,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
-        <rdfs:label xml:lang="de">reflectance</rdfs:label>
+        <rdfs:label xml:lang="en">reflectance</rdfs:label>
     </owl:Class>
     
 
@@ -11618,7 +11618,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002062"/>
-        <rdfs:label xml:lang="de">wavenlength quality of a process</rdfs:label>
+        <rdfs:label xml:lang="en">wavenlength quality of a process</rdfs:label>
     </owl:Class>
     
 
@@ -11627,7 +11627,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005012">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005011"/>
-        <rdfs:label xml:lang="de">starting wavelength</rdfs:label>
+        <rdfs:label xml:lang="en">starting wavelength</rdfs:label>
     </owl:Class>
     
 
@@ -11636,7 +11636,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005013">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005011"/>
-        <rdfs:label xml:lang="de">stopping wavelength</rdfs:label>
+        <rdfs:label xml:lang="en">stopping wavelength</rdfs:label>
     </owl:Class>
     
 
@@ -11669,7 +11669,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">plasma power</rdfs:label>
+        <rdfs:label xml:lang="en">plasma power</rdfs:label>
     </owl:Class>
     
 
@@ -11684,7 +11684,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">plasma power setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">plasma power setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -11693,7 +11693,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:label xml:lang="de">plasma</rdfs:label>
+        <rdfs:label xml:lang="en">plasma</rdfs:label>
     </owl:Class>
     
 
@@ -11714,7 +11714,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">mass setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">mass setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -11729,7 +11729,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00009996"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">substrate temperature setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">substrate temperature setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -12194,7 +12194,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001038 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001038">
-        <skos:prefLabel xml:lang="en">Mechanical Scrubbing</skos:prefLabel>
+        <rdfs:label xml:lang="en">Mechanical Scrubbing</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -12202,7 +12202,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001039 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001039">
-        <skos:prefLabel xml:lang="en">HCL</skos:prefLabel>
+        <rdfs:label xml:lang="en">HCL</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -12211,7 +12211,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001048">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001042"/>
-        <skos:prefLabel xml:lang="en">Aceton cleaning</skos:prefLabel>
+        <rdfs:label xml:lang="en">Aceton cleaning</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -12220,7 +12220,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001049">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001042"/>
-        <skos:prefLabel xml:lang="en">DI Water cleaning</skos:prefLabel>
+        <rdfs:label xml:lang="en">DI Water cleaning</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -12229,7 +12229,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001050">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001042"/>
-        <skos:prefLabel xml:lang="en">Isopropanol cleaning</skos:prefLabel>
+        <rdfs:label xml:lang="en">Isopropanol cleaning</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -12238,7 +12238,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001051">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001042"/>
-        <skos:prefLabel xml:lang="en">Mucasol cleaning</skos:prefLabel>
+        <rdfs:label xml:lang="en">Mucasol cleaning</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -12247,7 +12247,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001052">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001040"/>
-        <skos:prefLabel xml:lang="en">Scrubbing</skos:prefLabel>
+        <rdfs:label xml:lang="en">Scrubbing</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -12255,7 +12255,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001053 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001053">
-        <skos:prefLabel xml:lang="en">Lead iodide</skos:prefLabel>
+        <rdfs:label xml:lang="en">Lead iodide</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -12264,7 +12264,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001086">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001020"/>
-        <skos:prefLabel xml:lang="en">pin</skos:prefLabel>
+        <rdfs:label xml:lang="en">pin</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -12273,7 +12273,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCONamedIndividual_00001087">
         <rdf:type rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001020"/>
-        <skos:prefLabel xml:lang="en">nip</skos:prefLabel>
+        <rdfs:label xml:lang="en">nip</rdfs:label>
     </owl:NamedIndividual>
     <rdf:Description>
         <rdfs:seeAlso rdf:resource="https://github.com/oborel/obo-relations/issues/259"/>
