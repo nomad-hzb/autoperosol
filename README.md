@@ -11,4 +11,4 @@ The Thin-film solar cell ontology (TFSCO) is a domain ontology that provides a m
 
 ## Links
 
--[GitHub](https://github.com/RoteKekse/autoperosol)
+- [GitHub](https://github.com/RoteKekse/autoperosol)
