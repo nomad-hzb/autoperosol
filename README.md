@@ -1,2 +1,5 @@
 # peroman
-An ontology modelling the manufacturing of perovskite solar cells
+Peroman is an domain ontology that provides a modell  of the manufacturing and characterization of perovskite solar cells.
+
+-Work in Progress!
+
