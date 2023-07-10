@@ -20,7 +20,7 @@ Full list to be added.
 ## Top-Level Ontology
 The TFSCO uses the Basic Formal Ontology ([BFO](https://github.com/BFO-ontology/BFO)) as its Top-Level Ontology.
 ## News
--09/22/2022 The first version of peroman was initialised by AK.
+-09/22/2022 The first version of peroman was initialised by AK. <br>
 -07/03/2023 Peroman was split up into the TFSCO and...
 
 ## Links
