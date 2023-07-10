@@ -5,7 +5,7 @@
 _Work in Progress!_
 
 ## Table of Contents
-  *[About TFSCO] (#about-tfsco)
+  *[About TFSCO](#about-tfsco)
 
 ## About TFSCO
 The Thin-film solar cell ontology (TFSCO) is a domain ontology that provides a modell  of the manufacturing and characterization of perovskite solar cells. The TFSCO has been under development since 2022. 
