@@ -8,7 +8,7 @@ _Work in Progress!_
   * [About TFSCO](#about-tfsco)
   * [Use of TFSCO](#use-of-tfsco)
   * [Top level Ontology](#top-level-ontology)
-  * [Mid- and Domain-level Ontologies](#mid-and-domain-level-ontologies)
+  * [Mid- and Domain-level Ontologies](#mid--and-domain-level-ontologies)
   * [News](#news)
   * [Links](#links)
 
