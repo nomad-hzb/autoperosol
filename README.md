@@ -8,7 +8,7 @@ _Work in Progress!_
   * [About TFSCO](#about-tfsco)
   * [Use of TFSCO](#use-of-tfsco)
   * [Top level Ontology](#top-level-ontology)
-  * [Mid- & Domain-level Ontologies](#mid--&-domain-level-ontologies)
+  * [Mid- and Domain-level Ontologies](#mid--and-domain-level-ontologies)
   * [News](#news)
   * [Links](#links)
 
@@ -21,7 +21,7 @@ Full list to be added.
 ## Top-level Ontology
 The TFSCO uses the Basic Formal Ontology ([BFO](https://github.com/BFO-ontology/BFO)) as its Top-Level Ontology.
 
-## Mid- & Domain-level Ontologies
+## Mid- and Domain-level Ontologies
 The TFSCO imports axioms from the following ontologies: [CHMI](https://github.com/rsc-ontologies/rsc-cmo) (Chemical Methods Ontology), [RO](http://obofoundry.org/ontology/ro.html) (Relation Ontology), [PATO](http://obofoundry.org/ontology/pato.html) (Phenotype and trait ontology), [CHEBI ](https://www.ebi.ac.uk/ols/ontologies/chebi) (Chemical entities of biological interest), [IAO](https://github.com/information-artifact-ontology/IAO) (Information Artifact ontology).
 ## News
 -09/22/2022 The first version of peroman was initialised by AK. <br>
