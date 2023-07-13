@@ -33,7 +33,7 @@ The TFSCO imports axioms from the following ontologies: [CHMI](https://github.co
 - [GitHub](https://github.com/RoteKekse/autoperosol)
 
 ## Footnotes
-<sup>1</sup> [NOMAD](https://nomad-lab.eu/nomad-lab/) is a free web-service that lets you share your data or use comprehensive
+<sup>1</sup> "[NOMAD](https://nomad-lab.eu/nomad-lab/) is a free web-service that lets you share your data or use comprehensive
 data that others provide. You can use NOMAD to organize, analyze, share, 
 and publish your materials science data, as well as explore, download, 
-and analyze your colleagues' data.
+and analyze your colleagues' data." (Nomad. Retrieved from: https://nomad-lab.eu/nomad-lab/index.html Retrieved on: 07/13/23)
