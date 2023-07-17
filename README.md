@@ -7,18 +7,23 @@ _Work in Progress!_
 ## Table of Contents
   * [About TFSCO](#about-tfsco)
   * [Use of TFSCO](#use-of-tfsco)
-  * [Top Level Ontology](#top-level-ontology)
+  * [Top level Ontology](#top-level-ontology)
+  * [Mid- and Domain-level Ontologies](#mid--and-domain-level-ontologies)
   * [News](#news)
   * [Links](#links)
+  * [Footnotes](#footnotes)
 
 ## About TFSCO
 The Thin-film solar cell ontology (TFSCO) is a domain ontology that provides a modell  of the manufacturing and characterization of perovskite solar cells. The TFSCO has been under development since 2022. The OWL-File was created using [Protégé](https://protege.stanford.edu/). Protégé may be used for viewing and editing the ontology.
 
 ## Use of TFSCO
-Full list to be added.
+Efforts have been made to implement a Nomad<sup>1</sup> database/structure that enables a linkage between the ontology classes and the research data stored via the IRI. This secures a sustainable and machine readable data structure based on the of the ontology and a user friendly interface with quality of life features like filters, plots and histograms from Nomad.
 
-## Top-Level Ontology
+## Top-level Ontology
 The TFSCO uses the Basic Formal Ontology ([BFO](https://github.com/BFO-ontology/BFO)) as its Top-Level Ontology.
+
+## Mid- and Domain-level Ontologies
+The TFSCO imports axioms from the following ontologies: [CHMI](https://github.com/rsc-ontologies/rsc-cmo) (Chemical Methods Ontology), [RO](http://obofoundry.org/ontology/ro.html) (Relation Ontology), [PATO](http://obofoundry.org/ontology/pato.html) (Phenotype and trait ontology), [CHEBI ](https://www.ebi.ac.uk/ols/ontologies/chebi) (Chemical entities of biological interest), [IAO](https://github.com/information-artifact-ontology/IAO) (Information Artifact ontology).
 ## News
 -09/22/2022 The first version of peroman was initialised by AK. <br>
 -07/03/2023 Peroman was split up into the TFSCO and...
@@ -26,3 +31,9 @@ The TFSCO uses the Basic Formal Ontology ([BFO](https://github.com/BFO-ontology/
 ## Links
 
 - [GitHub](https://github.com/RoteKekse/autoperosol)
+
+## Footnotes
+<sup>1</sup> "[NOMAD](https://nomad-lab.eu/nomad-lab/) is a free web-service that lets you share your data or use comprehensive
+data that others provide. You can use NOMAD to organize, analyze, share, 
+and publish your materials science data, as well as explore, download, 
+and analyze your colleagues' data." (Nomad. Retrieved from: https://nomad-lab.eu/nomad-lab/index.html Retrieved on: 07/13/23)
