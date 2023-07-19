@@ -11,7 +11,7 @@ _Work in Progress!_
   * [Mid- and Domain-level Ontologies](#mid--and-domain-level-ontologies)
   * [News](#news)
   * [Links](#links)
-  * [Content license](#content_license)
+  * [Content license](#content_license:)
   * [Footnotes](#footnotes)
 
 ## About TFSCO
