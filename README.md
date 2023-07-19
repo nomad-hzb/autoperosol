@@ -11,7 +11,7 @@ _Work in Progress!_
   * [Mid- and Domain-level Ontologies](#mid--and-domain-level-ontologies)
   * [News](#news)
   * [Links](#links)
-  * [Content license](#content_license)
+  * [Content license](#content-license:)
   * [Footnotes](#footnotes)
 
 ## About TFSCO
@@ -33,7 +33,7 @@ The TFSCO imports axioms from the following ontologies: [CHMI](https://github.co
 
 - [GitHub](https://github.com/RoteKekse/autoperosol)
 
-### Content license
+### Content license:
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 
 ### Footnotes
