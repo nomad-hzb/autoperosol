@@ -11,7 +11,7 @@ _Work in Progress!_
   * [Mid- and Domain-level Ontologies](#mid--and-domain-level-ontologies)
   * [News](#news)
   * [Links](#links)
-  * [Content license](#content-license:)
+  * [Content license](#content-license)
   * [Footnotes](#footnotes)
 
 ## About TFSCO
@@ -33,7 +33,8 @@ The TFSCO imports axioms from the following ontologies: [CHMI](https://github.co
 
 - [GitHub](https://github.com/RoteKekse/autoperosol)
 
-### Content license: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+### Content license: 
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
 
 ### Footnotes
 <sup>1</sup> "[NOMAD](https://nomad-lab.eu/nomad-lab/) is a free web-service that lets you share your data or use comprehensive
