@@ -1,4 +1,4 @@
-
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
 # Thin-film solar cell ontology
 
@@ -11,6 +11,7 @@ _Work in Progress!_
   * [Mid- and Domain-level Ontologies](#mid--and-domain-level-ontologies)
   * [News](#news)
   * [Links](#links)
+  * [Content license](#content-license)
   * [Footnotes](#footnotes)
 
 ## About TFSCO
@@ -32,7 +33,10 @@ The TFSCO imports axioms from the following ontologies: [CHMI](https://github.co
 
 - [GitHub](https://github.com/RoteKekse/autoperosol)
 
-## Footnotes
+### Content license: 
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
+
+### Footnotes
 <sup>1</sup> "[NOMAD](https://nomad-lab.eu/nomad-lab/) is a free web-service that lets you share your data or use comprehensive
 data that others provide. You can use NOMAD to organize, analyze, share, 
 and publish your materials science data, as well as explore, download, 
