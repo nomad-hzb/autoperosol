@@ -12755,12 +12755,6 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002102"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#print_head_width_setting_datum"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="de">print head</rdfs:label>
     </owl:Class>
     
@@ -12860,6 +12854,18 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001025"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002003"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002102"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#cartridge_pressure_setting_datum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="de">cartridge pressure</rdfs:label>
     </owl:Class>
     
@@ -12884,6 +12890,12 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005071">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002003"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="de">cartridge temperature</rdfs:label>
     </owl:Class>
     
@@ -13211,6 +13223,21 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a photovaltaic device which consists of multiple distinct stacked  solarcells</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stacked tandem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#cartridge_pressure_setting_datum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#cartridge_pressure_setting_datum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005040"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">cartridge pressure setting datum</rdfs:label>
     </owl:Class>
     
 
