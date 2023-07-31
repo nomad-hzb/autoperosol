@@ -12929,7 +12929,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005067"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">print head distance to thin film</rdfs:label>
+        <rdfs:label xml:lang="en">print head distance to substrate</rdfs:label>
     </owl:Class>
     
 
