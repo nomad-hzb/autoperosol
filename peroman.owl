@@ -12896,6 +12896,12 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCOObjectProperty_00002102"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#cartridge_temperature_setting_datum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="de">cartridge temperature</rdfs:label>
     </owl:Class>
     
@@ -13238,6 +13244,21 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">cartridge pressure setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#cartridge_temperature_setting_datum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#cartridge_temperature_setting_datum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002111"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">cartridge temperature setting datum</rdfs:label>
     </owl:Class>
     
 
