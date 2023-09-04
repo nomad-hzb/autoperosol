@@ -7716,11 +7716,11 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000001"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <om-2:alternativeLabel>PL measurement</om-2:alternativeLabel>
-        <rdfs:label xml:lang="en">Photoluminescence (PL) imaging</rdfs:label>
+        <rdfs:label xml:lang="en">photoluminescence (PL) imaging</rdfs:label>
     </owl:Class>
     
 
