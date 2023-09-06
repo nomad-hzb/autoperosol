@@ -24,7 +24,7 @@ Efforts have been made to implement a Nomad<sup>1</sup> database/structure that 
 The TFSCO uses the Basic Formal Ontology ([BFO](https://github.com/BFO-ontology/BFO)) as its Top-Level Ontology.
 
 ## Mid- and Domain-level Ontologies
-The TFSCO imports axioms from the following ontologies: [CHMI](https://github.com/rsc-ontologies/rsc-cmo) (Chemical Methods Ontology), [RO](http://obofoundry.org/ontology/ro.html) (Relation Ontology), [PATO](http://obofoundry.org/ontology/pato.html) (Phenotype and trait ontology), [CHEBI ](https://www.ebi.ac.uk/ols/ontologies/chebi) (Chemical entities of biological interest), [IAO](https://github.com/information-artifact-ontology/IAO) (Information Artifact ontology).
+The TFSCO imports axioms from the following ontologies: [CHMO](https://github.com/rsc-ontologies/rsc-cmo) (Chemical Methods Ontology), [RO](http://obofoundry.org/ontology/ro.html) (Relation Ontology), [PATO](http://obofoundry.org/ontology/pato.html) (Phenotype and trait ontology), [CHEBI ](https://www.ebi.ac.uk/ols/ontologies/chebi) (Chemical entities of biological interest), [IAO](https://github.com/information-artifact-ontology/IAO) (Information Artifact ontology).
 ## News
 -09/22/2022 The first version of peroman was initialised by AK. <br>
 -07/03/2023 Peroman was split up into the TFSCO and...
