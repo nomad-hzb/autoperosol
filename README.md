@@ -15,7 +15,7 @@ _Work in Progress!_
   * [Footnotes](#footnotes)
 
 ## About TFSCO
-The Thin-film solar cell ontology (TFSCO) is a domain ontology that provides a model  of the manufacturing and characterization of perovskite solar cells. The TFSCO has been under development since 2022. The OWL-File was created using [Protégé](https://protege.stanford.edu/). Protégé may be used for viewing and editing the ontology. The TFSCO classes can be viewed via the MatPortal.org (Link below).
+The Thin-film solar cell ontology (TFSCO) is a domain ontology that provides a model  of the manufacturing and characterization of perovskite solar cells. The TFSCO has been under development since 2022. The OWL-File was created using [Protégé](https://protege.stanford.edu/). Protégé may be used for viewing and editing the ontology. The TFSCO classes can be viewed via the MatPortal.org Repository(Link below).
 
 ## Use of TFSCO
 Efforts have been made to implement a Nomad<sup>1</sup> database/structure that enables a linkage between the ontology classes and the research data stored via the IRI. This secures a sustainable and machine readable data structure based on the of the ontology and a user friendly interface with quality of life features like filters, plots and histograms from Nomad.
@@ -32,7 +32,7 @@ The TFSCO imports axioms from the following ontologies: [CHMO](https://github.co
 ## Links
 
 - [GitHub](https://github.com/RoteKekse/autoperosol)
-- [TFSCO on MatPortal.org Repository](https://matportal.org/ontologies/TFSCO)
+- [TFSCO on MatPortal.org](https://matportal.org/ontologies/TFSCO)
 
 ### Content license: 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
