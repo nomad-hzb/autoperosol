@@ -32,7 +32,7 @@ The TFSCO imports axioms from the following ontologies: [CHMO](https://github.co
 ## Links
 
 - [GitHub](https://github.com/RoteKekse/autoperosol)
-- [MatPortal.org Repository](https://matportal.org/ontologies/TFSCO)
+- [TFSCO on MatPortal.org Repository](https://matportal.org/ontologies/TFSCO)
 
 ### Content license: 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
