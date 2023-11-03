@@ -10715,6 +10715,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the set status of the shutter</obo:IAO_0000115>
         <rdfs:label xml:lang="en">shutter status setting datum</rdfs:label>
     </owl:Class>
     
@@ -12124,6 +12125,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the set pressure of an air knife</obo:IAO_0000115>
         <rdfs:label xml:lang="en">air knife pressure setting datum</rdfs:label>
     </owl:Class>
     
@@ -12603,6 +12605,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the flow rate that is set for a slot die coating process</obo:IAO_0000115>
         <rdfs:label xml:lang="de">slot die coating flow rate setting datum</rdfs:label>
     </owl:Class>
     
@@ -13276,6 +13279,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, which describes the voltage to which a nozzle is set.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">print nozzle voltage setting datum</rdfs:label>
     </owl:Class>
     
@@ -13307,6 +13311,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the position to which an entity is set.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">position setting datum</rdfs:label>
     </owl:Class>
     
@@ -13322,6 +13327,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the position to which an print head is set.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">print head position setting datum</rdfs:label>
     </owl:Class>
     
@@ -13518,6 +13524,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005069"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the set pressure of an cartridge</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cartridge pressure setting datum</rdfs:label>
     </owl:Class>
     
