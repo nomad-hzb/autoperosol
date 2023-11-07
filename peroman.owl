@@ -7479,6 +7479,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001006">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001144"/>
+        <obo:IAO_0000115 xml:lang="en">a solution handling , in which some solution is controlled  dropwise released</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/CHMO_0001544</obo:IAO_0000119>
         <rdfs:label xml:lang="en">dispensing</rdfs:label>
     </owl:Class>
     
@@ -8960,6 +8962,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">the gathering of data or some images with a sensing device</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C17999</obo:IAO_0000119>
         <rdfs:label xml:lang="en">scan</rdfs:label>
     </owl:Class>
     
