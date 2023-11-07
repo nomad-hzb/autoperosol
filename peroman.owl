@@ -6833,6 +6833,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A liquid that dissolves or that is capable of dissolving; the component of a solution that is present in greater amount.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C45790</obo:IAO_0000119>
         <rdfs:label xml:lang="en">solvent</rdfs:label>
     </owl:Class>
     
@@ -7584,6 +7586,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001022">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002045"/>
+        <obo:IAO_0000115 xml:lang="en">a solar cell boolean quality that describes the ability of some bearer to be turned, twisted or bend without breaking</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/PATO_0001543</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Is flexible</rdfs:label>
     </owl:Class>
     
@@ -7593,6 +7597,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001023">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002045"/>
+        <obo:IAO_0000115 xml:lang="en">a solar cell boolean quality that describes if an object is partially transparent</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C96284</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Is semitransparent</rdfs:label>
     </owl:Class>
     
@@ -8472,7 +8478,9 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115 xml:lang="en">a physical object quality that describes the property  of a object or substance of resisting or opposing the flow of an electrical current.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Widerstand</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C68787</obo:IAO_0000119>
         <rdfs:label xml:lang="en">resistance</rdfs:label>
     </owl:Class>
     
