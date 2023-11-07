@@ -3408,6 +3408,8 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000009"/>
+        <obo:IAO_0000115 xml:lang="en">a datum label that specifies units that are associated with a variable (if any) in a human-readable format.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/EUPATH_0001008</obo:IAO_0000119>
         <rdfs:label xml:lang="en">unit label</rdfs:label>
     </owl:Class>
     
@@ -8059,6 +8061,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A substance that is added to a system or compound to improve its characteristics.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C63495</obo:IAO_0000119>
         <om-2:alternativeLabel xml:lang="en">Doping material</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">Additive</rdfs:label>
     </owl:Class>
@@ -8308,6 +8312,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A solute is a substance that becomes dissolved in a solvent.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://semanticscience.org/resource/SIO_010418</obo:IAO_0000119>
         <rdfs:label xml:lang="en">solute</rdfs:label>
     </owl:Class>
     
@@ -8317,6 +8323,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001079">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001078"/>
+        <obo:IAO_0000115 xml:lang="en">A solid substance in the form of tiny loose particles; a solid that has been pulverized.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C45302</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Powder</rdfs:label>
     </owl:Class>
     
@@ -12679,6 +12687,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005052">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000006"/>
+        <obo:IAO_0000115 xml:lang="en">a front contact layer that consists of Indium Tin Oxide (ITO)</obo:IAO_0000115>
         <rdfs:label xml:lang="de">ITO</rdfs:label>
     </owl:Class>
     
@@ -12688,6 +12697,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005053">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000006"/>
+        <obo:IAO_0000115 xml:lang="en">a front contact layer that consists of fluorine-doped tin oxide (FTO)</obo:IAO_0000115>
         <rdfs:label xml:lang="de">FTO</rdfs:label>
     </owl:Class>
     
