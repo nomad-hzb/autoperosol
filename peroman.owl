@@ -7914,6 +7914,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000025"/>
+        <obo:IAO_0000115 xml:lang="en">A quantitative assessment of the homogeneity or uniformity of a mixture. Alternatively, purity refers to the degree of being free of contaminants or heterogeneous components.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C62352</obo:IAO_0000119>
         <rdfs:label xml:lang="en">purity</rdfs:label>
     </owl:Class>
     
@@ -11953,6 +11955,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An instrument used to apply uniform thin films to flat substrates by centrifugal force.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/ERO_0000850</obo:IAO_0000119>
         <rdfs:label xml:lang="de">spin coater</rdfs:label>
     </owl:Class>
     
