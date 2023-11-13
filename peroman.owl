@@ -7684,6 +7684,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">solution aspirating is the process of solution handling that is to draw an amount of a liquid by suction</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://purl.allotrope.org/ontologies/process#AFP_0001824</obo:IAO_0000119>
         <rdfs:label xml:lang="en">Solution aspiration</rdfs:label>
     </owl:Class>
     
@@ -7708,7 +7710,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Anlassen</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Glühen</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Thermische Behandlung</obo:IAO_0000118>
-        <rdfs:comment>a process which heats up an object</rdfs:comment>
+        <rdfs:comment xml:lang="en">A heat treatment that alters the microstructure of a material causing changes in its properties such as strength and hardness</rdfs:comment>
         <rdfs:label xml:lang="en">annealing</rdfs:label>
     </owl:Class>
     
@@ -9231,6 +9233,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a speed quality that describes the inheriting speed of a bearer traveling in circular motion around some point</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Rotation speed</rdfs:label>
     </owl:Class>
     
