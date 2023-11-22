@@ -6691,6 +6691,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000018">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000021"/>
+        <obo:IAO_0000115 xml:lang="en">a layer role that describes the purpose of some layer to divide it from other layers</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Encapsulation</rdfs:label>
     </owl:Class>
     
@@ -13020,6 +13021,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00005071"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An ink cartridge or inkjet cartridge is a component of an inkjet printer that contains the ink that is deposited onto a substrate during printing.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Wikimedia Foundation. (2023, October 31). Ink cartridge. Wikipedia. https://en.wikipedia.org/wiki/Ink_cartridge. Retrieved on: 22.11.2023</obo:IAO_0000119>
         <rdfs:label xml:lang="en">cartridge</rdfs:label>
     </owl:Class>
     
