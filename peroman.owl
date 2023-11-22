@@ -6078,8 +6078,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An indication of the type of unit of measure being used to express an area.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C48037</obo:IAO_0000119>
-        <rdfs:comment xml:lang="en">An indication of the type of unit of measure being used to express an area.</rdfs:comment>
         <rdfs:label>area unit</rdfs:label>
     </owl:Class>
     
@@ -9256,6 +9256,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
+        <obo:IAO_0000115 xml:lang="en">A unit for measurement of  electrical charge</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">http://www.ebi.ac.uk/efo/EFO_0000388</obo:IAO_0000119>
         <rdfs:label xml:lang="en">current unit</rdfs:label>
     </owl:Class>
     
