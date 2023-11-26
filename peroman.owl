@@ -6731,6 +6731,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the role of a thin film</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Layer role</rdfs:label>
     </owl:Class>
     
