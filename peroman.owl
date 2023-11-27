@@ -8748,6 +8748,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
+        <obo:IAO_0000115 xml:lang="en">a process quality that specifies the ultraviolet filter used in some process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ultraviolett filter used</rdfs:label>
     </owl:Class>
     
