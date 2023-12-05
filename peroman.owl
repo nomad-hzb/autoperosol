@@ -6655,6 +6655,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000014">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00000009"/>
+        <obo:IAO_0000115 xml:lang="en">describes the distance between individual cells in a module</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Cell spacing</rdfs:label>
     </owl:Class>
     
