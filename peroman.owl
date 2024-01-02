@@ -7589,7 +7589,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002029"/>
         <obo:IAO_0000115 xml:lang="en">A stack sequence is a property of a sample or a functional layer which gives the order of all deposited layers in that sample or functional layer
 .</obo:IAO_0000115>
-        <rdfs:label>solar cell stack sequence</rdfs:label>
+        <rdfs:label xml:lang="en">stack sequence</rdfs:label>
     </owl:Class>
     
 
