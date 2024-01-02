@@ -7954,13 +7954,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <!-- https://purl.archive.org/tfsco/TFSCO_00001046 -->
 
-<<<<<<< HEAD
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001046">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001045"/>
-=======
-    <owl:Class rdf:about="http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001685"/>
->>>>>>> 099e0ac (removed 'solution manufacturing' as subclass of 'mixing', moved 'shaking' & 'stirring' to mixing, added qualities of removed class to mixing)
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
