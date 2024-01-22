@@ -2147,38 +2147,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002029 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002029">
-        <rdfs:range>
-            <rdfs:Datatype>
-                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#short"/>
-                <owl:withRestrictions rdf:parseType="Collection">
-                    <rdf:Description>
-                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#short">0</xsd:minInclusive>
-                    </rdf:Description>
-                    <rdf:Description>
-                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#short">100</xsd:maxInclusive>
-                    </rdf:Description>
-                </owl:withRestrictions>
-            </rdfs:Datatype>
-        </rdfs:range>
-        <obo:IAO_0000115>Then percentage of organisms in a population that die during some specified age range (age-specific mortality rate), minus the percentage that die in during the same age range in a wild-type population.</obo:IAO_0000115>
-        <oboInOwl:created_by>dos</oboInOwl:created_by>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-05-22T16:43:28Z</oboInOwl:creation_date>
-        <rdfs:comment>This could be used to record the increased infant morality rate in some population compared to wild-type.  For examples of usage see http://purl.obolibrary.org/obo/FBcv_0000351 and subclasses.</rdfs:comment>
-        <rdfs:label xml:lang="en">has increased age-specific mortality rate</rdfs:label>
-    </owl:DatatypeProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RO_0002029"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Then percentage of organisms in a population that die during some specified age range (age-specific mortality rate), minus the percentage that die in during the same age range in a wild-type population.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:24138933</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Wikipedia:Infant_mortality</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
