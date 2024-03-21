@@ -8106,31 +8106,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO_00001056 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001056">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001078"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A substance that is added to a system or compound to improve its characteristics.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C63495</obo:IAO_0000119>
-        <om-2:alternativeLabel xml:lang="en">Doping material</om-2:alternativeLabel>
-        <rdfs:label xml:lang="en">Additive</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco/TFSCO_00001057 -->
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00001057 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001057">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002051"/>
@@ -8348,11 +8324,9 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002107"/>
-    <!-- https://purl.archive.org/tfsco/TFSCO_00001078 -->
+        <rdfs:label xml:lang="en">gas quenching</rdfs:label>
+    </owl:Class>
+    
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60003"/>
@@ -9305,16 +9279,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO_00002029 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
-        <rdfs:label xml:lang="en">solar cell morphology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco/TFSCO_00002030 -->
+    <!-- http://www.semanticweb.org/ot2661/ontologies/2022/8/TFSCO#TFSCO_00002030 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000064"/>
