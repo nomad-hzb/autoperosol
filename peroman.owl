@@ -9516,6 +9516,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a algorithm that specifies the transformation of some data into another data format</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">data processing algorithm</obo:IAO_0000118>
         <rdfs:label xml:lang="en">data transforming algorithm</rdfs:label>
     </owl:Class>
@@ -12732,6 +12733,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a shim that is used to alter the width of the slot die heads channel</obo:IAO_0000115>
         <rdfs:label xml:lang="de">slot die shim</rdfs:label>
     </owl:Class>
     
@@ -13001,6 +13003,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005051">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000002"/>
+        <obo:IAO_0000115 xml:lang="en">a carrier made from glass (usually silicates)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">glass carrier</rdfs:label>
     </owl:Class>
     
@@ -13223,6 +13226,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">an object through which a chemical gets distributed onto a surface</obo:IAO_0000115>
         <rdfs:label xml:lang="de">print head</rdfs:label>
     </owl:Class>
     
