@@ -7586,7 +7586,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00001018 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001018">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002029"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003003"/>
         <obo:IAO_0000115 xml:lang="en">A stack sequence is a property of a sample or a functional layer which gives the order of all deposited layers in that sample or functional layer
 .</obo:IAO_0000115>
         <rdfs:label>solar cell stack sequence</rdfs:label>
@@ -7597,7 +7597,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00001020 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001020">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002029"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003002"/>
         <rdfs:label xml:lang="en">solar cell architecture</rdfs:label>
     </owl:Class>
     
@@ -13792,6 +13792,33 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a photovaltaic device which consists of multiple distinct stacked  solarcells</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stacked tandem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003001 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003001">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000030"/>
+        <rdfs:label xml:lang="de">perovskite solar cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003002 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <rdfs:label xml:lang="de">architecture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003003 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <rdfs:label xml:lang="de">stack sequence</rdfs:label>
     </owl:Class>
     
 
