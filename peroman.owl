@@ -8611,8 +8611,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The fill factor is a measure of quality of a solar cell. It can be calculated by dividing the power at the maximum power point (MPP) divided by the open circuit voltage (Voc) and the short circuit current (Isc).</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Füllfaktor</obo:IAO_0000118>
-        <om-2:alternativeLabel xml:lang="en">a physical quality, that indicates the maximum power from a solar cell</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">fill factor</rdfs:label>
     </owl:Class>
     
