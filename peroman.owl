@@ -2188,6 +2188,22 @@ range: spatial region or site (immaterial continuant)
     
 
 
+    <!-- http://purl.allotrope.org/ontologies/role#AFRL_0000216 -->
+
+    <owl:Class rdf:about="http://purl.allotrope.org/ontologies/role#AFRL_0000216">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002152"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000081"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Additive is a role of material that is added to a mixture in order to achieve a supportive purpose. [Allotrope]</obo:IAO_0000115>
+        <rdfs:label xml:lang="de">additive role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000032">
@@ -7586,9 +7602,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00001018 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001018">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002029"/>
-        <obo:IAO_0000115 xml:lang="en">A stack sequence is a property of a sample or a functional layer which gives the order of all deposited layers in that sample or functional layer
-.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003003"/>
+        <obo:IAO_0000115 xml:lang="en">The stack sequence of some solar cell</obo:IAO_0000115>
         <rdfs:label>solar cell stack sequence</rdfs:label>
     </owl:Class>
     
@@ -7597,7 +7612,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00001020 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001020">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002029"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003002"/>
+        <obo:IAO_0000115 xml:lang="en">the architecture of some solar cell</obo:IAO_0000115>
         <rdfs:label xml:lang="en">solar cell architecture</rdfs:label>
     </owl:Class>
     
@@ -7659,12 +7675,6 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002042"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001003"/>
             </owl:Restriction>
@@ -7673,6 +7683,13 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="de">Modul</obo:IAO_0000118>
@@ -8079,7 +8096,18 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00001056 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001056">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001078"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_60003"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000216"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -8583,8 +8611,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The fill factor is a measure of quality of a solar cell. It can be calculated by dividing the power at the maximum power point (MPP) divided by the open circuit voltage (Voc) and the short circuit current (Isc).</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Füllfaktor</obo:IAO_0000118>
-        <om-2:alternativeLabel xml:lang="en">a physical quality, that indicates the maximum power from a solar cell</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">fill factor</rdfs:label>
     </owl:Class>
     
@@ -13792,6 +13820,35 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a photovaltaic device which consists of multiple distinct stacked  solarcells</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stacked tandem cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003001 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003001">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000030"/>
+        <rdfs:label xml:lang="de">perovskite solar cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003002 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <obo:IAO_0000115 xml:lang="en">The characteristic shape or pattern of some entity</obo:IAO_0000115>
+        <rdfs:label xml:lang="de">architecture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003003 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <obo:IAO_0000115 xml:lang="en">A stack sequence is a property of a sample or a functional layer which gives the order of all deposited layers in that sample or functional layer.</obo:IAO_0000115>
+        <rdfs:label xml:lang="de">stack sequence</rdfs:label>
     </owl:Class>
     
 
