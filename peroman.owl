@@ -14265,8 +14265,12 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000374"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+<<<<<<< HEAD
         <obo:IAO_0000115 xml:lang="eng">an excitation source is a source that fullfills some excitation function</obo:IAO_0000115>
         <rdfs:label xml:lang="en">excitation source</rdfs:label>
+=======
+        <rdfs:label xml:lang="de">excitation source</rdfs:label>
+>>>>>>> 74e092f (added defs for integration time + sd, excitation wavelength + current)
     </owl:Class>
     
 
