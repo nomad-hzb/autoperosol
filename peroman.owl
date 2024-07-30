@@ -14227,6 +14227,9 @@ Date: 31.03.2023</obo:IAO_0000119>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a453258 (added number of averages)
 =======
 >>>>>>> a453258 (added number of averages)
 =======
@@ -14248,6 +14251,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 618c94b (imported optical filter + subclasses from OBI2)
 =======
@@ -14258,6 +14262,8 @@ Date: 31.03.2023</obo:IAO_0000119>
 >>>>>>> a453258 (added number of averages)
 =======
 >>>>>>> 618c94b (imported optical filter + subclasses from OBI2)
+=======
+>>>>>>> a453258 (added number of averages)
     <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003104 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003104">
