@@ -8020,13 +8020,19 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002040"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002093"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002093"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8045,6 +8051,12 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -14182,6 +14194,21 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
         <obo:IAO_0000115 xml:lang="en">A stack sequence is a property of a sample or a functional layer which gives the order of all deposited layers in that sample or functional layer.</obo:IAO_0000115>
         <rdfs:label xml:lang="de">stack sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003100 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000032"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">number of averages</rdfs:label>
     </owl:Class>
     
 
