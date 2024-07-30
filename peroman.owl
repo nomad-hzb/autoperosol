@@ -8040,15 +8040,24 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-<<<<<<< HEAD
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-=======
->>>>>>> 618c94b (imported optical filter + subclasses from OBI2)
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003104"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -14201,6 +14210,9 @@ Date: 31.03.2023</obo:IAO_0000119>
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a453258 (added number of averages)
     <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003100 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003100">
@@ -14216,8 +14228,11 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+<<<<<<< HEAD
 =======
 >>>>>>> 618c94b (imported optical filter + subclasses from OBI2)
+=======
+>>>>>>> a453258 (added number of averages)
     <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003104 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003104">
