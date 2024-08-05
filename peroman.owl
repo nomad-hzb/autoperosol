@@ -4186,6 +4186,12 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000079"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000079"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
