@@ -14320,6 +14320,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <obo:IAO_0000115 xml:lang="eng">an excitation source is a source that fullfills some excitation function</obo:IAO_0000115>
         <rdfs:label xml:lang="en">excitation source</rdfs:label>
 =======
@@ -14327,6 +14328,10 @@ Date: 31.03.2023</obo:IAO_0000119>
 >>>>>>> 74e092f (added defs for integration time + sd, excitation wavelength + current)
         <rdfs:label xml:lang="de">excitation source</rdfs:label>
 >>>>>>> 74e092f (added defs for integration time + sd, excitation wavelength + current)
+=======
+        <obo:IAO_0000115 xml:lang="eng">an excitation source is a source that fullfills some excitation function</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">excitation source</rdfs:label>
+>>>>>>> 901ea31 (added def for 'position of filter')
 =======
         <obo:IAO_0000115 xml:lang="eng">an excitation source is a source that fullfills some excitation function</obo:IAO_0000115>
         <rdfs:label xml:lang="en">excitation source</rdfs:label>
@@ -14354,6 +14359,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <obo:IAO_0000115 xml:lang="en">a wavelength, that fullfills some excitation function</obo:IAO_0000115>
 =======
         <obo:IAO_0000115 xml:lang="en">a wavelength, that is able to fullfill some excitation function</obo:IAO_0000115>
@@ -14364,6 +14370,9 @@ Date: 31.03.2023</obo:IAO_0000119>
 =======
         <obo:IAO_0000115 xml:lang="en">a wavelength, that is able to fullfill some excitation function</obo:IAO_0000115>
 >>>>>>> 74e092f (added defs for integration time + sd, excitation wavelength + current)
+=======
+        <obo:IAO_0000115 xml:lang="en">a wavelength, that fullfills some excitation function</obo:IAO_0000115>
+>>>>>>> 901ea31 (added def for 'position of filter')
         <rdfs:label xml:lang="de">excitation wavelength</rdfs:label>
     </owl:Class>
     
