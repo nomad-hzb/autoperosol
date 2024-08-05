@@ -7165,6 +7165,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00000056">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000055"/>
+        <obo:IAO_0000115 xml:lang="eng">a junction that occurs between similar materials</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Homo-junction</rdfs:label>
     </owl:Class>
     
@@ -7174,6 +7175,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00000057">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000055"/>
+        <obo:IAO_0000115 xml:lang="eng">a junction between different kinds of material</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Hetero-junction</rdfs:label>
     </owl:Class>
     
@@ -12235,6 +12237,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005012">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005011"/>
+        <obo:IAO_0000115 xml:lang="eng">the wavelength at the beginning of some process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">starting wavelength</rdfs:label>
     </owl:Class>
     
@@ -12244,6 +12247,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005013">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005011"/>
+        <obo:IAO_0000115 xml:lang="eng">the wavelength at the end of some process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stopping wavelength</rdfs:label>
     </owl:Class>
     
