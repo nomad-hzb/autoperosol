@@ -9864,6 +9864,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="eng">a functional layer is a layer that is capable of fullfilling some function</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Functional layer</rdfs:label>
     </owl:Class>
     
