@@ -2454,6 +2454,43 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001709"/>
+        <obo:IAO_0000115>The detection of luminescence from a sample.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>FIX:0000427</oboInOwl:hasAlternativeId>
+        <oboInOwl:id>CHMO:0000057</oboInOwl:id>
+        <rdfs:label>luminescence detection</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000057"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The detection of luminescence from a sample.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001257"/>
+        <obo:IAO_0000115>The measurement or detection of luminescence which results from the molecular absorption of a photon which triggers the emission of a photon with a longer wavelength.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fluorescence (FL) detection</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHMO:0000060</oboInOwl:id>
+        <rdfs:label>fluorescence detection</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000060"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The measurement or detection of luminescence which results from the molecular absorption of a photon which triggers the emission of a photon with a longer wavelength.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FIX:0000421</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHMO_0000067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000067">
@@ -2550,6 +2587,60 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000060"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002415"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000815"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Spectroscopy where the intensity of the fluorescence emitted by molecules excited by ultraviolet light is detected as a function of wavelength or time.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fluorescence emission spectroscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fluorescence spectrometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fluorescence spectrophotometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fluorimetry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fluorometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>spectrofluorimetry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>spectrofluorometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHMO:0000287</oboInOwl:id>
+        <rdfs:label>fluorescence spectroscopy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000287"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Spectroscopy where the intensity of the fluorescence emitted by molecules excited by ultraviolet light is detected as a function of wavelength or time.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FIX:0000028</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000773">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001257"/>
+        <obo:IAO_0000115>Spectroscopy where luminesence (the emission of visible light) from molecules irradiated with light, is detected as a function of wavelength.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>PL spectrometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PL spectroscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>photoluminescence (PL) spectroscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>photoluminescence spectrometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHMO:0000773</oboInOwl:id>
+        <rdfs:label>photoluminescence spectroscopy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000773"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Spectroscopy where luminesence (the emission of visible light) from molecules irradiated with light, is detected as a function of wavelength.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FIX:0000235</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHMO_0000793 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000793">
@@ -2589,7 +2680,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/CHMO_0000800 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000800">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000793"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
@@ -2607,6 +2698,150 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A plot of a measured quantity against some experimental parameter.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5985-7429</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000813">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000800"/>
+        <obo:IAO_0000115>A plot of emission against wavelength obtained by measuring the emitted spectral radiant power against a quantity related to photon energy such as frequency, wavenumber or wavelength.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>emission spectra</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHMO:0000813</oboInOwl:id>
+        <rdfs:label>emission spectrum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000813"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A plot of emission against wavelength obtained by measuring the emitted spectral radiant power against a quantity related to photon energy such as frequency, wavenumber or wavelength.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://doi.org/10.1351/goldbook.E02060</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000815">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000865"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000287"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A plot of intensity against wavelength obtained by measuring the amount of radiation emitted by a sample through fluorescence against the frequency of the incident radiation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>fluorescence emission spectra</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fluorescence emission spectrum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fluorescence spectra</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHMO:0000815</oboInOwl:id>
+        <rdfs:label>fluorescence spectrum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000815"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A plot of intensity against wavelength obtained by measuring the amount of radiation emitted by a sample through fluorescence against the frequency of the incident radiation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5985-7429</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000841 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000841">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000865"/>
+        <obo:IAO_0000115>A plot of intensity vs. wavelength obtained by measuring the amount of radiation emitted by a sample through phosphorescence against the wavelength of the incident radiation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>phosphorescence spectra</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHMO:0000841</oboInOwl:id>
+        <rdfs:label>phosphorescence spectrum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000841"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A plot of intensity vs. wavelength obtained by measuring the amount of radiation emitted by a sample through phosphorescence against the wavelength of the incident radiation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5985-7429</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000813"/>
+        <obo:IAO_0000115>A plot of intensity against wavelength obtained by measuring the amount of radiation emitted by a sample through luminescence against the frequency of the incident radiation.</obo:IAO_0000115>
+        <oboInOwl:id>CHMO:0000864</oboInOwl:id>
+        <rdfs:label>luminescence spectrum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000864"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A plot of intensity against wavelength obtained by measuring the amount of radiation emitted by a sample through luminescence against the frequency of the incident radiation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000865 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000865">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000864"/>
+        <obo:IAO_0000115>A plot of intensity vs. wavelength obtained by measuring the intensity of radiation emitted by a sample through photoluminescence (emission of light as a result of stimulation with light) against the frequency/wavelength of the incident radiation.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>PL emission spectra</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PL emission spectrum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PL spectra</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PL spectrum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>photoluminescence spectra</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHMO:0000865</oboInOwl:id>
+        <rdfs:label>photoluminescence spectrum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000865"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A plot of intensity vs. wavelength obtained by measuring the intensity of radiation emitted by a sample through photoluminescence (emission of light as a result of stimulation with light) against the frequency/wavelength of the incident radiation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000057"/>
+        <obo:IAO_0000115>The detection of luminescence emitted from a sample as a result of irradiation with light. Photoluminescence includes both fluorescence and phosphorescence.</obo:IAO_0000115>
+        <oboInOwl:created_by>https://orcid.org/0000-0001-5985-7429</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-04-03T03:54:57Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>PL detection</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHMO:0001257</oboInOwl:id>
+        <rdfs:label>photoluminescence detection</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001257"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The detection of luminescence emitted from a sample as a result of irradiation with light. Photoluminescence includes both fluorescence and phosphorescence.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FIX:0000428</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000864"/>
+        <obo:IAO_0000115>A plot of intensity against wavelength obtained by measuring the intensity of radiation emitted by a sample through electroluminescence (emission of light as a result of the application of a current or an electric field) against wavelength.</obo:IAO_0000115>
+        <oboInOwl:created_by>https://orcid.org/0000-0001-5985-7429</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-04-03T04:03:03Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>EL spectra</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>EL spectrum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>electroluminescence spectra</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHMO:0001258</oboInOwl:id>
+        <rdfs:label>electroluminescence spectrum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001258"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A plot of intensity against wavelength obtained by measuring the intensity of radiation emitted by a sample through electroluminescence (emission of light as a result of the application of a current or an electric field) against wavelength.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2998,6 +3233,18 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001363">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001356"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A synthesis technique where a high-power pulsed laser beam is focused (inside a vacuum chamber) onto a target of the desired composition. Material is then vaporized from the target (&apos;ablation&apos;) and deposited as a thin film on a substrate facing the target.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PLA deposition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PLD</oboInOwl:hasExactSynonym>
@@ -3237,6 +3484,50 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000443"/>
+        <obo:IAO_0000115>A method used to indicate the presence of a substance within a sample.</obo:IAO_0000115>
+        <oboInOwl:id>CHMO:0001709</oboInOwl:id>
+        <rdfs:label>detection method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001709"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A method used to indicate the presence of a substance within a sample.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001917 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001917">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000287"/>
+        <obo:IAO_0000115>Spectroscopy where the time decay of the fluorescence of molecules excited using ultraviolet light is detected.</obo:IAO_0000115>
+        <oboInOwl:created_by>https://orcid.org/0000-0001-5985-7429</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-06-03T04:28:14Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym>time resolved fluorescence spectroscopy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>time resolved fluorimetry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>time resolved fluorometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>time resolved spectrofluorometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>time-resolved fluorimetry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>time-resolved fluorometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>time-resolved spectrofluorometry</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>CHMO:0001917</oboInOwl:id>
+        <rdfs:label>time-resolved fluorescence spectroscopy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001917"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Spectroscopy where the time decay of the fluorescence of molecules excited using ultraviolet light is detected.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FIX:0000109</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHMO_0001988 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001988">
@@ -3275,6 +3566,65 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The application of a thin cover to a sample by depositing consecutive drops of a solution on its surface, and allowing the solvent to evaporate.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001257"/>
+        <obo:IAO_0000115>The detection of luminescence emitted over a long timescale from a sample, as a result of irradiation with light.</obo:IAO_0000115>
+        <oboInOwl:created_by>https://orcid.org/0000-0001-5985-7429</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-08-24T04:05:09Z</oboInOwl:creation_date>
+        <oboInOwl:id>CHMO:0002299</oboInOwl:id>
+        <rdfs:label>phosphorescence detection</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002299"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The detection of luminescence emitted over a long timescale from a sample, as a result of irradiation with light.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FIX:0000426</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002415">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000057"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000228"/>
+        <obo:IAO_0000115>Spectroscopy where the intensity of luminescence emitted by molecules excited is detected as a function of wavelength or time.</obo:IAO_0000115>
+        <oboInOwl:created_by>https://orcid.org/0000-0001-5985-7429</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-09-17T04:15:03Z</oboInOwl:creation_date>
+        <oboInOwl:id>CHMO:0002415</oboInOwl:id>
+        <rdfs:label>luminescence spectroscopy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002415"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Spectroscopy where the intensity of luminescence emitted by molecules excited is detected as a function of wavelength or time.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FIX:0000027</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002299"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002415"/>
+        <obo:IAO_0000115>The detection of luminescence emitted over a long timescale from a sample, as a result of irradiation with light, as a function of wavelength or time.</obo:IAO_0000115>
+        <oboInOwl:created_by>https://orcid.org/0000-0001-5985-7429</oboInOwl:created_by>
+        <oboInOwl:creation_date>2009-09-17T04:16:25Z</oboInOwl:creation_date>
+        <oboInOwl:id>CHMO:0002416</oboInOwl:id>
+        <rdfs:label>phosphorescence spectroscopy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002416"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The detection of luminescence emitted over a long timescale from a sample, as a result of irradiation with light, as a function of wavelength or time.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FIX:0000029</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -4197,6 +4547,27 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000119>PPPB branch</obo:IAO_0000119>
         <rdfs:label xml:lang="en">assay objective</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115>An assay with the objective to capture information about the presence, concentration or amount of an analyte in the evaluant.</obo:IAO_0000115>
+        <oboInOwl:id>OBI:0000443</oboInOwl:id>
+        <rdfs:label>analyte assay</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_0000443"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An assay with the objective to capture information about the presence, concentration or amount of an analyte in the evaluant.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>obi:ar</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>obi:bp</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>obi:hp</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>obi:ppb</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>obi:prs</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -14045,7 +14416,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003106 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003106">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000228"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002415"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -14219,6 +14590,21 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003113 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003113">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005085"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">pulse duration setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003114 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003114">
@@ -14236,6 +14622,22 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="de">excitation wavelength setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003115 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003115">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002131"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000600 xml:lang="en">a time quality that describes the time between activation and deactivation of a light source</obo:IAO_0000600>
+        <rdfs:label xml:lang="de">pulse duration</rdfs:label>
     </owl:Class>
     
 
