@@ -3566,6 +3566,12 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003129"/>
             </owl:Restriction>
@@ -3666,12 +3672,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003143"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002234"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003140"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A method that is used to measure the relaxation rate of molecules in fluorescent samples. A laser pulse excites the molecule, and the time taken for it to emit a single photon is measured.</obo:IAO_0000115>
@@ -3876,6 +3876,12 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002894">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400064"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001963"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
@@ -15314,6 +15320,30 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001323"/>
         <rdfs:label xml:lang="de">spot size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003144 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003144">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002115"/>
+        <rdfs:label xml:lang="de">histogram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003145 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003145">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003144"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001963"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">tcspc histogram</rdfs:label>
     </owl:Class>
     
 
