@@ -14717,6 +14717,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000600 xml:lang="en">a quality, that describes the temperature of some detector</obo:IAO_0000600>
         <rdfs:label xml:lang="de">detector temperature</rdfs:label>
     </owl:Class>
     
@@ -14732,6 +14733,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003101"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000600 xml:lang="en">a quality specification, that is the result of some measurement of some detector temperature</obo:IAO_0000600>
         <rdfs:label xml:lang="de">detector temperature measurement datum</rdfs:label>
     </owl:Class>
     
@@ -15263,6 +15265,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000600 xml:lang="en">a role inherited by a device that is capable of separating continuants</obo:IAO_0000600>
         <rdfs:label xml:lang="de">filter role</rdfs:label>
     </owl:Class>
     
@@ -15272,6 +15275,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003131">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003130"/>
+        <obo:IAO_0000600 xml:lang="en">a emission filter role is inherited by some filter, that fitlers specific wavelengths from a light emitted by a continuant after it has been illuminated</obo:IAO_0000600>
         <rdfs:label xml:lang="de">emission filter role</rdfs:label>
     </owl:Class>
     
@@ -15281,6 +15285,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003132">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003130"/>
+        <obo:IAO_0000600 xml:lang="en">A ecitation filter role is inherited by some filter, that separates the excitation wavelength from a spectrum</obo:IAO_0000600>
         <rdfs:label xml:lang="de">excitation filter role</rdfs:label>
     </owl:Class>
     
@@ -15336,7 +15341,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003142"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000600 xml:lang="en">the voltage of an  electric reference signal</obo:IAO_0000600>
+        <obo:IAO_0000600 xml:lang="en">the voltage of an electric reference signal</obo:IAO_0000600>
         <rdfs:label xml:lang="de">sync input level</rdfs:label>
     </owl:Class>
     
@@ -15476,6 +15481,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003134"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000600 xml:lang="en">a setting datum that specifies the synchronization input level voltage</obo:IAO_0000600>
         <rdfs:label xml:lang="de">sync input level setting datum</rdfs:label>
     </owl:Class>
     
