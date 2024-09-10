@@ -15146,6 +15146,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002894"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000600 xml:lang="en">the power of a laser that is used bring some entity into an excited state</obo:IAO_0000600>
         <rdfs:label xml:lang="de">excitation laser power</rdfs:label>
     </owl:Class>
     
@@ -15197,6 +15198,8 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
+        <obo:IAO_0000600 xml:lang="en">the rise time is the time it takes the signal of some electronic device to cross a specified lower voltage threshold followed by a specified upper voltage threshold
+Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscopes/rise-time) on 09.09.2024</obo:IAO_0000600>
         <rdfs:label xml:lang="de">rise time</rdfs:label>
     </owl:Class>
     
@@ -15246,6 +15249,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003119"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000600 xml:lang="en">the power of an excitation laser that is output of some measurement</obo:IAO_0000600>
         <rdfs:label xml:lang="de">excitation laser power measurement datum</rdfs:label>
     </owl:Class>
     
@@ -15357,6 +15361,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003119"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000600 xml:lang="en">a setting datum that specifies the power of an excitation laser</obo:IAO_0000600>
         <rdfs:label xml:lang="de">excitation laser power setting datum</rdfs:label>
     </owl:Class>
     
@@ -15528,6 +15533,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000600 xml:lang="en">a histogram that displays the number of counts as the x-axis and the time as y-axis</obo:IAO_0000600>
         <rdfs:label xml:lang="de">tcspc histogram</rdfs:label>
     </owl:Class>
     
