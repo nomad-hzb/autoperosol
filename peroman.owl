@@ -2176,12 +2176,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:Class rdf:about="http://purl.allotrope.org/ontologies/equipment#AFE_0002168">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/function#AFFN_0000187"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <property:AFX_0002818 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</property:AFX_0002818>
         <rdfs:isDefinedBy rdf:resource="http://purl.allotrope.org/voc/afo/REC/2024/06/aft"/>
         <rdfs:label>transferring device</rdfs:label>
@@ -2200,12 +2194,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <skos:definition>A nozzle is a transferring device consisting of jet port with an opening for regulating and/or directing the flow of fluid. [Allotrope]</skos:definition>
         <skos:prefLabel>nozzle</skos:prefLabel>
     </owl:Class>
-    
-
-
-    <!-- http://purl.allotrope.org/ontologies/function#AFFN_0000187 -->
-
-    <owl:Class rdf:about="http://purl.allotrope.org/ontologies/function#AFFN_0000187"/>
     
 
 
