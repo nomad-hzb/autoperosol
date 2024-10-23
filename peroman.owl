@@ -14125,6 +14125,12 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002098"/>
             </owl:Restriction>
         </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://purl.archive.org/tfsco/TFSCOObjectProperty_00002008"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003304"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002007"/>
         <obo:IAO_0000115 xml:lang="en">is a scan with the goal of determining the maximum power point of some photovoltaic device</obo:IAO_0000115>
         <rdfs:label xml:lang="de">maximum power point tracking</rdfs:label>
@@ -14266,7 +14272,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
         <obo:IAO_0000600 xml:lang="en">describes the time span after which a solar cell drops to 80% of its original efficiency</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">time till 80 percent efficiency</rdfs:label>
+        <rdfs:label xml:lang="en">time until 80 percent efficiency</rdfs:label>
     </owl:Class>
     
 
@@ -14282,7 +14288,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
         <obo:IAO_0000600 xml:lang="en">describes the time span after which a solar cell drops to 90% of its original efficiency</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">time till 90 percent efficiency</rdfs:label>
+        <rdfs:label xml:lang="en">time until 90 percent efficiency</rdfs:label>
     </owl:Class>
     
 
@@ -14297,7 +14303,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
-        <rdfs:label xml:lang="de">time till 80 percent efficiency measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">time until 80 percent efficiency measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -14312,7 +14318,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
-        <rdfs:label xml:lang="de">time till 90 percent efficiency measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">time until 90 percent efficiency measurement datum</rdfs:label>
     </owl:Class>
     
 
