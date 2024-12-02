@@ -4,8 +4,6 @@
 
 _Work in Progress!_
 
-Attention please! There are some problems with the Ontologies URI´s at the moment that disables them from redirecting users to the ontology repository. (15.10.2024, 10:00)
-
 ## Table of Contents
   * [About TFSCO](#about-tfsco)
   * [Use of TFSCO](#use-of-tfsco)
