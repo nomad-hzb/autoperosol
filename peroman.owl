@@ -14319,25 +14319,25 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003304 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003304">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003300"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003301"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003401"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        </rdfs:subClassOf>
         <obo:IAO_0000600 xml:lang="en">a data tranformation process, which interprets the raw experimental data of an maximum power point tracking</obo:IAO_0000600>
         <rdfs:label xml:lang="de">mppt analysis</rdfs:label>
     </owl:Class>
