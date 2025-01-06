@@ -15682,10 +15682,17 @@ Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscop
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001464"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003401"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003157"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the signal channel level describes the voltage level of the signal channel</obo:IAO_0000115>
         <rdfs:label xml:lang="de">signal channel level</rdfs:label>
     </owl:Class>
     
@@ -15785,6 +15792,17 @@ Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscop
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001124"/>
         <obo:IAO_0000115 xml:lang="en">the arrival time delay describes a delay time, that had been added to some arrival time to account for the time it takes some signal to arrive at some detector</obo:IAO_0000115>
         <rdfs:label xml:lang="en">arrival time delay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003401 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
+        <obo:IAO_0000115 xml:lang="en">&quot;A unit for measurement of potential energy per unit of charge associated with a time-invariant electric field.&quot; (NCIT)</obo:IAO_0000115>
+        <obo:IAO_0006011 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C67322</obo:IAO_0006011>
+        <rdfs:label xml:lang="de">electric potential unit</rdfs:label>
     </owl:Class>
     
 
