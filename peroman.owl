@@ -3604,12 +3604,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002076"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003110"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3653,6 +3647,12 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003403"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A method that is used to measure the relaxation rate of molecules in fluorescent samples. A laser pulse excites the molecule, and the time taken for it to emit a single photon is measured.</obo:IAO_0000115>
@@ -15586,7 +15586,7 @@ Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscop
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000600 xml:lang="en">a histogram that displays the number of counts as the x-axis and the time as y-axis</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">time correlated single photon count histogram</rdfs:label>
+        <rdfs:label xml:lang="en">time correlated single photon counting histogram</rdfs:label>
     </owl:Class>
     
 
@@ -15820,7 +15820,17 @@ Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscop
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003402">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
         <obo:IAO_0000115 xml:lang="en">the time correlated single photon count arrival time measurment datum is a time measurement datum that describes the time between the emittance of some signal and the detection of that signal by some detector</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">time correlated single photon count arrival time measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">time correlated single photon counting arrival time measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003403 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001309"/>
+        <obo:IAO_0000115 xml:lang="en">the accumulation time is a duration, that describes the time span of some process over which measurement datums are being accumulated</obo:IAO_0000115>
+        <rdfs:label xml:lang="de">accumulation time</rdfs:label>
     </owl:Class>
     
 
