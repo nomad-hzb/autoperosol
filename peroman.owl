@@ -15666,11 +15666,17 @@ Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscop
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001464"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003401"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003158"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000600 xml:lang="en">the electric potential level of some electrical timing reference signal</obo:IAO_0000600>
+        <obo:IAO_0000600 xml:lang="en">the electric potential level of some reference signal</obo:IAO_0000600>
         <rdfs:label xml:lang="de">sync channel level</rdfs:label>
     </owl:Class>
     
