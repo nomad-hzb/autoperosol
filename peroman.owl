@@ -15741,6 +15741,7 @@ Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscop
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003153"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the signal channel level setting datum is a electric potential setting datum that describes the set value of the signal channel level</obo:IAO_0000115>
         <rdfs:label xml:lang="de">signal channel level setting datum</rdfs:label>
     </owl:Class>
     
@@ -15756,6 +15757,7 @@ Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscop
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003152"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the sync channel level setting datum is a electric potential setting datum that describes the set value of the sync channel level</obo:IAO_0000115>
         <rdfs:label xml:lang="de">sync channel level setting datum</rdfs:label>
     </owl:Class>
     
