@@ -21,6 +21,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:property="http://purl.allotrope.org/ontologies/property#"
      xmlns:oboInOwl1="oboInOwl:">
     <owl:Ontology rdf:about="https://purl.archive.org/tfsco">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
@@ -9504,6 +9505,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003123"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the delay time is a time range, that describes some planned delay between two processes</obo:IAO_0000115>
         <rdfs:label xml:lang="en">delay time</rdfs:label>
     </owl:Class>
     
@@ -15773,6 +15775,16 @@ Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscop
         </rdfs:subClassOf>
         <obo:IAO_0000600 xml:lang="en">a setting datum that specifies the value of the edge of the signal channel</obo:IAO_0000600>
         <rdfs:label xml:lang="de">signal channel edge setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003400 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003400">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001124"/>
+        <obo:IAO_0000115 xml:lang="en">the arrival time delay describes a delay time, that had been added to some arrival time to account for the time it takes some signal to arrive at some detector</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">arrival time delay</rdfs:label>
     </owl:Class>
     
 
