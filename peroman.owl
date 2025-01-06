@@ -15582,11 +15582,11 @@ Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscop
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003118"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000600 xml:lang="en">a histogram that displays the number of counts as the x-axis and the time as y-axis</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">tcspc histogram</rdfs:label>
+        <rdfs:label xml:lang="en">time correlated single photon count histogram</rdfs:label>
     </owl:Class>
     
 
@@ -15811,6 +15811,16 @@ Source: PicoTech () Retrieved from:(https://www.picotech.com/library/oscilloscop
         <obo:IAO_0000115 xml:lang="en">&quot;A unit for measurement of potential energy per unit of charge associated with a time-invariant electric field.&quot; (NCIT)</obo:IAO_0000115>
         <obo:IAO_0006011 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C67322</obo:IAO_0006011>
         <rdfs:label xml:lang="de">electric potential unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003402 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003402">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000115 xml:lang="en">the time correlated single photon count arrival time measurment datum is a time measurement datum that describes the time between the emittance of some signal and the detection of that signal by some detector</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">time correlated single photon count arrival time measurement datum</rdfs:label>
     </owl:Class>
     
 
