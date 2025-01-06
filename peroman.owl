@@ -11973,6 +11973,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The volume measurement datum is a scalar measurement datum that describes the result of some volumetric measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="de">volume measurement datum</rdfs:label>
     </owl:Class>
     
@@ -12157,7 +12158,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement transmittance quality</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The transmittance measurement datum is a scalar measurement datum that describes the result of some transmittance measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">transmittance measurement datum</rdfs:label>
     </owl:Class>
     
