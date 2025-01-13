@@ -14811,6 +14811,12 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003508"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003500"/>
             </owl:Restriction>
@@ -14917,6 +14923,15 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001323"/>
         <obo:IAO_0000115 xml:lang="en">is a area that describes the 2-d extent of some pixel</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pixel area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003508 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003508">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
+        <rdfs:label xml:lang="de">power datum</rdfs:label>
     </owl:Class>
     
 
