@@ -9942,7 +9942,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a device that can transforms light into electricity via the photovoltaic effect</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">is a device, that converts radtiation into electricity via the photovoltaic effect</obo:IAO_0000115>
         <rdfs:label xml:lang="en">photovoltaic device</rdfs:label>
     </owl:Class>
     
