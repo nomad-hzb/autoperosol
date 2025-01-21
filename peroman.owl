@@ -4213,6 +4213,22 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+        <obo:IAO_0000111 xml:lang="en">material separation function</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A material separation function is a function that increases the resolution between two or more material entities. The  to distinction between the entities is usually based on some associated physical quality.</obo:IAO_0000115>
+        <obo:IAO_0000117>Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117>Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000117>Frank Gibson</obo:IAO_0000117>
+        <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">material separation function</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000374 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000374">
@@ -4221,6 +4237,12 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000079"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003105"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000079"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003107"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4237,6 +4259,19 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <obo:IAO_0000117>Frank Gibson</obo:IAO_0000117>
         <obo:IAO_0000117>Melanie Courtot</obo:IAO_0000117>
         <rdfs:label xml:lang="en">excitation function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000372"/>
+        <obo:IAO_0000111 xml:lang="en">filter function</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A filter function is a function to prevent the flow of certain entities based on a quality or qualities of the entity while allowing entities which have different qualities to pass through</obo:IAO_0000115>
+        <obo:IAO_0000117>Frank Gibson</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">filter function</rdfs:label>
     </owl:Class>
     
 
@@ -4331,6 +4366,30 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <owl:annotatedTarget>A process with that achieves the objective to maintain some or all of the characteristics of an input material over time.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>obi:bp</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000932">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000968"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000372"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <obo:IAO_0000111>material separation device</obo:IAO_0000111>
+        <obo:IAO_0000112>flow cytometer</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A device with a separation function realized in a planed process</obo:IAO_0000115>
+        <rdfs:label>material separation device</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4617,6 +4676,21 @@ In the examples above, a reagent is an operational component of a device, but th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0400013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
+        <obo:IAO_0000111>band pass filter</obo:IAO_0000111>
+        <obo:IAO_0000112>530/30 BP filter, 585/42 BP filter</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A band pass filter is an optical filter that passes wavelengths of light within a certain range and rejects (attenuates) frequencies outside that range. The passed wavelengths are indicated in the specifications of the filter and its name. A 480/20 band-pass filter pass light with at wavelengths of 460 to 500 nm and attenuates all others.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person:John Quinn</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Band_pass_filter</obo:IAO_0000119>
+        <rdfs:label>band pass filter</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0400064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400064">
@@ -4664,6 +4738,63 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000117>Olga Tchuvatkina</obo:IAO_0000117>
         <obo:IAO_0000119>Practical Flow Cytometry 4th Edition, Howard Shapiro, ISBN-10: 0471411256, ISBN-13: 978-0471411253</obo:IAO_0000119>
         <rdfs:label>light source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
+        <obo:IAO_0000111>long pass filter</obo:IAO_0000111>
+        <obo:IAO_0000112>750 LP filter</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A long pass filter is an optical filter that passes high wavelengths of light but attenuates (or reduces) wavelengths lower than the cutoff frequency. A long pass filter with a cutoff of 500 nm would pass all wavelengths greater than 500 nm.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Quinn</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/high-pass_filter</obo:IAO_0000119>
+        <rdfs:label>long pass filter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000932"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000378"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111>optical filter</obo:IAO_0000111>
+        <obo:IAO_0000112>720 LP filter, 580/30 BP filter</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>An optical filter is an optical subsystem that selectively transmits light having certain properties (often, a particular range of wavelengths, that is, range of colours of light), while blocking the remainder. They are commonly used in photography, in many optical instruments, and to colour stage lighting Optical filters can be arranged to segregate and collect light by wave length.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Quinn</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Optical_filter</obo:IAO_0000119>
+        <rdfs:label>optical filter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0400095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0400095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
+        <obo:IAO_0000111>short pass filter</obo:IAO_0000111>
+        <obo:IAO_0000112>620 SP filter</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115>A short pass filter is an optical filter that passes low wavelengths of light but attenuates (or reduces) wavelengths higher than the cutoff frequency. A short pass filter with a cutoff of 500 nm would pass all wavelengths less than 500 nm.</obo:IAO_0000115>
+        <obo:IAO_0000117>John Quinn</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Low-pass_filter</obo:IAO_0000119>
+        <rdfs:label>short pass filter</rdfs:label>
     </owl:Class>
     
 
@@ -7124,6 +7255,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00000056">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000055"/>
+        <obo:IAO_0000115 xml:lang="eng">a junction that occurs between similar materials</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Homo-junction</rdfs:label>
     </owl:Class>
     
@@ -7133,6 +7265,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00000057">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000055"/>
+        <obo:IAO_0000115 xml:lang="eng">a junction between different kinds of material</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Hetero-junction</rdfs:label>
     </owl:Class>
     
@@ -7895,19 +8028,19 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002093"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003101"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7926,6 +8059,12 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -9516,6 +9655,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a algorithm that specifies the transformation of some data into another data format</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">data processing algorithm</obo:IAO_0000118>
         <rdfs:label xml:lang="en">data transforming algorithm</rdfs:label>
     </owl:Class>
@@ -9783,6 +9923,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a device that can transforms light into electricity via the photovoltaic effect</obo:IAO_0000115>
         <rdfs:label xml:lang="en">photovoltaic device</rdfs:label>
     </owl:Class>
     
@@ -9819,6 +9960,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="eng">a functional layer is a layer that is capable of fullfilling some function</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Functional layer</rdfs:label>
     </owl:Class>
     
@@ -10416,6 +10558,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the duration over which the sensor collects incoming light</obo:IAO_0000115>
         <rdfs:label xml:lang="en">integration time</rdfs:label>
     </owl:Class>
     
@@ -10741,7 +10884,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the integration time</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a setting datum that specifies some integration time</obo:IAO_0000115>
         <rdfs:label xml:lang="en">integration time setting datum</rdfs:label>
     </owl:Class>
     
@@ -11147,6 +11290,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002116">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002115"/>
+        <obo:IAO_0000115 xml:lang="en">A process log is a steadily updated information object containing data of events in time during a process execution.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">process log</rdfs:label>
     </owl:Class>
     
@@ -11168,6 +11312,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002119"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the process log of some pvd process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pvd process log</rdfs:label>
     </owl:Class>
     
@@ -12195,6 +12340,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005012">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005011"/>
+        <obo:IAO_0000115 xml:lang="eng">the wavelength at the beginning of some process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">starting wavelength</rdfs:label>
     </owl:Class>
     
@@ -12204,6 +12350,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005013">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005011"/>
+        <obo:IAO_0000115 xml:lang="eng">the wavelength at the end of some process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">stopping wavelength</rdfs:label>
     </owl:Class>
     
@@ -12723,6 +12870,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a shim that is used to alter the width of the slot die heads channel</obo:IAO_0000115>
         <rdfs:label xml:lang="de">slot die shim</rdfs:label>
     </owl:Class>
     
@@ -12992,6 +13140,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005051">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000002"/>
+        <obo:IAO_0000115 xml:lang="en">a carrier made from glass (usually silicates)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">glass carrier</rdfs:label>
     </owl:Class>
     
@@ -13214,6 +13363,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005088"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">an object through which a chemical gets distributed onto a surface</obo:IAO_0000115>
         <rdfs:label xml:lang="de">print head</rdfs:label>
     </owl:Class>
     
@@ -13485,6 +13635,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the distance between some print head and some substrate during a deposition process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">print head distance to substrate</rdfs:label>
     </owl:Class>
     
@@ -13715,6 +13866,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005093"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the height, from which some anti solvent is dropped onto some entity</obo:IAO_0000115>
         <rdfs:label xml:lang="de">anti solvent dropping height</rdfs:label>
     </owl:Class>
     
@@ -14060,43 +14212,14 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003100 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:label xml:lang="de">filter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003101 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003101">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">optical filter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003102 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003102">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003101"/>
-        <oboInOwl:hasExactSynonym xml:lang="eng">short cut filter</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="de">long pass filter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003103 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003103">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003101"/>
-        <oboInOwl:hasExactSynonym xml:lang="eng">long cut filter</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="de">short pass filter</rdfs:label>
+        <rdfs:label xml:lang="de">number of averages</rdfs:label>
     </owl:Class>
     
 
@@ -14122,10 +14245,17 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000063"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000374"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a current, that is able to fullfill some excitation function</obo:IAO_0000115>
         <rdfs:label xml:lang="de">excitation current</rdfs:label>
     </owl:Class>
     
@@ -14141,7 +14271,14 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">excitation source</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000374"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="eng">an excitation source is a source that fullfills some excitation function</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">excitation source</rdfs:label>
     </owl:Class>
     
 
@@ -14162,6 +14299,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000374"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a wavelength, that fullfills some excitation function</obo:IAO_0000115>
         <rdfs:label xml:lang="de">excitation wavelength</rdfs:label>
     </owl:Class>
     
@@ -14192,6 +14330,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="eng">the position of filter describes thespatially relation between a filter and another continuant</obo:IAO_0000115>
         <rdfs:label xml:lang="de">position of filter</rdfs:label>
     </owl:Class>
     
@@ -14249,6 +14388,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a wavelength setting datum that specifies some excitation wavelength</obo:IAO_0000115>
         <rdfs:label xml:lang="de">excitation wavelength setting datum</rdfs:label>
     </owl:Class>
     
