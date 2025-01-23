@@ -14204,7 +14204,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
         <obo:IAO_0000115 xml:lang="en">A stack sequence is a property of a sample or a functional layer which gives the order of all deposited layers in that sample or functional layer.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">stack sequence</rdfs:label>
+        <rdfs:label xml:lang="en">stack sequence</rdfs:label>
     </owl:Class>
     
 
