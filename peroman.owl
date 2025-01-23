@@ -5413,17 +5413,17 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-        <obo:IAO_0000115>A physical quality inhering in a bearer by virtue of the bearer&apos;s capacity to do work.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A physical quality inhering in a bearer by virtue of the bearer&apos;s capacity to do work.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PATO:0001021</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
-        <rdfs:label>energy</rdfs:label>
+        <rdfs:label xml:lang="en">energy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A physical quality inhering in a bearer by virtue of the bearer&apos;s capacity to do work.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">A physical quality inhering in a bearer by virtue of the bearer&apos;s capacity to do work.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Energy</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -5550,18 +5550,18 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-        <obo:IAO_0000115>A physical quality inhering in a bearer by virtue of the bearer&apos;s rate of change of momentum.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A physical quality inhering in a bearer by virtue of the bearer&apos;s rate of change of momentum.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>force amplitude</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PATO:0001035</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
-        <rdfs:label>force</rdfs:label>
+        <rdfs:label xml:lang="en">force</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0001035"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A physical quality inhering in a bearer by virtue of the bearer&apos;s rate of change of momentum.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">A physical quality inhering in a bearer by virtue of the bearer&apos;s rate of change of momentum.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>thesaurus.maths:thesaurus.maths</oboInOwl:hasDbXref>
     </owl:Axiom>
     
