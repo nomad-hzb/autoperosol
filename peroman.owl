@@ -5120,18 +5120,18 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001035"/>
-        <obo:IAO_0000115>A physical quality inhering in a bearer that has mass near a gravitational body. Important usage note: Note that this ontology has a class for a similar concept, mass (PATO:0000125). Mass and weight are not equivalent. For most use cases, the class mass is strongly preferred over weight.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A physical quality inhering in a bearer that has mass near a gravitational body. Important usage note: Note that this ontology has a class for a similar concept, mass (PATO:0000125). Mass and weight are not equivalent. For most use cases, the class mass is strongly preferred over weight.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PATO:0000128</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
-        <rdfs:comment>For any biological use of PATO, the concept that should be used is &apos;mass&apos; and not &apos;weight&apos;. For example, increased weight of an organism.</rdfs:comment>
-        <rdfs:label>weight</rdfs:label>
+        <rdfs:comment xml:lang="en">For any biological use of PATO, the concept that should be used is &apos;mass&apos; and not &apos;weight&apos;. For example, increased weight of an organism.</rdfs:comment>
+        <rdfs:label xml:lang="en">weight</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PATO_0000128"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A physical quality inhering in a bearer that has mass near a gravitational body. Important usage note: Note that this ontology has a class for a similar concept, mass (PATO:0000125). Mass and weight are not equivalent. For most use cases, the class mass is strongly preferred over weight.</owl:annotatedTarget>
+        <owl:annotatedTarget xml:lang="en">A physical quality inhering in a bearer that has mass near a gravitational body. Important usage note: Note that this ontology has a class for a similar concept, mass (PATO:0000125). Mass and weight are not equivalent. For most use cases, the class mass is strongly preferred over weight.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Wikipedia:http://en.wikipedia.org/wiki/Weight</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Mass#Weight_vs._mass</oboInOwl:hasDbXref>
     </owl:Axiom>
