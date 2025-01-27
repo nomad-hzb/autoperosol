@@ -9865,6 +9865,12 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003510"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001003"/>
             </owl:Restriction>
@@ -9921,6 +9927,24 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003503"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003504"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003511"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a device that can transforms light into electricity via the photovoltaic effect</obo:IAO_0000115>
@@ -14921,6 +14945,55 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
         <obo:IAO_0000115 xml:lang="en">is a scalar datum that quantifies some power</obo:IAO_0000115>
         <rdfs:label xml:lang="en">power datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003509 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000456"/>
+        <obo:IAO_0000600 xml:lang="en">is a material transformation objective with the goal of reaching a relatively stable condition</obo:IAO_0000600>
+        <rdfs:label xml:lang="en">stabilized condition objective</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003510 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003510">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000022"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003509"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000600 xml:lang="en">burn in process: describes some illumination process with the goal of stimulating a solar cells non-reversible initial degradation</obo:IAO_0000600>
+        <rdfs:label xml:lang="en">burn in process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003511 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003511">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001029"/>
+        <obo:IAO_0000600 xml:lang="en">is a efficiency, that describes the radiation to power conversion efficiency of some photovoltaic device</obo:IAO_0000600>
+        <oboInOwl:hasExactSynonym xml:lang="en">PCE</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">power conversion efficiency</rdfs:label>
     </owl:Class>
     
 
