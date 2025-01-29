@@ -12812,7 +12812,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003505"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">describes the time span after which a solar cell drops to 80% of its original efficiency</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">describes the time span after which a solar cell drops to 80% of its original power conversion efficiency</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time until 80 percent efficiency</rdfs:label>
     </owl:Class>
     
@@ -12828,7 +12828,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003506"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">describes the time span after which a solar cell drops to 90% of its original efficiency</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">describes the time span after which a solar cell drops to 90% of its original power conversion efficiency</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time until 90 percent efficiency</rdfs:label>
     </owl:Class>
     
