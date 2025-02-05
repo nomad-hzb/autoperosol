@@ -12995,6 +12995,46 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003516 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003516">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003503"/>
+        <obo:IAO_0000115 xml:lang="en">the time until 80 percent efficiency from extrapolated power conversion efficiency describes a time until 80 percent efficiency with the starting efficiency being calculated via extrapolation from the power conversion efficiency after the device has undergone some burn in process</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">time until 80 percent efficiency from extrapolated power conversion efficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003517 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003517">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003504"/>
+        <obo:IAO_0000115 xml:lang="en">the time until 90 percent efficiency from extrapolated power conversion efficiency describes a time until 90 percent efficiency with the starting efficiency being calculated via extrapolation from the power conversion efficiency after the device has undergone some burn in process</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">time until 90 percent efficiency from extrapolated power conversion efficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003518 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003518">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003503"/>
+        <obo:IAO_0000115 xml:lang="en">the time until 80 percent efficiency from extrapolated power conversion efficiency describes a time until 80 percent efficiency with the starting efficiency being the efficiency of the photovoltaic device after the device has undergone some burn in process</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">time until 80 percent efficiency after burn in</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003519 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003519">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003504"/>
+        <obo:IAO_0000115 xml:lang="en">the time until 90 percent efficiency from extrapolated power conversion efficiency describes a time until 90 percent efficiency with the starting efficiency being the efficiency of the photovoltaic device after the device has undergone some burn in process</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">time until 90 percent efficiency after burn in</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco/TFSCO_00005000 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005000">
