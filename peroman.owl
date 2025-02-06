@@ -7840,7 +7840,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001018">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003003"/>
         <obo:IAO_0000115 xml:lang="en">The stack sequence of some solar cell</obo:IAO_0000115>
-        <rdfs:label>solar cell stack sequence</rdfs:label>
+        <rdfs:label xml:lang="en">solar cell stack sequence</rdfs:label>
     </owl:Class>
     
 
