@@ -14184,7 +14184,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003001">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000030"/>
-        <rdfs:label xml:lang="de">perovskite solar cell</rdfs:label>
+        <rdfs:label xml:lang="en">perovskite solar cell</rdfs:label>
     </owl:Class>
     
 
@@ -14331,7 +14331,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="eng">the position of filter describes thespatially relation between a filter and another continuant</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">position of filter</rdfs:label>
+        <rdfs:label xml:lang="en">position of filter</rdfs:label>
     </owl:Class>
     
 
@@ -14346,7 +14346,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">current setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">current setting datum</rdfs:label>
     </owl:Class>
     
 
