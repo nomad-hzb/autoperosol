@@ -12892,7 +12892,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The width of the slot die head, where the ink can exit the slot die head.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The width of the slot die head, where the ink can exit the slot die head.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">slot die head width</rdfs:label>
     </owl:Class>
     
@@ -13071,7 +13071,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the width of some slot die head</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">slot die head width setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">slot die head width setting datum</rdfs:label>
     </owl:Class>
     
 
