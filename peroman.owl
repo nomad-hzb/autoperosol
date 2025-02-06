@@ -13190,7 +13190,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005056">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000003"/>
-        <rdfs:label xml:lang="de">silver back contact</rdfs:label>
+        <rdfs:label xml:lang="en">silver back contact</rdfs:label>
     </owl:Class>
     
 
