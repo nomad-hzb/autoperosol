@@ -13151,7 +13151,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005052">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000006"/>
         <obo:IAO_0000115 xml:lang="en">a front contact layer that consists of Indium Tin Oxide (ITO)</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">ITO</rdfs:label>
+        <rdfs:label xml:lang="en">ITO</rdfs:label>
     </owl:Class>
     
 
@@ -13161,7 +13161,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005053">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000006"/>
         <obo:IAO_0000115 xml:lang="en">a front contact layer that consists of fluorine-doped tin oxide (FTO)</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">FTO</rdfs:label>
+        <rdfs:label xml:lang="en">FTO</rdfs:label>
     </owl:Class>
     
 
