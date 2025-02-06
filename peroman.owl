@@ -13564,7 +13564,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
-        <rdfs:label xml:lang="de">substrate height</rdfs:label>
+        <rdfs:label xml:lang="en">substrate height</rdfs:label>
     </owl:Class>
     
 
