@@ -12936,7 +12936,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">pressure setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">pressure setting datum</rdfs:label>
     </owl:Class>
     
 
