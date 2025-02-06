@@ -12983,7 +12983,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum that specifies some speed configuration</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">speed setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">speed setting datum</rdfs:label>
     </owl:Class>
     
 
