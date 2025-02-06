@@ -12871,7 +12871,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a shim that is used to alter the width of the slot die heads channel</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">slot die shim</rdfs:label>
+        <rdfs:label xml:lang="en">slot die shim</rdfs:label>
     </owl:Class>
     
 
