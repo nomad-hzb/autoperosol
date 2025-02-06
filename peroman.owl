@@ -13300,7 +13300,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:onClass rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">thin film solar cell</rdfs:label>
+        <rdfs:label xml:lang="en">thin film solar cell</rdfs:label>
     </owl:Class>
     
 
