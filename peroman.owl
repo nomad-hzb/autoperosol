@@ -13614,7 +13614,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
-        <rdfs:label xml:lang="de">printing direction</rdfs:label>
+        <rdfs:label xml:lang="en">printing direction</rdfs:label>
     </owl:Class>
     
 
