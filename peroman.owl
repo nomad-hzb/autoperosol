@@ -11437,6 +11437,12 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005718"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00009996"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -14889,6 +14895,15 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005717">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
         <rdfs:label xml:lang="en">pipette tip diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005718 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001323"/>
+        <rdfs:label xml:lang="en">substrate area</rdfs:label>
     </owl:Class>
     
 
