@@ -11407,6 +11407,18 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005713"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005714"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00009996"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -14089,7 +14101,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
-        <rdfs:label xml:lang="de">substrate height</rdfs:label>
+        <rdfs:label xml:lang="en">substrate height</rdfs:label>
     </owl:Class>
     
 
@@ -14802,6 +14814,33 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0002168"/>
         <oboInOwl:hasExactSynonym xml:lang="en">pipet</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">pipette</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005713 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005713">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <rdfs:label xml:lang="en">substrate length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005714 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005714">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:label xml:lang="en">substrate width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005715 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000915"/>
+        <rdfs:label xml:lang="en">wet film thickness</rdfs:label>
     </owl:Class>
     
 
