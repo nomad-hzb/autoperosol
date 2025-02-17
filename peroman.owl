@@ -14914,6 +14914,16 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005720 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005720">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">the distance to substrate describes the distance between some continuant and some substrate</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">distance to substrate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco/TFSCO_00009995 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00009995">
