@@ -2188,25 +2188,31 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.allotrope.org/ontologies/equipment#AFE_0002222 -->
 
     <owl:Class rdf:about="http://purl.allotrope.org/ontologies/equipment#AFE_0002222">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0002168"/>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001574"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003304"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003306"/>
             </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0002168"/>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:isDefinedBy rdf:resource="http://purl.allotrope.org/voc/afo/REC/2024/06/aft"/>
         <rdfs:label>nozzle</rdfs:label>
         <skos:definition>A nozzle is a transferring device consisting of jet port with an opening for regulating and/or directing the flow of fluid. [Allotrope]</skos:definition>
@@ -14881,7 +14887,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005717 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005717">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005723"/>
         <rdfs:label xml:lang="en">pipette tip diameter</rdfs:label>
     </owl:Class>
     
@@ -14908,6 +14914,24 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the distance to substrate describes the distance between some continuant and some substrate</obo:IAO_0000115>
         <rdfs:label xml:lang="en">distance to substrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005723 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005723">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
+        <rdfs:label xml:lang="de">tip diameter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005724 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005724">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005723"/>
+        <rdfs:label xml:lang="de">nozzle tip diameter</rdfs:label>
     </owl:Class>
     
 
