@@ -14936,6 +14936,15 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005725 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005725">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002242"/>
+        <rdfs:label xml:lang="de">output velocity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco/TFSCO_00009995 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00009995">
