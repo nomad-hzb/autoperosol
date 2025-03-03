@@ -14749,6 +14749,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005703"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the contact angle is an angle, at which two or more continuants make physical contact</obo:IAO_0000115>
         <rdfs:label xml:lang="en">contact angle</rdfs:label>
     </owl:Class>
     
@@ -14764,6 +14765,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005702"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the contact angle setting datum is a setting datum, that specifies the value of the angle at which two or more continuants make physical contact</obo:IAO_0000115>
         <rdfs:label xml:lang="en">contact angle setting datum</rdfs:label>
     </owl:Class>
     
