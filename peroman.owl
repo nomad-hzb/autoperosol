@@ -14548,7 +14548,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a volume setting datum that specifies some drop volume configuration of some print nozzle</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">print nozzle drop volume setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">print nozzle drop volume setting datum</rdfs:label>
     </owl:Class>
     
 
