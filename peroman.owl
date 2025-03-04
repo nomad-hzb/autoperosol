@@ -6352,7 +6352,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An indication of the type of unit of measure being used to express an area.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/NCIT_C48037</obo:IAO_0000119>
-        <rdfs:label>area unit</rdfs:label>
+        <rdfs:label xml:lang="en">area unit</rdfs:label>
     </owl:Class>
     
 
@@ -6396,8 +6396,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>&quot;A unit which is a standard measure of the rate of change of angular velocity.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
-        <rdfs:label>angular acceleration unit</rdfs:label>
+        <rdfs:comment xml:lang="en">&quot;A unit which is a standard measure of the rate of change of angular velocity.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+        <rdfs:label xml:lang="en">angular acceleration unit</rdfs:label>
     </owl:Class>
     
 
@@ -6581,8 +6581,8 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment>&quot;A unit which is a standard measure of the figure or space formed by the junction of two lines or planes.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
-        <rdfs:label>angle unit</rdfs:label>
+        <rdfs:comment xml:lang="en">&quot;A unit which is a standard measure of the figure or space formed by the junction of two lines or planes.&quot; [Wikipedia:Wikipedia]</rdfs:comment>
+        <rdfs:label xml:lang="en">angle unit</rdfs:label>
     </owl:Class>
     
 
@@ -8406,6 +8406,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005092"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">anti solvent quenching is a sample quenching method, that uses some anti solvent to affect the crystallization of some layer</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anti solvent quenching</rdfs:label>
     </owl:Class>
     
@@ -8714,6 +8715,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002107"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">gas quenching is a sample quenching method, that uses some gas to affect the crystallization of some layer</obo:IAO_0000115>
         <rdfs:label xml:lang="en">gas quenching</rdfs:label>
     </owl:Class>
     
@@ -10065,6 +10067,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
+        <obo:IAO_0000115 xml:lang="en">vacuum quenching is a sample quenching method, that affects the crystallization of some layer by reducing the pressure around the substrate</obo:IAO_0000115>
         <rdfs:label xml:lang="en">vaccuum quenching</rdfs:label>
     </owl:Class>
     
@@ -14864,6 +14867,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005710">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
+        <obo:IAO_0000115 xml:lang="en">radiation quenching is a sample quenching method, that uses heat to affect the crystallization of some layer</obo:IAO_0000115>
         <rdfs:label xml:lang="en">thermal quenching</rdfs:label>
     </owl:Class>
     
@@ -14873,6 +14877,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005711">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
+        <obo:IAO_0000115 xml:lang="en">radiation quenching is a sample quenching method, that uses some radiation to affect the crystallization of some layer</obo:IAO_0000115>
         <rdfs:label xml:lang="en">radiation quenching</rdfs:label>
     </owl:Class>
     
@@ -14928,6 +14933,8 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005715">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000915"/>
+        <obo:IAO_0000112 xml:lang="en">a deposited wet film has a wet film thickness</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">the wet film thickness is a thickness, that describes the spatial dimension of some wet film</obo:IAO_0000115>
         <rdfs:label xml:lang="en">wet film thickness</rdfs:label>
     </owl:Class>
     
