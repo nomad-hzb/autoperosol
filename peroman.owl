@@ -3378,6 +3378,12 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005704"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A sample preparation step involving the increase in temperature of a sample.</obo:IAO_0000115>
         <oboInOwl:id>CHMO:0002770</oboInOwl:id>
         <rdfs:comment>ought to be in OBI. Will put here pro tem.</rdfs:comment>
@@ -10068,7 +10074,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
         <obo:IAO_0000115 xml:lang="en">vacuum quenching is a sample quenching method, that affects the crystallization of some layer by reducing the pressure around the substrate</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">vaccuum quenching</rdfs:label>
+        <rdfs:label xml:lang="en">vacuum quenching</rdfs:label>
     </owl:Class>
     
 
