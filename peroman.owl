@@ -3378,12 +3378,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005000"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005704"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A sample preparation step involving the increase in temperature of a sample.</obo:IAO_0000115>
         <oboInOwl:id>CHMO:0002770</oboInOwl:id>
         <rdfs:comment>ought to be in OBI. Will put here pro tem.</rdfs:comment>
@@ -8015,8 +8009,14 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002001"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005740"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005704"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="de">Anlassen</obo:IAO_0000118>
@@ -9287,7 +9287,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002073"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">annealing temperature</rdfs:label>
+        <rdfs:label xml:lang="en">hotplate temperature</rdfs:label>
     </owl:Class>
     
 
@@ -10568,7 +10568,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, which indicates the settings for the annealing temperature</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">annealing temperature setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">hotplate temperature setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -12608,7 +12608,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00003308 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003308">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005041"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005739"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
@@ -14581,7 +14581,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005099 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005099">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005041"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005739"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
@@ -14788,12 +14788,6 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005707"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002770"/>
             </owl:Restriction>
@@ -14813,40 +14807,10 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005706"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">hotplate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco/TFSCO_00005706 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005706">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005707"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">hotplate temperature</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco/TFSCO_00005707 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005707">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002111"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005706"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">hotplate temperature setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -15101,6 +15065,25 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the volumetric flow rate setting datum is a flow rate setting datum, that specifies the set flow rate value of some liquid</obo:IAO_0000115>
         <rdfs:label xml:lang="en">volumetric flow rate setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005739 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005739">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005041"/>
+        <rdfs:label xml:lang="de">distance to substrate setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005740 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005740">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005720"/>
+        <obo:IAO_0000115 xml:lang="en">the hotpalte distance to substrate is a distance to substrate, that describes the distance between a hotplate and some substrate</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">hotplate distance to substrate</rdfs:label>
     </owl:Class>
     
 
