@@ -13139,7 +13139,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The angle of an air knife in a air knife gas quenching process.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The angle of an air knife in a air knife gas quenching process.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">air knife angle</rdfs:label>
     </owl:Class>
     
@@ -14511,7 +14511,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the dropping height of some anti solvent</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">anti solvent dropping height setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">anti solvent dropping height setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -14787,7 +14787,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002770"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -15077,7 +15077,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005739">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005041"/>
-        <rdfs:label xml:lang="de">distance to substrate setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">distance to substrate setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -15149,7 +15149,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005740"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">hotplate distance to substrate setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">hotplate distance to substrate setting datum</rdfs:label>
     </owl:Class>
     
 
