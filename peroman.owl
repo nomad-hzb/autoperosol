@@ -2238,7 +2238,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">Additive is a role of material that is added to a mixture in order to achieve a supportive purpose. [Allotrope]</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">additive role</rdfs:label>
+        <rdfs:label xml:lang="en">additive role</rdfs:label>
     </owl:Class>
     
 
@@ -7084,7 +7084,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="de">Perovskit</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Perovskit</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">a photo absorber layer based on the component perovskite</obo:IAO_0000600>
         <rdfs:label xml:lang="en">perovskite layer</rdfs:label>
     </owl:Class>
@@ -9742,7 +9742,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
         <obo:IAO_0000118 xml:lang="de">Analytisches Modell</obo:IAO_0000118>
-        <rdfs:label xml:lang="de">Analytical model</rdfs:label>
+        <rdfs:label xml:lang="en">Analytical model</rdfs:label>
     </owl:Class>
     
 
@@ -12204,7 +12204,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The volume measurement datum is a scalar measurement datum that describes the result of some volumetric measurement</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">volume measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">volume measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -12213,7 +12213,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003001">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000030"/>
-        <rdfs:label xml:lang="de">perovskite solar cell</rdfs:label>
+        <rdfs:label xml:lang="en">perovskite solar cell</rdfs:label>
     </owl:Class>
     
 
@@ -12223,7 +12223,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
         <obo:IAO_0000115 xml:lang="en">The characteristic shape or pattern of some entity</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">architecture</rdfs:label>
+        <rdfs:label xml:lang="en">architecture</rdfs:label>
     </owl:Class>
     
 
@@ -12233,7 +12233,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
         <obo:IAO_0000115 xml:lang="en">A stack sequence is a property of a sample or a functional layer which gives the order of all deposited layers in that sample or functional layer.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">stack sequence</rdfs:label>
+        <rdfs:label xml:lang="en">stack sequence</rdfs:label>
     </owl:Class>
     
 
@@ -12248,7 +12248,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">number of averages</rdfs:label>
+        <rdfs:label xml:lang="en">number of averages</rdfs:label>
     </owl:Class>
     
 
@@ -12263,7 +12263,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">camera</rdfs:label>
+        <rdfs:label xml:lang="en">camera</rdfs:label>
     </owl:Class>
     
 
@@ -12285,7 +12285,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a current, that is able to fullfill some excitation function</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">excitation current</rdfs:label>
+        <rdfs:label xml:lang="en">excitation current</rdfs:label>
     </owl:Class>
     
 
@@ -12329,7 +12329,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a wavelength, that fullfills some excitation function</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">excitation wavelength</rdfs:label>
+        <rdfs:label xml:lang="en">excitation wavelength</rdfs:label>
     </owl:Class>
     
 
@@ -12344,7 +12344,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">image pixel length</rdfs:label>
+        <rdfs:label xml:lang="en">image pixel length</rdfs:label>
     </owl:Class>
     
 
@@ -12360,7 +12360,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="eng">the position of filter describes thespatially relation between a filter and another continuant</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">position of filter</rdfs:label>
+        <rdfs:label xml:lang="en">position of filter</rdfs:label>
     </owl:Class>
     
 
@@ -12397,7 +12397,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">excitation current setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">excitation current setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -12518,7 +12518,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003313"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">gas quenching with nozzle</rdfs:label>
+        <rdfs:label xml:lang="en">gas quenching with nozzle</rdfs:label>
     </owl:Class>
     
 
@@ -12550,7 +12550,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a  height that describes the distance between some nozzle in relation to some substrate</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">nozzle distance to substrate</rdfs:label>
+        <rdfs:label xml:lang="en">nozzle distance to substrate</rdfs:label>
     </owl:Class>
     
 
@@ -12560,7 +12560,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003303">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">is a length, that describes the distance of the nozzle to some material that is being deposited on</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">nozzle distance</rdfs:label>
+        <rdfs:label xml:lang="en">nozzle distance</rdfs:label>
     </owl:Class>
     
 
@@ -12575,7 +12575,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0002222"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">nozzle shape</rdfs:label>
+        <rdfs:label xml:lang="en">nozzle shape</rdfs:label>
     </owl:Class>
     
 
@@ -12597,7 +12597,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002326"/>
         <obo:IAO_0000600 xml:lang="en">is a angle, at which some nozzle is capable of depositing</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">nozzle spray angle</rdfs:label>
+        <rdfs:label xml:lang="en">nozzle spray angle</rdfs:label>
     </owl:Class>
     
 
@@ -12629,7 +12629,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000600 xml:lang="en">is a setting datum, that specifies the distance of some nozzle to some substrate</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">nozzle distance to substrate setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">nozzle distance to substrate setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -12639,7 +12639,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
         <obo:IAO_0000600 xml:lang="en">a setting datum, that specifies some angle</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">angle setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">angle setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -12655,7 +12655,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000600 xml:lang="en">a angle setting datum, that specifies the angle at which some material entity is being deposited through some nozzle</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">nozzle spray angle setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">nozzle spray angle setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -12671,7 +12671,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000600 xml:lang="en">a setting datum, that specifies the duration of the delay of some occurent</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">delay setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">delay setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -12703,7 +12703,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000600 xml:lang="en">is a velocity, that describes the velocity at the tip of some nozzle of some material entity exiting thorugh that nozzle</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">velocity at nozzle tip</rdfs:label>
+        <rdfs:label xml:lang="en">velocity at nozzle tip</rdfs:label>
     </owl:Class>
     
 
@@ -12719,7 +12719,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000600 xml:lang="en">is a velocity setting datum, that specifies the velocity setting at some nozzle tip</obo:IAO_0000600>
-        <rdfs:label xml:lang="de">velocity at nozzle tip setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">velocity at nozzle tip setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -12752,7 +12752,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <rdfs:label xml:lang="de">sample</rdfs:label>
+        <rdfs:label xml:lang="en">sample</rdfs:label>
     </owl:Class>
     
 
@@ -13018,7 +13018,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An instrument used to apply uniform thin films to flat substrates by centrifugal force.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/ERO_0000850</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">spin coater</rdfs:label>
+        <rdfs:label xml:lang="en">spin coater</rdfs:label>
     </owl:Class>
     
 
@@ -13096,7 +13096,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001025"/>
-        <rdfs:label xml:lang="de">gas quenching pressure</rdfs:label>
+        <rdfs:label xml:lang="en">gas quenching pressure</rdfs:label>
     </owl:Class>
     
 
@@ -13337,7 +13337,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a object that distributes the coating fluid across the desired coating width befor coating onto the substrate</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Wikipedia. Retrieved from: https://en.wikipedia.org/wiki/Slot-die_coating. Retrieved on: 05.12.2023</obo:IAO_0000119>
-        <rdfs:label xml:lang="de">slot die head</rdfs:label>
+        <rdfs:label xml:lang="en">slot die head</rdfs:label>
     </owl:Class>
     
 
@@ -13376,7 +13376,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">air knife gas quenching</rdfs:label>
+        <rdfs:label xml:lang="en">air knife gas quenching</rdfs:label>
     </owl:Class>
     
 
@@ -13492,7 +13492,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a shim that is used to alter the width of the slot die heads channel</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">slot die shim</rdfs:label>
+        <rdfs:label xml:lang="en">slot die shim</rdfs:label>
     </owl:Class>
     
 
@@ -13557,7 +13557,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UO_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">pressure setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">pressure setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13566,7 +13566,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
-        <rdfs:label xml:lang="de">1-D extent setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">1-D extent setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13582,7 +13582,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the speed of some slot die head</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">slot die head speed setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">slot die head speed setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13604,7 +13604,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum that specifies some speed configuration</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">speed setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">speed setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13626,7 +13626,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the distance between a slot-die-head and some thin film</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">slot die head distance to thin film setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">slot die head distance to thin film setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13648,7 +13648,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the width of some slot die shim</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">slot die shim width setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">slot die shim width setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13670,7 +13670,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the thickness of some slot die shim</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">slot die shim thickness setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">slot die shim thickness setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13692,7 +13692,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the width of some slot die head</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">slot die head width setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">slot die head width setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13714,7 +13714,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the flow rate that is set for a slot die coating process</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">slot die coating flow rate setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">slot die coating flow rate setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13752,7 +13752,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">illuminated jv analysis</rdfs:label>
+        <rdfs:label xml:lang="en">illuminated jv analysis</rdfs:label>
     </owl:Class>
     
 
@@ -13772,7 +13772,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005052">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000006"/>
         <obo:IAO_0000115 xml:lang="en">a front contact layer that consists of Indium Tin Oxide (ITO)</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">ITO</rdfs:label>
+        <rdfs:label xml:lang="en">ITO</rdfs:label>
     </owl:Class>
     
 
@@ -13782,7 +13782,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005053">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000006"/>
         <obo:IAO_0000115 xml:lang="en">a front contact layer that consists of fluorine-doped tin oxide (FTO)</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">FTO</rdfs:label>
+        <rdfs:label xml:lang="en">FTO</rdfs:label>
     </owl:Class>
     
 
@@ -13811,7 +13811,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005056">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000003"/>
-        <rdfs:label xml:lang="de">silver back contact</rdfs:label>
+        <rdfs:label xml:lang="en">silver back contact</rdfs:label>
     </owl:Class>
     
 
@@ -13853,7 +13853,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">thermal pvd process logging</rdfs:label>
+        <rdfs:label xml:lang="en">thermal pvd process logging</rdfs:label>
     </owl:Class>
     
 
@@ -13875,7 +13875,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of current density quality</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">current density measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">current density measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -13897,7 +13897,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement external quantum efficiency quality</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">external quantum efficiency measurement datum</rdfs:label>
+        <rdfs:label xml:lang="en">external quantum efficiency measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -13921,7 +13921,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:onClass rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">thin film solar cell</rdfs:label>
+        <rdfs:label xml:lang="en">thin film solar cell</rdfs:label>
     </owl:Class>
     
 
@@ -13985,7 +13985,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">an object through which a chemical gets distributed onto a surface</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">print head</rdfs:label>
+        <rdfs:label xml:lang="en">print head</rdfs:label>
     </owl:Class>
     
 
@@ -14112,7 +14112,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">cartridge pressure</rdfs:label>
+        <rdfs:label xml:lang="en">cartridge pressure</rdfs:label>
     </owl:Class>
     
 
@@ -14133,7 +14133,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">print head temperature</rdfs:label>
+        <rdfs:label xml:lang="en">print head temperature</rdfs:label>
     </owl:Class>
     
 
@@ -14207,7 +14207,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">print speed</rdfs:label>
+        <rdfs:label xml:lang="en">print speed</rdfs:label>
     </owl:Class>
     
 
@@ -14236,7 +14236,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
-        <rdfs:label xml:lang="de">printing direction</rdfs:label>
+        <rdfs:label xml:lang="en">printing direction</rdfs:label>
     </owl:Class>
     
 
@@ -14279,7 +14279,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">print head angle</rdfs:label>
+        <rdfs:label xml:lang="en">print head angle</rdfs:label>
     </owl:Class>
     
 
@@ -14300,7 +14300,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">print nozzle drop volume</rdfs:label>
+        <rdfs:label xml:lang="en">print nozzle drop volume</rdfs:label>
     </owl:Class>
     
 
@@ -14309,7 +14309,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005081">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005075"/>
-        <rdfs:label xml:lang="de">printing resolution y</rdfs:label>
+        <rdfs:label xml:lang="en">printing resolution y</rdfs:label>
     </owl:Class>
     
 
@@ -14373,7 +14373,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum that specifies some time configuration</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">time setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">time setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -14394,7 +14394,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">print nozzle voltage</rdfs:label>
+        <rdfs:label xml:lang="en">print nozzle voltage</rdfs:label>
     </owl:Class>
     
 
@@ -14410,7 +14410,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, which describes the voltage to which a nozzle is set.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">print nozzle voltage setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">print nozzle voltage setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -14442,7 +14442,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the position to which an entity is set.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">position setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">position setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -14458,7 +14458,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the position to which an print head is set.</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">print head position setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">print head position setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -14489,7 +14489,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the height, from which some anti solvent is dropped onto some entity</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">anti solvent dropping height</rdfs:label>
+        <rdfs:label xml:lang="en">anti solvent dropping height</rdfs:label>
     </owl:Class>
     
 
@@ -14555,7 +14555,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the width of some print nozzle</obo:IAO_0000115>
-        <rdfs:label xml:lang="de">print nozzle width setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">print nozzle width setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -14961,7 +14961,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005723">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001334"/>
-        <rdfs:label xml:lang="de">tip diameter</rdfs:label>
+        <rdfs:label xml:lang="en">tip diameter</rdfs:label>
     </owl:Class>
     
 
@@ -14970,7 +14970,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005724">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005723"/>
-        <rdfs:label xml:lang="de">nozzle tip diameter</rdfs:label>
+        <rdfs:label xml:lang="en">nozzle tip diameter</rdfs:label>
     </owl:Class>
     
 
@@ -14979,7 +14979,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005725">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002242"/>
-        <rdfs:label xml:lang="de">output velocity</rdfs:label>
+        <rdfs:label xml:lang="en">output velocity</rdfs:label>
     </owl:Class>
     
 
