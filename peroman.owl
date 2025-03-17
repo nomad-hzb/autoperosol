@@ -13230,7 +13230,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005029 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005029">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003309"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005747"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
@@ -13244,7 +13244,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the angle in which an air knife is orientated towards an object.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">air knife angle setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">air knife impingement angle setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -15164,7 +15164,28 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005746">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002326"/>
-        <rdfs:label xml:lang="de">impingement angle</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005747"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">impingement angle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005747 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005747">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003309"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005746"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">impingement angle setting datum</rdfs:label>
     </owl:Class>
     
 
