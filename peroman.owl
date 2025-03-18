@@ -15190,6 +15190,26 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005750 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000008"/>
+        <obo:IAO_0000115 xml:lang="en">the nozzle speed is a speed quality, that specifies the rate of movement of some nozzle</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">nozzle speed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005751 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005751">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005043"/>
+        <obo:IAO_0000115 xml:lang="en">the nozzle speed setting datum is a speed setting datum, that specifies the amount of rate of movement of some nozzle</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">nozzle speed setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco/TFSCO_00009995 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00009995">
