@@ -2005,6 +2005,12 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0001015 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001015"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002000 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002000">
@@ -2217,6 +2223,12 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005750"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:isDefinedBy rdf:resource="http://purl.allotrope.org/voc/afo/REC/2024/06/aft"/>
@@ -12449,12 +12461,6 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003310"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003312"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12468,6 +12474,18 @@ Date: 31.03.2023</obo:IAO_0000119>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005755"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12509,13 +12527,13 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003306"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003313"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003313"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005753"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">gas quenching with nozzle</rdfs:label>
@@ -12585,12 +12603,6 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003306">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003310"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <owl:equivalentClass>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
                 <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0002222"/>
             </owl:Restriction>
@@ -12640,22 +12652,6 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
         <obo:IAO_0000600 xml:lang="en">a setting datum, that specifies some angle</obo:IAO_0000600>
         <rdfs:label xml:lang="en">angle setting datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco/TFSCO_00003310 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003310">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003309"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003306"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000600 xml:lang="en">a angle setting datum, that specifies the angle at which some material entity is being deposited through some nozzle</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">nozzle spray angle setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13126,7 +13122,13 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005024 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002326"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005746"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000417"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005756"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
@@ -13139,8 +13141,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The angle of an air knife in a air knife gas quenching process.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">air knife angle</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">the air knife impingement angle is an impingement angle, that describes the angle at which a stream from a air knife collides with another object</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">air knife impingement angle</rdfs:label>
     </owl:Class>
     
 
@@ -13224,7 +13226,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005029 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005029">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003309"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005747"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
@@ -13237,8 +13239,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the angle in which an air knife is orientated towards an object.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">air knife angle setting datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the set value of an angle at which an air knife is orientated towards an object.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">air knife impingement angle setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13376,6 +13378,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the air knife gas quenching is a gas quenching technique, that involves an air knife to redirect an airflow onto some substrate</obo:IAO_0000115>
         <rdfs:label xml:lang="en">air knife gas quenching</rdfs:label>
     </owl:Class>
     
@@ -15150,6 +15153,138 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">hotplate distance to substrate setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005746 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005746">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002326"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005747"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">impingement angle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005747 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005747">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003309"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005746"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">impingement angle setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005750 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the nozzle speed is a speed quality, that specifies the rate of movement of some nozzle</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">nozzle speed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005751 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005751">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005750"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the nozzle speed setting datum is a speed setting datum, that specifies the amount of rate of movement of some nozzle</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">nozzle speed setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005753 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005753">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005746"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000417"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005757"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005755"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the nozzle impingement angle is an impingement angle, that describes the angle at which a stream from a nozzle collides with another object</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">nozzle impingement angle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005755 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005755">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005747"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005753"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, that describes the set value of the angle in which an nozze is orientated towards an object.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">nozzle impingement angle setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005756 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005756">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the air knife  impingement angle measurement datum is a angle measurement datum, that is the result of some measurement of the impingement angle between an air knife and another continuant</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">air knife impingement angle measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00005757 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005757">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005753"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the nozzle impingement angle measurement datum is a angle measurement datum, that is the result of some measurement of the impingement angle between a nozzle and another continuant</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">nozzle impingement angle measurement datum</rdfs:label>
     </owl:Class>
     
 
