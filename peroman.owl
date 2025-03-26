@@ -2204,31 +2204,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001574"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003304"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003306"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005724"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005750"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:isDefinedBy rdf:resource="http://purl.allotrope.org/voc/afo/REC/2024/06/aft"/>
@@ -6750,6 +6726,15 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     
 
 
+    <!-- https://purl.archive.org/tfsco#TFSCO_00005001 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
+        <rdfs:label xml:lang="de">heat based quenching</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco#TFSCO_00005002 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005002">
@@ -10349,7 +10334,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00002048 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005001"/>
         <obo:IAO_0000115 xml:lang="en">vacuum quenching is a sample quenching method, that affects the crystallization of some layer by reducing the pressure around the substrate</obo:IAO_0000115>
         <rdfs:label xml:lang="en">vacuum quenching</rdfs:label>
     </owl:Class>
@@ -15044,7 +15029,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005710 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005710">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005001"/>
         <obo:IAO_0000115 xml:lang="en">radiation quenching is a sample quenching method, that uses heat to affect the crystallization of some layer</obo:IAO_0000115>
         <rdfs:label xml:lang="en">thermal quenching</rdfs:label>
     </owl:Class>
@@ -15054,7 +15039,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005711 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005711">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
