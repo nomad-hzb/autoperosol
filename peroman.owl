@@ -6657,225 +6657,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
     
 
 
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005000 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002051"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005739"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005747"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0002168"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001025"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001574"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005007"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005720"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005746"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">fluid based quenching</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005001 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
-        <rdfs:label xml:lang="de">heat based quenching</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005002 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005002">
-        <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0002222"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003300"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005724"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">round nozzle</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005003 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005724"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">round nozzle tip diameter setting datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005004 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005004">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005739"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003303"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">nozzle distance to substrate setting datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005005 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000008"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005751"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">nozzle speed</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005006 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005006">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005751"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005750"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">round nozzle speed setting datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005007 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">reynolds number</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005008 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005008">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005007"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">reynolds number datum</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005009 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005009">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005720"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">raditation source distance to substrate</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco#TFSCO_00005010 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco#TFSCO_00005010">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005739"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005009"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">raditation source distance to substrate setting datum</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://purl.archive.org/tfsco/TFSCO_00000001 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00000001">
@@ -7928,6 +7709,30 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001000">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001033"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002073"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005744"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005704"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005740"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">thermal annealing</rdfs:label>
     </owl:Class>
     
@@ -8560,7 +8365,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00001052 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001052">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005000"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -8921,13 +8726,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00001077 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001077">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
@@ -8954,6 +8753,12 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0002222"/>
             </owl:Restriction>
@@ -8962,12 +8767,6 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002107"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -8986,6 +8785,12 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005731"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">gas quenching is a sample quenching method, that uses some gas to affect the crystallization of some layer</obo:IAO_0000115>
@@ -10340,7 +10145,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00002048 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002048">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005001"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008001"/>
         <obo:IAO_0000115 xml:lang="en">vacuum quenching is a sample quenching method, that affects the crystallization of some layer by reducing the pressure around the substrate</obo:IAO_0000115>
         <rdfs:label xml:lang="en">vacuum quenching</rdfs:label>
     </owl:Class>
@@ -12686,18 +12491,6 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003308"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12715,8 +12508,20 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005002"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -12846,7 +12651,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00003308 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003308">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005004"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
@@ -13345,7 +13150,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005025 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005025">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005005"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
@@ -13393,7 +13198,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005028 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005028">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005004"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
@@ -14683,7 +14488,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005093 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005093">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005004"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008004"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
@@ -15011,7 +14816,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005710 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005710">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005001"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008001"/>
         <obo:IAO_0000115 xml:lang="en">radiation quenching is a sample quenching method, that uses heat to affect the crystallization of some layer</obo:IAO_0000115>
         <rdfs:label xml:lang="en">thermal quenching</rdfs:label>
     </owl:Class>
@@ -15021,11 +14826,11 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005711 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005711">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005001"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005010"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -15037,7 +14842,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005009"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">radiation quenching is a sample quenching method, that uses some radiation to affect the crystallization of some layer</obo:IAO_0000115>
@@ -15174,7 +14979,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005003"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">round nozzle tip diameter</rdfs:label>
@@ -15385,11 +15190,11 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005750 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005750">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005005"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005006"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the nozzle speed is a speed quality, that specifies the rate of movement of some nozzle</obo:IAO_0000115>
@@ -15405,7 +15210,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco#TFSCO_00005005"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the nozzle speed setting datum is a speed setting datum, that specifies the amount of rate of movement of some nozzle</obo:IAO_0000115>
@@ -15480,6 +15285,234 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the nozzle impingement angle measurement datum is a angle measurement datum, that is the result of some measurement of the impingement angle between a nozzle and another continuant</obo:IAO_0000115>
         <rdfs:label xml:lang="en">round nozzle impingement angle measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008000 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005739"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005747"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0002168"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001574"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005720"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005746"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">fluid based quenching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008001 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
+        <rdfs:label xml:lang="de">heat based quenching</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008002 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008002">
+        <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/equipment#AFE_0002222"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">round nozzle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008003 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">round nozzle tip diameter setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008004 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008004">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005739"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003303"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">nozzle distance to substrate setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008005 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">nozzle speed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008006 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008006">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005751"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005750"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">round nozzle speed setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008007 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">reynolds number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008008 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008008">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">reynolds number datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008009 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008009">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005720"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">raditation source distance to substrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008010 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008010">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005739"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">raditation source distance to substrate setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00008011 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008011">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008001"/>
+        <rdfs:label xml:lang="de">drying</rdfs:label>
     </owl:Class>
     
 
@@ -16093,12 +16126,12 @@ Date: 31.03.2023</obo:IAO_0000119>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.archive.org/tfsco#TFSCO_00005000"/>
             <rdf:Description rdf:about="https://purl.archive.org/tfsco/TFSCO_00001052"/>
             <rdf:Description rdf:about="https://purl.archive.org/tfsco/TFSCO_00001077"/>
             <rdf:Description rdf:about="https://purl.archive.org/tfsco/TFSCO_00002048"/>
             <rdf:Description rdf:about="https://purl.archive.org/tfsco/TFSCO_00005710"/>
             <rdf:Description rdf:about="https://purl.archive.org/tfsco/TFSCO_00005711"/>
+            <rdf:Description rdf:about="https://purl.archive.org/tfsco/TFSCO_00008000"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
