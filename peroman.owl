@@ -15203,7 +15203,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">fluid based quenching impingement angle</rdfs:label>
+        <rdfs:label xml:lang="en">transferring device impingement angle</rdfs:label>
     </owl:Class>
     
 
@@ -15218,7 +15218,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005746"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">fluid based quenching impingement angle setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">transferring device impingement angle setting datum</rdfs:label>
     </owl:Class>
     
 
