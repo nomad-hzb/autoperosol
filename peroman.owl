@@ -15528,6 +15528,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008011">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008001"/>
+        <obo:IAO_0000115 xml:lang="en">drying is a heat based quenching, that involves no additional heat source device</obo:IAO_0000115>
         <om-2:alternativeLabel xml:lang="de">Trocknen</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">drying</rdfs:label>
     </owl:Class>
