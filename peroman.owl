@@ -15369,7 +15369,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">fluid based quenching</rdfs:label>
+        <rdfs:label xml:lang="en">fluid based quenching</rdfs:label>
     </owl:Class>
     
 
@@ -15378,7 +15378,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
-        <rdfs:label xml:lang="de">heat based quenching</rdfs:label>
+        <rdfs:label xml:lang="en">heat based quenching</rdfs:label>
     </owl:Class>
     
 
@@ -15399,7 +15399,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005724"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">round nozzle</rdfs:label>
+        <rdfs:label xml:lang="en">round nozzle</rdfs:label>
     </owl:Class>
     
 
@@ -15414,7 +15414,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005724"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">round nozzle tip diameter setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">round nozzle tip diameter setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -15429,7 +15429,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003303"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">nozzle distance to substrate setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">nozzle distance to substrate setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -15444,7 +15444,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005751"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">nozzle speed</rdfs:label>
+        <rdfs:label xml:lang="en">nozzle speed</rdfs:label>
     </owl:Class>
     
 
@@ -15459,7 +15459,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005750"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">round nozzle speed setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">round nozzle speed setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -15474,7 +15474,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">reynolds number</rdfs:label>
+        <rdfs:label xml:lang="en">reynolds number</rdfs:label>
     </owl:Class>
     
 
@@ -15489,7 +15489,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">reynolds number datum</rdfs:label>
+        <rdfs:label xml:lang="en">reynolds number datum</rdfs:label>
     </owl:Class>
     
 
@@ -15504,7 +15504,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">raditation source distance to substrate</rdfs:label>
+        <rdfs:label xml:lang="en">raditation source distance to substrate</rdfs:label>
     </owl:Class>
     
 
@@ -15519,7 +15519,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">raditation source distance to substrate setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">raditation source distance to substrate setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -15528,7 +15528,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008011">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008001"/>
-        <rdfs:label xml:lang="de">drying</rdfs:label>
+        <rdfs:label xml:lang="en">drying</rdfs:label>
     </owl:Class>
     
 
@@ -15543,7 +15543,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">transferring device pressure</rdfs:label>
+        <rdfs:label xml:lang="en">transferring device pressure</rdfs:label>
     </owl:Class>
     
 
@@ -15558,7 +15558,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">round nozzle pressure</rdfs:label>
+        <rdfs:label xml:lang="en">round nozzle pressure</rdfs:label>
     </owl:Class>
     
 
@@ -15573,7 +15573,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">pipette pressure</rdfs:label>
+        <rdfs:label xml:lang="en">pipette pressure</rdfs:label>
     </owl:Class>
     
 
@@ -15588,7 +15588,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">transferring device pressure setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">transferring device pressure setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -15603,7 +15603,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">pipette pressure setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">pipette pressure setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -15618,7 +15618,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">nozzle pressure setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">nozzle pressure setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -15633,7 +15633,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="de">round nozzle pressure setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">round nozzle pressure setting datum</rdfs:label>
     </owl:Class>
     
 
