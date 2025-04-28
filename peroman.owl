@@ -8187,7 +8187,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000068"/>
         <obo:IAO_0000115 xml:lang="en">a cleaning process, which uses ultraviolet radiation to remove impurities</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">UV-Reinigung</obo:IAO_0000118>
-        <rdfs:label xml:lang="en">uv cleaning</rdfs:label>
+        <om-2:alternativeLabel xml:lang="en">uv cleaning</om-2:alternativeLabel>
+        <rdfs:label xml:lang="en">ultraviolet cleaning</rdfs:label>
     </owl:Class>
     
 
