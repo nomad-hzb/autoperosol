@@ -12,6 +12,8 @@ Spin coating is a deposition method in which a liquid ink is spread by rotating 
 | Type | Name | Elucidation | PURL |
 | ----------- | ----------- | ----------- | ----------- |
 | Participant | Spin Coater | null | https://purl.archive.org/tfsco/TFSCO_00005017 |
+| Participant | Sample | null | https://purl.archive.org/tfsco/TFSCO_00005000 |
+| Participant | Substrate | null | https://purl.archive.org/tfsco/TFSCO_00002122 |
 | Quality | Rotation Acceleration | null | https://purl.archive.org/tfsco/TFSCO_00002049 |
 | Setting Datum | Rotation Acceleration Setting Datum | null | https://purl.archive.org/tfsco/TFSCO_00002002 |
 | Quality | Rotation Speed | null | https://purl.archive.org/tfsco/TFSCO_00002026 |
