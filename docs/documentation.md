@@ -2,6 +2,20 @@
 
 *Work in Progress*
 
+## List of Processes
+- Synthesis Processes
+  1. Ink Jet Printing
+  2. Slot Die Coating
+  3. Solution Manufacturing
+  4. Spin Coating
+  5. Quenching
+- Characterization Processes
+  1. External Quantum Efficiency Measurement
+  2. J-V-Analysis
+  3. Maximum Power Point Tracking
+  4. Photolominescence Imaging
+  5. UV-VIS Spectroscopy
+
 
 ## Spin Coating ([CHMO:0001472](http://purl.obolibrary.org/obo/CHMO_0001472))
 
