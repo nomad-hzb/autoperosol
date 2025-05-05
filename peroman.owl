@@ -26,11 +26,12 @@
     <owl:Ontology rdf:about="https://purl.archive.org/tfsco">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2024-04-24/core.owl"/>
+        <dc:creator xml:lang="de">Helmholtz-Zentrum Berlin für Materialien und Energie</dc:creator>
         <dc:description xml:lang="en">Domain ontology for thinfilm solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.</dc:description>
         <dc:title xml:lang="en">Ontology for thinfilm solar cells (TFSCO)</dc:title>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <owl:versionInfo xml:lang="en">pre release, latest changes: 2023-05-09</owl:versionInfo>
-        <foaf:homepage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"> https://github.com/oborel/obo-relations/</foaf:homepage>
+        <oboInOwl:creation_date>2022-08-01-00:00</oboInOwl:creation_date>
+        <owl:versionInfo xml:lang="en">release, latest changes: 2025-04-28</owl:versionInfo>
     </owl:Ontology>
     
 
