@@ -7,6 +7,8 @@
 
 Spin coating is a deposition method in which a liquid ink is spread by rotating the substrate.
 
+### Process Parameter
+
 | Type | Name | Elucidation | PURL |
 | ----------- | ----------- | ----------- | ----------- |
 | Participant | Spin Coater | null | https://purl.archive.org/tfsco/TFSCO_00005017 |
