@@ -54,13 +54,24 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
+        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
+        <obo:IAO_0000115 xml:lang="en">Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2</obo:IAO_0000115>
+        <obo:IAO_0000119>Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">Really of interest to developers only</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -169,7 +180,18 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <obo:IAO_0000111 xml:lang="en">alternative label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like.</obo:IAO_0000115>
+        <obo:IAO_0000117>OBO Operations committee</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">alternative label</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -190,7 +212,14 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">curator note</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -256,7 +285,10 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
     <!-- http://purl.obolibrary.org/obo/IAO_0000426 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000426">
+        <obo:IAO_0000111 xml:lang="en">first order logic expression</obo:IAO_0000111>
         <obo:IAO_0000115>An assertion that holds between an OWL Object Property and a string or literal, where the value of the string or literal is a Common Logic sentence of collection of sentences that define the Object Property.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">first order logic expression</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002422"/>
     </owl:AnnotationProperty>
     
@@ -294,13 +326,27 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000601 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601">
+        <obo:IAO_0000111 xml:lang="en">has associated axiom(nl)</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000600 xml:lang="en">An axiom associated with a term expressed using natural language</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">has associated axiom(nl)</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602">
+        <obo:IAO_0000111 xml:lang="en">has associated axiom(fol)</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000600 xml:lang="en">An axiom expressed in first order logic using CLIF syntax</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -347,19 +393,62 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
 
     <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
+        <obo:IAO_0000111 xml:lang="en">ISA alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>An alternative term used by the ISA tools project (http://isa-tools.org).</obo:IAO_0000115>
+        <obo:IAO_0000116>Requested by Alejandra Gonzalez-Beltran
+https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891&amp;atid=886178</obo:IAO_0000116>
+        <obo:IAO_0000117>Person: Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117>Person: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119>ISA tools project (http://isa-tools.org)</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">ISA alternative term</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
+        <obo:IAO_0000111>IEDB alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115>An alternative term used by the IEDB.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON:Randi Vita, Jason Greenbaum, Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000119>IEDB</obo:IAO_0000119>
+        <rdfs:label>IEDB alternative term</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/OMO_0002000 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0002000"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0002000">
+        <obo:IAO_0000112>&apos;part disjoint with&apos; &apos;defined by construct&apos; &quot;&quot;&quot;
+    PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+    PREFIX : &lt;http://example.org/
+    CONSTRUCT {
+      [
+        a owl:Restriction ;
+        owl:onProperty :part_of ;
+        owl:someValuesFrom ?a ;
+        owl:disjointWith [
+          a owl:Restriction ;
+          owl:onProperty :part_of ;
+          owl:someValuesFrom ?b
+        ]
+      ]
+    }
+    WHERE {
+      ?a :part_disjoint_with ?b .
+    }</obo:IAO_0000112>
+        <obo:IAO_0000115>Links an annotation property to a SPARQL CONSTRUCT query which is meant to provide semantics for a shortcut relation.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:resource="https://github.com/ontodev/robot/issues/963"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-7356-1779"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-8688-6599"/>
+        <rdfs:label>defined by construct</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -367,6 +456,7 @@ Annotations: expand_assertion_to &quot;DisjointClasses: (http://purl.obolibrary.
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900">
         <obo:IAO_0000115>An assertion that holds between an OWL Object Property and a temporal interpretation that elucidates how OWL Class Axioms that use this property are to be interpreted in a temporal context.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">temporal interpretation</rdfs:label>
         <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/ro/docs/temporal-semantics/"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002422"/>
     </owl:AnnotationProperty>
@@ -1141,6 +1231,12 @@ Where we have an annotation assertion
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
@@ -1265,7 +1361,9 @@ Where we have an annotation assertion
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -1277,7 +1375,9 @@ Where we have an annotation assertion
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -1285,6 +1385,7 @@ Where we have an annotation assertion
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
         <rdfs:label>has_narrow_synonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
     
 
@@ -1297,7 +1398,9 @@ Where we have an annotation assertion
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -1427,6 +1530,7 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
 
 A continuant cannot have an occurrent as part: use &apos;participates in&apos;. An occurrent cannot have a continuant as part: use &apos;has participant&apos;. An immaterial entity cannot have a material entity as part: use &apos;location of&apos;. An independent continuant cannot have a specifically dependent continuant as part: use &apos;bearer of&apos;. A specifically dependent continuant cannot have an independent continuant as part: use &apos;inheres in&apos;.</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
         <rdfs:label xml:lang="en">has part</rdfs:label>
     </owl:ObjectProperty>
     
@@ -3046,6 +3150,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <obo:IAO_0000112 xml:lang="en">the smell of this portion of mozzarella</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Specifically dependent continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. We&apos;re not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.</obo:IAO_0000116>
+        <obo:IAO_0000602>(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] </obo:IAO_0000602>
         <obo:IAO_0000602>(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] </obo:IAO_0000602>
         <rdfs:comment xml:lang="en">A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
@@ -3063,6 +3168,12 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <owl:annotatedTarget xml:lang="en">Specifically dependent continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. We&apos;re not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.</owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000005"/>
         <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/131-004"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
@@ -3201,6 +3312,12 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
         <owl:annotatedTarget>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000011"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <owl:annotatedTarget>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000301"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -3220,12 +3337,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
         <owl:annotatedTarget>(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] </owl:annotatedTarget>
         <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/025-004"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
-        <owl:annotatedTarget>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </owl:annotatedTarget>
-        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000011"/>
     </owl:Axiom>
     
 
@@ -18015,8 +18126,2008 @@ Date: 31.03.2023</obo:IAO_0000119>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000796">
+        <obo:IAO_0000118 xml:lang="en">data set creation</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">dataset creation</obo:IAO_0000118>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000060">
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042571">
+        <obo:OBI_9991118>antibody</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000035">
+        <obo:IAO_0000118>conclusion</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000132">
+        <obo:IAO_0000118 xml:lang="en">batch number</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000184">
+        <obo:IAO_0000118 xml:lang="en">scattergraph</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000300">
+        <obo:IAO_0000118 xml:lang="en">text</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000311">
+        <obo:IAO_0000118 xml:lang="en">published document</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000312">
+        <obo:IAO_0000118 xml:lang="en">scientific publication</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000315">
+        <obo:IAO_0000118 xml:lang="en">precis</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000316">
+        <obo:IAO_0000118 xml:lang="en">background</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">introduction</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">overview</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000317">
+        <obo:IAO_0000118 xml:lang="en">experimental</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">experimental methods</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">experimental procedures</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">experimental section</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">method</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">methodology</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">methods</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000318">
+        <obo:IAO_0000118 xml:lang="en">results</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000319">
+        <obo:IAO_0000118 xml:lang="en">discussion</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">discussion section</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">discussions</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000320">
+        <obo:IAO_0000118 xml:lang="en">literature cited</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">reference</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">reference list</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">references</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000323">
+        <obo:IAO_0000118 xml:lang="en">author contributions</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">authors&apos; contribution</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">authors&apos; contributions</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">authors&apos; roles</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">contributions by the authors</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">contributorship</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000324">
+        <obo:IAO_0000118 xml:lang="en">acknowledgement</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">acknowledgements</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">acknowledgment</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">acknowledgments</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000325">
+        <obo:IAO_0000118 xml:lang="en">endnote</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">footnotes</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000326">
+        <obo:IAO_0000118 xml:lang="en">additional file</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">additional files</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">additional information</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">appendix</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">electronic supplementary material</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">electronic supplementary materials</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">supplemental data</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">supplemental information</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">supplemental material</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">supplementary data</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">supplementary files</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">supplementary information</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">supplementary material</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">supplementary materials</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">supporting information</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000400">
+        <obo:IAO_0000232>AR notes: We need to discuss whether it should include site.</obo:IAO_0000232>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000573">
+        <obo:IAO_0000118 xml:lang="en">line chart</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000574">
+        <obo:IAO_0000118>assigning a CRID</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000575">
+        <obo:IAO_0000118>associating information with a CRID in the CRID registry</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000577">
+        <obo:IAO_0000118>CRID symbol</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000578">
+        <obo:IAO_0000118>CRID</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000579">
+        <obo:IAO_0000118>CRID registry</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000580">
+        <obo:IAO_0000118>looking up a CRID</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000590">
+        <obo:IAO_0000232 xml:lang="en">The qualifier &quot;written&quot; is to set it apart from spoken names.  Also, note the restrictions to particulars.  We are not naming universals.   We could however, be naming, attributive collections which are particulars, so &quot;All people located in the boundaries of the city of Little Rock, AR on June 18, 2011 at 9:50a CDT&quot; would be a name.</obo:IAO_0000232>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000606">
+        <obo:IAO_0000118 xml:lang="en">abbreviation and acronyms</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">abbreviation list</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">abbreviations</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">abbreviations and acronyms</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">abbreviations list</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">abbreviations used</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">definitions for abbreviations</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">list of abbreviations</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">list of abbreviations used</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">non-standard abbreviations</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">nonstandard abbreviations</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">nonstandard abbreviations and acronyms</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000607">
+        <obo:IAO_0000118 xml:lang="en">author information</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">authors’ information</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">biographies</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">contributor information</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000609">
+        <obo:IAO_0000118 xml:lang="en">author summary</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">summary</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">synopsis</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000611">
+        <obo:IAO_0000118 xml:lang="en">availability</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">availability of data</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">data archiving</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">data availability</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">data availability statement</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">data sharing statement</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000613">
+        <obo:IAO_0000118 xml:lang="en">case presentation</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">case report</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000615">
+        <obo:IAO_0000118 xml:lang="en">concluding remarks</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">conclusion</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">conclusions</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">findings</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">summary</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000616">
+        <obo:IAO_0000118 xml:lang="en">authors&apos; disclosures of potential conflicts of interest</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">competing financial interests</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">competing interests</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">conflict of interest</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">conflict of interest statement</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">conflict of interests</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">conflicts of interest</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">declaration of competing interest</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">declaration of competing interests</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">declaration of interest</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">declaration of interests</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">disclosure of conflict of interest</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">disclosure of potential conflicts of interest</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">duality of interest</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">statement of interest</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000618">
+        <obo:IAO_0000118 xml:lang="en">consent</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000620">
+        <obo:IAO_0000118 xml:lang="en">ethical approval</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">ethical requirements</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">ethics</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">ethics statement</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000622">
+        <obo:IAO_0000118 xml:lang="en">figures</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000623">
+        <obo:IAO_0000118 xml:lang="en">financial support</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">funding</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">funding information</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">funding sources</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">funding statement</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">funding/support</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">grants</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">role of the funding source</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">source of funding</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">sources of funding</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">study funding</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000625">
+        <obo:IAO_0000118 xml:lang="en">future challenges</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future considerations</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future developments</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future directions</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future outlook</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future perspectives</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future plans</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future prospects</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future research</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future research directions</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future studies</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">future work</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">outlook</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000627">
+        <obo:IAO_0000118 xml:lang="en">genome announcement</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000630">
+        <obo:IAO_0000118 xml:lang="en">keywords</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000631">
+        <obo:IAO_0000118 xml:lang="en">limitations</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">study limitations</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000633">
+        <obo:IAO_0000118 xml:lang="en">materials</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000634">
+        <obo:IAO_0000118 xml:lang="en">notes</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000637">
+        <obo:IAO_0000118 xml:lang="en">notice of republication</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">pre-publication history</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000639">
+        <obo:IAO_0000118 xml:lang="en">related literature</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">related work</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000641">
+        <obo:IAO_0000118 xml:lang="en">requirements</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000644">
+        <obo:IAO_0000118 xml:lang="en">statistical analysis</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000645">
+        <obo:IAO_0000118 xml:lang="en">tables</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000648">
+        <obo:IAO_0000118 xml:lang="en">ZIP code</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000650">
+        <obo:IAO_0000118 xml:lang="en">ETL</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000707">
+        <obo:IAO_0000118 xml:lang="en">visual abstract</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000708">
+        <obo:IAO_0000118>ORCID ID</obo:IAO_0000118>
+        <obo:IAO_0000118>ORCiD</obo:IAO_0000118>
+        <obo:IAO_0000118>Open Researcher and Contributor ID</obo:IAO_0000118>
+        <obo:IAO_0000118>Open Researcher and Contributor Identifier</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0020000">
+        <obo:IAO_0000118 xml:lang="en">proper name</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0020010">
+        <obo:IAO_0000118 xml:lang="en">dubbing process</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">naming</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0020016">
+        <obo:IAO_0000118 xml:lang="en">first name</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0020017">
+        <obo:IAO_0000118 xml:lang="en">last name</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">surname</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0020020">
+        <obo:IAO_0000118 xml:lang="en">code map</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">code system</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">codeset</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">coding system</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">controlled vocabulary</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_8000000">
+        <obo:IAO_0000118 xml:lang="en">ontology file</obo:IAO_0000118>
+        <obo:IAO_0000232 xml:lang="en">This class and it&apos;s subclasses are applied to OWL ontologies. Using an rdf:type triple will result in problems with OWL-DL. I propose that dcterms:type is instead used to connect an ontology URI with a class from this hierarchy. The class hierarchy is not disjoint, so multiple assertions can be made about a single ontology.</obo:IAO_0000232>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_8000002">
+        <obo:IAO_0000118 xml:lang="en">source ontology module</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_8000005">
+        <obo:IAO_0000118 xml:lang="en">import file</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_8000006">
+        <obo:IAO_0000118 xml:lang="en">ontology slim</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">subset ontology</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_8000009">
+        <obo:IAO_0000118 xml:lang="en">ribbon subset</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_8000010">
+        <obo:IAO_0000118 xml:lang="en">antislim</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_8000011">
+        <obo:IAO_0000118 xml:lang="en">external import</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_8000012">
+        <obo:IAO_0000118 xml:lang="en">taxon subset</obo:IAO_0000118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000066">
+        <obo:OBI_0001847>study</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000202">
+        <obo:OBI_0001847>study person role</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
+        <obo:OBI_0001847>study protocol</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000665">
+        <obo:OBI_9991118>intracellular cytokine staining (ICS)</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000667">
+        <obo:OBI_9991118>MHC tetramer/multimer staining</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000747">
+        <obo:OBI_0001847>sample</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000750">
+        <obo:OBI_0001847>study factor</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000856">
+        <obo:OBI_9991118>intracellular staining</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001143">
+        <obo:OBI_0001847>labeled extract</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001194">
+        <obo:OBI_9991118>TGFb release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001196">
+        <obo:OBI_9991118>CXCL10/IP-10 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001198">
+        <obo:OBI_9991118>IL-27 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001203">
+        <obo:OBI_9991118>TGFb release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001206">
+        <obo:OBI_9991118>GM-CSF release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001209">
+        <obo:OBI_9991118>IL-10 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001210">
+        <obo:OBI_9991118>TGFb release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001215">
+        <obo:OBI_9991118>perforin release|intracellular staining</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001216">
+        <obo:OBI_9991118>IL-2 release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001217">
+        <obo:OBI_9991118>IL-22 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001218">
+        <obo:OBI_9991118>IL-8 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001220">
+        <obo:OBI_9991118>IL-10 release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001222">
+        <obo:OBI_9991118>CCL5/RANTES release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001223">
+        <obo:OBI_9991118>IL-1b release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001227">
+        <obo:OBI_9991118>IL-6 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001228">
+        <obo:OBI_9991118>antibody help|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001229">
+        <obo:OBI_9991118>dissociation constant KD|surface plasmon resonance (SPR)|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001230">
+        <obo:OBI_9991118>IL-5 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001231">
+        <obo:OBI_9991118>TGFb release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001232">
+        <obo:OBI_9991118>CCL5/RANTES release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001233">
+        <obo:OBI_9991118>GM-CSF release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001236">
+        <obo:OBI_9991118>IL-22 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001237">
+        <obo:OBI_9991118>IL-21 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001238">
+        <obo:OBI_9991118>IL-9 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001240">
+        <obo:OBI_9991118>IL-6 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001241">
+        <obo:OBI_9991118>IL-4 release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001242">
+        <obo:OBI_9991118>TNFa release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001243">
+        <obo:OBI_9991118>CCL2/MCP-1 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001244">
+        <obo:OBI_9991118>IL-23 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001245">
+        <obo:OBI_9991118>perforin release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001246">
+        <obo:OBI_9991118>TNF release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001250">
+        <obo:OBI_9991118>T cell degranulation by intracellular staining</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001251">
+        <obo:OBI_9991118>IL-13 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001253">
+        <obo:OBI_9991118>IL-9 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001255">
+        <obo:OBI_9991118>IL-5 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001260">
+        <obo:OBI_9991118>IL-3 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001261">
+        <obo:OBI_9991118>IL-1a release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001263">
+        <obo:OBI_9991118>T cell help|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001264">
+        <obo:OBI_9991118>TGFb release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001268">
+        <obo:OBI_9991118>IL-12 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001269">
+        <obo:OBI_9991118>degranulation|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001270">
+        <obo:OBI_9991118>TGFb release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001272">
+        <obo:OBI_9991118>TNF release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001273">
+        <obo:OBI_9991118>IL-5 release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001276">
+        <obo:OBI_9991118>CCL1/TCA-3 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001277">
+        <obo:OBI_9991118>IL-2 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001279">
+        <obo:OBI_9991118>IL-22 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001280">
+        <obo:OBI_9991118>IL-16 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001281">
+        <obo:OBI_9991118>CXCL10/IP-10 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001283">
+        <obo:OBI_9991118>IL-15 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001284">
+        <obo:OBI_9991118>IL-12 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001288">
+        <obo:OBI_9991118>lymphotoxin A/TNFb release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001289">
+        <obo:OBI_9991118>IL-5 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001291">
+        <obo:OBI_9991118>IL-17 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001292">
+        <obo:OBI_9991118>IL-15 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001295">
+        <obo:OBI_9991118>IL-17 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001296">
+        <obo:OBI_9991118>IL-17 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001297">
+        <obo:OBI_9991118>IL-10 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001298">
+        <obo:OBI_9991118>IL-21 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001299">
+        <obo:OBI_9991118>IL-5 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001300">
+        <obo:OBI_9991118>IL-2 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001301">
+        <obo:OBI_9991118>IL-16 release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001302">
+        <obo:OBI_9991118>CCL3/MIP-1a release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001303">
+        <obo:OBI_9991118>GM-CSF release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001308">
+        <obo:OBI_9991118>CXCL10/IP-10 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001309">
+        <obo:OBI_9991118>IL-13 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001311">
+        <obo:OBI_9991118>3D structure|x-ray crystallography|angstroms</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001315">
+        <obo:OBI_9991118>CCL1/TCA-3 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001317">
+        <obo:OBI_9991118>T cell- APC binding|binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001319">
+        <obo:OBI_9991118>IFNg release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001322">
+        <obo:OBI_9991118>granzyme B release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001324">
+        <obo:OBI_9991118>tolerance|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001325">
+        <obo:OBI_9991118>CCL5/RANTES release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001326">
+        <obo:OBI_9991118>IL-4 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001327">
+        <obo:OBI_9991118>lymphotoxin A/TNFb release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001330">
+        <obo:OBI_9991118>CXCL9/MIG release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001333">
+        <obo:OBI_9991118>CCL3/MIP-1a release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001339">
+        <obo:OBI_9991118>IL-4 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001341">
+        <obo:OBI_9991118>GM-CSF release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001342">
+        <obo:OBI_9991118>IL-21 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001343">
+        <obo:OBI_9991118>CCL2/MCP-1 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001344">
+        <obo:OBI_9991118>CCL2/MCP-1 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001345">
+        <obo:OBI_9991118>CCL4/MIP-1b release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001346">
+        <obo:OBI_9991118>IL-21 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001348">
+        <obo:OBI_9991118>type IV hypersensitivity (DTH)|in vivo skin test</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001349">
+        <obo:OBI_9991118>IL-13 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001350">
+        <obo:OBI_9991118>IFNg release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001353">
+        <obo:OBI_9991118>TNFa release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001354">
+        <obo:OBI_9991118>IL-17 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001356">
+        <obo:OBI_9991118>IFNb release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001357">
+        <obo:OBI_9991118>GM-CSF release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001359">
+        <obo:OBI_9991118>IL-8 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001360">
+        <obo:OBI_9991118>IL-6 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001363">
+        <obo:OBI_9991118>IL-23 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001367">
+        <obo:OBI_9991118>IL-10 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001368">
+        <obo:OBI_9991118>TNF release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001370">
+        <obo:OBI_9991118>CCL4/MIP-1b release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001376">
+        <obo:OBI_9991118>IL-3 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001378">
+        <obo:OBI_9991118>CCL4/MIP-1b release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001379">
+        <obo:OBI_9991118>IFNg release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001380">
+        <obo:OBI_9991118>IL-18 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001382">
+        <obo:OBI_9991118>IL-27 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001383">
+        <obo:OBI_9991118>CXCL10/IP-10 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001384">
+        <obo:OBI_9991118>IL-3 release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001385">
+        <obo:OBI_9991118>TNF release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001388">
+        <obo:OBI_9991118>IL-1a release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001389">
+        <obo:OBI_9991118>IL-6 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001390">
+        <obo:OBI_9991118>IFNb release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001391">
+        <obo:OBI_9991118>IL-12 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001392">
+        <obo:OBI_9991118>cytotoxicity|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001395">
+        <obo:OBI_9991118>IL-23 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001397">
+        <obo:OBI_9991118>G-CSF release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001400">
+        <obo:OBI_9991118>TNF release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001402">
+        <obo:OBI_9991118>IL-2 release|reporter gene assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001405">
+        <obo:OBI_9991118>CCL3/MIP-1a release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001406">
+        <obo:OBI_9991118>IL-3 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001407">
+        <obo:OBI_9991118>activation|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001412">
+        <obo:OBI_9991118>CCL5/RANTES release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001413">
+        <obo:OBI_9991118>IL-6 release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001414">
+        <obo:OBI_9991118>IFNg release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001416">
+        <obo:OBI_9991118>TNFa release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001423">
+        <obo:OBI_9991118>granzyme B release|intracellular staining</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001433">
+        <obo:OBI_9991118>IFNg release|radio immuno assay (RIA)</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001436">
+        <obo:OBI_9991118>granzyme B release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001437">
+        <obo:OBI_9991118>CXCL9/MIG release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001438">
+        <obo:OBI_9991118>CCL9/MIP-1g release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001445">
+        <obo:OBI_9991118>IL-2 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001449">
+        <obo:OBI_9991118>IL-1b release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001450">
+        <obo:OBI_9991118>IL-4 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001451">
+        <obo:OBI_9991118>IL-6 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001452">
+        <obo:OBI_9991118>TNFa release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001453">
+        <obo:OBI_9991118>lymphotoxin A/TNFb release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001455">
+        <obo:OBI_9991118>IL-5 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001456">
+        <obo:OBI_9991118>CCL9/MIP-1g release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001457">
+        <obo:OBI_9991118>IL-8 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001459">
+        <obo:OBI_9991118>CXCL9/MIG release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001461">
+        <obo:OBI_9991118>granzyme B release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001465">
+        <obo:OBI_9991118>CCL2/MCP-1 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001466">
+        <obo:OBI_9991118>IL-12 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001467">
+        <obo:OBI_9991118>disease exacerbation|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001469">
+        <obo:OBI_9991118>ligand presentation|T cell recognition</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001473">
+        <obo:OBI_9991118>tumor burden after challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001475">
+        <obo:OBI_9991118>pathogen burden after challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001478">
+        <obo:OBI_9991118>ligand presentation|mass spectrometry</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001482">
+        <obo:OBI_9991118>TGFb release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001484">
+        <obo:OBI_9991118>in vivo activity|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001489">
+        <obo:OBI_9991118>ligand presentation|cellular MHC/mass spectrometry</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001490">
+        <obo:OBI_9991118>GM-CSF release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001492">
+        <obo:OBI_9991118>survival from challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001493">
+        <obo:OBI_9991118>qualitative binding|cellular MHC/T cell inhibition</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001495">
+        <obo:OBI_9991118>helper response|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001496">
+        <obo:OBI_9991118>IL-22 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001497">
+        <obo:OBI_9991118>perforin release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001500">
+        <obo:OBI_9991118>ligand presentation|coelution</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001507">
+        <obo:OBI_9991118>decreased disease|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001509">
+        <obo:OBI_9991118>ligand presentation|Edman degradation</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001510">
+        <obo:OBI_9991118>ligand presentation|secreted MHC/mass spectrometry</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001512">
+        <obo:OBI_9991118>IL-17A release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001513">
+        <obo:OBI_9991118>qualitative binding|purified MHC/competitive/radioactivity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001516">
+        <obo:OBI_9991118>half maximal effective concentration (EC50)|lysate MHC/direct/radioactivity|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001517">
+        <obo:OBI_9991118>half maximal inhibitory concentration (IC50)|cellular MHC/competitive/radioactivity|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001519">
+        <obo:OBI_9991118>qualitative binding|lysate MHC/direct/fluorescence</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001520">
+        <obo:OBI_9991118>half maximal inhibitory concentration (IC50)|cellular MHC/competitive/fluorescence|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001521">
+        <obo:OBI_9991118>G-CSF release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001523">
+        <obo:OBI_9991118>IL-17F release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001524">
+        <obo:OBI_9991118>association constant KA|cellular MHC/direct/fluorescence|1/M</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001531">
+        <obo:OBI_9991118>half life|purified MHC/direct/fluorescence|min</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001532">
+        <obo:OBI_9991118>IL-9 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001534">
+        <obo:OBI_9991118>qualitative binding|purified MHC/competitive/fluorescence</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001537">
+        <obo:OBI_9991118>dissociation constant KD|purified MHC/competitive/fluorescence|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001539">
+        <obo:OBI_9991118>dissociation constant KD|cellular MHC/competitive/fluorescence|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001540">
+        <obo:OBI_9991118>T cell recognition</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001541">
+        <obo:OBI_9991118>on rate|purified MHC/direct/fluorescence|nM^-1s^-1</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001542">
+        <obo:OBI_9991118>IL-13 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001543">
+        <obo:OBI_9991118>dissociation constant KD (~EC50)|purified MHC/direct/fluorescence|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001544">
+        <obo:OBI_9991118>dissociation constant KD|lysate MHC/competitive/radioactivity|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001545">
+        <obo:OBI_9991118>CCL3/MIP-1a release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001549">
+        <obo:OBI_9991118>dissociation constant KD|cellular MHC/competitive/radioactivity|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001550">
+        <obo:OBI_9991118>qualitative binding|cellular MHC</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001552">
+        <obo:OBI_9991118>TNFSF11/RANKL release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001553">
+        <obo:OBI_9991118>binding constant|binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001555">
+        <obo:OBI_9991118>qualitative binding|purified MHC</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001556">
+        <obo:OBI_9991118>qualitative binding|lysate MHC/direct/radioactivity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001558">
+        <obo:OBI_9991118>half life|cellular MHC/direct/radioactivity|min</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001559">
+        <obo:OBI_9991118>half life|cellular MHC/direct/fluorescence|min</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001561">
+        <obo:OBI_9991118>half maximal effective concentration (EC50)|cellular MHC/direct/fluorescence|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001562">
+        <obo:OBI_9991118>IL-17F release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001564">
+        <obo:OBI_9991118>dissociation constant KD (~IC50)|purified MHC/competitive/radioactivity|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001565">
+        <obo:OBI_9991118>half life|lysate MHC/direct/radioactivity|min</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001567">
+        <obo:OBI_9991118>off rate|lysate MHC/direct/radioactivity|1/s</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001568">
+        <obo:OBI_9991118>half maximal inhibitory concentration (IC50)|purified MHC/competitive/radioactivity|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001569">
+        <obo:OBI_9991118>off rate|purified MHC/direct/fluorescence|1/s</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001570">
+        <obo:OBI_9991118>VEGF release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001574">
+        <obo:OBI_9991118>cell lysate MHC competitive binding using radioactivity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001577">
+        <obo:OBI_9991118>IL-22 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001578">
+        <obo:OBI_9991118>VEGF release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001579">
+        <obo:OBI_9991118>qualitative binding|lysate MHC</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001582">
+        <obo:OBI_9991118>cell bound MHC direct binding</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001584">
+        <obo:OBI_9991118>qualitative binding|purified MHC/direct/phage display</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001585">
+        <obo:OBI_9991118>IL-7 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001586">
+        <obo:OBI_9991118>half life|purified MHC/direct/radioactivity|min</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001587">
+        <obo:OBI_9991118>IL-7 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001589">
+        <obo:OBI_9991118>IL-17A release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001590">
+        <obo:OBI_9991118>qualitative binding|purified MHC/direct/fluorescence</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001592">
+        <obo:OBI_9991118>half maximal effective concentration (EC50)|purified MHC/direct/fluorescence|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001594">
+        <obo:OBI_9991118>qualitative binding|cellular MHC/competitive/fluorescence</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001595">
+        <obo:OBI_9991118>3D structure|x-ray crystallography|angstroms</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001597">
+        <obo:OBI_9991118>half maximal inhibitory concentration (IC50)|cellular MHC/T cell inhibition|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001599">
+        <obo:OBI_9991118>qualitative binding|cellular MHC/competitive/radioactivity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001600">
+        <obo:OBI_9991118>G-CSF release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001601">
+        <obo:OBI_9991118>IL-21 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001602">
+        <obo:OBI_9991118>qualitative binding|cellular MHC/direct/radioactivity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001604">
+        <obo:OBI_9991118>50% dissociation temperature|purified MHC/direct/fluorescence|°C</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001606">
+        <obo:OBI_9991118>qualitative binding|cellular MHC/direct/fluorescence</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001607">
+        <obo:OBI_9991118>TNFSF11/RANKL release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001608">
+        <obo:OBI_9991118>qualitative binding|purified MHC/direct/radioactivity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001609">
+        <obo:OBI_9991118>IL-8 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001610">
+        <obo:OBI_9991118>IL-23 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001611">
+        <obo:OBI_9991118>purified MHC direct binding</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001613">
+        <obo:OBI_9991118>half maximal inhibitory concentration (IC50)|purified MHC/competitive/fluorescence|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001615">
+        <obo:OBI_0001847>study description</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001622">
+        <obo:OBI_0001847>study title</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001638">
+        <obo:OBI_9991118>dissociation constant KD|inhibition by antigen (~ IC50)|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001639">
+        <obo:OBI_9991118>histamine release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001640">
+        <obo:OBI_9991118>antigen activation|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001641">
+        <obo:OBI_9991118>complement-dependent cytotoxicity|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001642">
+        <obo:OBI_9991118>antibody-dependent cellular cytotoxicity|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001643">
+        <obo:OBI_9991118>neutralization |biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001644">
+        <obo:OBI_9991118>opsonization|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001645">
+        <obo:OBI_9991118>qualitative binding|calorimetry</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001646">
+        <obo:OBI_9991118>3D structure|electron microscopy</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001647">
+        <obo:OBI_9991118>3D structure|nuclear magnetic resonance (NMR)</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001648">
+        <obo:OBI_9991118>qualitative binding|cross blocking</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001649">
+        <obo:OBI_9991118>qualitative binding|radio immuno assay (RIA)</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001650">
+        <obo:OBI_9991118>qualitative binding|western blot</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001651">
+        <obo:OBI_9991118>qualitative binding|surface plasmon resonance (SPR)</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001652">
+        <obo:OBI_9991118>qualitative binding|immuno staining</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001653">
+        <obo:OBI_9991118>qualitative binding|immunoprecipitation</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001654">
+        <obo:OBI_9991118>qualitative binding|mass spectrometry</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001655">
+        <obo:OBI_9991118>qualitative binding|phage display</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001656">
+        <obo:OBI_9991118>qualitative binding|electron microscopy</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001657">
+        <obo:OBI_9991118>qualitative binding|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001658">
+        <obo:OBI_9991118>qualitative binding|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001659">
+        <obo:OBI_9991118>qualitative binding|flow cytometry</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001660">
+        <obo:OBI_9991118>granzyme A release|intracellular staining</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001661">
+        <obo:OBI_9991118>qualitative binding|chromatography</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001662">
+        <obo:OBI_9991118>qualitative binding|nuclear magnetic resonance (NMR)</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001663">
+        <obo:OBI_9991118>granulysin release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001664">
+        <obo:OBI_9991118>granulysin release|intracellular staining</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001665">
+        <obo:OBI_9991118>off rate|cellular MHC/direct/fluorescence|1/s</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001666">
+        <obo:OBI_9991118>on rate|cellular MHC/direct/fluorescence|nM^-1s^-1</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001667">
+        <obo:OBI_9991118>dissociation constant KD (~IC50)|purified MHC/competitive/fluorescence|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001675">
+        <obo:OBI_9991118>IL-17A release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001676">
+        <obo:OBI_9991118>IL-7 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001692">
+        <obo:OBI_9991118>protection from fertility|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001693">
+        <obo:OBI_9991118>tolerance|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001694">
+        <obo:OBI_9991118>hypersensitivity|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001695">
+        <obo:OBI_9991118>agglutination|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001696">
+        <obo:OBI_9991118>survival from challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001697">
+        <obo:OBI_9991118>decreased disease|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001698">
+        <obo:OBI_9991118>in vivo activity|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001701">
+        <obo:OBI_9991118>qualitative binding|inhibition by antigen</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001703">
+        <obo:OBI_9991118>qualitative binding|binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001704">
+        <obo:OBI_9991118>secondary in vitro activity|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001705">
+        <obo:OBI_9991118>antibody activity inhibition|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001706">
+        <obo:OBI_9991118>biological activity|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001708">
+        <obo:OBI_9991118>dissociation constant KD|binding assay|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001709">
+        <obo:OBI_9991118>binding constant|binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001710">
+        <obo:OBI_9991118>protection from challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001711">
+        <obo:OBI_9991118>disease exacerbation|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001712">
+        <obo:OBI_9991118>direct binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001715">
+        <obo:OBI_9991118>competitive binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001718">
+        <obo:OBI_9991118>on rate|binding assay|M^-1s^-1</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001719">
+        <obo:OBI_9991118>association constant KA|binding assay|1/nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001721">
+        <obo:OBI_9991118>3D structure|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001723">
+        <obo:OBI_9991118>off rate|binding assay|1/s</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001724">
+        <obo:OBI_9991118>qualitative binding| hemagglutination inhibition</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001726">
+        <obo:OBI_9991118>qualitative binding|quenching</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001727">
+        <obo:OBI_9991118>dissociation constant KD|radio immuno assay (RIA)|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001728">
+        <obo:OBI_9991118>dissociation constant KD|ELISA|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001729">
+        <obo:OBI_9991118>dissociation constant KD|quenching|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001730">
+        <obo:OBI_9991118>association constant KA|surface plasmon resonance (SPR)|1/nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001731">
+        <obo:OBI_9991118>dissociation constant KD|surface plasmon resonance (SPR)|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001732">
+        <obo:OBI_9991118>association constant KA|quenching|1/nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001733">
+        <obo:OBI_9991118>association constant KA|calorimetry|1/nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001734">
+        <obo:OBI_9991118>dissociation constant KD|calorimetry|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001735">
+        <obo:OBI_9991118>association constant KA|ELISA|1/nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001736">
+        <obo:OBI_9991118>association constant KA|radio immuno assay (RIA)|1/nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001737">
+        <obo:OBI_9991118>X-ray crystallography [Ã…]</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001738">
+        <obo:OBI_9991118>3D structure|x-ray crystallography|angstroms</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001739">
+        <obo:OBI_9991118>off rate|surface plasmon resonance (SPR)|1/s</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001740">
+        <obo:OBI_9991118>off rate|quenching|1/s</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001741">
+        <obo:OBI_9991118>on rate|surface plasmon resonance (SPR)|M^-1s^-1</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001742">
+        <obo:OBI_9991118>on rate|quenching|M^-1s^-1</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001743">
+        <obo:OBI_9991118>IL-1b release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001744">
+        <obo:OBI_9991118>IL-1a release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001745">
+        <obo:OBI_9991118>IL-1a release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001746">
+        <obo:OBI_9991118>IL-1a release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001747">
+        <obo:OBI_9991118>IL-1a release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001748">
+        <obo:OBI_9991118>IFNb release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001749">
+        <obo:OBI_9991118>IFNb release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001750">
+        <obo:OBI_9991118>G-CSF release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001751">
+        <obo:OBI_9991118>IFNb release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001752">
+        <obo:OBI_9991118>G-CSF release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001753">
+        <obo:OBI_9991118>G-CSF release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001754">
+        <obo:OBI_9991118>CXCL9/MIG release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001756">
+        <obo:OBI_9991118>CXCL9/MIG release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001757">
+        <obo:OBI_9991118>CXCL9/MIG release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001758">
+        <obo:OBI_9991118>CCL4/MIP-1b release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001759">
+        <obo:OBI_9991118>CXCL12/SDF-1 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001760">
+        <obo:OBI_9991118>CXCL13/BLC release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001761">
+        <obo:OBI_9991118>CXCL16 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001762">
+        <obo:OBI_9991118>CCL21/SLC release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001763">
+        <obo:OBI_9991118>CCL22/MDC release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001764">
+        <obo:OBI_9991118>CCL4/MIP-1b release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001765">
+        <obo:OBI_9991118>CCL4/MIP-1b release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001766">
+        <obo:OBI_9991118>VEGF release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001767">
+        <obo:OBI_9991118>CCL19/MIP-3b release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001768">
+        <obo:OBI_9991118>CCL1/TCA-3 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001770">
+        <obo:OBI_9991118>VEGF release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001771">
+        <obo:OBI_9991118>VEGF release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001772">
+        <obo:OBI_9991118>IL-17F release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001773">
+        <obo:OBI_9991118>IL-17A release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001774">
+        <obo:OBI_9991118>CCL21/SLC release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001775">
+        <obo:OBI_9991118>CCL19/MIP-3b release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001776">
+        <obo:OBI_9991118>CXCL12/SDF-1 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001777">
+        <obo:OBI_9991118>CCL22/MDC release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001778">
+        <obo:OBI_9991118>CXCL16 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001779">
+        <obo:OBI_9991118>CXCL13/BLC release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001780">
+        <obo:OBI_9991118>CCL3/MIP-1a release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001781">
+        <obo:OBI_9991118>CCL9/MIP-1g release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001782">
+        <obo:OBI_9991118>CCL9/MIP-1g release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001783">
+        <obo:OBI_9991118>CCL2/MCP-1 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001784">
+        <obo:OBI_9991118>CCL2/MCP-1 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001785">
+        <obo:OBI_9991118>CCL9/MIP-1g release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001786">
+        <obo:OBI_9991118>CCL9/MIP-1g release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001787">
+        <obo:OBI_9991118>VEGF release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001788">
+        <obo:OBI_9991118>TNF release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001789">
+        <obo:OBI_9991118>CCL5/RANTES release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001790">
+        <obo:OBI_9991118>CCL5/RANTES release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001791">
+        <obo:OBI_9991118>lymphotoxin A/TNFb release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001792">
+        <obo:OBI_9991118>CCL3/MIP-1a release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001793">
+        <obo:OBI_9991118>lymphotoxin A/TNFb release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001794">
+        <obo:OBI_9991118>lymphotoxin A/TNFb release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001795">
+        <obo:OBI_9991118>CXCL10/IP-10 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001796">
+        <obo:OBI_9991118>CXCL10/IP-10 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001797">
+        <obo:OBI_9991118>IL-9 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001798">
+        <obo:OBI_9991118>IL-9 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001799">
+        <obo:OBI_9991118>IL-9 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001800">
+        <obo:OBI_9991118>IL-8 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001801">
+        <obo:OBI_9991118>IL-8 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001802">
+        <obo:OBI_9991118>IL-3 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001803">
+        <obo:OBI_9991118>IL-7 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001804">
+        <obo:OBI_9991118>IL-7 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001805">
+        <obo:OBI_9991118>IL-7 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001806">
+        <obo:OBI_9991118>IL-27 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001807">
+        <obo:OBI_9991118>IL-3 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001808">
+        <obo:OBI_9991118>IL-3 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001809">
+        <obo:OBI_9991118>granzyme A release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001810">
+        <obo:OBI_9991118>granulysin release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001811">
+        <obo:OBI_9991118>IL-27 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001812">
+        <obo:OBI_9991118>IL-23 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001813">
+        <obo:OBI_9991118>IL-27 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001814">
+        <obo:OBI_9991118>IL-27 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001815">
+        <obo:OBI_9991118>IL-18 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001817">
+        <obo:OBI_9991118>IL-18 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001821">
+        <obo:OBI_9991118>IL-22 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001822">
+        <obo:OBI_9991118>IL-23 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001824">
+        <obo:OBI_9991118>IL-18 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001826">
+        <obo:OBI_9991118>IL-21 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001827">
+        <obo:OBI_9991118>CCL1/TCA-3 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001828">
+        <obo:OBI_9991118>CCL1/TCA-3 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001829">
+        <obo:OBI_9991118>CCL1/TCA-3 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001830">
+        <obo:OBI_9991118>IL-17F release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001831">
+        <obo:OBI_9991118>IL-17F release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001832">
+        <obo:OBI_9991118>IL-17F release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001833">
+        <obo:OBI_9991118>IL-17A release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001835">
+        <obo:OBI_9991118>IL-18 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001836">
+        <obo:OBI_9991118>IL-16 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001837">
+        <obo:OBI_9991118>IL-16 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001838">
+        <obo:OBI_9991118>IL-16 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001839">
+        <obo:OBI_9991118>IL-16 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001840">
+        <obo:OBI_9991118>IL-17A release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001841">
+        <obo:OBI_9991118>IL-1b release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001842">
+        <obo:OBI_9991118>IL-1b release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001843">
+        <obo:OBI_9991118>IL-15 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001844">
+        <obo:OBI_9991118>IL-12 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001845">
+        <obo:OBI_9991118>IL-15 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001846">
+        <obo:OBI_9991118>IL-15 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001962">
+        <obo:OBI_0001847 xml:lang="en">target gene</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001963">
+        <obo:OBI_0001847 xml:lang="en">target subfragment</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001987">
+        <obo:OBI_9991118>association constant KA|binding assay|1/M</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001988">
+        <obo:OBI_9991118>dissociation constant KD|binding assay|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001989">
+        <obo:OBI_9991118>dissociation constant KD|purified MHC/direct/radioactivity|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001990">
+        <obo:OBI_9991118>half life|binding assay|min</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001991">
+        <obo:OBI_9991118>half maximal effective concentration (EC50)|binding assay|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001992">
+        <obo:OBI_9991118>half maximal inhibitory concentration (IC50)|binding assay|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001993">
+        <obo:OBI_9991118>off rate|binding assay|1/s</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001994">
+        <obo:OBI_9991118>on rate|binding assay|nM^-1s^-1</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001995">
+        <obo:OBI_9991118>association constant KA|chromatography|1/nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001996">
+        <obo:OBI_9991118>dissociation constant KD|chromatography|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001997">
+        <obo:OBI_9991118>qualitative binding|hydrogen/deuterium exchange footprinting assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001998">
+        <obo:OBI_9991118>qualitative binding|immunohistochemistry</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001999">
+        <obo:OBI_9991118>3D structure|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002050">
+        <obo:OBI_9991118>3D structure|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002051">
+        <obo:OBI_9991118>pathogen burden after challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002052">
+        <obo:OBI_9991118>tumor burden after challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002053">
+        <obo:OBI_9991118>qualitative binding|microarray</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002054">
+        <obo:OBI_9991118>dissociation constant KD|nuclear magnetic resonance (NMR)|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002055">
+        <obo:OBI_9991118>biological activity|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002056">
+        <obo:OBI_9991118>CCL17/TARC release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002057">
+        <obo:OBI_9991118>MIF release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002058">
+        <obo:OBI_9991118>oncostatin M release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002059">
+        <obo:OBI_9991118>binding constant|binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002060">
+        <obo:OBI_9991118>CCL17/TARC release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002061">
+        <obo:OBI_9991118>CCL22/MDC release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002062">
+        <obo:OBI_9991118>cytotoxicity|in vitro assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002063">
+        <obo:OBI_9991118>granzyme A release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002064">
+        <obo:OBI_9991118>granzyme A release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002065">
+        <obo:OBI_9991118>granzyme B release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002066">
+        <obo:OBI_9991118>granzyme B release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002067">
+        <obo:OBI_9991118>MIF release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002068">
+        <obo:OBI_9991118>oncostatin M release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002069">
+        <obo:OBI_9991118>perforin release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002070">
+        <obo:OBI_9991118>proliferation|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002071">
+        <obo:OBI_9991118>proliferation|in vitro assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002072">
+        <obo:OBI_9991118>qualitative binding|binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002073">
+        <obo:OBI_9991118>protection from challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002074">
+        <obo:OBI_9991118>suppression|in vitro assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002075">
+        <obo:OBI_9991118>MHC ligand assay|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002096">
+        <obo:OBI_9991118>proliferation|CFSE</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002097">
+        <obo:OBI_9991118>dissociation constant KD|binding assay|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002098">
+        <obo:OBI_9991118>on rate|binding assay|M^-1s^-1</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002099">
+        <obo:OBI_9991118>off rate|binding assay|1/s</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002100">
+        <obo:OBI_9991118>association constant KA|binding assay|1/nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002101">
+        <obo:OBI_9991118>3D structure|small-angle scattering assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002102">
+        <obo:OBI_9991118>on rate|bio-layer interferometry assay|M^-1s^-1</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002103">
+        <obo:OBI_9991118>off rate|bio-layer interferometry assay|1/s</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002104">
+        <obo:OBI_9991118>qualitative binding|bio-layer interferometry assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002105">
+        <obo:OBI_9991118>dissociation constant KD|bio-layer interferometry assay|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002133">
+        <obo:OBI_9991118>CCL20/MIP-3a release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002134">
+        <obo:OBI_9991118>CCL20/MIP-3a release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002449">
+        <obo:OBI_9991118>qualitative binding|footprinting assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002450">
+        <obo:OBI_9991118>qualitative binding|hydroxyl-radical footprinting assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002451">
+        <obo:OBI_9991118>IFNa release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002452">
+        <obo:OBI_9991118>IFNa release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002634">
+        <obo:OBI_9991118>disease exacerbation after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002635">
+        <obo:OBI_9991118>decreased disease after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002636">
+        <obo:OBI_9991118>decreased disease after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002637">
+        <obo:OBI_9991118>protection from challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002638">
+        <obo:OBI_9991118>protection from challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002639">
+        <obo:OBI_9991118>pathogen burden after challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002640">
+        <obo:OBI_9991118>pathogen burden after challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002641">
+        <obo:OBI_9991118>survival from other challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002642">
+        <obo:OBI_9991118>survival from other challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002643">
+        <obo:OBI_9991118>tumor burden after challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002644">
+        <obo:OBI_9991118>tumor burden after challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002645">
+        <obo:OBI_9991118>tolerance after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002646">
+        <obo:OBI_9991118>tolerance after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002664">
+        <obo:OBI_9991118>IL-15 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002665">
+        <obo:OBI_9991118>IL-16 release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002666">
+        <obo:OBI_9991118>hypersensitivity after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002667">
+        <obo:OBI_9991118>type IV hypersensitivity (DTH) after adoptive transfer|in vivo skin test</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002668">
+        <obo:OBI_9991118>proliferation after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002669">
+        <obo:OBI_9991118>antibody help after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002670">
+        <obo:OBI_9991118>T cell help after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002671">
+        <obo:OBI_9991118>cytotoxicity after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002672">
+        <obo:OBI_9991118>perforin release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002676">
+        <obo:OBI_9991118>in vivo response after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002677">
+        <obo:OBI_9991118>in vivo response after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002678">
+        <obo:OBI_9991118>disease exacerbation after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003127">
+        <obo:OBI_9991118>B cell assay|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003128">
+        <obo:OBI_9991118>T cell assay|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003145">
+        <obo:OBI_9991118>quantitative binding|binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003146">
+        <obo:OBI_9991118>quantitative binding|binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003147">
+        <obo:OBI_9991118>quantitative binding|binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003292">
+        <obo:OBI_9991118>granulysin release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003293">
+        <obo:OBI_9991118>perforin release|cytometric bead array</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003315">
+        <obo:OBI_9991118>amphiregulin release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003316">
+        <obo:OBI_9991118>amphiregulin release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003323">
+        <obo:OBI_9991118>antibody binding|High throughput multiplexed assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003324">
+        <obo:OBI_9991118>T cell binding|High throughput multiplexed assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003325">
+        <obo:OBI_9991118>MHC binding|High throughput multiplexed assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003326">
+        <obo:OBI_9991118>ligand presentation|High throughput multiplexed assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003372">
+        <obo:OBI_9991118>lymphotactin release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003373">
+        <obo:OBI_9991118>lymphotactin release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003460">
+        <obo:OBI_9991118>protection from pathogen challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003461">
+        <obo:OBI_9991118>protection from tumor challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003462">
+        <obo:OBI_9991118>protection from other challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003463">
+        <obo:OBI_9991118>survival from tumor challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003464">
+        <obo:OBI_9991118>survival from pathogen challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003465">
+        <obo:OBI_9991118>protection from pathogen challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003466">
+        <obo:OBI_9991118>protection from tumor challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003467">
+        <obo:OBI_9991118>protection from other challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003468">
+        <obo:OBI_9991118>survival from pathogen challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003469">
+        <obo:OBI_9991118>survival from tumor challenge|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003470">
+        <obo:OBI_9991118>protection from pathogen challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003471">
+        <obo:OBI_9991118>survival after pathogen challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003472">
+        <obo:OBI_9991118>protection from tumor challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003473">
+        <obo:OBI_9991118>survival after tumor challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003474">
+        <obo:OBI_9991118>protection from other challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003475">
+        <obo:OBI_9991118>protection from pathogen challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003476">
+        <obo:OBI_9991118>survival after pathogen challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003477">
+        <obo:OBI_9991118>protection from tumor challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003478">
+        <obo:OBI_9991118>survival after tumor challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003479">
+        <obo:OBI_9991118>protection from other challenge after adoptive transfer|in vivo assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003484">
+        <obo:OBI_9991118>IL-25 release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003485">
+        <obo:OBI_9991118>IL-25 release|RNA/DNA detection</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003486">
+        <obo:OBI_9991118>IL-25 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003487">
+        <obo:OBI_9991118>IL-25 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003488">
+        <obo:OBI_9991118>TNF release|bioassay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003602">
+        <obo:OBI_9991118>dissociation constant KD|quartz crystal microbalance|nM</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003612">
+        <obo:OBI_9991118>3D structure|electron microscopy</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0003613">
+        <obo:OBI_9991118>3D structure|electron microscopy</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0302903">
+        <obo:OBI_0001847>hybridization assay</obo:OBI_0001847>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110013">
+        <obo:OBI_9991118>IL-2 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110037">
+        <obo:OBI_9991118>T cell binding|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110059">
+        <obo:OBI_9991118>IFNg release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110124">
+        <obo:OBI_9991118>qualitative binding|binding assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110125">
+        <obo:OBI_9991118>ligand presentation|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110126">
+        <obo:OBI_9991118>MHC binding|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110127">
+        <obo:OBI_9991118>antibody binding|any method</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110128">
+        <obo:OBI_9991118>immune epitope assay</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110129">
+        <obo:OBI_9991118>cytokine release|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110130">
+        <obo:OBI_9991118>cytotoxicity|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110131">
+        <obo:OBI_9991118>proliferation|biological activity</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110150">
+        <obo:OBI_9991118>cytotoxicity|51 chromium</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110151">
+        <obo:OBI_9991118>IFNg release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110152">
+        <obo:OBI_9991118>IL-2 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110153">
+        <obo:OBI_9991118>IL-4 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110154">
+        <obo:OBI_9991118>IL-5 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110155">
+        <obo:OBI_9991118>TNFa release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110156">
+        <obo:OBI_9991118>IL-10 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110157">
+        <obo:OBI_9991118>GM-CSF release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110158">
+        <obo:OBI_9991118>IL-6 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110159">
+        <obo:OBI_9991118>IL-13 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110160">
+        <obo:OBI_9991118>IL-12 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110161">
+        <obo:OBI_9991118>IL-1b release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110162">
+        <obo:OBI_9991118>IL-17 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110163">
+        <obo:OBI_9991118>IL-18 release|ELISA</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110167">
+        <obo:OBI_9991118>IL-4 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110168">
+        <obo:OBI_9991118>TNFa release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110170">
+        <obo:OBI_9991118>IL-10 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110171">
+        <obo:OBI_9991118>IL-13 release|ELISPOT</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110172">
+        <obo:OBI_9991118>IFNg release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110173">
+        <obo:OBI_9991118>IL-2 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110174">
+        <obo:OBI_9991118>TNFa release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110175">
+        <obo:OBI_9991118>IL-4 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110177">
+        <obo:OBI_9991118>IL-10 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110178">
+        <obo:OBI_9991118>IL-17 release|ICS</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110179">
+        <obo:OBI_9991118>qualitative binding|multimer/tetramer</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110180">
+        <obo:OBI_9991118>proliferation|3H-thymidine</obo:OBI_9991118>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110181">
+        <obo:OBI_9991118>proliferation|BrdU</obo:OBI_9991118>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002081">
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
