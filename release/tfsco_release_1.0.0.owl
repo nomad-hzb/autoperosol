@@ -34,7 +34,7 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <ns:doapbug-database xml:lang="en">https://purl.archive.org/tfsco/issues</ns:doapbug-database>
         <oboInOwl:creation_date>2022-08-01-00:00</oboInOwl:creation_date>
-        <v3:abstract xml:lang="en">Abstract Link</v3:abstract>
+        <v3:abstract xml:lang="en">The TFSCO is a domain ontology, that focusses on describing the synthesis and characterization processes involved in manufacturing thin-film solar cells.</v3:abstract>
         <owl:versionIRI xml:lang="en">https://purl.archive.org/tfsco/release_1.0.0</owl:versionIRI>
         <owl:versionInfo xml:lang="en">release, latest changes: 2025-05-05</owl:versionInfo>
     </owl:Ontology>
