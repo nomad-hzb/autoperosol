@@ -26,7 +26,7 @@
      xmlns:property="http://purl.allotrope.org/ontologies/property#"
      xmlns:oboInOwl1="oboInOwl:">
     <owl:Ontology rdf:about="https://purl.archive.org/tfsco">
-        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco/release_1.0.0"/>
+        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco/release_1.0.1"/>
         <dc:creator xml:lang="de">Helmholtz-Zentrum Berlin für Materialien und Energie</dc:creator>
         <dc:description xml:lang="en">Domain ontology for thinfilm solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.</dc:description>
         <dc:documentation xml:lang="en">https://purl.archive.org/tfsco/documentation</dc:documentation>
@@ -35,7 +35,7 @@
         <ns:doapbug-database xml:lang="en">https://purl.archive.org/tfsco/issues</ns:doapbug-database>
         <oboInOwl:creation_date>2022-08-01-00:00</oboInOwl:creation_date>
         <v3:abstract xml:lang="en">The TFSCO is a domain ontology, that focusses on describing the synthesis and characterization processes involved in manufacturing thin-film solar cells.</v3:abstract>
-        <owl:versionIRI xml:lang="en">https://purl.archive.org/tfsco/release_1.0.0</owl:versionIRI>
+        <owl:versionIRI xml:lang="en">https://purl.archive.org/tfsco/release_1.0.1</owl:versionIRI>
         <owl:versionInfo xml:lang="en">release, latest changes: 2025-05-05</owl:versionInfo>
     </owl:Ontology>
     
