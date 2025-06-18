@@ -3,6 +3,7 @@
      xml:base="https://purl.archive.org/tfsco/"
      xmlns:WV="http://www.wurvoc.org/vocabularies/WV/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:v3="http://www.loc.gov/premis/rdf/v3/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -10,12 +11,14 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:om-2="http://www.ontology-of-units-of-measure.org/resource/om-2/"
      xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:terms="http://purl.org/dc/terms/"
@@ -24,13 +27,19 @@
      xmlns:property="http://purl.allotrope.org/ontologies/property#"
      xmlns:oboInOwl1="oboInOwl:">
     <owl:Ontology rdf:about="https://purl.archive.org/tfsco">
+        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco/latest"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2024-04-24/core.owl"/>
-        <dc:creator xml:lang="de">Helmholtz-Zentrum Berlin für Materialien und Energie</dc:creator>
         <dc:description xml:lang="en">Domain ontology for thinfilm solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.</dc:description>
         <dc:title xml:lang="en">Ontology for thinfilm solar cells (TFSCO)</dc:title>
+        <terms:abstract xml:lang="en">The Thin-Film Solar Cell strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells.</terms:abstract>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-01T00:00:00</terms:created>
+        <terms:creator rdf:resource="https://ror.org/02aj13c28"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <oboInOwl:creation_date>2022-08-01-00:00</oboInOwl:creation_date>
+        <vann:preferredNamespacePrefix>tfsco</vann:preferredNamespacePrefix>
+        <doap:bug-database rdf:resource="https://github.com/nomad-hzb/autoperosol/issues"/>
+        <v3:documentation rdf:resource="https://github.com/nomad-hzb/autoperosol/tree/main/docs"/>
+        <rdfs:comment rdf:resource="https://purl.archive.org/tfsco_v1.0.0"/>
         <owl:versionInfo xml:lang="en">release, latest changes: 2025-04-28</owl:versionInfo>
     </owl:Ontology>
     
@@ -1148,6 +1157,17 @@ Where we have an annotation assertion
     
 
 
+    <!-- http://purl.org/dc/terms/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract">
+        <obo:IAO_0000115 xml:lang="en">A summary of the resource.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Abstract</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/description"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/terms/conformsTo -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
@@ -1160,9 +1180,33 @@ Where we have an annotation assertion
     
 
 
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created">
+        <obo:IAO_0000115 xml:lang="en">Date of creation of the resource.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.</rdfs:comment>
+        <rdfs:label xml:lang="en">Date Created</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/date"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/terms/creator -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator">
+        <obo:IAO_0000115 xml:lang="en">An entity responsible for making the resource.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Recommended practice is to identify the creator with a URI. If this is not possible or feasible, a literal value that identifies the creator may be provided.</rdfs:comment>
+        <rdfs:label xml:lang="en">Creator</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/creator"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/contributor"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
     
 
 
@@ -1186,7 +1230,11 @@ Where we have an annotation assertion
 
     <!-- http://purl.org/dc/terms/title -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
+        <obo:IAO_0000115 xml:lang="en">A name given to the resource.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/title"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -1196,9 +1244,26 @@ Where we have an annotation assertion
     
 
 
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix">
+        <obo:IAO_0000115 xml:lang="en">The preferred namespace prefix to use when using terms from this vocabulary in an XML document.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Preferred Namespace Prefix</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
 
     <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://usefulinc.com/ns/doap#bug-database -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#bug-database">
+        <rdfs:label xml:lang="en">Issue Tracker</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -1298,6 +1363,14 @@ Where we have an annotation assertion
     
 
 
+    <!-- http://www.loc.gov/premis/rdf/v3/documentation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.loc.gov/premis/rdf/v3/documentation">
+        <rdfs:label xml:lang="en">has documentation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.ontology-of-units-of-measure.org/resource/om-2/alternativeLabel"/>
@@ -1324,6 +1397,16 @@ Where we have an annotation assertion
     
 
 
+    <!-- http://www.w3.org/2002/07/owl#versionIRI -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionIRI">
+        <obo:IAO_0000115 xml:lang="en">The property that identifies the version IRI of an ontology.</obo:IAO_0000115>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+        <rdfs:label xml:lang="en">versionIRI</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
@@ -1339,6 +1422,12 @@ Where we have an annotation assertion
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/type"/>
     
 
 
@@ -16479,6 +16568,9 @@ Date: 31.03.2023</obo:IAO_0000119>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_HOM0000000">
         <obo:IAO_0000116>TODO: Add homeomorphy axiom</obo:IAO_0000116>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://ror.org/02aj13c28">
+        <foaf:type>person</foaf:type>
     </rdf:Description>
 </rdf:RDF>
 
