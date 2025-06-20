@@ -1176,8 +1176,11 @@ Where we have an annotation assertion
 
     <!-- http://purl.org/dc/terms/contributor -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
-    
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor">
+        <rdfs:label xml:lang="en">Contributor</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An entity responsible for making contributions to the resource.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/contributor"/>
+    </owl:AnnotationProperty>
 
 
     <!-- http://purl.org/dc/terms/created -->
