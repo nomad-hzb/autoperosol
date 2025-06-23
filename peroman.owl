@@ -41,6 +41,13 @@
         <v3:documentation rdf:resource="https://github.com/nomad-hzb/autoperosol/tree/main/docs"/>
         <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco_v1.0.0"/>
         <owl:versionInfo xml:lang="en">release, latest changes: 2025-04-28</owl:versionInfo>
+        <terms:contributor>Prof. Dr. Eva Unger</terms:contributor>
+        <terms:contributor>Dr. Jens Hauch</terms:contributor>
+        <terms:contributor>Dr. José Márquez</terms:contributor>
+        <terms:contributor>Prof. Dr. Ulrich Pätzold</terms:contributor>
+        <terms:contributor>Maxim Simmonds</terms:contributor>
+        <terms:contributor>Dr. Simon Ternes</terms:contributor>
+        <terms:contributor>Dr. Thomas Unold</terms:contributor>
     </owl:Ontology>
     
 
