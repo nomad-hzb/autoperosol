@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://purl.archive.org/tfsco/"
-     xml:base="https://purl.archive.org/tfsco/"
-     xmlns:WV="http://www.wurvoc.org/vocabularies/WV/"
+<rdf:RDF xmlns="https://purl.archive.org/tfsco#"
+     xml:base="https://purl.archive.org/tfsco"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:v3="http://www.loc.gov/premis/rdf/v3/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -9,7 +8,6 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:cito="http://purl.org/spar/cito/"
      xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
@@ -17,36 +15,27 @@
      xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
-     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:property="http://purl.allotrope.org/ontologies/property#"
      xmlns:oboInOwl1="oboInOwl:">
     <owl:Ontology rdf:about="https://purl.archive.org/tfsco">
-        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco_v1.0"/>
+        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco/release/1.0"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2024-04-24/core.owl"/>
         <dc:description xml:lang="en">Domain ontology for thinfilm solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.</dc:description>
         <dc:title xml:lang="en">Ontology for thinfilm solar cells (TFSCO)</dc:title>
-        <terms:abstract xml:lang="en">The Ontology for thin-film solar cells strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells.</terms:abstract>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4384-2112"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-3343-867X"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-8173-2566"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1557-8361"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5750-0693"/>
+        <terms:abstract xml:lang="en">The Thin-Film Solar Cell strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells.</terms:abstract>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-01T00:00:00</terms:created>
-        <terms:creator rdf:resource="https://orcid.org/0009-0008-1278-8890"/>
-        <terms:creator rdf:resource="https://orcid.org/0009-0001-9163-357X"/>
+        <terms:creator rdf:resource="https://ror.org/02aj13c28"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <terms:rightsHolder rdf:resource="https://ror.org/02aj13c28"/>
         <vann:preferredNamespacePrefix>tfsco</vann:preferredNamespacePrefix>
         <doap:bug-database rdf:resource="https://github.com/nomad-hzb/autoperosol/issues"/>
         <v3:documentation rdf:resource="https://github.com/nomad-hzb/autoperosol/tree/main/docs"/>
-        <owl:versionInfo xml:lang="en">release, latest changes: 2025-04-28</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release, latest changes: 2025-06-18</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1182,11 +1171,7 @@ Where we have an annotation assertion
 
     <!-- http://purl.org/dc/terms/contributor -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor">
-        <obo:IAO_0000115 xml:lang="en">An entity responsible for making contributions to the resource.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Contributor</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/contributor"/>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
     
 
 
@@ -1229,16 +1214,6 @@ Where we have an annotation assertion
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/rightsHolder -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rightsHolder">
-        <obo:IAO_0000115 xml:lang="en">A person or organization owning or managing rights over the resource.</obo:IAO_0000115>
-        <rdfs:comment xml:lang="en">Recommended practice is to refer to the rights holder with a URI. If this is not possible or feasible, a literal value that identifies the rights holder may be provided.</rdfs:comment>
-        <rdfs:label xml:lang="en">Rights Holder</rdfs:label>
-    </owl:AnnotationProperty>
     
 
 
