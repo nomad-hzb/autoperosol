@@ -33,14 +33,14 @@
         <dc:description xml:lang="en">Domain ontology for thinfilm solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.</dc:description>
         <dc:title xml:lang="en">Ontology for thinfilm solar cells (TFSCO)</dc:title>
         <terms:abstract xml:lang="en">The Ontology for thin-film solar cells strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells.</terms:abstract>
-        <terms:contributor>Dr. Jens Hauch</terms:contributor>
-        <terms:contributor>Dr. José Márquez</terms:contributor>
-        <terms:contributor>Dr. Thomas Unold</terms:contributor>
-        <terms:contributor>Prof. Dr. Eva Unger</terms:contributor>
-        <terms:contributor>Prof. Dr. Ulrich Pätzold</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0003-4384-2112"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-3343-867X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-8173-2566"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-1557-8361"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-5750-0693"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-01T00:00:00</terms:created>
-        <terms:creator>Dr. Michael Götte</terms:creator>
-        <terms:creator>Tobias Röschmann</terms:creator>
+        <terms:creator rdf:resource="https://orcid.org/0009-0008-1278-8890"/>
+        <terms:creator rdf:resource="https://orcid.org/0009-0001-9163-357X"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:rightsHolder rdf:resource="https://ror.org/02aj13c28"/>
         <vann:preferredNamespacePrefix>tfsco</vann:preferredNamespacePrefix>
