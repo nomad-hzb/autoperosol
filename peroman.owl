@@ -34,7 +34,8 @@
         <dc:title xml:lang="en">Ontology for thinfilm solar cells (TFSCO)</dc:title>
         <terms:abstract xml:lang="en">The Thin-Film Solar Cell strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells.</terms:abstract>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-01T00:00:00</terms:created>
-        <terms:creator rdf:resource="https://ror.org/02aj13c28"/>
+        <terms:creator>Dr. Michael Götte</terms:creator>
+        <terms:creator>Tobias Röschmann</terms:creator>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <vann:preferredNamespacePrefix>tfsco</vann:preferredNamespacePrefix>
         <doap:bug-database rdf:resource="https://github.com/nomad-hzb/autoperosol/issues"/>
