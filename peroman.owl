@@ -27,28 +27,26 @@
      xmlns:property="http://purl.allotrope.org/ontologies/property#"
      xmlns:oboInOwl1="oboInOwl:">
     <owl:Ontology rdf:about="https://purl.archive.org/tfsco">
-        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco/latest"/>
+        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco_v1.0"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2024-04-24/core.owl"/>
         <dc:description xml:lang="en">Domain ontology for thinfilm solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.</dc:description>
         <dc:title xml:lang="en">Ontology for thinfilm solar cells (TFSCO)</dc:title>
-        <terms:abstract xml:lang="en">The Thin-Film Solar Cell strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells.</terms:abstract>
+        <terms:abstract xml:lang="en">The Ontology for thin-film solar cells strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells.</terms:abstract>
+        <terms:contributor>Dr. Jens Hauch</terms:contributor>
+        <terms:contributor>Dr. José Márquez</terms:contributor>
+        <terms:contributor>Dr. Thomas Unold</terms:contributor>
+        <terms:contributor>Prof. Dr. Eva Unger</terms:contributor>
+        <terms:contributor>Prof. Dr. Ulrich Pätzold</terms:contributor>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-01T00:00:00</terms:created>
         <terms:creator>Dr. Michael Götte</terms:creator>
         <terms:creator>Tobias Röschmann</terms:creator>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:rightsHolder rdf:resource="https://ror.org/02aj13c28"/>
         <vann:preferredNamespacePrefix>tfsco</vann:preferredNamespacePrefix>
         <doap:bug-database rdf:resource="https://github.com/nomad-hzb/autoperosol/issues"/>
         <v3:documentation rdf:resource="https://github.com/nomad-hzb/autoperosol/tree/main/docs"/>
-        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco_v1.0.0"/>
         <owl:versionInfo xml:lang="en">release, latest changes: 2025-04-28</owl:versionInfo>
-        <terms:contributor>Prof. Dr. Eva Unger</terms:contributor>
-        <terms:contributor>Dr. Jens Hauch</terms:contributor>
-        <terms:contributor>Dr. José Márquez</terms:contributor>
-        <terms:contributor>Prof. Dr. Ulrich Pätzold</terms:contributor>
-        <terms:contributor>Maxim Simmonds</terms:contributor>
-        <terms:contributor>Dr. Simon Ternes</terms:contributor>
-        <terms:contributor>Dr. Thomas Unold</terms:contributor>
     </owl:Ontology>
     
 
@@ -1185,10 +1183,11 @@ Where we have an annotation assertion
     <!-- http://purl.org/dc/terms/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor">
-        <rdfs:label xml:lang="en">Contributor</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">An entity responsible for making contributions to the resource.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Contributor</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/contributor"/>
     </owl:AnnotationProperty>
+    
 
 
     <!-- http://purl.org/dc/terms/created -->
@@ -1230,6 +1229,16 @@ Where we have an annotation assertion
     <!-- http://purl.org/dc/terms/license -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/rightsHolder -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rightsHolder">
+        <obo:IAO_0000115 xml:lang="en">A person or organization owning or managing rights over the resource.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Recommended practice is to refer to the rights holder with a URI. If this is not possible or feasible, a literal value that identifies the rights holder may be provided.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rights Holder</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
