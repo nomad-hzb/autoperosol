@@ -18020,7 +18020,18 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/contributor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "An entity responsible for making contributions to the resource."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contributor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1/contributor"
+  } ]
 }, {
   "@id" : "http://purl.org/dc/terms/created",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
@@ -18070,6 +18081,21 @@
 }, {
   "@id" : "http://purl.org/dc/terms/license",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rightsHolder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@language" : "en",
+    "@value" : "A person or organization owning or managing rights over the resource."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Recommended practice is to refer to the rights holder with a URI. If this is not possible or feasible, a literal value that identifies the rights holder may be provided."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rights Holder"
+  } ]
 }, {
   "@id" : "http://purl.org/dc/terms/source",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -18222,17 +18248,35 @@
   } ],
   "http://purl.org/dc/terms/abstract" : [ {
     "@language" : "en",
-    "@value" : "The Thin-Film Solar Cell strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells."
+    "@value" : "The Ontology for thin-film solar cells strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells."
+  } ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@id" : "https://orcid.org/0000-0002-1557-8361"
+  }, {
+    "@id" : "https://orcid.org/0000-0002-3343-867X"
+  }, {
+    "@id" : "https://orcid.org/0000-0002-5750-0693"
+  }, {
+    "@id" : "https://orcid.org/0000-0002-8173-2566"
+  }, {
+    "@id" : "https://orcid.org/0000-0003-4384-2112"
+  }, {
+    "@value" : "https://orcid.org/0000-0002-4292-6317"
   } ],
   "http://purl.org/dc/terms/created" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "@value" : "2022-08-01T00:00:00"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
-    "@id" : "https://ror.org/02aj13c28"
+    "@id" : "https://orcid.org/0009-0001-9163-357X"
+  }, {
+    "@id" : "https://orcid.org/0009-0008-1278-8890"
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/rightsHolder" : [ {
+    "@id" : "https://ror.org/02aj13c28"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@value" : "tfsco"
@@ -18243,16 +18287,13 @@
   "http://www.loc.gov/premis/rdf/v3/documentation" : [ {
     "@id" : "https://github.com/nomad-hzb/autoperosol/tree/main/docs"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "https://purl.archive.org/tfsco_v1.0.0"
-  } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"
   }, {
     "@id" : "http://purl.obolibrary.org/obo/ro/releases/2024-04-24/core.owl"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://purl.archive.org/tfsco/latest"
+    "@id" : "https://purl.archive.org/tfsco_v1.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",
