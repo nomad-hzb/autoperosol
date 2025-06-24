@@ -48,7 +48,7 @@
         <vann:preferredNamespacePrefix>tfsco</vann:preferredNamespacePrefix>
         <doap:bug-database rdf:resource="https://github.com/nomad-hzb/autoperosol/issues"/>
         <v3:documentation rdf:resource="https://github.com/nomad-hzb/autoperosol/tree/main/docs"/>
-        <owl:versionInfo xml:lang="en">release, latest changes: 2025-04-28</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release, latest changes: 2025-06-24</owl:versionInfo>
     </owl:Ontology>
     
 
