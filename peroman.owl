@@ -39,7 +39,7 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-8173-2566"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4384-2112"/>
         <terms:contributor rdf:resource="https://orcid.org/0009-0003-1803-0857"/>
-        <terms:contributor>https://orcid.org/0000-0002-4292-6317</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4292-6317"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-01T00:00:00</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0009-0001-9163-357X"/>
         <terms:creator rdf:resource="https://orcid.org/0009-0008-1278-8890"/>
@@ -6864,13 +6864,19 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000915"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001009"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a flat fiat object part, constitutet as a film of molecules on or in a object</obo:IAO_0000115>
@@ -15419,6 +15425,38 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000600 xml:lang="en">count is a process quality, that describes the result of some counting process</obo:IAO_0000600>
         <rdfs:label xml:lang="en">count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007000 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The layer morphology describes the morphology of some layer</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">layer morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007001 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000915"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The layer thickness describes the thickness of some layer.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">layer thickness</rdfs:label>
     </owl:Class>
     
 
