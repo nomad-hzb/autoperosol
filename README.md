@@ -7,7 +7,7 @@ _Work in Progress!_
 ## Table of Contents
   * [About TFSCO](#about-tfsco)
   * [Use of TFSCO](#use-of-tfsco)
-  * [Top level Ontology](#top-level-ontology)
+  * [Top level Ontology](#upper-level-ontologies)
   * [Mid- and Domain-level Ontologies](#mid--and-domain-level-ontologies)
   * [News](#news)
   * [Links](#links)
@@ -31,8 +31,9 @@ The TFSCO imports axioms from the following ontologies: [CHMO](https://github.co
 
 ## Links
 
+- [Latest Version](https://raw.githubusercontent.com/nomad-hzb/autoperosol/refs/heads/main/releases/tfsco_latest.owl)
 - [GitHub](https://github.com/RoteKekse/autoperosol)
-- [TFSCO on MatPortal.org](https://matportal.org/ontologies/TFSCO)
+- [TFSCO on TIB Terminology Service](https://terminology.tib.eu/ts/ontologies/tfsco?lang=en)
 
 ### Content license: 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)
