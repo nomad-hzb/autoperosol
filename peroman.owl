@@ -35,11 +35,11 @@
         <terms:abstract xml:lang="en">The Ontology for thin-film solar cells strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells.</terms:abstract>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1557-8361"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-3343-867X"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4292-6317"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-5750-0693"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-8173-2566"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4384-2112"/>
         <terms:contributor rdf:resource="https://orcid.org/0009-0003-1803-0857"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-4292-6317"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-01T00:00:00</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0009-0001-9163-357X"/>
         <terms:creator rdf:resource="https://orcid.org/0009-0008-1278-8890"/>
@@ -48,7 +48,7 @@
         <vann:preferredNamespacePrefix>tfsco</vann:preferredNamespacePrefix>
         <doap:bug-database rdf:resource="https://github.com/nomad-hzb/autoperosol/issues"/>
         <v3:documentation rdf:resource="https://github.com/nomad-hzb/autoperosol/tree/main/docs"/>
-        <owl:versionInfo xml:lang="en">release, latest changes: 2025-06-24</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release, latest changes: 2025-06-30</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -8124,6 +8124,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is the electric potential at zero current</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Md. Shahiduzzaman, Md. Hossain, Mohammad Ismail. (2022). Organometal halide perovskite photovoltaics. In Md. Akhtaruzzaman Comprehensive Guide on Organic and Inorganic Solar Cells</obo:IAO_0000119>
+        <om-2:alternativeLabel>Voc</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">open circuit voltage</rdfs:label>
     </owl:Class>
     
@@ -12039,8 +12040,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002134"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <om-2:alternativeLabel xml:lang="en">Short-circuit current density</om-2:alternativeLabel>
-        <rdfs:label xml:lang="en">integrated jsc</rdfs:label>
+        <om-2:alternativeLabel xml:lang="en">integrated jsc</om-2:alternativeLabel>
+        <rdfs:label xml:lang="en">Short-circuit current density</rdfs:label>
     </owl:Class>
     
 
@@ -12055,8 +12056,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002135"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <om-2:alternativeLabel xml:lang="en">radiative saturation-current density</om-2:alternativeLabel>
-        <rdfs:label xml:lang="en">integrated j0rad</rdfs:label>
+        <om-2:alternativeLabel xml:lang="en">integrated j0rad</om-2:alternativeLabel>
+        <rdfs:label xml:lang="en">radiative recombination saturation-current density</rdfs:label>
     </owl:Class>
     
 
