@@ -9651,7 +9651,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Elektrische Leistung</obo:IAO_0000118>
         <obo:IAO_0000600>Electric Power is the rate at which electrical energy is transferred by an electric circuit.</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/ElectricPower</dc:source>
-        <rdfs:label xml:lang="en">Electric power</rdfs:label>
+        <rdfs:label xml:lang="en">electric power</rdfs:label>
     </owl:Class>
     
 
