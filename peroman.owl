@@ -9508,7 +9508,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An iv curve is a tabular data which consists of two columns voltage and current. It is the result of an iv measurement. The voltage is set by the voltage setting datums and the current is measured.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">iv curve</rdfs:label>
+        <om-2:alternativeLabel xml:lang="en">i-v curve</om-2:alternativeLabel>
+        <rdfs:label xml:lang="en">current-voltage curve</rdfs:label>
     </owl:Class>
     
 
@@ -12043,7 +12044,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <om-2:alternativeLabel xml:lang="en">integrated jsc</om-2:alternativeLabel>
-        <rdfs:label xml:lang="en">Short-circuit current density</rdfs:label>
+        <rdfs:label xml:lang="en">integrated short-circuit current density</rdfs:label>
     </owl:Class>
     
 
@@ -12933,6 +12934,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <om-2:alternativeLabel xml:lang="en">ultraviolet–visible spectrophotometry curve</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">uv/vis curve</rdfs:label>
     </owl:Class>
     
