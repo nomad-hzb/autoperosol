@@ -6879,6 +6879,12 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a flat fiat object part, constitutet as a film of molecules on or in a object</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Schicht</obo:IAO_0000118>
         <rdfs:label xml:lang="en">layer</rdfs:label>
@@ -15464,6 +15470,15 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The layer thickness describes the thickness of some layer.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">layer thickness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007002 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007002">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001024"/>
+        <rdfs:label xml:lang="en">layer transmittance</rdfs:label>
     </owl:Class>
     
 
