@@ -48,7 +48,7 @@
         <vann:preferredNamespacePrefix>tfsco</vann:preferredNamespacePrefix>
         <doap:bug-database rdf:resource="https://github.com/nomad-hzb/autoperosol/issues"/>
         <v3:documentation rdf:resource="https://github.com/nomad-hzb/autoperosol/tree/main/docs"/>
-        <owl:versionInfo xml:lang="en">release, latest changes: 2025-06-30</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release, latest changes: 2025-07-09</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -12947,6 +12947,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a spectrum, that displays the amount of absorption of ultraviolet and visible light as a function of wavelength</obo:IAO_0000115>
         <om-2:alternativeLabel xml:lang="en">ultraviolet–visible spectrophotometry curve</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">uv-vis curve</rdfs:label>
     </owl:Class>
@@ -12985,6 +12986,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a uv-vis curve, that displays the reflection of ultraviolet and visible light as a function of wavelength</obo:IAO_0000115>
         <om-2:alternativeLabel xml:lang="en">reflection ultraviolet–visible spectrophotometry curve</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">reflection uv-vis curve</rdfs:label>
     </owl:Class>
@@ -13001,6 +13003,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a uv-vis curve, that displays the transmittance of ultraviolet and visible light as a function of wavelength</obo:IAO_0000115>
         <om-2:alternativeLabel xml:lang="en">transmittance ultraviolet–visible spectrophotometry curve</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">transmittance uv-vis curve</rdfs:label>
     </owl:Class>
