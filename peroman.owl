@@ -10581,6 +10581,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the voltage maximum power point datum is a scalar datum, that quantifies some votlage maximum power point</obo:IAO_0000115>
         <rdfs:label xml:lang="en">voltage maximum power point datum</rdfs:label>
     </owl:Class>
     
@@ -11251,6 +11252,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the shunt resistance datum is a scalar datum, that quantifies some shunt resistance</obo:IAO_0000115>
         <rdfs:label xml:lang="en">shunt resistance datum</rdfs:label>
     </owl:Class>
     
@@ -11993,6 +11995,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002144"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the urbach energy datum is a scalar datum, that quantifies some urbach energy</obo:IAO_0000115>
         <rdfs:label xml:lang="en">urbach energy datum</rdfs:label>
     </owl:Class>
     
@@ -12014,6 +12017,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the urbach energy fit standard deviation datum is a scalar datum, that quantifies some urbach energy fit standard deviation</obo:IAO_0000115>
         <rdfs:label xml:lang="en">urbach energy fit standard deviation datum</rdfs:label>
     </owl:Class>
     
@@ -15540,6 +15544,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the time until 95 percent efficiency datum is a scalar datum, that quantifies the time until a solar cell drops to 95 percent of its initial efficiency</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time until 95 percent efficiency datum</rdfs:label>
     </owl:Class>
     
@@ -16153,6 +16158,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003503"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the time until 80 percent efficiency datum is a scalar datum, that quantifies the time until a solar cell drops to 80 percent of its initial efficiency</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time until 80 percent efficiency datum</rdfs:label>
     </owl:Class>
     
@@ -16168,6 +16174,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003504"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the time until 90 percent efficiency datum is a scalar datum, that quantifies the time until a solar cell drops to 90 percent of its initial efficiency</obo:IAO_0000115>
         <rdfs:label xml:lang="en">time until 90 percent efficiency datum</rdfs:label>
     </owl:Class>
     
