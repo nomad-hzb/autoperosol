@@ -9749,6 +9749,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the photovoltaic device efficiency datum is a scalar datum, that quantifies the efficiency of some photovoltaic device</obo:IAO_0000115>
         <rdfs:label xml:lang="en">photovoltaic device efficiency datum</rdfs:label>
     </owl:Class>
     
@@ -10558,7 +10559,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the open circuit voltage datum is a scalar datum, that specifies some open circuit voltage</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the open circuit voltage datum is a scalar datum, that quantifies some open circuit voltage</obo:IAO_0000115>
         <rdfs:label xml:lang="en">open circuit voltage datum</rdfs:label>
     </owl:Class>
     
@@ -10632,6 +10633,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the short circuit current datum is a scalar datum, that quantifies some short circuit current</obo:IAO_0000115>
         <rdfs:label xml:lang="en">short circuit current datum</rdfs:label>
     </owl:Class>
     
@@ -11270,6 +11272,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001104"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the series resistance datum is a scalar datum, that quantifies some series resistance</obo:IAO_0000115>
         <rdfs:label xml:lang="en">series resistance datum</rdfs:label>
     </owl:Class>
     
@@ -11923,6 +11926,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002141"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the integrated jsc datum is a scalar datum, that quantifies some integrated jsc</obo:IAO_0000115>
         <rdfs:label xml:lang="en">integrated jsc datum</rdfs:label>
     </owl:Class>
     
@@ -11944,6 +11948,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002142"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the integrated j0rad datum is a scalar datum, that quantifies some integradted j0rad</obo:IAO_0000115>
         <rdfs:label xml:lang="en">integrated j0rad datum</rdfs:label>
     </owl:Class>
     
@@ -11965,8 +11970,9 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002143"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the radiative open-circuit voltage datum is a scalar datum, that quantifies some radiative open-circuit voltage</obo:IAO_0000115>
         <om-2:alternativeLabel xml:lang="en">voc rad datum</om-2:alternativeLabel>
-        <rdfs:label xml:lang="en">radiative open-circuit voltage</rdfs:label>
+        <rdfs:label xml:lang="en">radiative open-circuit voltage datum</rdfs:label>
     </owl:Class>
     
 
@@ -15723,6 +15729,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the reynolds number datum is a scalar datum, that quantifies some reynolds number</obo:IAO_0000115>
         <rdfs:label xml:lang="en">reynolds number datum</rdfs:label>
     </owl:Class>
     
