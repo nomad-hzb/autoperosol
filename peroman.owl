@@ -10285,6 +10285,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001107"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the fill factor datum is a scalar datum, that quantifies some fill factor</obo:IAO_0000115>
         <rdfs:label xml:lang="en">fill factor datum</rdfs:label>
     </owl:Class>
     
