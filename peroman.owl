@@ -12040,7 +12040,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002146"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the external quantum efficiency datum is a scalar datum, that specifies some external quantum efficiency</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the external quantum efficiency datum is a scalar datum, that quantifies some external quantum efficiency</obo:IAO_0000115>
         <rdfs:label xml:lang="en">external quantum efficiency datum</rdfs:label>
     </owl:Class>
     
