@@ -14874,6 +14874,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005700"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the air knife shim width setting datum is a 1-d extent setting datum, that specifies the set width of the air knife shim</obo:IAO_0000115>
         <rdfs:label xml:lang="en">air knife shim width setting datum</rdfs:label>
     </owl:Class>
     
