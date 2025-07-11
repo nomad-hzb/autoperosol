@@ -13343,7 +13343,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the distance between an air knife and some entity</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the distance between some air knife and some entity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">air knife distance to thin film setting datum</rdfs:label>
     </owl:Class>
     
@@ -14725,7 +14725,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the distance between a print head and a substrate</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the print head distance to substrate setting datum is a distance to substrate setting datum, that specifies the distance between some print head and some substrate</obo:IAO_0000115>
         <rdfs:label xml:lang="en">print head distance to substrate setting datum</rdfs:label>
     </owl:Class>
     
@@ -14839,7 +14839,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005072"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a setting datum, that specifies the distance of a print nozzle to some entity</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the print nozzle distance setting datum is a 1-d extent setting datum, that specifies the distance between some nozzle and some entity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">print nozzle distance setting datum</rdfs:label>
     </owl:Class>
     
@@ -14876,7 +14876,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005700"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the air knife shim width setting datum is a 1-d extent setting datum, that specifies the set width of the air knife shim</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the air knife shim width setting datum is a 1-d extent setting datum, that specifies the set width of some air knife shim</obo:IAO_0000115>
         <rdfs:label xml:lang="en">air knife shim width setting datum</rdfs:label>
     </owl:Class>
     
@@ -15772,6 +15772,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00008009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the radiation source distance to substrate setting datum is a distance to substrate setting datum, that specifies the distance between some radiation source and some substrate</obo:IAO_0000115>
         <rdfs:label xml:lang="en">raditation source distance to substrate setting datum</rdfs:label>
     </owl:Class>
     
