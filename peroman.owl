@@ -15243,7 +15243,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005742">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <obo:IAO_0000115 xml:lang="en">an angle measurement datum is a scalar measurement datum, that consists of a number and an angle unit</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The angle measurement datum is a scalar measurement datum, quantifies the result of some angle measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">angle measurement datum</rdfs:label>
     </owl:Class>
     
@@ -15259,7 +15259,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005702"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the contact angle measurement datum is a angle measurement datum, that is the result of some contact angle measurement measurement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the contact angle measurement datum is a angle measurement datum, that quantifies the result of some contact angle measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">contact angle measurement datum</rdfs:label>
     </owl:Class>
     
@@ -15392,7 +15392,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the air knife  impingement angle measurement datum is a angle measurement datum, that is the result of some measurement of the impingement angle between an air knife and another continuant</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the air knife  impingement angle measurement datum is a angle measurement datum, that quantifies the result of some air knife impingement angle measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">air knife impingement angle measurement datum</rdfs:label>
     </owl:Class>
     
