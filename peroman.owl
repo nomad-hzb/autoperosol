@@ -11308,7 +11308,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of an temperature quality</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The temperature measurement datum is a  scalar measurement datum, that quantifies the result of some temperature measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">temperature measurement datum</rdfs:label>
     </owl:Class>
     
@@ -11598,7 +11598,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002110"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement of thin film deposition rate</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The thin film deposition rate measurement datum is a scalar measurement datum, that quantifies the result of some thin film deposition rate measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">thin film deposition rate measurement datum</rdfs:label>
     </owl:Class>
     
@@ -11614,7 +11614,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of an total pressure quality</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">The total pressure measurement datum is a scalar measurement datum, that quantifies the result of some total pressure measurement</obo:IAO_0000119>
         <rdfs:label xml:lang="en">total pressure measurement datum</rdfs:label>
     </owl:Class>
     
@@ -11630,7 +11630,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000119 xml:lang="en">A scalar measurement datum that is the result of measurement of an partial presssure quality</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">The partial pressure measurment datum is a pressure measurement datum, that quantifies the result of some partial pressure measurement</obo:IAO_0000119>
         <rdfs:label xml:lang="en">partial pressure measurement datum</rdfs:label>
     </owl:Class>
     
@@ -12382,7 +12382,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The volume measurement datum is a scalar measurement datum that describes the result of some volumetric measurement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The volume measurement datum is a scalar measurement datum, that quantifies the result of some volumetric measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">volume measurement datum</rdfs:label>
     </owl:Class>
     
@@ -13038,7 +13038,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The transmittance measurement datum is a scalar measurement datum that describes the result of some transmittance measurement</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The transmittance measurement datum is a scalar measurement datum, that quantifies the result of some transmittance measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">transmittance measurement datum</rdfs:label>
     </owl:Class>
     
@@ -13054,7 +13054,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the result of measurement reflectance quality</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The reflectance measurement datum is a scalar measurement datum, that quantifies the result of some reflectance measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">reflectance measurement datum</rdfs:label>
     </owl:Class>
     
