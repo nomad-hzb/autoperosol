@@ -12716,7 +12716,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003308"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">is a length, that describes the distance of the nozzle to some material that is being deposited on</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The nozzle distance to substrate is a distance to substrate, that describes the distance between some nozzle and some substrate</obo:IAO_0000115>
         <rdfs:label xml:lang="en">nozzle distance to substrate</rdfs:label>
     </owl:Class>
     
@@ -13252,7 +13252,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The distance of the air knife to the thin film  in an air knife gas quenching.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The air knife distance to thin film is a nozzle distance to thin flm, that describes the distance between some air knife and some thin film</obo:IAO_0000115>
         <rdfs:label xml:lang="en">air knife distance to thin film</rdfs:label>
     </owl:Class>
     
@@ -14606,7 +14606,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005093"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the height, from which some anti solvent is dropped onto some entity</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The anti solvent dropping height is a dnozzle distance to substrate, that describes the height out of which some anti solvent is dropped onto some entity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">anti solvent dropping height</rdfs:label>
     </owl:Class>
     
