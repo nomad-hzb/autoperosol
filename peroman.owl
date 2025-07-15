@@ -32,7 +32,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2024-04-24/core.owl"/>
         <dc:description xml:lang="en">Domain ontology for thinfilm solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.</dc:description>
         <dc:title xml:lang="en">Ontology for thinfilm solar cells (TFSCO)</dc:title>
-        <terms:abstract xml:lang="en">The Ontology for thin-film solar cells strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin film solar cells.</terms:abstract>
+        <terms:abstract xml:lang="en">The Ontology for thin-film solar cells strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin-film solar cells.</terms:abstract>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1557-8361"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-3343-867X"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4292-6317"/>
@@ -2645,7 +2645,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000209"/>
-        <obo:IAO_0000115>A method for determining structure by directing a beam of X-rays at an extremely flat surface and measuring the intensity of the reflected X-rays as a function of angle. X-ray reflectometry is used to determine the structure of thin films.</obo:IAO_0000115>
+        <obo:IAO_0000115>A method for determining structure by directing a beam of X-rays at an extremely flat surface and measuring the intensity of the reflected X-rays as a function of angle. X-ray reflectometry is used to determine the structure of thin-films.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>X-ray reflectivity</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>XRR</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CHMO:0000219</oboInOwl:id>
@@ -2654,7 +2654,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000219"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A method for determining structure by directing a beam of X-rays at an extremely flat surface and measuring the intensity of the reflected X-rays as a function of angle. X-ray reflectometry is used to determine the structure of thin films.</owl:annotatedTarget>
+        <owl:annotatedTarget>A method for determining structure by directing a beam of X-rays at an extremely flat surface and measuring the intensity of the reflected X-rays as a function of angle. X-ray reflectometry is used to determine the structure of thin-films.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -2796,7 +2796,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001314"/>
-        <obo:IAO_0000115>A thin film deposition technique based on the sequential reaction of gaseous precursors at a surface to produce a monolayer</obo:IAO_0000115>
+        <obo:IAO_0000115>A thin-film deposition technique based on the sequential reaction of gaseous precursors at a surface to produce a monolayer</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>ALD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>atomic-layer deposition</oboInOwl:hasExactSynonym>
         <oboInOwl:id>CHMO:0001311</oboInOwl:id>
@@ -2805,7 +2805,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001311"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A thin film deposition technique based on the sequential reaction of gaseous precursors at a surface to produce a monolayer</owl:annotatedTarget>
+        <owl:annotatedTarget>A thin-film deposition technique based on the sequential reaction of gaseous precursors at a surface to produce a monolayer</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3132,7 +3132,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001363">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001356"/>
-        <obo:IAO_0000115>A synthesis technique where a high-power pulsed laser beam is focused (inside a vacuum chamber) onto a target of the desired composition. Material is then vaporized from the target (&apos;ablation&apos;) and deposited as a thin film on a substrate facing the target.</obo:IAO_0000115>
+        <obo:IAO_0000115>A synthesis technique where a high-power pulsed laser beam is focused (inside a vacuum chamber) onto a target of the desired composition. Material is then vaporized from the target (&apos;ablation&apos;) and deposited as a thin-film on a substrate facing the target.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>PLA deposition</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PLD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>laser ablation growth</oboInOwl:hasExactSynonym>
@@ -3145,7 +3145,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001363"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A synthesis technique where a high-power pulsed laser beam is focused (inside a vacuum chamber) onto a target of the desired composition. Material is then vaporized from the target (&apos;ablation&apos;) and deposited as a thin film on a substrate facing the target.</owl:annotatedTarget>
+        <owl:annotatedTarget>A synthesis technique where a high-power pulsed laser beam is focused (inside a vacuum chamber) onto a target of the desired composition. Material is then vaporized from the target (&apos;ablation&apos;) and deposited as a thin-film on a substrate facing the target.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -3246,7 +3246,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002156"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A coating method for applying a thin (&lt;1 μm thickness) cover to flat substrates where an excess amount of coating solution (in a volatile solvent) is placed on the substrate, which is then rotated at high speed (8000 rpm) for approximately 30 s in order to spread the solution by centripetal force. The solvent then evaporates, leaving a thin film.</obo:IAO_0000115>
+        <obo:IAO_0000115>A coating method for applying a thin (&lt;1 μm thickness) cover to flat substrates where an excess amount of coating solution (in a volatile solvent) is placed on the substrate, which is then rotated at high speed (8000 rpm) for approximately 30 s in order to spread the solution by centripetal force. The solvent then evaporates, leaving a thin-film.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Rotationsbeschichtung</obo:IAO_0000118>
         <oboInOwl:hasExactSynonym>spin casting</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>spin-casting</oboInOwl:hasExactSynonym>
@@ -3257,7 +3257,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001472"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A coating method for applying a thin (&lt;1 μm thickness) cover to flat substrates where an excess amount of coating solution (in a volatile solvent) is placed on the substrate, which is then rotated at high speed (8000 rpm) for approximately 30 s in order to spread the solution by centripetal force. The solvent then evaporates, leaving a thin film.</owl:annotatedTarget>
+        <owl:annotatedTarget>A coating method for applying a thin (&lt;1 μm thickness) cover to flat substrates where an excess amount of coating solution (in a volatile solvent) is placed on the substrate, which is then rotated at high speed (8000 rpm) for approximately 30 s in order to spread the solution by centripetal force. The solvent then evaporates, leaving a thin-film.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -7059,7 +7059,7 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the role of a thin film</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the role of a thin-film</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Layer role</rdfs:label>
     </owl:Class>
     
@@ -10514,7 +10514,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002051"/>
         <obo:IAO_0000118 xml:lang="en">Doctor blading</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Rakelbeschichtung</obo:IAO_0000118>
-        <obo:IAO_0000600 xml:lang="en">a small amount of solution is placed on a substrate and spread evenly using a doctor blade. The substrate is then dried to form a thin film.</obo:IAO_0000600>
+        <obo:IAO_0000600 xml:lang="en">a small amount of solution is placed on a substrate and spread evenly using a doctor blade. The substrate is then dried to form a thin-film.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Blade coating</rdfs:label>
     </owl:Class>
     
@@ -10526,7 +10526,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002051"/>
         <obo:IAO_0000118 xml:lang="en">EPD</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Elektrophoretische Abscheidung</obo:IAO_0000118>
-        <obo:IAO_0000600 xml:lang="en">a substrate is immersed in a solution containing a salt of the material to be deposited and an electric current is passed through the solution, which causes the material to be deposited on the substrate as a thin film.</obo:IAO_0000600>
+        <obo:IAO_0000600 xml:lang="en">a substrate is immersed in a solution containing a salt of the material to be deposited and an electric current is passed through the solution, which causes the material to be deposited on the substrate as a thin-film.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Electrophoretic deposition</rdfs:label>
     </owl:Class>
     
@@ -10537,7 +10537,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002062">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002051"/>
         <obo:IAO_0000118 xml:lang="de">Sol-Gel-Prozess</obo:IAO_0000118>
-        <obo:IAO_0000600 xml:lang="en">a solution containing precursor materials is formed, which is then deposited onto a substrate and dried to form a thin film. This process can be used to deposit a wide range of materials, including ceramics, metals and polymers.</obo:IAO_0000600>
+        <obo:IAO_0000600 xml:lang="en">a solution containing precursor materials is formed, which is then deposited onto a substrate and dried to form a thin-film. This process can be used to deposit a wide range of materials, including ceramics, metals and polymers.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Sol-gel deposition</rdfs:label>
     </owl:Class>
     
@@ -11598,8 +11598,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002110"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The thin film deposition rate measurement datum is a scalar measurement datum, that quantifies the result of some thin film deposition rate measurement</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">thin film deposition rate measurement datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The thin-film deposition rate measurement datum is a scalar measurement datum, that quantifies the result of some thin-film deposition rate measurement</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">thin-film deposition rate measurement datum</rdfs:label>
     </owl:Class>
     
 
@@ -11670,7 +11670,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00009996"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A substrate is a processed material which is used in synthesis and deposition of thin film layers.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A substrate is a processed material which is used in synthesis and deposition of thin-film layers.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym xml:lang="en">sample</oboInOwl:hasBroadSynonym>
         <rdfs:label xml:lang="en">substrate</rdfs:label>
     </owl:Class>
@@ -12700,7 +12700,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003308"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a  height that describes the distance between some nozzle in relation to some substrate</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The round nozzle distance to substrate is a nozzle distance to substrate, that describes the distance between some round nozzle and some substrate.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">round nozzle distance to substrate</rdfs:label>
     </owl:Class>
     
@@ -13157,7 +13157,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An instrument used to apply uniform thin films to flat substrates by centrifugal force.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An instrument used to apply uniform thin-films to flat substrates by centrifugal force.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">http://purl.obolibrary.org/obo/ERO_0000850</obo:IAO_0000119>
         <rdfs:label xml:lang="en">spin coater</rdfs:label>
     </owl:Class>
@@ -13252,8 +13252,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">The air knife distance to thin film is a nozzle distance to thin flm, that describes the distance between some air knife and some thin film</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">air knife distance to thin film</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The air knife distance to thin-film is a nozzle distance to thin flm, that describes the distance between some air knife and some thin-film</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">air knife distance to thin-film</rdfs:label>
     </owl:Class>
     
 
@@ -13290,7 +13290,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The speed of an air knife in an air knife gas quenching, i.e. the speed which with the air knife moves over the thin film. The speed can be relative, i.e. not the air knife is moving but the sample beneath it.</obo:IAO_0000115>
+        <obo:IAO_0000115>The speed of an air knife in an air knife gas quenching, i.e. the speed which with the air knife moves over the thin-film. The speed can be relative, i.e. not the air knife is moving but the sample beneath it.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">air knife speed</rdfs:label>
     </owl:Class>
     
@@ -13344,8 +13344,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the air knife distance to thin film setting datum is a nozzle distance to substrate setting datum, that specifies the distance between some air knife and some entity</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">air knife distance to thin film setting datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">the air knife distance to thin-film setting datum is a nozzle distance to substrate setting datum, that specifies the distance between some air knife and some entity</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">air knife distance to thin-film setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13521,7 +13521,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The speed of the slot die head in slot die coating, i.e. the speed which with the slot die head moves over the thin film. The speed can be relative, i.e. not the slot die head is moving but the sample beneath it.</obo:IAO_0000115>
+        <obo:IAO_0000115>The speed of the slot die head in slot die coating, i.e. the speed which with the slot die head moves over the thin-film. The speed can be relative, i.e. not the slot die head is moving but the sample beneath it.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">slot die head speed</rdfs:label>
     </owl:Class>
     
@@ -13543,8 +13543,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>The distance of the slot die head to the thin film  in slot die coating.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">slot die head distance to thin film</rdfs:label>
+        <obo:IAO_0000115>The distance of the slot die head to the thin-film  in slot die coating.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">slot die head distance to thin-film</rdfs:label>
     </owl:Class>
     
 
@@ -13749,8 +13749,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the slot die head distance to thin film setting datum is a 1-d extent setting datum, that specifies the distance between some slot-die-head and some thin film</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">slot die head distance to thin film setting datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">the slot die head distance to thin-film setting datum is a 1-d extent setting datum, that specifies the distance between some slot-die-head and some thin-film</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">slot die head distance to thin-film setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -13855,7 +13855,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a processed material, that consists of multiple layers ranging from fractions of nanometer to several micrometers in thickness</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">Wikimedia Foundation. (2023, September 29). Thin film. Wikipedia. https://en.wikipedia.org/wiki/Thin_film</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">thin film stack</rdfs:label>
+        <rdfs:label xml:lang="en">thin-film stack</rdfs:label>
     </owl:Class>
     
 
@@ -14045,7 +14045,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:onClass rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">thin film solar cell</rdfs:label>
+        <rdfs:label xml:lang="en">thin-film solar cell</rdfs:label>
     </owl:Class>
     
 
@@ -14375,7 +14375,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the distance between some print head and some substrate during a deposition process</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The print head distance to substrate is a distance to substrate, that describe the distance between some print head and some substrate.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">print head distance to substrate</rdfs:label>
     </owl:Class>
     
