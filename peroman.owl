@@ -8311,6 +8311,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <om-2:alternativeLabel>PL measurement</om-2:alternativeLabel>
+        <om-2:alternativeLabel xml:lang="en">PLI</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">photoluminescence (PL) imaging</rdfs:label>
     </owl:Class>
     
