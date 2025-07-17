@@ -26,8 +26,8 @@ The TFSCO uses the Basic Formal Ontology ([BFO](https://github.com/BFO-ontology/
 ## Mid- and Domain-level Ontologies
 The TFSCO imports axioms from the following ontologies: [CHMO](https://github.com/rsc-ontologies/rsc-cmo) (Chemical Methods Ontology), [PATO](http://obofoundry.org/ontology/pato.html) (Phenotype and trait ontology), [CHEBI ](https://www.ebi.ac.uk/ols/ontologies/chebi) (Chemical entities of biological interest), [IAO](https://github.com/information-artifact-ontology/IAO) (Information Artifact ontology).
 ## News
--09/22/2022 The first version of peroman was initialised by AK. <br>
--27/06/2025 The TFSCO moved to the [TIB Terminology Service Repository](https://terminology.tib.eu/ts/)
+-01/08/2022 The TFSCO was created. <br>
+-27/06/2025 The TFSCO moved to the [TIB Terminology Service Repository](https://terminology.tib.eu/ts/).
 
 ## Links
 
