@@ -8306,7 +8306,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses a solvent to remove impurities</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the solvent cleaning is a cleaning process, that utilizes some solvent to remove impurities and contaminants from some material entity</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Lösungsmittelreinigung</obo:IAO_0000118>
         <rdfs:label xml:lang="en">solvent cleaning</rdfs:label>
     </owl:Class>
@@ -8317,7 +8317,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001043">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000068"/>
-        <obo:IAO_0000115 xml:lang="en">a cleaning process, which uses ultraviolet radiation to remove impurities</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the ultraviolet cleaning is a cleaning process, that utilizes some ultraviolet radiation to remove impurities and contaminants from some material entity</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">UV-Reinigung</obo:IAO_0000118>
         <om-2:alternativeLabel xml:lang="en">uv cleaning</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">ultraviolet cleaning</rdfs:label>
@@ -8347,7 +8347,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses an energetic plasma to remove impurities</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the plasma cleaning is a cleaning process, that utilizes some energetic plasma to remove impurities and contaminants from some material entity</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Plasmareinigung</obo:IAO_0000118>
         <rdfs:label xml:lang="en">plasma cleaning</rdfs:label>
     </owl:Class>
@@ -8549,7 +8549,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001054">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000068"/>
-        <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses a lipophilic solution to remove impurities</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the soap cleaning is a cleaning process, that utilizes some lipophilic solution to remove impurities and contaminants from some material entity</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Seifenreinigung</obo:IAO_0000118>
         <rdfs:label xml:lang="en">soap cleaning</rdfs:label>
     </owl:Class>
@@ -8560,7 +8560,9 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001055">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000068"/>
-        <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses ultrasound to remove impurities</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a cleaning process, that uses ultrasound to remove impurities
+
+the ultrasonic bath is a cleaning process, that utilizes ultrasound to stimulate some fluid to remove impurities and contaminants from some material entity</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Ultraschallbad</obo:IAO_0000118>
         <rdfs:label xml:lang="en">utrasonic bath</rdfs:label>
     </owl:Class>
