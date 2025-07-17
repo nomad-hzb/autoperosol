@@ -7452,7 +7452,9 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002072"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>a process to remove impurities from an object</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a process to remove impurities from an object
+
+cleaning is a material processing, with the objective of removing impurities and contaminants from some material entity</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="de">Reinigen</obo:IAO_0000118>
         <rdfs:label xml:lang="en">cleaning</rdfs:label>
     </owl:Class>
