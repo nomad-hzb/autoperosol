@@ -12167,7 +12167,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <om-2:alternativeLabel xml:lang="en">integrated j0rad</om-2:alternativeLabel>
-        <rdfs:label xml:lang="en">radiative recombination saturation-current density</rdfs:label>
+        <rdfs:label xml:lang="en">integrated radiative recombination saturation-current density</rdfs:label>
     </owl:Class>
     
 
