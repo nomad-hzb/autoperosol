@@ -24,7 +24,7 @@ Efforts have been made to implement a Nomad<sup>1</sup> database/structure that 
 The TFSCO uses the Basic Formal Ontology ([BFO](https://github.com/BFO-ontology/BFO)) as its Top-Level Ontology. A selection of relations have been imported from the [RO](http://obofoundry.org/ontology/ro.html) (Relation Ontology).
 
 ## Mid- and Domain-level Ontologies
-The TFSCO imports axioms from the following ontologies: [CHMO](https://github.com/rsc-ontologies/rsc-cmo) (Chemical Methods Ontology), [PATO](http://obofoundry.org/ontology/pato.html) (Phenotype and trait ontology), [CHEBI ](https://www.ebi.ac.uk/ols/ontologies/chebi) (Chemical entities of biological interest), [IAO](https://github.com/information-artifact-ontology/IAO) (Information Artifact ontology).
+The TFSCO imports axioms from the following ontologies: [CHMO](https://github.com/rsc-ontologies/rsc-cmo) (Chemical Methods Ontology), [PATO](http://obofoundry.org/ontology/pato.html) (Phenotype and trait ontology), [CHEBI](https://www.ebi.ac.uk/ols/ontologies/chebi) (Chemical entities of biological interest), [IAO](https://github.com/information-artifact-ontology/IAO) (Information Artifact ontology), [UO](https://www.ebi.ac.uk/ols4/ontologies/uo)(Unit Ontology), [OBI](https://obi-ontology.org/)(Ontology for Biomedical Investigations), [APOLLO SV](https://bioportal.bioontology.org/ontologies/APOLLO-SV)(Apollo Structured Vocabulary).
 ## News
 -01/08/2022 The TFSCO was created. <br>
 -27/06/2025 The TFSCO moved to the [TIB Terminology Service Repository](https://terminology.tib.eu/ts/).
