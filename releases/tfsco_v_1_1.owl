@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="https://purl.archive.org/tfsco"
-     versionIRI="https://purl.archive.org/tfsco_v_1_1">
+     versionIRI="https://purl.archive.org/release/tfsco_v_1_1">
     <Prefix name="" IRI="https://purl.archive.org/tfsco/"/>
     <Prefix name="WV" IRI="http://www.wurvoc.org/vocabularies/WV/"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
