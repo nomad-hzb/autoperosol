@@ -7,7 +7,7 @@ _Work in Progress!_
 ## Table of Contents
   * [About TFSCO](#about-tfsco)
   * [Use of TFSCO](#use-of-tfsco)
-  * [Top level Ontology](#upper-level-ontologies)
+  * [Top level Ontology](#top-level-ontologies)
   * [Mid- and Domain-level Ontologies](#mid--and-domain-level-ontologies)
   * [News](#news)
   * [Links](#links)
@@ -20,14 +20,14 @@ The Thin-film solar cell ontology (TFSCO) is a domain ontology that provides a m
 ## Use of TFSCO
 Efforts have been made to implement a Nomad<sup>1</sup> database/structure that enables a linkage between the ontology classes and the research data stored via the IRI. This secures a sustainable and machine readable data structure based on the of the ontology and a user friendly interface with quality of life features like filters, plots and histograms from Nomad.
 
-## Upper-level Ontologies
+## Top-level Ontologies
 The TFSCO uses the Basic Formal Ontology ([BFO](https://github.com/BFO-ontology/BFO)) as its Top-Level Ontology. A selection of relations have been imported from the [RO](http://obofoundry.org/ontology/ro.html) (Relation Ontology).
 
 ## Mid- and Domain-level Ontologies
-The TFSCO imports axioms from the following ontologies: [CHMO](https://github.com/rsc-ontologies/rsc-cmo) (Chemical Methods Ontology), [PATO](http://obofoundry.org/ontology/pato.html) (Phenotype and trait ontology), [CHEBI ](https://www.ebi.ac.uk/ols/ontologies/chebi) (Chemical entities of biological interest), [IAO](https://github.com/information-artifact-ontology/IAO) (Information Artifact ontology).
+The TFSCO imports axioms from the following ontologies: [CHMO](https://github.com/rsc-ontologies/rsc-cmo) (Chemical Methods Ontology), [PATO](http://obofoundry.org/ontology/pato.html) (Phenotype and trait ontology), [CHEBI](https://www.ebi.ac.uk/ols/ontologies/chebi) (Chemical entities of biological interest), [IAO](https://github.com/information-artifact-ontology/IAO) (Information Artifact ontology), [UO](https://www.ebi.ac.uk/ols4/ontologies/uo) (Unit Ontology), [OBI](https://obi-ontology.org/) (Ontology for Biomedical Investigations), [APOLLO SV](https://bioportal.bioontology.org/ontologies/APOLLO-SV) (Apollo Structured Vocabulary).
 ## News
--09/22/2022 The first version of peroman was initialised by AK. <br>
--07/03/2023 Peroman was split up into the TFSCO and...
+-01/08/2022 The TFSCO was created. <br>
+-27/06/2025 The TFSCO moved to the [TIB Terminology Service Repository](https://terminology.tib.eu/ts/).
 
 ## Links
 
