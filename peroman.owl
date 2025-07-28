@@ -40,7 +40,7 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-8173-2566"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4384-2112"/>
         <terms:contributor rdf:resource="https://orcid.org/0009-0003-1803-0857"/>
-        <terms:contributor>https://orcid.org/0000-0001-8552-2008</terms:contributor>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8552-2008"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-01T00:00:00</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0009-0001-9163-357X"/>
         <terms:creator rdf:resource="https://orcid.org/0009-0008-1278-8890"/>
