@@ -33,6 +33,7 @@
         <dc:description xml:lang="en">Domain ontology for thin-film solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.</dc:description>
         <dc:title xml:lang="en">Ontology for thin-film solar cells (TFSCO)</dc:title>
         <terms:abstract xml:lang="en">The Ontology for thin-film solar cells strives to build a collection of experimental parameter from the  sytnhesis- and measurement processes of thin-film solar cells.</terms:abstract>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8552-2008"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-1557-8361"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-3343-867X"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-4292-6317"/>
@@ -40,7 +41,6 @@
         <terms:contributor rdf:resource="https://orcid.org/0000-0002-8173-2566"/>
         <terms:contributor rdf:resource="https://orcid.org/0000-0003-4384-2112"/>
         <terms:contributor rdf:resource="https://orcid.org/0009-0003-1803-0857"/>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0001-8552-2008"/>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-01T00:00:00</terms:created>
         <terms:creator rdf:resource="https://orcid.org/0009-0001-9163-357X"/>
         <terms:creator rdf:resource="https://orcid.org/0009-0008-1278-8890"/>
@@ -10589,8 +10589,33 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002060">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000118 xml:lang="en">Doctor blading</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="de">Rakelbeschichtung</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">doctor blade coating</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">a small amount of solution is placed on a substrate and spread evenly using a doctor blade. The substrate is then dried to form a thin-film.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">Blade coating</rdfs:label>
     </owl:Class>
@@ -15647,6 +15672,67 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the conductivity measurement datum is a scalar measurement datum, that quantifies the output of some conductivity measurement</obo:IAO_0000115>
         <rdfs:label xml:lang="en">conductivity measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007007 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007007">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005720"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">blade distance to substrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007008 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007008">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005739"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">blade distance to substrate setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007009 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the blade speed is a speed that describes the relative amount of movement of some blade in regards to some substrate</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">blade speed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007010 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007010">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005043"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">blade speed setting datum</rdfs:label>
     </owl:Class>
     
 
