@@ -10615,6 +10615,12 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007007"/>
             </owl:Restriction>
@@ -13807,6 +13813,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the pressure setting datum is a setting datum, that specifies the applied force on a surface per unit area of some entity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pressure setting datum</rdfs:label>
     </owl:Class>
     
@@ -15710,6 +15717,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the blade distance to substrate is a distance to substrate quality, that describes the distance between some blade and some substrate</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade distance to substrate</rdfs:label>
     </owl:Class>
     
@@ -15725,6 +15733,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the blade distance to substrate setting datum is a distance to substrate setting datum, that specifies the distance between some blade and some substrate</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade distance to substrate setting datum</rdfs:label>
     </owl:Class>
     
@@ -15756,6 +15765,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the blade speed setting datum is a speed setting datum, that specifies the relative rate of movement between some blade and some entity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade speed setting datum</rdfs:label>
     </owl:Class>
     
@@ -15771,6 +15781,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the blade angle is an angle. that describes the angle between some blade and some entity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade angle</rdfs:label>
     </owl:Class>
     
@@ -15786,6 +15797,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the blade angle setting datum is a angle setting datum, that specifies the angle between some blade and some entity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade angle setting datum</rdfs:label>
     </owl:Class>
     
@@ -15801,6 +15813,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the blade pressure is a pressure, that describes the force with which some blade applies to some entity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade pressure</rdfs:label>
     </owl:Class>
     
@@ -15816,7 +15829,38 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the blade pressure setting datum is a pressure setting datum, that specifies the force applied onto a surface per unit area by some blade onto some entity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade pressure setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007015 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">doctor blade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007016 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000921"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">doctor blade width</rdfs:label>
     </owl:Class>
     
 
