@@ -9039,6 +9039,12 @@ the ultrasonic bath is a cleaning process, that utilizes ultrasound to stimulate
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000918"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:hasBroadSynonym xml:lang="en">precursor ink</oboInOwl:hasBroadSynonym>
         <rdfs:label xml:lang="en">precursor solution</rdfs:label>
     </owl:Class>
@@ -10611,6 +10617,12 @@ Date: 31.03.2023</obo:IAO_0000119>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -15876,6 +15888,64 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
         <rdfs:label xml:lang="en">blade edge shape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007018 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
+        <rdfs:comment xml:lang="en">The solution temperature is a temperature, that is the physical quality of the thermal energy of some solution</rdfs:comment>
+        <rdfs:label xml:lang="en">solution temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007019 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007019">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007018"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The precursor solution temperature is a solution temperature, that is the physical quality of the thermal energy of some precursor solution</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">precursor solution temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007020 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007020">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002111"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007018"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The solution temperature setting datum is a temperature setting datum, that specifies the temperature settings of some solution</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">solution temperature setting datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007021 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007021">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007020"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The precursor solution temperature setting datum is a solution temperature setting datum, that specifies the temperature settings for some precursor solution</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">precursor solution temperature setting datum</rdfs:label>
     </owl:Class>
     
 
