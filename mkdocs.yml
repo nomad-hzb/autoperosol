@@ -1,0 +1,6 @@
+site_name: TFSCO - Documentation
+nav:
+  - Home: index.md
+  - About: about.md
+  - TFSCO in 10min: tfsco_10_min.md
+theme: readthedocs
