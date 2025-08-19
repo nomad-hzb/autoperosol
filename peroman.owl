@@ -15894,6 +15894,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
+        <obo:IAO_0000115 xml:lang="en">the blade edge shape describes the geometry of the part of the blade, that gets in contact with the removed excess ink during blade coating</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade edge shape</rdfs:label>
     </owl:Class>
     
