@@ -15831,7 +15831,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the blade pressure is a pressure, that describes the force with which some blade applies to some entity</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the blade pressure is a pressure, that describes the force per area applied by some blade</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade pressure</rdfs:label>
     </owl:Class>
     
@@ -15847,7 +15847,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the blade pressure setting datum is a pressure setting datum, that specifies the force applied onto a surface per unit area by some blade onto some entity</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the blade pressure setting datum is a pressure setting datum, that specifies the force per area applied by some blade</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade pressure setting datum</rdfs:label>
     </owl:Class>
     
