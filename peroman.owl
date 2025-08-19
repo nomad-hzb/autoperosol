@@ -15869,7 +15869,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007017"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a doctor blade is a device, that is being used to remove excess ink during wet chemical deposition</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a doctor blade is a device, that is being used to remove excess ink by traversing over some surface during wet chemical deposition</obo:IAO_0000115>
         <rdfs:label xml:lang="en">doctor blade</rdfs:label>
     </owl:Class>
     
