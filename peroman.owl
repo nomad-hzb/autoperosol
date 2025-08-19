@@ -15799,7 +15799,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the blade angle is an angle. that describes the angle between some blade and some entity</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the blade angle is an angle. that describes the angle between some blade and some material entity</obo:IAO_0000115>
         <rdfs:label xml:lang="en">blade angle</rdfs:label>
     </owl:Class>
     
@@ -15894,8 +15894,14 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
-        <obo:IAO_0000115 xml:lang="en">the blade edge shape describes the geometry of the part of the blade, that gets in contact with the removed excess ink during blade coating</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">blade edge shape</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">the doctor blade edge shape describes the geometry of the part of the blade, that gets in contact with the removed excess ink during blade coating</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">doctor blade edge shape</rdfs:label>
     </owl:Class>
     
 
