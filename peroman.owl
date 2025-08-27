@@ -27,7 +27,7 @@
      xmlns:property="http://purl.allotrope.org/ontologies/property#"
      xmlns:oboInOwl1="oboInOwl:">
     <owl:Ontology rdf:about="https://purl.archive.org/tfsco">
-        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco_v_1_1"/>
+        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco/release/v_1_2"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2024-04-24/core.owl"/>
         <dc:description xml:lang="en">Domain ontology for thin-film solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.</dc:description>
@@ -49,7 +49,7 @@
         <vann:preferredNamespacePrefix>tfsco</vann:preferredNamespacePrefix>
         <doap:bug-database rdf:resource="https://github.com/nomad-hzb/autoperosol/issues"/>
         <v3:documentation rdf:resource="https://github.com/nomad-hzb/autoperosol/tree/main/docs"/>
-        <owl:versionInfo xml:lang="en">release, latest changes: 2025-07-17</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release, latest changes: 2025-08-25</owl:versionInfo>
     </owl:Ontology>
     
 
