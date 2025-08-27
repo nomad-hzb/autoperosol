@@ -27,7 +27,7 @@
      xmlns:property="http://purl.allotrope.org/ontologies/property#"
      xmlns:oboInOwl1="oboInOwl:">
     <owl:Ontology rdf:about="https://purl.archive.org/tfsco">
-        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco_v_1_1"/>
+        <owl:versionIRI rdf:resource="https://purl.archive.org/tfsco/release/v_1_2"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2024-04-24/core.owl"/>
         <dc:description xml:lang="en">Domain ontology for thin-film solar cells and related tandem solar cells. Contains relevant terms and concepts from BFO, IAO, UO, PATO, OBI, CHMO.</dc:description>
@@ -49,7 +49,7 @@
         <vann:preferredNamespacePrefix>tfsco</vann:preferredNamespacePrefix>
         <doap:bug-database rdf:resource="https://github.com/nomad-hzb/autoperosol/issues"/>
         <v3:documentation rdf:resource="https://github.com/nomad-hzb/autoperosol/tree/main/docs"/>
-        <owl:versionInfo xml:lang="en">release, latest changes: 2025-07-17</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release, latest changes: 2025-08-25</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -16392,9 +16392,9 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003500 -->
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003500 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003500">
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003500">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002007"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -16423,7 +16423,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003507"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003507"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -16435,7 +16435,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003501"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003501"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -16471,7 +16471,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://purl.archive.org/tfsco/TFSCOObjectProperty_00002008"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003502"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003502"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a scan which determines the maximum power output of some device under changing conditions</obo:IAO_0000115>
@@ -16480,9 +16480,9 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003501 -->
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003501 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003501">
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003501">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000584"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -16505,13 +16505,13 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003508"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003508"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003500"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003500"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">The mppt time series is a time sampled measurement data set which contains values of current, voltage and power of some device over a defined time period</obo:IAO_0000115>
@@ -16520,26 +16520,26 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003502 -->
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003502 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003502">
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003502">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003503"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003503"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003504"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003504"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002233"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003501"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003501"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a data tranformation process, which interprets the raw experimental data of an maximum power point tracking</obo:IAO_0000115>
@@ -16548,14 +16548,14 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003503 -->
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003503 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003503">
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003503">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000417"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003505"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003505"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">describes the time span after which a solar cell drops to 80% of its original efficiency</obo:IAO_0000115>
@@ -16564,14 +16564,14 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003504 -->
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003504 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003504">
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003504">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000165"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000417"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003506"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003506"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">describes the time span after which a solar cell drops to 90% of its original efficiency</obo:IAO_0000115>
@@ -16580,14 +16580,14 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003505 -->
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003505 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003505">
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003505">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003503"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003503"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the time until 80 percent efficiency datum is a scalar datum, that quantifies the time until a solar cell drops to 80 percent of its initial efficiency</obo:IAO_0000115>
@@ -16596,14 +16596,14 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003506 -->
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003506 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003506">
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003506">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003504"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003504"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the time until 90 percent efficiency datum is a scalar datum, that quantifies the time until a solar cell drops to 90 percent of its initial efficiency</obo:IAO_0000115>
@@ -16612,9 +16612,9 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003507 -->
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003507 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003507">
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003507">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001323"/>
         <obo:IAO_0000115 xml:lang="en">is a area that describes the 2-d extent of some pixel</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pixel area</rdfs:label>
@@ -16622,9 +16622,9 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO/TFSCO_00003508 -->
+    <!-- https://purl.archive.org/tfsco/TFSCO_00003508 -->
 
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO/TFSCO_00003508">
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003508">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
         <obo:IAO_0000115 xml:lang="en">is a scalar datum that quantifies some power</obo:IAO_0000115>
         <rdfs:label xml:lang="en">power datum</rdfs:label>
