@@ -6,5 +6,3 @@ The thin-film solar cell ontology is a domain ontology. It includes synthesis- a
 
 ## Navigation
 - [TFSCO in 10 minutes](tfsco_10_min.md)
-
-## Process Overview
