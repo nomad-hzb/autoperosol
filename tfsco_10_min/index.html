@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>TFSCO in 10min - TFSCO - Documentation</title>
+    <title>TFSCO in 10 minutes - TFSCO Documentation</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "TFSCO in 10min";
+        var mkdocs_page_name = "TFSCO in 10 minutes";
         var mkdocs_page_input_path = "tfsco_10_min.md";
         var mkdocs_page_url = null;
       </script>
@@ -30,7 +30,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> TFSCO - Documentation
+          <a href=".." class="icon icon-home"> TFSCO Documentation
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -43,12 +43,8 @@
                 <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
                 </li>
               </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
-                </li>
-              </ul>
               <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="#">TFSCO in 10min</a>
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">TFSCO in 10 minutes</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#domain">Domain</a>
     </li>
@@ -64,11 +60,15 @@
     </li>
         </ul>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#datums">Datums</a>
+    <li class="toctree-l2"><a class="reference internal" href="#data-items">Data Items</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#scalar-datums">Scalar Datums</a>
+    <li class="toctree-l3"><a class="reference internal" href="#assay-outputs">Assay Outputs</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#measurement-datums">Measurement Datums</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#data-sets">Data Sets</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#scalar-datums">Scalar Datums</a>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#setting-datums">Setting Datums</a>
     </li>
@@ -79,10 +79,20 @@
     <li class="toctree-l2"><a class="reference internal" href="#example-of-usage">Example of Usage</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#blade-coating">Blade Coating</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#blade-coating-parameters-and-ids">Blade Coating Parameters and IDs</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#annotation-of-datasets">Annotation of Datasets</a>
     </li>
         </ul>
     </li>
     </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="https://github.com/nomad-hzb/autoperosol/issues">Issue Tracker</a>
                 </li>
               </ul>
       </div>
@@ -92,15 +102,16 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">TFSCO - Documentation</a>
+          <a href="..">TFSCO Documentation</a>
         
       </nav>
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">TFSCO in 10min</li>
+      <li class="breadcrumb-item active">TFSCO in 10 minutes</li>
     <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/nomad-hzb/autoperosol/edit/master/docs/tfsco_10_min.md" class="icon icon-github"> Edit on GitHub</a>
     </li>
   </ul>
   <hr/>
@@ -108,19 +119,18 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <p>This Document was created to give you a quick rundown on the Ontology for thin-film solar cells.</p>
-<h1 id="ontology-for-thin-film-solar-cells-tfsco">Ontology for thin-film solar cells (TFSCO)</h1>
+                <h1 id="ontology-for-thin-film-solar-cells-tfsco">Ontology for thin-film solar cells (TFSCO)</h1>
 <h2 id="domain">Domain</h2>
-<p>The Ontology for thin-film solar cells (TFSCO) was created to improve the data quality within the Thin-film solar cell domain. It includes measurement and characterization processes, their parameters and relations between the participating entities.</p>
+<p>The Ontology for thin-film solar cells (TFSCO) was created to provide a common terminology for the thin-film solar cell domain. It includes measurement and characterization processes, their parameters and relations between the participating entities.</p>
 <h2 id="additional-information">Additional Information</h2>
-<p>Before we jump right into the content of the TFSCO here are some Informations about the TFSCO:
-1. To browse the ontology visit the current repository of the TFSCO: <a href="https://purl.archive.org/tfsco">https://purl.archive.org/tfsco</a>.
+<p>Before we jump into the content here are some general informations about the TFSCO: <br>
+1. To browse the ontology visit the current repository of the TFSCO: <a href="https://purl.archive.org/tfsco">https://purl.archive.org/tfsco</a>. <br>
 2. You can find the latest version of the TFSCO at <a href="https://purl.archive.org/tfsco/latest">https://purl.archive.org/tfsco/latest</a><br>
 3. You can create an issue or contribute via <a href="https://purl.archive.org/tfsco/issues">https://purl.archive.org/tfsco/issues</a> <br>
-4. It has been created in August of 2022 at Helmholtz-Zentrum Berlin. <br>
-5. It is licensed under the CC BY 4.0.</p>
+4. It has been created in August of 2022 at <a href="https://www.helmholtz-berlin.de/">Helmholtz-Zentrum Berlin für Materialien und Energie</a>¹. <br>
+5. It is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>².</p>
 <h2 id="basic-structure">Basic Structure</h2>
-<p>The TFSCO uses the Basic Formal Ontology (<a href="https://www.ebi.ac.uk/ols4/ontologies/bfo">BFO</a>) as its Top-Level-Ontology. Top-Level-Ontologies provide a framework, that "helps integrate and organize information across different domains"¹. It provides a basic structure for the ontology by dividing everything in continuants (things that persist through time) and occurents (things that happen or occure like events or processes). Therefore most of our measurements and characterizations are occurents while solar cells or measurement outputs are continuants.</p>
+<p>The TFSCO uses the Basic Formal Ontology (<a href="https://www.ebi.ac.uk/ols4/ontologies/bfo">BFO</a>) as its Top-Level-Ontology. Top-Level-Ontologies provide a framework, that "help integrate and organize information across different domains"³. It provides a basic backbone structure for the ontology by dividing everything in continuants ("things that persist through time"³) and occurents ("things that occur or happen"³ like events or processes). Therefore most of our measurements and characterizations are occurents while solar cells or measurement in- and outputs are continuants.</p>
 <table>
 <thead>
 <tr>
@@ -129,45 +139,38 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><em>The BFO classes</em></td>
+<td style="text-align: center;"><em>Fig. 1: The BFO classes</em></td>
 </tr>
 </tbody>
 </table>
 <h2 id="classes-and-relations">Classes and Relations</h2>
-<p>Central pieces of an ontology are the Classes and Relations. Classes describe all entities (continuants and occurents) while relations describe the connection between entities (e.g. the relation between a solar cell and its different layers).</p>
+<p>Central pieces of an ontology are the Classes and Relations. Classes describe all entities (continuants and occurents) while relations describe the connection between entities (e.g. the parthood between a solar cell and its different layers).</p>
 <h3 id="classes">Classes</h3>
+<p>All entities that are present in the TFSCO are classes. They represent common concepts of reality from the thin-film solar cell domain. They also contain definitions, synonyms or alternative labels. </p>
 <h3 id="relations">Relations</h3>
-<p>While the 'is_a' relation is a key-relation within thesauri and ontologies by providing a hierarchical (vertical) structure we need further relations to describe the horizontal connections/interactions/ (e.g. the relation between a measurement and its input, which might include equipment settings and the device that is being measured)</p>
-<h2 id="datums">Datums</h2>
-<p>Within the TFSCO all Datums are Data Items. We further distinguish between Datums, Scalar Datums, Setting Datums and Measurement Datums.</p>
-<h3 id="scalar-datums">Scalar Datums</h3>
-<p>Scalar Datums are datums, that consist of two parts. A numerical part and a unit part (e.g. 50nm, 15ml, 15°)</p>
+<p>While the 'is_a' relation is a key-relation within thesauri and ontologies by providing a hierarchical (vertical) structure we provide further relations to describe the horizontal connections/interactions (e.g. the relation between a measurement and its input, which might include equipment settings and the device that is being measured).</p>
+<h2 id="data-items">Data Items</h2>
+<p>Within the TFSCO most measurement outputs, inputs and settings are <em>data items</em>.</p>
+<h3 id="assay-outputs">Assay Outputs</h3>
+<p>The first data item we will look at are the <em>assay outputs</em>. <em>Assay outputs</em> describe anything that is the result of a measurement (assay). For now they include <em>images</em> and <em>measurement datums</em>.</p>
 <h3 id="measurement-datums">Measurement Datums</h3>
-<p>Measurement Datums are datums, that are the result of a measurement process. (e.g. the measurd temperature of a hotplate)</p>
+<p><em>Measurement Datums</em> are <em>datums</em>, that are the result of a measurement process. (e.g. the measured temperature of a hotplate (e.g. 75°C))</p>
+<h3 id="data-sets">Data Sets</h3>
+<p><em>Data Sets</em> represent aggregations of data. Profiles, like the path of a <em>print head</em> or a <em>voltage profile</em>, and curves, like the <em>JV-</em> or <em>UVVIS-Curves</em>, are described as <em>data sets</em>. </p>
+<h3 id="scalar-datums">Scalar Datums</h3>
+<p><em>Scalar Datums</em> are <em>datums</em>, that consist of two parts. A numerical part and a unit part (e.g. 50nm, 15ml, 90°)</p>
 <h3 id="setting-datums">Setting Datums</h3>
-<p>Setting Datums are datums, that specify the setting of a given machine. (e.g. turning the heater knob to 180°C)</p>
+<p><em>Setting Datums</em> are <em>datums</em>, that specify the setting of a given machine. (e.g. turning the temperature knob that controls the temperature of a hotplate to 180°C)</p>
 <h2 id="iri-international-ressource-identifier-purl-persistent-uniform-ressource-locator">IRI (International Ressource Identifier) &amp; PURL (Persistent Uniform Ressource Locator)</h2>
 <p>The TFSCO's PURL <a href="https://purl.archive.org/tfsco">https://purl.archive.org/tfsco</a> is a permanent link, that leads to the repository in which the TFSCO is currently stored.<br>
-Every Class and Relation within the TFSCO has an unique identifier. <br> For Classes, that have been created as part of the TFSCO, the IRI for Blade Caoting looks like this: <em>https://purl.archive.org/tfsco/TFSCO_00002060</em>.
-It consists of the PURL <em>https://purl.archive.org/tfsco</em> and an unique 8-digit number that identifies the entity within the TFSCO.</p>
+Every Class and Relation within the TFSCO has an unique IRI (International Ressource Identifier). These identifiers can be used to annotate datasets and simplify cross-dataset and -database exchange.  <br> For Classes, that have been created as part of the TFSCO, the IRI (e.g. for Blade Coating) looks like this: <em>https://purl.archive.org/tfsco/TFSCO_00002060</em>. <br>
+It consists of the PURL <em>https://purl.archive.org/tfsco</em> and a <em>TFSCO_</em> followed by a unique 8-digit number that identifies the entity within the TFSCO.</p>
 <h2 id="example-of-usage">Example of Usage</h2>
 <h3 id="blade-coating">Blade Coating</h3>
-<p>Blade Coating is a deposition process, that deposits a new layer/phase onto some substrate by adding a precursor solution and removing excess ink by blade from a substrate.
-In the middle of the picture you can see the <em>Blade Coating</em>-Class. <br> Below it, we can see the <em>Blade Coating</em>-Qualities (e.g. Blade Angle, Precursor Volume) and their accompanying <em>Setting Datums</em>. <br> To the right of the <em>Blade Coating</em>-Class we can see the <em>Doctor Blade</em>-Class. It is a participant in the Blade Coating Process and its Qualities are the Edge-Shape and Width. On the right side of the Blade Coating you can find the <em>Precursor Solution</em> and its Qualities.
-<br> Blue arrows indicate the <em>is_a</em> Relation (e.g. <em>Blade Coating</em> is_a <em>Wet Chemical Deposition</em>)</p>
-<p>The following blade coating-parameters are present in the TFSCO: <br></p>
-<ul>
-<li>The Blade Angle</li>
-<li>The Blade Pressure</li>
-<li>The Blade Speed</li>
-<li>The Blade Width</li>
-<li>The Distance between the blade and the Substrate</li>
-<li>The Process Time/Duration</li>
-<li>The Shape of the Blades Edge</li>
-<li>The Substrate Temperature</li>
-<li>The Temperature of the Precursor Solution</li>
-<li>The Volume of the deposited precursor Solution</li>
-</ul>
+<p>Blade Coating is a deposition process, that deposits a new layer/phase onto some substrate by adding a precursor solution and removing excess ink by blade from a substrate. <br>
+In the middle of the picture you can see the <em>Blade Coating</em>-Class. <br> At the bottom and to the left, we can see the <em>Blade Coating</em>-Qualities (e.g. Angle of the Blade, the Volume of the Precursor Solution) and their accompanying <em>Setting Datums</em>. <br> To the right of the <em>Blade Coating</em>-Class we can see the <em>Doctor Blade</em>-Class. It is a participant in the Blade Coating-Process and its Qualities are the Edge-Shape and Width. On the right side of the Blade Coating you can find the <em>Precursor Solution</em> and its Qualities.
+<br> Blue arrows indicate the <em>is_a</em> Relation (e.g. <em>Blade Coating</em> is_a <em>Wet Chemical Deposition</em>). <br>
+The blade coating parameters and identificators can be found below the picture.</p>
 <table>
 <thead>
 <tr>
@@ -176,23 +179,146 @@ In the middle of the picture you can see the <em>Blade Coating</em>-Class. <br> 
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;"><em>Blade Coating Classes</em></td>
+<td style="text-align: center;"><em>Fig. 2: Blade Coating Classes</em></td>
 </tr>
 <tr>
 <td style="text-align: center;"><img alt="BladeCoating_Arcs" src="../assets/Blade_Coating_Arcs_cut.png" /></td>
 </tr>
 <tr>
-<td style="text-align: center;"><em>Relation Explanation</em></td>
+<td style="text-align: center;"><em>Fig. 3: Relation Explanation</em></td>
 </tr>
 </tbody>
 </table>
-<p>Sources:
-¹ Barry Smith Building Ontologies with Basic Formal Ontology</p>
+<h4 id="blade-coating-parameters-and-ids">Blade Coating Parameters and IDs</h4>
+<p>The following blade coating-parameters are present in the TFSCO: <br></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Ontology Class</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Blade Coating Process</td>
+<td>blade coating</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00002060</td>
+</tr>
+<tr>
+<td>The Angle of the blade</td>
+<td>blade angle</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007011</td>
+</tr>
+<tr>
+<td></td>
+<td>blade angle setting datum</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007012</td>
+</tr>
+<tr>
+<td>The pressure applied by the blade</td>
+<td>blade pressure</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007013</td>
+</tr>
+<tr>
+<td></td>
+<td>blade pressure setting datum</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007014</td>
+</tr>
+<tr>
+<td>The traverse speed of the blade</td>
+<td>blade traverse speed</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007009</td>
+</tr>
+<tr>
+<td></td>
+<td>blade traverse speed setting datum</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007010</td>
+</tr>
+<tr>
+<td>The width of the blade</td>
+<td>doctor blade width</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007016</td>
+</tr>
+<tr>
+<td>The shape of the blades edge</td>
+<td>blade edge shape</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007017</td>
+</tr>
+<tr>
+<td>The distance between the blade and the substrate</td>
+<td>blade distance to substrate</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007007</td>
+</tr>
+<tr>
+<td></td>
+<td>blade distance to substrate setting datum</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007008</td>
+</tr>
+<tr>
+<td>The duration of the blade coating</td>
+<td>process time</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00001063</td>
+</tr>
+<tr>
+<td></td>
+<td>process time setting datum</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00002072</td>
+</tr>
+<tr>
+<td>The temperature of the precursor solution</td>
+<td>precursor solution temperature</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007019</td>
+</tr>
+<tr>
+<td></td>
+<td>precursor solution temperature setting datum</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007021</td>
+</tr>
+<tr>
+<td>The deposited precursor solutions volume</td>
+<td>precursor solution volume</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00007022</td>
+</tr>
+<tr>
+<td></td>
+<td>precursor solution volume setting datum</td>
+<td>https://purl.archive.org/tfsco/TFSCO_00002160</td>
+</tr>
+</tbody>
+</table>
+<h3 id="annotation-of-datasets">Annotation of Datasets</h3>
+<p>The TFSCO is currently being used to annotate database schemas for the local Nomad oases at HZB. Nomad⁴ is an open source web-based research data management platform developed by FAIRmat⁵. The IRIs are being used to annotate classes (processes) and quantities (process parameter)(see figure 4) in the custom-made HZB Nomad Schemas⁶. Additionally the IRIs can be retrieved from the built-in Nomad Metainfo Schema (see figure 5).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><img alt="Blade_Coating_Nomad_Schema" src="../assets/Blade_Coating_Schema.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><em>Fig. 4: Blade Coating Schema with Annotations</em></td>
+</tr>
+<tr>
+<td style="text-align: center;"><img alt="Blade_Coating_Nomad_Metainfo" src="../assets/Nomad_Metainfo_Blade_Coating.png" /></td>
+</tr>
+<tr>
+<td style="text-align: center;"><em>Fig. 5: Nomad Metainfo with TFSCO IRIs</em></td>
+</tr>
+</tbody>
+</table>
+<p>Sources:<br>
+¹ Helmholtz-Zentrum Berlin (HZB). https://www.helmholtz-berlin.de/ <br>
+² Creative Commons. https://creativecommons.org/licenses/by/4.0/ <br>
+³ Arp, R., Smith, B., &amp; Spear, A. D. (2015b). Building Ontologies with Basic Formal Ontology. In The MIT Press eBooks. https://doi.org/10.7551/mitpress/9780262527811.001.0001 <br>
+⁴ NOMAD. https://nomad-lab.eu/nomad-lab/index.html <br>
+⁵ FAIRMat. https://www.fairmat-nfdi.eu/fairmat/ <br>
+⁶ HZB GitHub with Nomad Schemas https://github.com/nomad-hzb <br></p>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../about/" class="btn btn-neutral float-left" title="About"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href=".." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
     </div>
 
   <hr/>
@@ -214,8 +340,12 @@ In the middle of the picture you can see the <em>Blade Coating</em>-Class. <br> 
   <div class="rst-versions" role="note" aria-label="Versions">
   <span class="rst-current-version" data-toggle="rst-current-version">
     
+        <span>
+          <a href="https://github.com/nomad-hzb/autoperosol" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
     
-      <span><a href="../about/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
   </span>
