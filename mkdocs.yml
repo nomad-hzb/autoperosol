@@ -1,0 +1,10 @@
+site_name: TFSCO Documentation
+site_description: This is the Documentation Page for the Ontology for thin-film solar cells
+repo_url: https://github.com/nomad-hzb/autoperosol
+repo_name: GitHub
+theme: readthedocs
+
+nav:
+  - Home: index.md
+  - 'TFSCO in 10 minutes': tfsco_10_min.md
+  - 'Issue Tracker': https://github.com/nomad-hzb/autoperosol/issues
