@@ -10244,7 +10244,7 @@ the ultrasonic bath is a cleaning process, that utilizes ultrasound to stimulate
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a device that can transforms light into electricity via the photovoltaic effect</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the photovoltaic device is a device, that can transforms light into electricity via the photovoltaic effect</obo:IAO_0000115>
         <rdfs:label xml:lang="en">photovoltaic device</rdfs:label>
     </owl:Class>
     
@@ -10267,12 +10267,6 @@ the ultrasonic bath is a cleaning process, that utilizes ultrasound to stimulate
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002043"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -10942,13 +10936,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002093"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000080"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the duration over which the sensor collects incoming light</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the integration time is a time range, that describes the duration over which some sensor collects incoming light or signals</obo:IAO_0000115>
         <rdfs:label xml:lang="en">integration time</rdfs:label>
     </owl:Class>
     
@@ -16623,7 +16611,8 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000001"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a photovaltaic device which consists of multiple distinct stacked  solarcells</obo:IAO_0000115>
