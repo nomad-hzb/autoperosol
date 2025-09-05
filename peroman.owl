@@ -11654,8 +11654,8 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
-        <obo:IAO_0000115 xml:lang="en">tabular data is a data set, that is organised in rows and columns</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">tabular data</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">The tabular data set is a data set, that is organised in rows and columns</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">tabular data set</rdfs:label>
     </owl:Class>
     
 
@@ -11664,7 +11664,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002116">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002115"/>
-        <obo:IAO_0000115 xml:lang="en">A process log is a steadily updated information object containing data of events in time during a process execution.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The process log is a tabular data set, that contains information about events in time during a process execution.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">process log</rdfs:label>
     </owl:Class>
     
@@ -11686,7 +11686,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002119"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the process log of some pvd process</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The pvd process log is a process log, that contains information about some pvd process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pvd process log</rdfs:label>
     </owl:Class>
     
@@ -13456,7 +13456,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005012">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005011"/>
-        <obo:IAO_0000115 xml:lang="en">the wavelength at the beginning of some process</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The starting wavelength is a wavelength quality of a process, that describes the starting wavelength of some wavelength sweep</obo:IAO_0000115>
         <rdfs:label xml:lang="en">starting wavelength</rdfs:label>
     </owl:Class>
     
