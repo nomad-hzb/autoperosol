@@ -3986,6 +3986,16 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MCO_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MCO_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <obo:IAO_0000115>A physical quality that inheres in a bearer by virtue of the amount of light that the bearer of the quality is able to transmit</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">optical density</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
@@ -16287,9 +16297,9 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007023 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
-        <rdfs:comment xml:lang="en">the cutoff frequency is a frequency, above or below which a signal  gets blocked</rdfs:comment>
-        <rdfs:label xml:lang="en">cutoff frequency</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007056"/>
+        <rdfs:comment xml:lang="en">the cutoff wavelength is a cutoff, above or below which a wavelength gets blocked</rdfs:comment>
+        <rdfs:label xml:lang="en">cutoff wavelength</rdfs:label>
     </owl:Class>
     
 
@@ -16298,8 +16308,8 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007024">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007023"/>
-        <obo:IAO_0000115 xml:lang="en">the upper cutoff frequency is a cutoff frequency, that specifies the frequency, above which  a signal gets blocked</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">upper cutoff frequency</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">the upper cutoff wavelength is a cutoff wavelength, that specifies the wavelength, above which  a signal gets blocked</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">upper cutoff wavelength</rdfs:label>
     </owl:Class>
     
 
@@ -16308,8 +16318,8 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007025">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007023"/>
-        <obo:IAO_0000115 xml:lang="en">the lower cutoff frequency is a cutoff frequency, that specifies the frequency, below which  a signal gets blocked</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">lower cutoff frequency</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">the lower cutoff wavelength is a cutoff wavelength, that specifies the wavelength, below which  a signal gets blocked</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">lower cutoff wavelength</rdfs:label>
     </owl:Class>
     
 
@@ -16462,6 +16472,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a current limit is a limit, that restricts some current</obo:IAO_0000115>
         <rdfs:label xml:lang="en">current limit</rdfs:label>
     </owl:Class>
     
@@ -16748,7 +16759,8 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007053 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007056"/>
+        <obo:IAO_0000115 xml:lang="en">a limit is a information content entity, that represents a boundary some parameter can not pass</obo:IAO_0000115>
         <rdfs:label xml:lang="en">limit</rdfs:label>
     </owl:Class>
     
@@ -16759,6 +16771,34 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007054">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005075"/>
         <rdfs:label xml:lang="en">image resolution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007056 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">a cutoff is an information content entity that represents the boundary at which something changes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">cutoff</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/STATO_0000633</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007058 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MCO_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a neutral density filter is a optical filter, that reduces the intensity of light that passes throught the filter</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym xml:lang="en">nd filter</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">neutral density filter</rdfs:label>
     </owl:Class>
     
 
