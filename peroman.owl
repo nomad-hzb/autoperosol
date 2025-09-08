@@ -14799,7 +14799,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005076 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005076">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005075"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007032"/>
         <rdfs:label xml:lang="en">printing resolution x</rdfs:label>
     </owl:Class>
     
@@ -14881,7 +14881,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00005081 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00005081">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005075"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007032"/>
         <rdfs:label xml:lang="en">printing resolution y</rdfs:label>
     </owl:Class>
     
@@ -16333,12 +16333,6 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007032"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -16437,14 +16431,14 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007028 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007028">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002149"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007053"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">voltage limit</rdfs:label>
+        <rdfs:label xml:lang="en">electric potential limit</rdfs:label>
     </owl:Class>
     
 
@@ -16461,7 +16455,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007030 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007053"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
@@ -16491,8 +16485,8 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007032 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
-        <rdfs:label xml:lang="en">voltage setting datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005075"/>
+        <rdfs:label xml:lang="en">printing resolution</rdfs:label>
     </owl:Class>
     
 
@@ -16500,14 +16494,14 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007033 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007033">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007032"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005005"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">voltage limit setting datum</rdfs:label>
+        <rdfs:label xml:lang="en">electric potential limit setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -16747,6 +16741,24 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007052">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007050"/>
         <rdfs:label xml:lang="en">number of horizontal pixel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007053 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001236"/>
+        <rdfs:label xml:lang="en">limit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007054 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007054">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005075"/>
+        <rdfs:label xml:lang="en">image resolution</rdfs:label>
     </owl:Class>
     
 
