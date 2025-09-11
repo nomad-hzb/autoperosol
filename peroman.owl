@@ -3517,6 +3517,23 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <obo:IAO_0000115>A piece of apparatus that is used to measure a physical quantity.</obo:IAO_0000115>
+        <oboInOwl:id>CHMO:0002793</oboInOwl:id>
+        <rdfs:label>sensor</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A piece of apparatus that is used to measure a physical quantity.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0001-5985-7429</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHMO_0002917 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002917">
@@ -12704,12 +12721,6 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a camera is a device, that contains a sensor and is capable of converting incoming light into an image</obo:IAO_0000115>
         <rdfs:label xml:lang="en">camera</rdfs:label>
     </owl:Class>
@@ -16667,49 +16678,10 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO_00007040 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007045"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007050"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007051"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007052"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">sensor</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://purl.archive.org/tfsco/TFSCO_00007041 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007041">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
         <rdfs:label xml:lang="en">Si ccd sensor</rdfs:label>
     </owl:Class>
     
@@ -16718,7 +16690,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007042 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007042">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
         <rdfs:label xml:lang="en">InGaAs photodiode</rdfs:label>
     </owl:Class>
     
@@ -16727,7 +16699,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007043 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007043">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
         <rdfs:label xml:lang="en">Ge photodiode</rdfs:label>
     </owl:Class>
     
@@ -16736,7 +16708,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007044 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007044">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
         <rdfs:label xml:lang="en">photomultiplier</rdfs:label>
     </owl:Class>
     
