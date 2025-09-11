@@ -4961,6 +4961,12 @@ In the examples above, a reagent is an operational component of a device, but th
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000378"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MCO_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000111>optical filter</obo:IAO_0000111>
         <obo:IAO_0000112>720 LP filter, 580/30 BP filter</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
@@ -12721,6 +12727,12 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00003104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a camera is a device, that contains a sensor and is capable of converting incoming light into an image</obo:IAO_0000115>
         <rdfs:label xml:lang="en">camera</rdfs:label>
     </owl:Class>
@@ -16352,8 +16364,8 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007023 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007023">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007056"/>
-        <rdfs:comment xml:lang="en">the cutoff wavelength is a cutoff, above or below which a wavelength gets blocked</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001242"/>
+        <rdfs:comment xml:lang="en">the cutoff wavelength is a wavelength, that describes the wavelengt at which some electromagnetic wave gets restricted</rdfs:comment>
         <rdfs:label xml:lang="en">cutoff wavelength</rdfs:label>
     </owl:Class>
     
@@ -16516,7 +16528,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007028 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007028">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007053"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001464"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
@@ -16540,7 +16552,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007030 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007030">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007053"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000063"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
@@ -16691,6 +16703,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Indium Gallium Arsenide photodiode</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">InGaAs photodiode</rdfs:label>
     </owl:Class>
     
@@ -16700,6 +16713,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002793"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">Germanium photodiode</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">Ge photodiode</rdfs:label>
     </owl:Class>
     
@@ -16798,16 +16812,6 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO_00007053 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007053">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007056"/>
-        <obo:IAO_0000115 xml:lang="en">a limit is a information content entity, that represents a boundary some parameter can not pass</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">limit</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://purl.archive.org/tfsco/TFSCO_00007054 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007054">
@@ -16822,17 +16826,6 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007055">
         <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/result#AFR_0002685"/>
         <rdfs:label xml:lang="en">pixel count y-axis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://purl.archive.org/tfsco/TFSCO_00007056 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">a cutoff is an information content entity that represents the boundary at which something changes.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">cutoff</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/STATO_0000633</skos:closeMatch>
     </owl:Class>
     
 
