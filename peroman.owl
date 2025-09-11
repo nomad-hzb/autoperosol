@@ -16898,6 +16898,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000118 xml:lang="en">the focal length setting datum is a 1-D extent setting datum, that specifies the settings for the focal length</obo:IAO_0000118>
         <rdfs:label xml:lang="en">focal length setting datum</rdfs:label>
     </owl:Class>
     
