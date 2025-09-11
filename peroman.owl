@@ -8421,7 +8421,8 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <om-2:alternativeLabel>PL measurement</om-2:alternativeLabel>
+        <obo:IAO_0000115 xml:lang="en">photoluminescence imaging is a luminescence imaging, that captures an image of some light emitted by some material through the excitation by some light</obo:IAO_0000115>
+        <om-2:alternativeLabel xml:lang="en">PL measurement</om-2:alternativeLabel>
         <om-2:alternativeLabel xml:lang="en">PLI</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">photoluminescence (PL) imaging</rdfs:label>
     </owl:Class>
