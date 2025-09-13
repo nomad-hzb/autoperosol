@@ -16474,6 +16474,12 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0400079"/>
             </owl:Restriction>
@@ -16698,6 +16704,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">the focal length is a length, that describes the distance between the plane of some sensor and the optical centre or nodal point of some lense</obo:IAO_0000115>
+        <obo:IAO_0000119>Canon. Retrieved from: https://www.canon.ge/pro/infobank/understanding-focal-length/.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">focal length</rdfs:label>
     </owl:Class>
     
@@ -16755,8 +16762,9 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00007045 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
-        <rdfs:label xml:lang="en">sensor format</rdfs:label>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002102"/>
+        <obo:IAO_0000115 xml:lang="en">The sensor temperature measurement datum is a temperature measurement datum, that specifies the result of some sensor temperature measurement</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">sensor temperature measurement datum</rdfs:label>
     </owl:Class>
     
 
