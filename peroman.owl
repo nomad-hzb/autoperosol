@@ -16501,7 +16501,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007068"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">electroluminescence imaging is a luminescence imaging, that captures an image of some light emitted by some material through the application of an electric field</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">electroluminescence imaging is a luminescence imaging, that captures an image of some light emitted by some material in response to the application of an electric field</obo:IAO_0000115>
         <rdfs:label xml:lang="en">electroluminescence imaging</rdfs:label>
     </owl:Class>
     
@@ -16836,7 +16836,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007055">
         <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/result#AFR_0002685"/>
-        <obo:IAO_0000115 xml:lang="en">A pixel count y-axis is a pixel count of the number of pixels in the vertical plane in some raster image.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the pixel count y-axis is a pixel count of the number of pixels in the vertical plane in some raster image.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pixel count y-axis</rdfs:label>
     </owl:Class>
     
@@ -16846,7 +16846,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007057">
         <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/result#AFR_0002685"/>
-        <obo:IAO_0000115 xml:lang="en">A pixel count x-axis is a pixel count of the number of pixels in the horizontal plane in some raster image.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the pixel count x-axis is a pixel count of the number of pixels in the horizontal plane in some raster image.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pixel count x-axis</rdfs:label>
     </owl:Class>
     
