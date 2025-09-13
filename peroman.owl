@@ -16546,7 +16546,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">the electric potential limit is a electric potential, that describes the maximal potential difference within some system</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">the electric potential limit is a limit, that describes some value some current can not exceed</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym xml:lang="en">voltage limit</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">electric potential limit</rdfs:label>
     </owl:Class>
@@ -16572,7 +16572,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the current limit is a current, that describes the maximal current that can run through a system</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the currentl limit is a limit, that describes some value some current can not exceed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">current limit</rdfs:label>
     </owl:Class>
     
@@ -16588,7 +16588,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the current limit setting datum is a current setting datum, that specifies the set ampere at which some electric potential is being restricted</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the currentl limit setting datum is a limit setting datum, that specifies some value some current can not exceed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">current limit setting datum</rdfs:label>
     </owl:Class>
     
@@ -16613,7 +16613,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the electric potential limit setting datum is a electric potential setting datum, that specifies the set Voltage at which some electric potentiial is being restricted</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the electric potential limit setting datum is a limit setting datum, that specifies some value some voltage can not exceed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">electric potential limit setting datum</rdfs:label>
     </owl:Class>
     
@@ -16655,7 +16655,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="en">the camera distance to subject setting datum is a 1-D extent setting datum, that specifies the distance between some camera and some object during an imaging process</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">the camera distance to subject setting datum is a 1-D extent setting datum, that specifies the distance between some camera and some object during an imaging process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">camera distance to subject setting datum</rdfs:label>
     </owl:Class>
     
