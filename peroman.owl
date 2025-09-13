@@ -3808,44 +3808,44 @@ XML document; The instructions in a XSD file&quot;</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000793"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/result#AFR_0002664"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.allotrope.org/ontologies/result#AFR_0002685"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007038"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007039"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007046"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007059"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007060"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007061"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007062"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000111 xml:lang="en">image</obo:IAO_0000111>
@@ -16821,6 +16821,36 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007050 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007050">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
+        <obo:IAO_0000115 xml:lang="en">the iso speed datum is a scalar datum, that contains information about some iso speed</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">iso speed datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007052 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007052">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
+        <obo:IAO_0000115 xml:lang="en">the exposure time datum is a scalar datum, that contains information about some exposure time</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure time datum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007053 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007053">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
+        <obo:IAO_0000115 xml:lang="en">the focal length datum a scalar datum, that contains information about some focal length</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">focal length datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco/TFSCO_00007054 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007054">
@@ -16852,6 +16882,16 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007056 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007056">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
+        <obo:IAO_0000115 xml:lang="en">the aperture datum is a scalar datum, that contains information about some aperture</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">aperture datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco/TFSCO_00007057 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007057">
@@ -16879,6 +16919,16 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007059 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007059">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
+        <obo:IAO_0000115 xml:lang="en">the pixel count datum is a scalar datum, that contains information about some pixel count</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pixel count datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco/TFSCO_00007060 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007060">
@@ -16895,6 +16945,16 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007061 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007061">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
+        <obo:IAO_0000115 xml:lang="en">the pixel density datum is a scalar datum, that contains information about some pixel density</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pixel density datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco/TFSCO_00007062 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007062">
@@ -16904,6 +16964,16 @@ Date: 31.03.2023</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym xml:lang="en">bit depth</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">bits per sample</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">color depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007063 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007063">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
+        <obo:IAO_0000115 xml:lang="en">the color depth datum is a scalar datum, that contains information about some color depth</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">color depth datum</rdfs:label>
     </owl:Class>
     
 
