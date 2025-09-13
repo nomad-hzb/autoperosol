@@ -16707,7 +16707,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007040">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000063"/>
-        <obo:IAO_0000115 xml:lang="en">the short circuit current is a current, that describes the maximum current a solar cell can produe when the votlage across the solar cell is zero</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the short circuit current is a current, that describes the maximum current a photovoltaic device can produe when the votlage across the solar cell is zero</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Isc</obo:IAO_0000118>
         <rdfs:label xml:lang="en">short circuit current</rdfs:label>
     </owl:Class>
