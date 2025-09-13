@@ -10406,7 +10406,8 @@ the ultrasonic bath is a cleaning process, that utilizes ultrasound to stimulate
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001108"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the photovoltaic device is a device, that can transforms light into electricity via the photovoltaic effect</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the photovoltaic device is a device, that is capable of  transforming light into electricity via the photovoltaic effect</obo:IAO_0000115>
+        <om-2:alternativeLabel xml:lang="en">pv device</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">photovoltaic device</rdfs:label>
     </owl:Class>
     
