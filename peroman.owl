@@ -16852,27 +16852,6 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO_00007054 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007054">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005075"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007055"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007057"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">image resolution</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://purl.archive.org/tfsco/TFSCO_00007055 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007055">
