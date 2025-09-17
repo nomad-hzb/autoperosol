@@ -13537,7 +13537,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001464"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">is a setting datum, that specifies some electric potential</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">is a setting datum, that specifies the set value some electric potential</obo:IAO_0000115>
         <rdfs:label xml:lang="en">electric potential setting datum</rdfs:label>
     </owl:Class>
     
