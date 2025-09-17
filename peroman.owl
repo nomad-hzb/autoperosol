@@ -8798,18 +8798,7 @@ the ultrasonic bath is a cleaning process, that utilizes ultrasound to stimulate
     <!-- https://purl.archive.org/tfsco/TFSCO_00001056 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001056">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_60003"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000216"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60003"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -12852,8 +12841,8 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000063"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the current setting datum is a setting datum, that specifies the set value of some current</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">current setting datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">the electric current setting datum is a setting datum, that specifies the set value of some current</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">electric current setting datum</rdfs:label>
     </owl:Class>
     
 
@@ -12868,13 +12857,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00003105"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001035"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the excitation current setting datum is a current setting datum, that specifies some excitation current</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the excitation current setting datum is a electric current setting datum, that specifies some excitation current</obo:IAO_0000115>
         <rdfs:label xml:lang="en">excitation current setting datum</rdfs:label>
     </owl:Class>
     
@@ -16496,6 +16479,7 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">electroluminescence imaging is a luminescence imaging, that captures an image of some light emitted by some material in response to the application of an electric field</obo:IAO_0000115>
+        <om-2:alternativeLabel xml:lang="en">ELI</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">electroluminescence imaging</rdfs:label>
     </owl:Class>
     
