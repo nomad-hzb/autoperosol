@@ -16590,7 +16590,7 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the currentl limit is a limit, that describes some value some current can not exceed</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">the current limit is a limit, that describes some value some current can not exceed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">current limit</rdfs:label>
     </owl:Class>
     
