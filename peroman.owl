@@ -8005,11 +8005,11 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the electric current is a physical quality, that describes the movement of electrical charges</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="de">Elektrische Stromstärke</obo:IAO_0000118>
         <obo:IAO_0000600 xml:lang="en">&quot;&apos;Electric Current&apos; is the flow (movement) of electric charge. The amount of electric current through some surface, for example, a section through a copper conductor, is defined as the amount of electric charge flowing through that surface over time. Current is a scalar-valued quantity. Electric current is one of the base quantities in the International System of Quantities, ISQ, on which the International System of Units, SI, is based.&quot; (QUDT.org ,24.10.2022 10:24,https://qudt.org/vocab/quantitykind/ElectricCurrent)</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/ElectricCurrent
 24.10.2022 10:24</dc:source>
         <rdfs:label xml:lang="en">electric current</rdfs:label>
+        <skos:altLabel xml:lang="de">Elektrische Stromstärke</skos:altLabel>
         <skos:prefLabel xml:lang="en">electric current</skos:prefLabel>
     </owl:Class>
     
@@ -10788,8 +10788,9 @@ the ultrasonic bath is a cleaning process, that utilizes ultrasound to stimulate
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the photovoltaic device is a device, that is capable of  transforming light into electricity via the photovoltaic effect</obo:IAO_0000115>
-        <om-2:alternativeLabel xml:lang="en">pv device</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">photovoltaic device</rdfs:label>
+        <skos:altLabel xml:lang="en">pv device</skos:altLabel>
+        <skos:prefLabel xml:lang="en">photovoltaic device</skos:prefLabel>
     </owl:Class>
     
 
@@ -13139,6 +13140,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a camera is a device, that is capable of creating an image by converting incoming light into an electrical signal</obo:IAO_0000115>
         <rdfs:label xml:lang="en">camera</rdfs:label>
+        <skos:prefLabel xml:lang="en">camera</skos:prefLabel>
     </owl:Class>
     
 
@@ -13920,6 +13922,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">is a setting datum, that specifies the set value some electric potential</obo:IAO_0000115>
         <rdfs:label xml:lang="en">electric potential setting datum</rdfs:label>
+        <skos:altLabel xml:lang="en">voltage setting datum</skos:altLabel>
     </owl:Class>
     
 
@@ -16764,8 +16767,9 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001242"/>
-        <rdfs:comment xml:lang="en">the cutoff wavelength is a wavelength, that describes the wavelengt at which some electromagnetic wave gets restricted</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">the cutoff wavelength is a wavelength, that describes the wavelengt at which some electromagnetic wave gets restricted</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cutoff wavelength</rdfs:label>
+        <skos:prefLabel xml:lang="en">cutoff wavelength</skos:prefLabel>
     </owl:Class>
     
 
@@ -16776,6 +16780,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007023"/>
         <obo:IAO_0000115 xml:lang="en">the upper cutoff wavelength is a cutoff wavelength, that specifies the wavelength, above which  a signal gets blocked</obo:IAO_0000115>
         <rdfs:label xml:lang="en">upper cutoff wavelength</rdfs:label>
+        <skos:prefLabel xml:lang="en">upper cutoff wavelength</skos:prefLabel>
     </owl:Class>
     
 
@@ -16786,6 +16791,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007023"/>
         <obo:IAO_0000115 xml:lang="en">the lower cutoff wavelength is a cutoff wavelength, that specifies the wavelength, below which  a signal gets blocked</obo:IAO_0000115>
         <rdfs:label xml:lang="en">lower cutoff wavelength</rdfs:label>
+        <skos:prefLabel xml:lang="en">lower cutoff wavelength</skos:prefLabel>
     </owl:Class>
     
 
@@ -16877,8 +16883,8 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">electroluminescence imaging is a luminescence imaging, that captures an image of some light emitted by some material in response to the application of an electric field</obo:IAO_0000115>
-        <om-2:alternativeLabel xml:lang="en">ELI</om-2:alternativeLabel>
         <rdfs:label xml:lang="en">electroluminescence imaging</rdfs:label>
+        <skos:altLabel xml:lang="en">ELI</skos:altLabel>
         <skos:prefLabel xml:lang="en">electroluminescence imaging</skos:prefLabel>
     </owl:Class>
     
@@ -16941,8 +16947,8 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the electric potential limit is a limit, that describes some value some current can not exceed</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym xml:lang="en">voltage limit</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">electric potential limit</rdfs:label>
+        <skos:altLabel xml:lang="en">voltage limit</skos:altLabel>
         <skos:prefLabel xml:lang="en">electric potential limit</skos:prefLabel>
     </owl:Class>
     
@@ -17019,6 +17025,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the electric potential limit setting datum is a limit setting datum, that specifies some value some voltage can not exceed</obo:IAO_0000115>
         <rdfs:label xml:lang="en">electric potential limit setting datum</rdfs:label>
+        <skos:altLabel xml:lang="en">voltage limit setting datum</skos:altLabel>
         <skos:prefLabel xml:lang="en">electric potential limit setting datum</skos:prefLabel>
     </owl:Class>
     
@@ -17051,7 +17058,8 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the camera distance to subject is a length, that describes the distance between some camera and some imaging subject</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">camera distance to subject</rdfs:label>
+        <skos:altLabel xml:lang="en">camera distance to subject</skos:altLabel>
+        <skos:prefLabel xml:lang="en">camera distance to object</skos:prefLabel>
     </owl:Class>
     
 
@@ -17066,8 +17074,9 @@ Date: 31.03.2023</obo:IAO_0000119>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">the camera distance to subject setting datum is a 1-D extent setting datum, that specifies the distance between some camera and some object during an imaging process</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">camera distance to subject setting datum</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">the camera distance to object setting datum is a 1-D extent setting datum, that specifies the distance between some camera and some object during an imaging process</obo:IAO_0000115>
+        <skos:altLabel xml:lang="en">camera distance to subject setting datum</skos:altLabel>
+        <skos:prefLabel xml:lang="en">camera distance to object setting datum</skos:prefLabel>
     </owl:Class>
     
 
@@ -17258,6 +17267,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the limit is a process quality, that describes the restriction of some entity during some process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">limit</rdfs:label>
+        <skos:prefLabel xml:lang="en">limit</skos:prefLabel>
     </owl:Class>
     
 
@@ -17294,6 +17304,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the limit setting datum is a setting datum, that specifies the restriction of some entity during some process</obo:IAO_0000115>
         <rdfs:label xml:lang="en">limit setting datum</rdfs:label>
+        <skos:prefLabel xml:lang="en">limit setting datum</skos:prefLabel>
     </owl:Class>
     
 
@@ -17339,8 +17350,9 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a neutral density filter is a optical filter, that reduces the intensity of light that passes throught the filter</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym xml:lang="en">nd filter</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">neutral density filter</rdfs:label>
+        <skos:altLabel xml:lang="en">nd filter</skos:altLabel>
+        <skos:prefLabel xml:lang="en">neutral density filter</skos:prefLabel>
     </owl:Class>
     
 
@@ -17434,6 +17446,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the camera angle is an angle, that desribes the angle of some camera relative to some object</obo:IAO_0000115>
         <rdfs:label xml:lang="en">camera angle</rdfs:label>
+        <skos:prefLabel xml:lang="en">camera angle</skos:prefLabel>
     </owl:Class>
     
 
@@ -17450,6 +17463,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the camera angle setting datum is a angle setting datum, that specifies the angle between some camera and some object</obo:IAO_0000115>
         <rdfs:label xml:lang="en">camera angle setting datum</rdfs:label>
+        <skos:prefLabel xml:lang="en">camera angle setting datum</skos:prefLabel>
     </owl:Class>
     
 
