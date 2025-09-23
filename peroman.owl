@@ -13183,9 +13183,9 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">a camera is a device, that is capable of creating an image by converting incoming light into an electrical signal</obo:IAO_0000115>
         <rdfs:label xml:lang="en">camera</rdfs:label>
+        <skos:narrowMatch>http://purl.obolibrary.org/obo/CHMO_0002181</skos:narrowMatch>
+        <skos:narrowMatch>http://purl.obolibrary.org/obo/OBI_0001048</skos:narrowMatch>
         <skos:prefLabel xml:lang="en">camera</skos:prefLabel>
-        <skos:relatedMatch>http://purl.obolibrary.org/obo/CHMO_0002181</skos:relatedMatch>
-        <skos:relatedMatch>http://purl.obolibrary.org/obo/OBI_0001048</skos:relatedMatch>
         <skos:relatedMatch>http://www.ontologyrepository.com/CommonCoreOntologies/Camera</skos:relatedMatch>
         <skos:relatedMatch>http://zbw.eu/stw/descriptor/14538-6</skos:relatedMatch>
     </owl:Class>
