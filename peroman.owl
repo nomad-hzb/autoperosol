@@ -17309,7 +17309,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007055">
         <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/result#AFR_0002685"/>
         <obo:IAO_0000115 xml:lang="en">the pixel count y-axis is a pixel count of the number of pixels in the vertical plane in some raster image.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">pixel count y-axis</rdfs:label>
+        <skos:prefLabel xml:lang="en">pixel count y-axis</skos:prefLabel>
     </owl:Class>
     
 
@@ -17329,7 +17329,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007057">
         <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/result#AFR_0002685"/>
         <obo:IAO_0000115 xml:lang="en">the pixel count x-axis is a pixel count of the number of pixels in the horizontal plane in some raster image.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">pixel count x-axis</rdfs:label>
+        <skos:prefLabel xml:lang="en">pixel count x-axis</skos:prefLabel>
     </owl:Class>
     
 
@@ -17394,10 +17394,9 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
         <obo:IAO_0000115 xml:lang="en">the color depth is a information content entity, that contains information about the number of bits used to indicate the colour and brightness of a pixel</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">colour depth</obo:IAO_0000118>
-        <oboInOwl:hasExactSynonym xml:lang="en">bit depth</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">bits per sample</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">color depth</rdfs:label>
+        <skos:altLabel xml:lang="en">bit depth</skos:altLabel>
+        <skos:altLabel xml:lang="en">bits per sample</skos:altLabel>
+        <skos:prefLabel xml:lang="en">color depth</skos:prefLabel>
     </owl:Class>
     
 
@@ -17407,7 +17406,9 @@ Date: 31.03.2023</obo:IAO_0000119>
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007063">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002021"/>
         <obo:IAO_0000115 xml:lang="en">the color depth datum is a scalar datum, that contains information about some color depth</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">color depth datum</rdfs:label>
+        <skos:altLabel xml:lang="en">bit depth datum</skos:altLabel>
+        <skos:altLabel xml:lang="en">bits per sample datum</skos:altLabel>
+        <skos:prefLabel xml:lang="en">color depth datum</skos:prefLabel>
     </owl:Class>
     
 
