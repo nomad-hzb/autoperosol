@@ -1514,10 +1514,20 @@ Where we have an annotation assertion
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#broadMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch">
+        <rdfs:label>has broader match</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch">
         <rdfs:label>has close match</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
     </owl:AnnotationProperty>
     
 
@@ -1526,6 +1536,15 @@ Where we have an annotation assertion
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition">
         <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+        <rdfs:label>has exact match</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
     </owl:AnnotationProperty>
     
 
@@ -1547,11 +1566,37 @@ Where we have an annotation assertion
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#mappingRelation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#mappingRelation">
+        <rdfs:label>is in mapping relation with</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#narrowMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowMatch">
+        <rdfs:label>has narrower match</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
         <rdfs:label>preferred label</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#relatedMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch">
+        <rdfs:label>has related match</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
     </owl:AnnotationProperty>
     
 
@@ -32787,9 +32832,6 @@ Date: 31.03.2023</obo:IAO_0000119>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#OrderedCollection">
         <rdfs:label>Ordered Collection</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch">
-        <rdfs:label>has broader match</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
         <rdfs:label>has broader</rdfs:label>
     </rdf:Description>
@@ -32802,9 +32844,6 @@ Date: 31.03.2023</obo:IAO_0000119>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote">
         <rdfs:label>editorial note</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
-        <rdfs:label>has exact match</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept">
         <rdfs:label>has top concept</rdfs:label>
     </rdf:Description>
@@ -32814,17 +32853,11 @@ Date: 31.03.2023</obo:IAO_0000119>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
         <rdfs:label>is in scheme</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#mappingRelation">
-        <rdfs:label>is in mapping relation with</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#member">
         <rdfs:label>has member</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#memberList">
         <rdfs:label>has member list</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowMatch">
-        <rdfs:label>has narrower match</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
         <rdfs:label>has narrower</rdfs:label>
@@ -32840,9 +32873,6 @@ Date: 31.03.2023</obo:IAO_0000119>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#related">
         <rdfs:label>has related</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch">
-        <rdfs:label>has related match</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote">
         <rdfs:label>scope note</rdfs:label>
