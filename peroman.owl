@@ -2632,15 +2632,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
-        <rdfs:label>specifically dependent continuant</rdfs:label>
-        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023">
@@ -2650,38 +2641,11 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000024 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000024">
-        <rdfs:label>fiat object part</rdfs:label>
-        <rdfs:label xml:lang="en">fiat object part</rdfs:label>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
-        <rdfs:label>object</rdfs:label>
-        <rdfs:label xml:lang="en">object</rdfs:label>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000034 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000034">
         <rdfs:label>function</rdfs:label>
         <rdfs:label xml:lang="en">function</rdfs:label>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
-        <rdfs:label>material entity</rdfs:label>
-        <rdfs:label xml:lang="en">material entity</rdfs:label>
     </rdf:Description>
     
 
