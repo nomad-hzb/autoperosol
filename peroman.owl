@@ -2580,19 +2580,10 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
-        <rdfs:label xml:lang="en">entity</rdfs:label>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
         <rdfs:label>continuant</rdfs:label>
-        <rdfs:label xml:lang="en">continuant</rdfs:label>
     </rdf:Description>
     
 
@@ -2682,15 +2673,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
         <rdfs:label>object</rdfs:label>
         <rdfs:label xml:lang="en">object</rdfs:label>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
-        <rdfs:label>generically dependent continuant</rdfs:label>
-        <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
     </rdf:Description>
     
 
@@ -4056,7 +4038,6 @@ JAR: A data item is an approximately justified approximately true approximate be
 Previous. An information content entity is a non-realizable information entity that &apos;is encoded in&apos; some digital or physical entity.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
-        <rdfs:label>information content entity</rdfs:label>
         <rdfs:label xml:lang="en">information content entity</rdfs:label>
         <skos:altLabel>information object</skos:altLabel>
     </owl:Class>
@@ -4221,7 +4202,6 @@ XML document; The instructions in a XSD file&quot;</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OBI_0000030</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
-        <rdfs:label>image</rdfs:label>
         <rdfs:label xml:lang="en">image</rdfs:label>
     </owl:Class>
     
