@@ -2596,15 +2596,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
-        <rdfs:label>independent continuant</rdfs:label>
-        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
@@ -2691,15 +2682,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
         <rdfs:label>material entity</rdfs:label>
         <rdfs:label xml:lang="en">material entity</rdfs:label>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000141 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000141">
-        <rdfs:label>immaterial entity</rdfs:label>
-        <rdfs:label xml:lang="en">immaterial entity</rdfs:label>
     </rdf:Description>
     
 
@@ -3931,7 +3913,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
         <obo:IAO_0000118 xml:lang="en">goal specification</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">OBI Plan and Planned Process/Roles Branch</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">OBI_0000217</obo:IAO_0000119>
-        <rdfs:label>objective specification</rdfs:label>
         <rdfs:label xml:lang="en">objective specification</rdfs:label>
         <skos:altLabel>goal specification</skos:altLabel>
     </owl:Class>
@@ -4101,7 +4082,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">PlanAndPlannedProcess Branch</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OBI_0000270</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">adapted from discussion on OBI list (Matthew Pocock, Christian Cocos, Alan Ruttenberg)</obo:IAO_0000119>
-        <rdfs:label>algorithm</rdfs:label>
         <rdfs:label xml:lang="en">algorithm</rdfs:label>
     </owl:Class>
     
