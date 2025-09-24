@@ -2583,7 +2583,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
-        <rdfs:label>entity</rdfs:label>
         <rdfs:label xml:lang="en">entity</rdfs:label>
     </rdf:Description>
     
