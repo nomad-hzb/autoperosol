@@ -5689,7 +5689,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:id>PATO:0000140</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <rdfs:label>position</rdfs:label>
-        <rdfs:label>position (quality)</rdfs:label>
         <skos:altLabel>position</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -5751,7 +5750,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>temperature</rdfs:label>
-        <rdfs:label>temperature (quality)</rdfs:label>
         <skos:altLabel>temperature</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -5972,7 +5970,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:id>PATO:0001024</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <rdfs:label>power</rdfs:label>
-        <rdfs:label>power (quality)</rdfs:label>
         <skos:altLabel>Power is a physical quality inhering in a bearer by virtue of the bearer&apos;s rate of doing work. [PATO]</skos:altLabel>
         <skos:altLabel>power</skos:altLabel>
     </owl:Class>
@@ -6002,7 +5999,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:id>PATO:0001025</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <rdfs:label>pressure</rdfs:label>
-        <rdfs:label>pressure (quality)</rdfs:label>
         <skos:altLabel>pressure</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -6150,7 +6146,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>wavelength</rdfs:label>
-        <rdfs:label>wavelength (quality)</rdfs:label>
         <skos:altLabel>wavelength</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -6265,7 +6260,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>angular velocity</rdfs:label>
-        <rdfs:label>angular velocity (quality)</rdfs:label>
         <skos:altLabel>angular velocity</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -6684,7 +6678,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>fluid flow rate</rdfs:label>
-        <rdfs:label>fluid flow rate (quality)</rdfs:label>
         <skos:altLabel>fluid flow rate</skos:altLabel>
         <skos:altLabel>volume flow rate</skos:altLabel>
         <skos:altLabel>volumetric flow rate</skos:altLabel>
@@ -6709,7 +6702,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:id>PATO:0002244</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <rdfs:label>mass flow rate</rdfs:label>
-        <rdfs:label>mass flow rate (quality)</rdfs:label>
         <skos:altLabel>mass flow rate</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -6775,7 +6767,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:id>PATO:0015009</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <rdfs:label>humidity</rdfs:label>
-        <rdfs:label>humidity (quality)</rdfs:label>
         <skos:altLabel>humidity</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -16891,7 +16882,6 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the electric potential limit is a limit, that describes some value some current can not exceed</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">electric potential limit</rdfs:label>
         <skos:altLabel xml:lang="en">voltage limit</skos:altLabel>
         <skos:prefLabel xml:lang="en">electric potential limit</skos:prefLabel>
     </owl:Class>
@@ -16925,7 +16915,6 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the electric current limit is a limit, that describes some value some electric current can not exceed</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">electric current limit</rdfs:label>
         <skos:prefLabel xml:lang="en">electric current limit</skos:prefLabel>
     </owl:Class>
     
@@ -17205,7 +17194,6 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the limit is a process quality, that describes the restriction of some entity during some process</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">limit</rdfs:label>
         <skos:prefLabel xml:lang="en">limit</skos:prefLabel>
     </owl:Class>
     
@@ -17383,7 +17371,6 @@ Date: 31.03.2023</obo:IAO_0000119>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the camera angle is an angle, that desribes the angle of some camera relative to some object</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">camera angle</rdfs:label>
         <skos:prefLabel xml:lang="en">camera angle</skos:prefLabel>
     </owl:Class>
     
