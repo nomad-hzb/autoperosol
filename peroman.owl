@@ -2623,15 +2623,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
-        <rdfs:label>quality</rdfs:label>
-        <rdfs:label xml:lang="en">quality</rdfs:label>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023">
@@ -5470,7 +5461,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#relational_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
-        <rdfs:label>concentration (quality)</rdfs:label>
         <rdfs:label>concentration of</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5550,7 +5540,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>size</rdfs:label>
-        <rdfs:label>size (quality)</rdfs:label>
         <skos:altLabel>dimension</skos:altLabel>
         <skos:altLabel>extend</skos:altLabel>
         <skos:altLabel>size</skos:altLabel>
