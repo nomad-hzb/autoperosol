@@ -2614,15 +2614,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000017 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000017">
-        <rdfs:label>realizable entity</rdfs:label>
-        <rdfs:label xml:lang="en">realizable entity</rdfs:label>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023">
@@ -31749,10 +31740,6 @@ Date: 31.03.2023</obo:IAO_0000119>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000144">
         <rdfs:label>process profile</rdfs:label>
         <rdfs:label xml:lang="en">process profile</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000145">
-        <rdfs:label>relational quality</rdfs:label>
-        <rdfs:label xml:lang="en">relational quality</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000147">
         <skos:altLabel>0D continuant fiat boundary</skos:altLabel>
