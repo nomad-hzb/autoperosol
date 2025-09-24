@@ -4081,6 +4081,10 @@ XML document; The instructions in a XSD file&quot;</obo:IAO_0000116>
         <obo:IAO_0000119 xml:lang="en">OBI_0000030</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
         <rdfs:label xml:lang="en">image</rdfs:label>
+        <skos:relatedMatch>http://rs.tdwg.org/abcd/terms/ImageObject</skos:relatedMatch>
+        <skos:relatedMatch>http://semanticscience.org/resource/SIO_000081</skos:relatedMatch>
+        <skos:relatedMatch>https://w3id.org/polymat/ImageData</skos:relatedMatch>
+        <skos:relatedMatch>https://w3id.org/reproduceme#Image</skos:relatedMatch>
     </owl:Class>
     
 
@@ -5100,6 +5104,7 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000117>Person:John Quinn</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Band_pass_filter</obo:IAO_0000119>
         <rdfs:label>band pass filter</rdfs:label>
+        <skos:relatedMatch>https://w3id.org/reproduceme#BandPass</skos:relatedMatch>
     </owl:Class>
     
 
@@ -5167,6 +5172,7 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000117>John Quinn</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/high-pass_filter</obo:IAO_0000119>
         <rdfs:label>long pass filter</rdfs:label>
+        <skos:relatedMatch>https://w3id.org/reproduceme#LongPass</skos:relatedMatch>
     </owl:Class>
     
 
@@ -5194,6 +5200,7 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000117>John Quinn</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Optical_filter</obo:IAO_0000119>
         <rdfs:label>optical filter</rdfs:label>
+        <skos:relatedMatch>https://w3id.org/reproduceme#Filter</skos:relatedMatch>
     </owl:Class>
     
 
@@ -5216,6 +5223,7 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000117>John Quinn</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Low-pass_filter</obo:IAO_0000119>
         <rdfs:label>short pass filter</rdfs:label>
+        <skos:relatedMatch>https://w3id.org/reproduceme#ShortPass</skos:relatedMatch>
     </owl:Class>
     
 
@@ -17222,6 +17230,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:label xml:lang="en">neutral density filter</rdfs:label>
         <skos:altLabel xml:lang="en">nd filter</skos:altLabel>
         <skos:prefLabel xml:lang="en">neutral density filter</skos:prefLabel>
+        <skos:relatedMatch>https://w3id.org/reproduceme#NeutralDensity</skos:relatedMatch>
     </owl:Class>
     
 
