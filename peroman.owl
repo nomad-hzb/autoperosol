@@ -5622,7 +5622,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <obo:IAO_0000115>A physical quality that inheres in a bearer by virtue of the proportion of the bearer&apos;s amount of matter.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <rdfs:label>mass</rdfs:label>
-        <rdfs:label>mass (quality)</rdfs:label>
         <skos:altLabel>mass</skos:altLabel>
     </owl:Class>
     
@@ -5862,7 +5861,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>volume</rdfs:label>
-        <rdfs:label>volume (quality)</rdfs:label>
         <skos:altLabel>volume</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -5887,7 +5885,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:comment>Width often refers to the dimension that is greater than the extent in only one of the other two orthogonal dimensions, however, this is not always true. See https://github.com/pato-ontology/pato/issues/337 for full discussion.</rdfs:comment>
         <rdfs:label>width</rdfs:label>
-        <rdfs:label>width (quality)</rdfs:label>
         <skos:altLabel>width</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -5922,7 +5919,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>mass density</rdfs:label>
-        <rdfs:label>mass density (quality)</rdfs:label>
         <skos:altLabel>density</skos:altLabel>
         <skos:altLabel>mass density</skos:altLabel>
     </owl:Class>
@@ -6088,7 +6084,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>force</rdfs:label>
-        <rdfs:label>force (quality)</rdfs:label>
         <skos:altLabel>force</skos:altLabel>
         <skos:altLabel>force amplitude</skos:altLabel>
     </owl:Class>
@@ -6207,7 +6202,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>area</rdfs:label>
-        <rdfs:label>area (quality)</rdfs:label>
         <skos:altLabel>area</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -6350,7 +6344,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>flow rate</rdfs:label>
-        <rdfs:label>flow rate (quality)</rdfs:label>
         <skos:altLabel>flow rate</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -6380,7 +6373,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:comment>Examples could be heat or electricity or sound.</rdfs:comment>
         <rdfs:label>conductivity</rdfs:label>
-        <rdfs:label>conductivity (quality)</rdfs:label>
         <skos:altLabel>conductivity</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -6531,7 +6523,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#disposition_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>electrical conductivity</rdfs:label>
-        <rdfs:label>electrical conductivity (quality)</rdfs:label>
         <skos:altLabel>conductivity</skos:altLabel>
         <skos:altLabel>conductivty (quality)</skos:altLabel>
         <skos:altLabel>electrical conductivity</skos:altLabel>
@@ -7951,7 +7942,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <obo:IAO_0000600 xml:lang="en">&quot;&apos;Electric Current&apos; is the flow (movement) of electric charge. The amount of electric current through some surface, for example, a section through a copper conductor, is defined as the amount of electric charge flowing through that surface over time. Current is a scalar-valued quantity. Electric current is one of the base quantities in the International System of Quantities, ISQ, on which the International System of Units, SI, is based.&quot; (QUDT.org ,24.10.2022 10:24,https://qudt.org/vocab/quantitykind/ElectricCurrent)</obo:IAO_0000600>
         <dc:source>https://qudt.org/vocab/quantitykind/ElectricCurrent
 24.10.2022 10:24</dc:source>
-        <rdfs:label xml:lang="en">electric current</rdfs:label>
         <skos:altLabel xml:lang="de">Elektrische Stromstärke</skos:altLabel>
         <skos:prefLabel xml:lang="en">electric current</skos:prefLabel>
     </owl:Class>
@@ -8825,7 +8815,6 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115></obo:IAO_0000115>
         <rdfs:label xml:lang="en">photovoltaic device efficiency</rdfs:label>
     </owl:Class>
     
