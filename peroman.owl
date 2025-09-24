@@ -31745,17 +31745,11 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:label>well</rdfs:label>
         <skos:altLabel>hole</skos:altLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000006">
-        <rdfs:label>spatial region</rdfs:label>
-        <rdfs:label xml:lang="en">spatial region</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000008">
         <rdfs:label>temporal region</rdfs:label>
         <rdfs:label xml:lang="en">temporal region</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000009">
-        <rdfs:label>two-dimensional spatial region</rdfs:label>
-        <rdfs:label xml:lang="en">two-dimensional spatial region</rdfs:label>
         <skos:altLabel>2D spatial region</skos:altLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000011">
@@ -31763,13 +31757,9 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:label xml:lang="en">spatiotemporal region</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000018">
-        <rdfs:label>zero-dimensional spatial region</rdfs:label>
-        <rdfs:label xml:lang="en">zero-dimensional spatial region</rdfs:label>
         <skos:altLabel>0D spatial region</skos:altLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000026">
-        <rdfs:label>one-dimensional spatial region</rdfs:label>
-        <rdfs:label xml:lang="en">one-dimensional spatial region</rdfs:label>
         <skos:altLabel>1D spatial region</skos:altLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000027">
@@ -31777,13 +31767,7 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:label xml:lang="en">object aggregate</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000028">
-        <rdfs:label>three-dimensional spatial region</rdfs:label>
-        <rdfs:label xml:lang="en">three-dimensional spatial region</rdfs:label>
         <skos:altLabel>3D spatial region</skos:altLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000029">
-        <rdfs:label>site</rdfs:label>
-        <rdfs:label xml:lang="en">site</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000035">
         <rdfs:label>process boundary</rdfs:label>
