@@ -2689,8 +2689,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/BFO_0000146 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000146">
-        <rdfs:label>two-dimensional continuant fiat boundary</rdfs:label>
-        <rdfs:label xml:lang="en">two-dimensional continuant fiat boundary</rdfs:label>
         <skos:altLabel>2D continuant fiat boundary</skos:altLabel>
     </rdf:Description>
     
@@ -31838,13 +31836,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000139">
         <rdfs:label>temporal part of</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000140">
-        <rdfs:label>continuant fiat boundary</rdfs:label>
-        <rdfs:label xml:lang="en">continuant fiat boundary</rdfs:label>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000142">
-        <rdfs:label>one-dimensional continuant fiat boundary</rdfs:label>
-        <rdfs:label xml:lang="en">one-dimensional continuant fiat boundary</rdfs:label>
         <skos:altLabel>1D continuant fiat boundary</skos:altLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000144">
@@ -31856,8 +31848,6 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:label xml:lang="en">relational quality</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000147">
-        <rdfs:label>zero-dimensional continuant fiat boundary</rdfs:label>
-        <rdfs:label xml:lang="en">zero-dimensional continuant fiat boundary</rdfs:label>
         <skos:altLabel>0D continuant fiat boundary</skos:altLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000148">
