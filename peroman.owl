@@ -2601,7 +2601,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
-        <rdfs:label>occurrent</rdfs:label>
         <rdfs:label xml:lang="en">occurrent</rdfs:label>
     </rdf:Description>
     
@@ -4461,7 +4460,6 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">planned process</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">A process that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label>planned process</rdfs:label>
         <rdfs:label xml:lang="en">planned process</rdfs:label>
     </owl:Class>
     
