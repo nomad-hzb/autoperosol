@@ -5563,7 +5563,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>height</rdfs:label>
-        <rdfs:label>height (quality)</rdfs:label>
         <skos:altLabel>height</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -5590,7 +5589,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:comment>Length often refers to the longer or longest dimension of an object, however, this is not always true. See https://github.com/pato-ontology/pato/issues/337 for full discussion.</rdfs:comment>
         <rdfs:label>length</rdfs:label>
-        <rdfs:label>length (quality)</rdfs:label>
         <skos:altLabel>length</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -5826,7 +5824,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:comment>Thickness often refers to the smallest 1-D extent compared to the other two orthogonal dimensions, however, this is not always true. See https://github.com/pato-ontology/pato/issues/337 for full discussion.</rdfs:comment>
         <rdfs:label>thickness</rdfs:label>
-        <rdfs:label>thickness (quality)</rdfs:label>
         <skos:altLabel>thickness</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -6233,7 +6230,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#mpath_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>diameter</rdfs:label>
-        <rdfs:label>diameter (quality)</rdfs:label>
         <skos:altLabel>diameter</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -6406,7 +6402,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>depth</rdfs:label>
-        <rdfs:label>depth (quality)</rdfs:label>
         <skos:altLabel>depth</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
@@ -6769,7 +6764,6 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#attribute_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/pato#scalar_slim"/>
         <rdfs:label>radius</rdfs:label>
-        <rdfs:label>radius (quality)</rdfs:label>
         <skos:altLabel>radius</skos:altLabel>
     </owl:Class>
     <owl:Axiom>
