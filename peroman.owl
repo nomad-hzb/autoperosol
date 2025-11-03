@@ -17514,6 +17514,26 @@ Date: 31.03.2023</obo:IAO_0000119>
     
 
 
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007114 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007114">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007007"/>
+        <rdfs:label xml:lang="en">doctor blade distance to substrate</rdfs:label>
+        <skos:definition xml:lang="en">the doctor blade distance to substrate is a blade distance to substrate quality, that describes the distance between some doctor blade and some substrate</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007115 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007115">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007008"/>
+        <rdfs:label xml:lang="en">doctor blade distance to substrate setting datum</rdfs:label>
+        <skos:definition xml:lang="en">the doctor blade distance to substrate setting datum is a blade distance to substrate setting datum, that specifies the distance between some doctor blade and some substrate</skos:definition>
+    </owl:Class>
+    
+
+
     <!-- https://purl.archive.org/tfsco/TFSCO_00008000 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00008000">
