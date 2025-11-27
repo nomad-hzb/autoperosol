@@ -3410,6 +3410,23 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001465">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002770"/>
+        <obo:IAO_0000115>A heat treatment that alters the microstructure of a material causing changes in its properties such as strength and hardness</obo:IAO_0000115>
+        <oboInOwl:id>CHMO:0001465</oboInOwl:id>
+        <rdfs:label>annealing</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001465"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A heat treatment that alters the microstructure of a material causing changes in its properties such as strength and hardness</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHMO_0001471 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001471">
@@ -8284,7 +8301,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00001000 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001000">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001033"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007150"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
@@ -8597,43 +8614,6 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     
 
 
-    <!-- https://purl.archive.org/tfsco/TFSCO_00001033 -->
-
-    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002770"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00002073"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005744"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005704"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005740"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000118 xml:lang="de">Anlassen</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="de">Glühen</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="de">Thermische Behandlung</obo:IAO_0000118>
-        <rdfs:comment xml:lang="en">A heat treatment that alters the microstructure of a material causing changes in its properties such as strength and hardness</rdfs:comment>
-        <rdfs:label xml:lang="en">annealing</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- https://purl.archive.org/tfsco/TFSCO_00001034 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001034">
@@ -8929,7 +8909,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
     <!-- https://purl.archive.org/tfsco/TFSCO_00001050 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00001050">
-        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001033"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007151"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -10803,12 +10783,6 @@ the ultrasonic bath is a cleaning process, that utilizes ultrasound to stimulate
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002917"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001033"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -15736,12 +15710,6 @@ Date: 31.03.2023</obo:IAO_0000119>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00001033"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
             </owl:Restriction>
@@ -17358,6 +17326,51 @@ Date: 31.03.2023</obo:IAO_0000119>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">the camera angle setting datum is a angle setting datum, that specifies the angle between some camera and some object</obo:IAO_0000115>
         <skos:prefLabel xml:lang="en">camera angle setting datum</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007150 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001465"/>
+        <rdfs:label xml:lang="en">physical annealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007151 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001465"/>
+        <rdfs:label xml:lang="en">chemical annealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007152 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007152">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007150"/>
+        <rdfs:label xml:lang="en">electromagnetic wave annealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007153 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007153">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007150"/>
+        <rdfs:label xml:lang="en">ultrasonic annealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007154 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007154">
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007150"/>
+        <rdfs:label xml:lang="en">pressure annealing</rdfs:label>
     </owl:Class>
     
 
