@@ -3413,7 +3413,7 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <!-- http://purl.obolibrary.org/obo/CHMO_0001465 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001465">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002770"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <obo:IAO_0000115>A heat treatment that alters the microstructure of a material causing changes in its properties such as strength and hardness</obo:IAO_0000115>
         <oboInOwl:id>CHMO:0001465</oboInOwl:id>
         <rdfs:label>annealing</rdfs:label>
