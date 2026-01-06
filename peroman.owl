@@ -8309,6 +8309,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00005740"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">thermal annealing is a physical annealing, that drives the crystalline transformation of the perovskite by exposing the film to heat</obo:IAO_0000115>
         <rdfs:label xml:lang="en">thermal annealing</rdfs:label>
     </owl:Class>
     
@@ -8899,6 +8900,7 @@ unit quantum of energy) is equal to hv.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">solvent annealing is a chemical annealing, that drives the crystalline transformation of the perovskite by exposing the film to a polar solvent vapour</obo:IAO_0000115>
         <rdfs:label xml:lang="en">solvent annealing</rdfs:label>
     </owl:Class>
     
@@ -17317,6 +17319,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007150">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007202"/>
+        <obo:IAO_0000115 xml:lang="en">physical annealing is an annealing, that drives the crystalline transformation of the perovskite by exposing the substrate to physical influences</obo:IAO_0000115>
         <rdfs:label xml:lang="en">physical annealing</rdfs:label>
     </owl:Class>
     
@@ -17326,6 +17329,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007151">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007202"/>
+        <obo:IAO_0000115 xml:lang="en">chemical annealing is a annealing, that drives the crystalline transformation of the perovskite by adding chemicals</obo:IAO_0000115>
         <rdfs:label xml:lang="en">chemical annealing</rdfs:label>
     </owl:Class>
     
@@ -17335,6 +17339,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007152">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007150"/>
+        <obo:IAO_0000115 xml:lang="en">electromagnetic wave annealing is a physical annealing, that drives the crystalline transformation of the perovskite by exposing the film to electromagnetic waves</obo:IAO_0000115>
         <rdfs:label xml:lang="en">electromagnetic wave annealing</rdfs:label>
     </owl:Class>
     
@@ -17344,6 +17349,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007153">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007150"/>
+        <obo:IAO_0000115 xml:lang="en">ultrasonic annealing is a physical annealing, that drives the crystalline transformation of the perovskite by exposing the film to ultrasound</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ultrasonic annealing</rdfs:label>
     </owl:Class>
     
@@ -17353,6 +17359,7 @@ Date: 31.03.2023</obo:IAO_0000119>
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007154">
         <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007150"/>
+        <obo:IAO_0000115 xml:lang="en">pressure annealing is a physical annealing, that drives the crystalline transformation of the perovskite by varying the ambient pressure surrounding the film or sample</obo:IAO_0000115>
         <rdfs:label xml:lang="en">pressure annealing</rdfs:label>
     </owl:Class>
     
