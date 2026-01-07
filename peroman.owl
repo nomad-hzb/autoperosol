@@ -5428,6 +5428,12 @@ Relates to the creation of a class &apos;selection rule&apos;</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0050000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
+                <owl:someValuesFrom rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007203"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A physical quality which inheres in a bearer by virtue of the number of the bearer&apos;s repetitive actions in a particular time.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PATO:0000044</oboInOwl:id>
@@ -12240,7 +12246,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00002125 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002062"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000419"/>
@@ -12255,7 +12261,7 @@ Date: 31.03.2023</obo:IAO_0000119>
     <!-- https://purl.archive.org/tfsco/TFSCO_00002126 -->
 
     <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00002126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
+        <rdfs:subClassOf rdf:resource="https://purl.archive.org/tfsco/TFSCO_00007203"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000039"/>
@@ -17384,6 +17390,21 @@ Date: 31.03.2023</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">is a material processing, that drives the crystalline transformation of the perovskite, which can control the morphological and structural properties of films</obo:IAO_0000115>
         <obo:IAO_0000119>Wang, L., Liu, G., Xi, X., Yang, G., Hu, L., Zhu, B., He, Y., Liu, Y., Qian, H., Zhang, S., &amp; Zai, H. (2022). Annealing engineering in the growth of perovskite grains. Crystals, 12(7), 894. https://doi.org/10.3390/cryst12070894</obo:IAO_0000119>
         <rdfs:label xml:lang="en">annealing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.archive.org/tfsco/TFSCO_00007203 -->
+
+    <owl:Class rdf:about="https://purl.archive.org/tfsco/TFSCO_00007203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000140"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000418"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">frequency setting datum</rdfs:label>
     </owl:Class>
     
 
